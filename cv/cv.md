@@ -4,7 +4,14 @@ Yida Wang
 
 <div>
   <img src="Photo_lab.jpg" alt="Photo_lab" style="width: 200px;"/>
-  <img src="logo_bupt.png" alt="Photo_lab" style="width: 100px;"/>
+  <img src="logo_bupt.png" alt="Photo_lab" style="width: 150px;"/>
+</div>
+
+<div>
+ <img src="logo_buptcv.png" style="width: 100px;" alt=""  />
+ <img src="logo_microsoft.png" style="width: 100px;" alt=""  />
+ <img src="logo_opencv.png" style="width: 100px;" alt="" />
+ <img src="logo_tinydnn.png" style="width: 100px;"  alt="" />
 </div>
 BS and MS in [Beijing University of Posts and Telecommunications](http://english.bupt.edu.cn/) with Dr. [Weihong Deng](http://www.pris.net.cn/introduction/teacher/dengweihong), interested in computer vision and machine learning
 
@@ -72,10 +79,10 @@ Editor, Editorial Board of Journal of Artificial Intelligence Practice, Canada, 
 # Supporting Organizations
 
 <div>
- <img src="logo_buptcv.png" alt=""  />
- <img src="logo_microsoft.png" alt=""  />
- <img src="logo_opencv.png" alt="" />
- <img src="logo_tinydnn.png" alt="" />
+ <img src="logo_buptcv.png" style="width: 100px;" alt=""  />
+ <img src="logo_microsoft.png" style="width: 100px;" alt=""  />
+ <img src="logo_opencv.png" style="width: 100px;" alt="" />
+ <img src="logo_tinydnn.png" style="width: 100px;"  alt="" />
 </div>
 
 # Personal Links
