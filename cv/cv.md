@@ -2,8 +2,10 @@
 
 Yida Wang
 
-<img src="Photo_lab.jpg" alt="Photo_lab" style="width: 200px;"/>
-
+<div>
+  <img src="Photo_lab.jpg" alt="Photo_lab" style="width: 200px;"/>
+  <img src="logo_bupt.png" alt="Photo_lab" style="width: 100px;"/>
+</div>
 BS and MS in [Beijing University of Posts and Telecommunications](http://english.bupt.edu.cn/) with Dr. [Weihong Deng](http://www.pris.net.cn/introduction/teacher/dengweihong), interested in computer vision and machine learning
 
 Street Address: 753, Apartment 10,
@@ -66,6 +68,15 @@ Bronze medal in Beijing International Triathlon 2015
 # Program Committees
 
 Editor, Editorial Board of Journal of Artificial Intelligence Practice, Canada, 2016-12-12 to 2021-12-12
+
+# Supporting Organizations
+
+<div>
+ <img src="logo_buptcv.png" alt=""  />
+ <img src="logo_microsoft.png" alt=""  />
+ <img src="logo_opencv.png" alt="" />
+ <img src="logo_tinydnn.png" alt="" />
+</div>
 
 # Personal Links
 
