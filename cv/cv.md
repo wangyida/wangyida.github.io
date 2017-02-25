@@ -2,6 +2,8 @@
 
 Yida Wang
 
+![](cv/Photo_lab.jpg)
+
 BS and MS in [Beijing University of Posts and Telecommunications](http://english.bupt.edu.cn/) with Dr. [Weihong Deng](http://www.pris.net.cn/introduction/teacher/dengweihong), interested in computer vision and machine learning
 
 Street Address: 753, Apartment 10,
@@ -77,8 +79,10 @@ Editor, Editorial Board of Journal of Artificial Intelligence Practice, Canada, 
 
 # Personal Projects
 
-[tiny-dnn](https://github.com/tiny-dnn/tiny-dnn)
+[tiny-dnn](https://github.com/tiny-dnn/tiny-dnn): Header only, dependency-free deep learning framework in C++11
 
-[deep-fund](https://github.com/tiny-dnn/deep-fund)
+[deep-fund](https://github.com/tiny-dnn/deep-fund): Deep Learning Tools for Funds Analysis and Prediction in Python3
 
-[stack-tuning](https://github.com/tiny-dnn/stack-tuning)
+[stack-tuning](https://github.com/tiny-dnn/stack-tuning): Simple Neural Network implemented in Python based on graph model with stacked nodes in Python3
+
+[3D model related deep learning API for OpenCV](https://github.com/opencv/opencv_contrib/tree/master/modules/cnn_3dobj): Convolutional Neural Networks for 3D object classification and pose estimation.
