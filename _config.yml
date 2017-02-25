@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 name: Yida Wang, PhD Candidate
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
