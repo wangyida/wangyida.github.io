@@ -2,7 +2,7 @@
 
 Yida Wang
 
-<img src="drawing.jpg" alt="Drawing" style="width: 200px;"/>
+<img src="Photo_lab.jpg" alt="Photo_lab" style="width: 200px;"/>
 
 BS and MS in [Beijing University of Posts and Telecommunications](http://english.bupt.edu.cn/) with Dr. [Weihong Deng](http://www.pris.net.cn/introduction/teacher/dengweihong), interested in computer vision and machine learning
 
