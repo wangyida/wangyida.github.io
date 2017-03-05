@@ -230,7 +230,8 @@ ax.legend()
 
 
 
-![png](images-03-05/output_17_1.png)
+<img src="images-03-05/output_17_1.png" alt="output_17_1" style="width: 200px;"/>
+![](images-03-05/output_17_1.png)
 
 
 ## Predictions on Testing data
