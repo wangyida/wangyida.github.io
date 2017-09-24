@@ -54,8 +54,8 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/ccbr15_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;StandAloneNet.svg&#34; alt=&#34;StandAloneNet&#34; /&gt;
-&lt;img src=&#34;filterFFT.svg&#34; alt=&#34;filterFFT&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;static/img/StandAloneNet.svg&#34; alt=&#34;StandAloneNet&#34; /&gt;
+&lt;img src=&#34;static/img/filterFFT.svg&#34; alt=&#34;filterFFT&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>

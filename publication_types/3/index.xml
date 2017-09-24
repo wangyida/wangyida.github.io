@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on Yida Wang&#39;s personal website</title>
+    <link>https://wangyida.github.io/publication_types/3/</link>
+    <description>Recent content in 3 on Yida Wang&#39;s personal website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Yida Wang</copyright>
+    <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/3/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/publication/arxiv17tip_wang/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
+&lt;img src=&#34;imganalysis.svg&#34; alt=&#34;imganalysis&#34; /&gt;
+&lt;img src=&#34;triplet_samples.svg&#34; alt=&#34;triplet_samples&#34; /&gt;
+More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

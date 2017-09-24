@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Yida Wang&#39;s personal website</title>
+    <link>https://wangyida.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Yida Wang&#39;s personal website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Yida Wang</copyright>
+    <lastBuildDate>Fri, 19 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Self-restraint object recognition by model based CNN learning</title>
+      <link>https://wangyida.github.io/publication/icip16_wang/</link>
+      <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;objectrec.svg&#34; alt=&#34;objectrec&#34; /&gt;
+&lt;img src=&#34;reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;
+&lt;img src=&#34;recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real-eps-converted-to&#34; /&gt;
+More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
