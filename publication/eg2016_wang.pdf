@@ -1,0 +1,22 @@
++++
+abstract = "With the advent of commodity 3D capturing devices and better 3D modeling tools, 3D shape content is becoming increasingly prevalent. Therefore, the need for shape retrieval algorithms to handle large-scale shape repositories is more and more important. This track aims to provide a benchmark to evaluate large-scale shape retrieval based on the ShapeNet dataset. We use ShapeNet Core55, which provides more than 50 thousands models over 55 common categories in total for training and evaluating several algorithms. Five participating teams have submitted a variety of retrieval methods which were evaluated on several standard information retrieval performance metrics. We find the submitted methods work reasonably well on the track benchmark, but we also see significant space for improvement by future algorithms. We release all the data, results, and evaluation code for the benefit of the community." 
+abstract_short = ""
+authors = ["Manolis Savva et.al"]
+date = "2016-02-01"
+image_preview = ""
+math = true
+publication_types = ["2"]
+publication = "In *Eurographics workshop on 3D Object Recognition (EG W3DOR)*"
+publication_short = "In *EG W3DOR*"
+selected = false
+title = "SHREC'16 Track Large-Scale 3D Shape Retrieval from ShapeNet Core55"
+url_code = ""
+url_dataset = ""
+url_pdf = "https://www.researchgate.net/publication/303699294_SHREC%2716_Track_Large-Scale_3D_Shape_Retrieval_from_ShapeNet_Core55"
+url_project = "project/deep-learning/"
+url_slides = ""
+url_video = ""
+
++++
+
+More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.

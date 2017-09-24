@@ -11,21 +11,41 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://wangyida.github.io/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/publication/arxiv17tip_wang/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/publication/person-re-identification/</guid>
+      <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://wangyida.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>ZigzagNet: Efficient Deep Learning for Real Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/publication/accv16_wang/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/publication/clothing-search/</guid>
+      <guid>https://wangyida.github.io/publication/accv16_wang/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-restraint object recognition by model based CNN learning</title>
+      <link>https://wangyida.github.io/publication/icip16_wang/</link>
+      <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Face Recognition Using Local PCA Filters</title>
+      <link>https://wangyida.github.io/publication/ccbr15_wang/</link>
+      <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/ccbr15_wang/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
