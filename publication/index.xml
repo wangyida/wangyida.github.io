@@ -16,9 +16,9 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
-&lt;img src=&#34;imganalysis.svg&#34; alt=&#34;imganalysis&#34; /&gt;
-&lt;img src=&#34;triplet_samples.svg&#34; alt=&#34;triplet_samples&#34; /&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/imganalysis.svg&#34; alt=&#34;imganalysis&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/triplet_samples.svg&#34; alt=&#34;triplet_samples&#34; /&gt;
 More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
@@ -29,8 +29,8 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/accv16_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;paperArch-eps-converted-to.svg&#34; alt=&#34;paperArch-eps-converted-to&#34; /&gt;
-&lt;img src=&#34;micro_ours-eps-converted-to.svg&#34; alt=&#34;micro_ours-eps-converted-to&#34; /&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/paperArch-eps-converted-to.svg&#34; alt=&#34;paperArch-eps-converted-to&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/micro_ours-eps-converted-to.svg&#34; alt=&#34;micro_ours-eps-converted-to&#34; /&gt;
 More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
@@ -41,9 +41,9 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;objectrec.svg&#34; alt=&#34;objectrec&#34; /&gt;
-&lt;img src=&#34;reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;
-&lt;img src=&#34;recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real-eps-converted-to&#34; /&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/objectrec.svg&#34; alt=&#34;objectrec&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real-eps-converted-to&#34; /&gt;
 More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
@@ -54,10 +54,8 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/ccbr15_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;static/img/StandAloneNet.svg&#34; alt=&#34;StandAloneNet&#34; /&gt;
-&lt;img src=&#34;static/img/filterFFT.svg&#34; alt=&#34;filterFFT&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/StandAloneNet.svg&#34; alt=&#34;StandAloneNet&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/filterFFT.svg&#34; alt=&#34;filterFFT&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
