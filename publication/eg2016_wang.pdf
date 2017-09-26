@@ -10,6 +10,7 @@ publication = "In *Eurographics workshop on 3D Object Recognition (EG W3DOR)*"
 publication_short = "In *EG W3DOR*"
 selected = false
 title = "SHREC'16 Track Large-Scale 3D Shape Retrieval from ShapeNet Core55"
+tags = ["deep-learning"]
 url_code = ""
 url_dataset = ""
 url_pdf = "https://www.researchgate.net/publication/303699294_SHREC%2716_Track_Large-Scale_3D_Shape_Retrieval_from_ShapeNet_Core55"

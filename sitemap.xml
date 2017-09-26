@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>https://wangyida.github.io/project/deep-alternative/</loc>
+      <loc>https://wangyida.github.io/project/compact-network/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -96,15 +96,6 @@
     <url>
     
       <loc>https://wangyida.github.io/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wangyida.github.io/project/example-external-project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -224,6 +215,16 @@
     
     <url>
     
+      <loc>https://wangyida.github.io/tags/compact-network/</loc>
+      <lastmod>2017-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wangyida.github.io/tags/deep-alternatives/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -235,17 +236,7 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wangyida.github.io/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -275,7 +266,7 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/metric-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -315,7 +306,7 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/variational-inference/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

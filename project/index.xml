@@ -11,13 +11,12 @@
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Deep Alternatives</title>
-      <link>https://wangyida.github.io/project/deep-alternative/</link>
+      <title>Compact Network</title>
+      <link>https://wangyida.github.io/project/compact-network/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/deep-alternative/</guid>
-      <description>&lt;p&gt;Deep structure theories and replacement for deep structures.&lt;/p&gt;
-</description>
+      <guid>https://wangyida.github.io/project/compact-network/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -42,15 +41,6 @@
 
 &lt;p&gt;Deep learning architectures such as deep neural networks, deep belief networks and recurrent neural networks have been applied to fields including computer vision, speech recognition, natural language processing, audio recognition, social network filtering, machine translation and bioinformatics where they produced results comparable to and in some cases superior[6] to human experts.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://wangyida.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/project/example-external-project/</guid>
-      <description></description>
     </item>
     
     <item>

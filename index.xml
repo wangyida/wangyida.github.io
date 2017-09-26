@@ -59,13 +59,12 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
     </item>
     
     <item>
-      <title>Deep Alternatives</title>
-      <link>https://wangyida.github.io/project/deep-alternative/</link>
+      <title>Compact Network</title>
+      <link>https://wangyida.github.io/project/compact-network/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/deep-alternative/</guid>
-      <description>&lt;p&gt;Deep structure theories and replacement for deep structures.&lt;/p&gt;
-</description>
+      <guid>https://wangyida.github.io/project/compact-network/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -90,15 +89,6 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
 
 &lt;p&gt;Deep learning architectures such as deep neural networks, deep belief networks and recurrent neural networks have been applied to fields including computer vision, speech recognition, natural language processing, audio recognition, social network filtering, machine translation and bioinformatics where they produced results comparable to and in some cases superior[6] to human experts.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://wangyida.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/project/example-external-project/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -1049,6 +1039,50 @@ f_k = [[Hist(\mathscr{I}_1^1),&amp;hellip;,Hist(\mathscr{I}_B^1)],&amp;hellip;,[
 
 &lt;p&gt;All features extracted from filters in several proper scales are concatenated to represent the feature of a sample $\mathscr{F} = [f_{K&lt;em&gt;1},f&lt;/em&gt;{K&lt;em&gt;2},&amp;hellip;,f&lt;/em&gt;{K&lt;em&gt;n}$.
 Based on the fact that the likelihood of concatenated features equals to the form represented as cosine distance computed by normalized feature vectors: $\sum&lt;/em&gt;{k=K_1}^{K_n}&amp;lt;\textit{Norm}(f_k^i),\textit{Norm}(f&lt;em&gt;k^j)&amp;gt;$ equals to $&amp;lt;\mathscr{F}^i,\mathscr{F}^j&amp;gt;$ where $&amp;lt;,&amp;gt;$ denotes the matrix inner product, $\mathscr{F} = [\textit{Norm}(f&lt;/em&gt;{K&lt;em&gt;1}),\textit{Norm}(f&lt;/em&gt;{K&lt;em&gt;2}),&amp;hellip;,\textit{Norm}(f&lt;/em&gt;{K_n})]$, we carried out our experiment on such manner instead of concatenating all discriminant sub-feature together for the sake of saving memory in some databases. Such process could also be carried out after feature projection using classifiers as a mean of similarity fusion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Migrate from Jekyll to Hugo</title>
+      <link>https://wangyida.github.io/post/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/migrate-from-jekyll/</guid>
+      <description>
+
+&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://wangyida.github.io/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ images/
+        logo.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;should become&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;fix-content&#34;&gt;Fix content&lt;/h2&gt;
+
+&lt;p&gt;Depending on the amount of customization that was done for each post in Jekyll, this step will require more or less effort. There are no hard and fast rules here except that &lt;code&gt;hugo server --watch&lt;/code&gt; and the Hugo Academic example site are your friends. Test your changes and fix errors as needed.&lt;/p&gt;
+
+&lt;h2 id=&#34;publish&#34;&gt;Publish&lt;/h2&gt;
+
+&lt;p&gt;The default is for Jekyll to publish the website to a &lt;code&gt;_site&lt;/code&gt; directory, whereas Hugo publishes to a &lt;code&gt;public&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
+
+&lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
