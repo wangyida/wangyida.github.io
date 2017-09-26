@@ -33,17 +33,17 @@
 
   
 
-  <link rel="alternate" href="https://wangyida.github.io/publication_types/6/index.xml" type="application/rss+xml" title="Yida Wang&#39;s personal website">
-  <link rel="feed" href="https://wangyida.github.io/publication_types/6/index.xml" type="application/rss+xml" title="Yida Wang&#39;s personal website">
+  <link rel="alternate" href="https://wangyida.github.io/index.xml" type="application/rss+xml" title="Yida Wang&#39;s personal website">
+  <link rel="feed" href="https://wangyida.github.io/index.xml" type="application/rss+xml" title="Yida Wang&#39;s personal website">
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://wangyida.github.io/publication_types/6/">
+  <link rel="canonical" href="https://wangyida.github.io/project/variational-inference/">
 
   
 
-  <title>6 | Yida Wang&#39;s personal website</title>
+  <title>Variational Inference | Yida Wang&#39;s personal website</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -150,39 +150,98 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>6</h1>
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
+<div class="article-header">
+  <img src="/img/headers/bubbles-wide.jpg" class="article-banner" itemprop="image">
+  <span class="article-header-caption">My caption 😄</span>
+</div>
 
-  
-  
-  <div>
-    <h2><a href="https://wangyida.github.io/publication/accv16_wang/">ZigzagNet: Efficient Deep Learning for Real Object Recognition Based on 3D Models</a></h2>
-    <div class="article-style">
-      
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Variational Inference</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwangyida.github.io%2fproject%2fvariational-inference%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Variational%20Inference&amp;url=https%3a%2f%2fwangyida.github.io%2fproject%2fvariational-inference%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwangyida.github.io%2fproject%2fvariational-inference%2f&amp;title=Variational%20Inference"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwangyida.github.io%2fproject%2fvariational-inference%2f&amp;title=Variational%20Inference"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Variational%20Inference&amp;body=https%3a%2f%2fwangyida.github.io%2fproject%2fvariational-inference%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </span>
     </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://wangyida.github.io/publication/ccbr15_wang/">Face Recognition Using Local PCA Filters</a></h2>
-    <div class="article-style">
-      
-      Method Filter Learning the 1st Stage Training Like the 1st stage training in PCANet, given $\textit{N}$ training samples $ \textit{I}_{i=1}^{\textit{N}} $ with the same size of $ \textit{m} \times \textit{n} $. The patch size doesn&rsquo;t change in a certain cascading queue, so multiscale filter banks is trained separately.
-Overlapping patches in a particular size of images are collected for training a filter bank using SVD(Singular Value Decomposition). Patches are combined of adjacent pixels.
-      
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      <p>Variational Bayesian methods are a family of techniques for approximating intractable integrals arising in Bayesian inference and machine learning. They are typically used in complex statistical models consisting of observed variables (usually termed &ldquo;data&rdquo;) as well as unknown parameters and latent variables, with various sorts of relationships among the three types of random variables, as might be described by a graphical model. As is typical in Bayesian inference, the parameters and latent variables are grouped together as &ldquo;unobserved variables&rdquo;. Variational Bayesian methods are primarily used for two purposes:</p>
+
+<p>To provide an analytical approximation to the posterior probability of the unobserved variables, in order to do statistical inference over these variables.
+To derive a lower bound for the marginal likelihood (sometimes called the &ldquo;evidence&rdquo;) of the observed data (i.e. the marginal probability of the data given the model, with marginalization performed over unobserved variables). This is typically used for performing model selection, the general idea being that a higher marginal likelihood for a given model indicates a better fit of the data by that model and hence a greater probability that the model in question was the one that generated the data. (See also the Bayes factor article.)
+In the former purpose (that of approximating a posterior probability), variational Bayes is an alternative to Monte Carlo sampling methods — particularly, Markov chain Monte Carlo methods such as Gibbs sampling — for taking a fully Bayesian approach to statistical inference over complex distributions that are difficult to directly evaluate or sample from. In particular, whereas Monte Carlo techniques provide a numerical approximation to the exact posterior using a set of samples, Variational Bayes provides a locally-optimal, exact analytical solution to an approximation of the posterior.</p>
+
+<p>Variational Bayes can be seen as an extension of the EM (expectation-maximization) algorithm from maximum a posteriori estimation (MAP estimation) of the single most probable value of each parameter to fully Bayesian estimation which computes (an approximation to) the entire posterior distribution of the parameters and latent variables. As in EM, it finds a set of optimal parameter values, and it has the same alternating structure as does EM, based on a set of interlocked (mutually dependent) equations that cannot be solved analytically.</p>
+
+<p>For many applications, variational Bayes produces solutions of comparable accuracy to Gibbs sampling at greater speed. However, deriving the set of equations used to iteratively update the parameters often requires a large amount of work compared with deriving the comparable Gibbs sampling equations. This is the case even for many models that are conceptually quite simple, as is demonstrated below in the case of a basic non-hierarchical model with only two parameters and no latent variables.</p>
+
     </div>
+
   </div>
-  
+</article>
 
-  
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
 
+    
+    <li class="next"><a href="https://wangyida.github.io/project/metric-learning/">Metric Learning <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
 
 </div>
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">

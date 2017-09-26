@@ -1,67 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Yida Wang&#39;s personal website</title>
-    <link>https://wangyida.github.io/project/</link>
-    <description>Recent content in Projects on Yida Wang&#39;s personal website</description>
+    <title>Variational Inference on Yida Wang&#39;s personal website</title>
+    <link>https://wangyida.github.io/tags/variational-inference/</link>
+    <description>Recent content in Variational Inference on Yida Wang&#39;s personal website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Yida Wang</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Deep Alternatives</title>
-      <link>https://wangyida.github.io/project/deep-alternative/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/project/deep-alternative/</guid>
-      <description>&lt;p&gt;Deep structure theories and replacement for deep structures.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Alternatives</title>
-      <link>https://wangyida.github.io/project/deep-alternatives/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/project/deep-alternatives/</guid>
-      <description>&lt;p&gt;Deep structure theories and replacement for deep structures.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://wangyida.github.io/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/project/deep-learning/</guid>
-      <description>&lt;p&gt;Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, partially supervised or unsupervised.&lt;/p&gt;
-
-&lt;p&gt;Some representations are loosely based on interpretation of information processing and communication patterns in a biological nervous system, such as neural coding that attempts to define a relationship between various stimuli and associated neuronal responses in the brain. Research attempts to create efficient systems to learn these representations from large-scale, unlabeled data sets.&lt;/p&gt;
-
-&lt;p&gt;Deep learning architectures such as deep neural networks, deep belief networks and recurrent neural networks have been applied to fields including computer vision, speech recognition, natural language processing, audio recognition, social network filtering, machine translation and bioinformatics where they produced results comparable to and in some cases superior[6] to human experts.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://wangyida.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/project/example-external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metric Learning</title>
-      <link>https://wangyida.github.io/project/metric-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/project/metric-learning/</guid>
-      <description>&lt;p&gt;Metric learning is the task of learning a distance function over objects. A metric or distance function has to obey four axioms: non-negativity, Identity of indiscernibles, symmetry and subadditivity / triangle inequality. In practice, metric learning algorithms ignore the condition of identity of indiscernibles and learn a pseudo-metric.&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="/tags/variational-inference/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Variational Inference</title>

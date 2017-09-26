@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metric Learning on Yida Wang&#39;s personal website</title>
+    <link>https://wangyida.github.io/tags/metric-learning/</link>
+    <description>Recent content in Metric Learning on Yida Wang&#39;s personal website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Yida Wang</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/metric-learning/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Metric Learning</title>
+      <link>https://wangyida.github.io/project/metric-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/project/metric-learning/</guid>
+      <description>&lt;p&gt;Metric learning is the task of learning a distance function over objects. A metric or distance function has to obey four axioms: non-negativity, Identity of indiscernibles, symmetry and subadditivity / triangle inequality. In practice, metric learning algorithms ignore the condition of identity of indiscernibles and learn a pseudo-metric.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
