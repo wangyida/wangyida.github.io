@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Yida Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/computer-vision/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/publication/arxiv17tip_wang/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/test_xs.png&#34; alt=&#34;test_xs&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/test_ts.png&#34; alt=&#34;test_ts&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/manifold_latest.png&#34; alt=&#34;manifold_latest&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/imganalysis.svg&#34; alt=&#34;imganalysis&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/triplet_samples.svg&#34; alt=&#34;triplet_samples&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/show.gif&#34; alt=&#34;show.gif&#34; /&gt;
+More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CNTK on Mac: 2D Object Restoration and Recognition Based on 3D Model</title>
+      <link>https://wangyida.github.io/publication/msoc16_wang/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/msoc16_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/3.png&#34; alt=&#34;3&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/segmentation.png&#34; alt=&#34;segmentation&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/mask.png&#34; alt=&#34;mask&#34; /&gt;
+More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ZigzagNet: Efficient Deep Learning for Real Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/publication/accv16_wang/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/accv16_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/paperArch-eps-converted-to.svg&#34; alt=&#34;paperArch-eps-converted-to&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/micro_ours-eps-converted-to.svg&#34; alt=&#34;micro_ours-eps-converted-to&#34; /&gt;
+More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-restraint object recognition by model based CNN learning</title>
+      <link>https://wangyida.github.io/publication/icip16_wang/</link>
+      <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/objectrec.svg&#34; alt=&#34;objectrec&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real-eps-converted-to&#34; /&gt;
+More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://wangyida.github.io/project/computer-vision/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/project/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Face Recognition Using Local PCA Filters</title>
+      <link>https://wangyida.github.io/publication/ccbr15_wang/</link>
+      <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/ccbr15_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/StandAloneNet.svg&#34; alt=&#34;StandAloneNet&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/filterFFT.svg&#34; alt=&#34;filterFFT&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

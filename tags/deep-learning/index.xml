@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning on Yida Wang&#39;s personal website</title>
+    <title>Deep Learning on Yida Wang</title>
     <link>https://wangyida.github.io/tags/deep-learning/</link>
-    <description>Recent content in Deep Learning on Yida Wang&#39;s personal website</description>
+    <description>Recent content in Deep Learning on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Yida Wang</copyright>
+    <copyright>&amp;copy; 2017 Yida Wang</copyright>
     <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/deep-learning/" rel="self" type="application/rss+xml" />
     
@@ -16,9 +16,26 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/test_xs.png&#34; alt=&#34;test_xs&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/test_ts.png&#34; alt=&#34;test_ts&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/manifold_latest.png&#34; alt=&#34;manifold_latest&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
 &lt;img src=&#34;https://wangyida.github.io/img/imganalysis.svg&#34; alt=&#34;imganalysis&#34; /&gt;
 &lt;img src=&#34;https://wangyida.github.io/img/triplet_samples.svg&#34; alt=&#34;triplet_samples&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/show.gif&#34; alt=&#34;show.gif&#34; /&gt;
+More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CNTK on Mac: 2D Object Restoration and Recognition Based on 3D Model</title>
+      <link>https://wangyida.github.io/publication/msoc16_wang/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/msoc16_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/3.png&#34; alt=&#34;3&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/segmentation.png&#34; alt=&#34;segmentation&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/mask.png&#34; alt=&#34;mask&#34; /&gt;
 More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>

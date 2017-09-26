@@ -8,7 +8,7 @@
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.27.1" />
   <meta name="author" content="Yida Wang">
-  <meta name="description" content="Ph.D Student in Machine Learning and Computer Vision">
+  <meta name="description" content="Ph.D Student for Machine Learning and Computer Vision">
 
   
   
@@ -33,8 +33,8 @@
 
   
 
-  <link rel="alternate" href="https://wangyida.github.io/index.xml" type="application/rss+xml" title="Yida Wang&#39;s personal website">
-  <link rel="feed" href="https://wangyida.github.io/index.xml" type="application/rss+xml" title="Yida Wang&#39;s personal website">
+  <link rel="alternate" href="https://wangyida.github.io/index.xml" type="application/rss+xml" title="Yida Wang">
+  <link rel="feed" href="https://wangyida.github.io/index.xml" type="application/rss+xml" title="Yida Wang">
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
@@ -43,7 +43,7 @@
 
   
 
-  <title>Face Recognition Using Local PCA Filters | Yida Wang&#39;s personal website</title>
+  <title>Face Recognition Using Local PCA Filters | Yida Wang</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -60,7 +60,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Yida Wang&#39;s personal website</a>
+      <a class="navbar-brand" href="/">Yida Wang</a>
     </div>
 
     
@@ -305,59 +305,8 @@
 
   <div class="space-below"></div>
 
-  <div class="article-style">
-
-<p><img src="/img/StandAloneNet.svg" alt="StandAloneNet" />
+  <div class="article-style"><p><img src="/img/StandAloneNet.svg" alt="StandAloneNet" />
 <img src="/img/filterFFT.svg" alt="filterFFT" /></p>
-
-<h2 id="method">Method</h2>
-
-<h3 id="filter-learning">Filter Learning</h3>
-
-<h4 id="the-1st-stage-training">the 1st Stage Training</h4>
-
-<p>Like the 1st stage training in PCANet, given $\textit{N}$ training samples $ \textit{I}_{i=1}^{\textit{N}} $ with the same size of $ \textit{m} \times \textit{n} $. The patch size doesn&rsquo;t change in a certain cascading queue, so multiscale filter banks is trained separately.</p>
-
-<p>Overlapping patches in a particular size of images are collected for training a filter bank using SVD(Singular Value Decomposition). Patches are combined of adjacent pixels. As for the pixels on the edge of a image, we use zero padding to make it still useful. Patch mean is subtracted from each patch before SVD. Then the whole resource for filter training is represented as $\textit{X} = [ \bar{X}_1,\bar{X}_2,&hellip;,\bar{X}_N ] \in R^{k_1k_2*Nmn}$ where the image size of all $\textit{N}$ samples is $m \times n$ and the patch size is $\textit{k}_1 \times \textit{k}_2$.
-A single patch feature matrix $ \bar{X}<em>1 $ extracted from an image is formed by a set of vectors as $ [ \bar{x}</em>{i,1},\bar{x}<em>{i,2},&hellip;,\bar{x}</em>{i,mn} ] $ where $ \bar{x}_{i,j} $ denotes the $ \textit{j} $th vectorized patches in the $ \textit{i} $th image.</p>
-
-<p>The meaning of PCA is projecting the original data to another orthogonal space which uses as less basis as possible maximizing the variance of data, so basis in such orthogonal space is selected follows constraint: $\max_{V\in R^{k_1k_2 \times S_1}} ||V^TX||<em>F^2$ while $V^TV = I</em>{S_1}$ it is solved by eigenvalue decomposition of $XX^T $, so the convolution kernel could be expressed as</p>
-
-<p>$$ W<em>l^1 = mat</em>{k_1,k_2}(q_l(XX^T)) \in R^{k_1 \times k_2}, l = 1,2,&hellip;,S_1 $$</p>
-
-<p>where $S<em>1$ means the number of the set of principle eigenvectors in the 1st layer, $mat</em>{k_1,k_2}(v)$ is a reshaping function aims to transform $v$ to the size of $k_1 \times k_2$ and function $q_l(XX^T)$ denotes the $l$th principal eigenvector of $XX^T$ or the $l$th left singular vector of $X$.</p>
-
-<p>Such goal is equivalent to minimize the reconstruction error with a set of eigenvectors as shown below where $I_{S_1}$ is identity matrix with the size of $L_1 \times L_2 $:</p>
-
-<p>$$
-\min_{V\in R^{k_1k_2 \times S_1}}||\textit{X} - \textit{VV}^TX ||<em>F^2, s.t: V^TV = I</em>{S_1}
-    $$</p>
-
-<h4 id="concatenated-filter-learning">Concatenated Filter Learning</h4>
-
-<p>We optimize the concatenated structure to extract efficient feature by taking full advantage of textures in images and rearranging them properly. For the aim of enriching discriminative features and exploiting benefits from the detachment of the back propagation process, we train the cascaded layers only using the output of the particular convolution kernel. Feature extraction is also formed as a tree-like structure. No input-output pairs uses the same filter banks between two layers. As shown in Figure 2, this feature extraction process is a &lsquo;tree&rsquo; like concatenated structure rather than a &lsquo;chain&rsquo; like one of traditional PCANet. The number of filters in higher stages will be no smaller than previous stage, number of filters will only keep as the same when the remaining dimension of SVD is fixed as always 1 except for the $1st$ stage.</p>
-
-<p>Assuming that layer $t$ contains $S_t$ filter sets where each set contains $l_t$ filters which could be represented as $l<em>t = \prod\limits</em>{L=1}^{t}S_L/S<em>t$ and such tree-like concatenate structure has $l</em>{total} = \prod\limits_{L=1}^{n}S<em>L$ outputs for one sample in all where $n$ is the number of layers used. In such a feature enriched network, benefit comes with the cost for the increasing of convolution kernels, which is $F = \sum</em>{t = 1}^{n}S_tl_t$ in total; Filters in stage $t$ is trained separately one by one from a single group of outputs of previous layer where the $l $th filter output of the $(t-1)$th stage is $I_i^l = I_i * W_l^{t-1}$ while $ i = 1,2,&hellip;,N$. One set of filters in such standalone training process only uses reconstructed samples from one filter in previous stage as source data, so different filters in previous layer would produce distinguishing learning resource where $*$ denotes 2D convolution and $N$ is always equal to the number of input images due to the standalone training process. Overlapping patches are collected as the same manner as the 1st layer. Patch means are removed from each patch as $\bar{Y}<em>i = [\bar{y}</em>{i,l,1},\bar{y}<em>{i,l,2},&hellip;,\bar{y}</em>{i,l,mn}]$ where $\bar{y}_{i,l,j}$ is the $j$th mean-subtracted patch in $I_i^l$. A single filter bank is then obtained from eigenvalue decomposition of ${Y}^l = [\bar{Y}_1^l,\bar{Y}_2^l,&hellip;,\bar{Y}_N^l] \in R^{k_1k<em>2 \times Nmn}$. To make images in different layers having the same size, zeros padding is applied before 2D convolution. Filter is solved as: $W</em>{l<em>t}^l = mat</em>{k_1,k_2}(ql(YY^T))\in R^{k_1 \times k_2}$ while $ l_t=1,2,&hellip;,S_l$. As filters is learned standalone, which means that the training data in previous stage is much fewer than PCANet. This means that data would be much fewer the original one for a single branch of filter learning, so less time will be cost on convolution with filter of previous stage. With the help of parallel computing, separate branches of current stage will be computed at the same time. Much training time will be saved.
-Feature extracted by multiscale filters is beneficial to recognition. Here we just choose continuous odd numbers for filter scales $k_1$ and $k_2$. Convolution kernels are squares matrix for most of our experiment which means that $k_1 = k_2$.</p>
-
-<p>\begin{figure}
-\centering
-\includegraphics[height=3cm]{filterFFT}
-\caption{Multi scale Filters(odd-numbered rows) learned in the $1st$ layer and modulus of their FFT represented by 10 based $log$ function(even-numbered rows).}
-\end{figure}</p>
-
-<h3 id="feature-coding">Feature Coding</h3>
-
-<p>Number of output images in the last layer equals to the amount of convolution filters, we represent discriminant features by regrouping and combining sets of outputs. All pixels in output images are converted to binaries with unit step function $S(.)$ whose output is 1 for positive input and 0 otherwise. A single threshold makes it possible for convolution results combining with each other properly and forming a more robust feature. Decimal number representing a single pixel is formed by concatenated binaries in the same position which are converted from convolutional output corresponding to a particular convolution kernel in the penultimate layer. Such reconstructed integer-valued (in range of $[0,1,&hellip;,2^{S<em>n-1}]$) image could be expressed as $\mathscr{O}^l = \sum</em>{s = 1}^{S<em>n}2^{s-1}S(\mathscr{I}^l*W</em>{s}^{n})$ where $s$ is the id of sets, $\mathscr{I}^l$ and $\mathscr{O}^l$ are a pair of input and output image in the last layer corresponding to the $l$th filter in the penultimate layer.</p>
-
-<p>Every output image for a single scale of filter bank are partitioned into $B$ blocks for precisely statistics in histogram for images in normal view. Block histograms each with the same length of $2^{S_n}$ in an image are concatenated in a vector afterwards. In the next step, all vectors deriving from the same input image at the beginning are concatenated together in the same sequence to form the feature $f$ based on the filter scale $K_i$ which are all set as odd numbers.</p>
-
-<p>\begin{equation}
-f_k = [[Hist(\mathscr{I}_1^1),&hellip;,Hist(\mathscr{I}_B^1)],&hellip;,[Hist(\mathscr{I}<em>1^{l</em>{n-1}}),&hellip;,Hist(\mathscr{I}<em>B^{l</em>{n-1}})]]
-\end{equation}</p>
-
-<p>All features extracted from filters in several proper scales are concatenated to represent the feature of a sample $\mathscr{F} = [f_{K<em>1},f</em>{K<em>2},&hellip;,f</em>{K<em>n}$.
-Based on the fact that the likelihood of concatenated features equals to the form represented as cosine distance computed by normalized feature vectors: $\sum</em>{k=K_1}^{K_n}&lt;\textit{Norm}(f_k^i),\textit{Norm}(f<em>k^j)&gt;$ equals to $&lt;\mathscr{F}^i,\mathscr{F}^j&gt;$ where $&lt;,&gt;$ denotes the matrix inner product, $\mathscr{F} = [\textit{Norm}(f</em>{K<em>1}),\textit{Norm}(f</em>{K<em>2}),&hellip;,\textit{Norm}(f</em>{K_n})]$, we carried out our experiment on such manner instead of concatenating all discriminant sub-feature together for the sake of saving memory in some databases. Such process could also be carried out after feature projection using classifiers as a mean of similarity fusion.</p>
 </div>
 
 </div>
@@ -380,7 +329,7 @@ Based on the fact that the likelihood of concatenated features equals to the for
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2016 Yida Wang &middot; 
+      &copy; 2017 Yida Wang &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.

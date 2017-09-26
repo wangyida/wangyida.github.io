@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yida Wang&#39;s personal website on Yida Wang&#39;s personal website</title>
+    <title>Yida Wang on Yida Wang</title>
     <link>https://wangyida.github.io/</link>
-    <description>Recent content in Yida Wang&#39;s personal website on Yida Wang&#39;s personal website</description>
+    <description>Recent content in Yida Wang on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Yida Wang</copyright>
+    <copyright>&amp;copy; 2017 Yida Wang</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
@@ -16,9 +16,26 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/test_xs.png&#34; alt=&#34;test_xs&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/test_ts.png&#34; alt=&#34;test_ts&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/manifold_latest.png&#34; alt=&#34;manifold_latest&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
 &lt;img src=&#34;https://wangyida.github.io/img/imganalysis.svg&#34; alt=&#34;imganalysis&#34; /&gt;
 &lt;img src=&#34;https://wangyida.github.io/img/triplet_samples.svg&#34; alt=&#34;triplet_samples&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/show.gif&#34; alt=&#34;show.gif&#34; /&gt;
+More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CNTK on Mac: 2D Object Restoration and Recognition Based on 3D Model</title>
+      <link>https://wangyida.github.io/publication/msoc16_wang/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/msoc16_wang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/3.png&#34; alt=&#34;3&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/segmentation.png&#34; alt=&#34;segmentation&#34; /&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/mask.png&#34; alt=&#34;mask&#34; /&gt;
 More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
@@ -64,6 +81,15 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/project/compact-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://wangyida.github.io/project/computer-vision/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/project/computer-vision/</guid>
       <description></description>
     </item>
     
@@ -978,112 +1004,6 @@ Here&#39;s some important information...
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Face Recognition Using Local PCA Filters</title>
-      <link>https://wangyida.github.io/publication/ccbr15_wang/</link>
-      <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/publication/ccbr15_wang/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/StandAloneNet.svg&#34; alt=&#34;StandAloneNet&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/filterFFT.svg&#34; alt=&#34;filterFFT&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;
-
-&lt;h3 id=&#34;filter-learning&#34;&gt;Filter Learning&lt;/h3&gt;
-
-&lt;h4 id=&#34;the-1st-stage-training&#34;&gt;the 1st Stage Training&lt;/h4&gt;
-
-&lt;p&gt;Like the 1st stage training in PCANet, given $\textit{N}$ training samples $ \textit{I}_{i=1}^{\textit{N}} $ with the same size of $ \textit{m} \times \textit{n} $. The patch size doesn&amp;rsquo;t change in a certain cascading queue, so multiscale filter banks is trained separately.&lt;/p&gt;
-
-&lt;p&gt;Overlapping patches in a particular size of images are collected for training a filter bank using SVD(Singular Value Decomposition). Patches are combined of adjacent pixels. As for the pixels on the edge of a image, we use zero padding to make it still useful. Patch mean is subtracted from each patch before SVD. Then the whole resource for filter training is represented as $\textit{X} = [ \bar{X}_1,\bar{X}_2,&amp;hellip;,\bar{X}_N ] \in R^{k_1k_2*Nmn}$ where the image size of all $\textit{N}$ samples is $m \times n$ and the patch size is $\textit{k}_1 \times \textit{k}_2$.
-A single patch feature matrix $ \bar{X}&lt;em&gt;1 $ extracted from an image is formed by a set of vectors as $ [ \bar{x}&lt;/em&gt;{i,1},\bar{x}&lt;em&gt;{i,2},&amp;hellip;,\bar{x}&lt;/em&gt;{i,mn} ] $ where $ \bar{x}_{i,j} $ denotes the $ \textit{j} $th vectorized patches in the $ \textit{i} $th image.&lt;/p&gt;
-
-&lt;p&gt;The meaning of PCA is projecting the original data to another orthogonal space which uses as less basis as possible maximizing the variance of data, so basis in such orthogonal space is selected follows constraint: $\max_{V\in R^{k_1k_2 \times S_1}} ||V^TX||&lt;em&gt;F^2$ while $V^TV = I&lt;/em&gt;{S_1}$ it is solved by eigenvalue decomposition of $XX^T $, so the convolution kernel could be expressed as&lt;/p&gt;
-
-&lt;p&gt;$$ W&lt;em&gt;l^1 = mat&lt;/em&gt;{k_1,k_2}(q_l(XX^T)) \in R^{k_1 \times k_2}, l = 1,2,&amp;hellip;,S_1 $$&lt;/p&gt;
-
-&lt;p&gt;where $S&lt;em&gt;1$ means the number of the set of principle eigenvectors in the 1st layer, $mat&lt;/em&gt;{k_1,k_2}(v)$ is a reshaping function aims to transform $v$ to the size of $k_1 \times k_2$ and function $q_l(XX^T)$ denotes the $l$th principal eigenvector of $XX^T$ or the $l$th left singular vector of $X$.&lt;/p&gt;
-
-&lt;p&gt;Such goal is equivalent to minimize the reconstruction error with a set of eigenvectors as shown below where $I_{S_1}$ is identity matrix with the size of $L_1 \times L_2 $:&lt;/p&gt;
-
-&lt;p&gt;$$
-\min_{V\in R^{k_1k_2 \times S_1}}||\textit{X} - \textit{VV}^TX ||&lt;em&gt;F^2, s.t: V^TV = I&lt;/em&gt;{S_1}
-    $$&lt;/p&gt;
-
-&lt;h4 id=&#34;concatenated-filter-learning&#34;&gt;Concatenated Filter Learning&lt;/h4&gt;
-
-&lt;p&gt;We optimize the concatenated structure to extract efficient feature by taking full advantage of textures in images and rearranging them properly. For the aim of enriching discriminative features and exploiting benefits from the detachment of the back propagation process, we train the cascaded layers only using the output of the particular convolution kernel. Feature extraction is also formed as a tree-like structure. No input-output pairs uses the same filter banks between two layers. As shown in Figure 2, this feature extraction process is a &amp;lsquo;tree&amp;rsquo; like concatenated structure rather than a &amp;lsquo;chain&amp;rsquo; like one of traditional PCANet. The number of filters in higher stages will be no smaller than previous stage, number of filters will only keep as the same when the remaining dimension of SVD is fixed as always 1 except for the $1st$ stage.&lt;/p&gt;
-
-&lt;p&gt;Assuming that layer $t$ contains $S_t$ filter sets where each set contains $l_t$ filters which could be represented as $l&lt;em&gt;t = \prod\limits&lt;/em&gt;{L=1}^{t}S_L/S&lt;em&gt;t$ and such tree-like concatenate structure has $l&lt;/em&gt;{total} = \prod\limits_{L=1}^{n}S&lt;em&gt;L$ outputs for one sample in all where $n$ is the number of layers used. In such a feature enriched network, benefit comes with the cost for the increasing of convolution kernels, which is $F = \sum&lt;/em&gt;{t = 1}^{n}S_tl_t$ in total; Filters in stage $t$ is trained separately one by one from a single group of outputs of previous layer where the $l $th filter output of the $(t-1)$th stage is $I_i^l = I_i * W_l^{t-1}$ while $ i = 1,2,&amp;hellip;,N$. One set of filters in such standalone training process only uses reconstructed samples from one filter in previous stage as source data, so different filters in previous layer would produce distinguishing learning resource where $*$ denotes 2D convolution and $N$ is always equal to the number of input images due to the standalone training process. Overlapping patches are collected as the same manner as the 1st layer. Patch means are removed from each patch as $\bar{Y}&lt;em&gt;i = [\bar{y}&lt;/em&gt;{i,l,1},\bar{y}&lt;em&gt;{i,l,2},&amp;hellip;,\bar{y}&lt;/em&gt;{i,l,mn}]$ where $\bar{y}_{i,l,j}$ is the $j$th mean-subtracted patch in $I_i^l$. A single filter bank is then obtained from eigenvalue decomposition of ${Y}^l = [\bar{Y}_1^l,\bar{Y}_2^l,&amp;hellip;,\bar{Y}_N^l] \in R^{k_1k&lt;em&gt;2 \times Nmn}$. To make images in different layers having the same size, zeros padding is applied before 2D convolution. Filter is solved as: $W&lt;/em&gt;{l&lt;em&gt;t}^l = mat&lt;/em&gt;{k_1,k_2}(ql(YY^T))\in R^{k_1 \times k_2}$ while $ l_t=1,2,&amp;hellip;,S_l$. As filters is learned standalone, which means that the training data in previous stage is much fewer than PCANet. This means that data would be much fewer the original one for a single branch of filter learning, so less time will be cost on convolution with filter of previous stage. With the help of parallel computing, separate branches of current stage will be computed at the same time. Much training time will be saved.
-Feature extracted by multiscale filters is beneficial to recognition. Here we just choose continuous odd numbers for filter scales $k_1$ and $k_2$. Convolution kernels are squares matrix for most of our experiment which means that $k_1 = k_2$.&lt;/p&gt;
-
-&lt;p&gt;\begin{figure}
-\centering
-\includegraphics[height=3cm]{filterFFT}
-\caption{Multi scale Filters(odd-numbered rows) learned in the $1st$ layer and modulus of their FFT represented by 10 based $log$ function(even-numbered rows).}
-\end{figure}&lt;/p&gt;
-
-&lt;h3 id=&#34;feature-coding&#34;&gt;Feature Coding&lt;/h3&gt;
-
-&lt;p&gt;Number of output images in the last layer equals to the amount of convolution filters, we represent discriminant features by regrouping and combining sets of outputs. All pixels in output images are converted to binaries with unit step function $S(.)$ whose output is 1 for positive input and 0 otherwise. A single threshold makes it possible for convolution results combining with each other properly and forming a more robust feature. Decimal number representing a single pixel is formed by concatenated binaries in the same position which are converted from convolutional output corresponding to a particular convolution kernel in the penultimate layer. Such reconstructed integer-valued (in range of $[0,1,&amp;hellip;,2^{S&lt;em&gt;n-1}]$) image could be expressed as $\mathscr{O}^l = \sum&lt;/em&gt;{s = 1}^{S&lt;em&gt;n}2^{s-1}S(\mathscr{I}^l*W&lt;/em&gt;{s}^{n})$ where $s$ is the id of sets, $\mathscr{I}^l$ and $\mathscr{O}^l$ are a pair of input and output image in the last layer corresponding to the $l$th filter in the penultimate layer.&lt;/p&gt;
-
-&lt;p&gt;Every output image for a single scale of filter bank are partitioned into $B$ blocks for precisely statistics in histogram for images in normal view. Block histograms each with the same length of $2^{S_n}$ in an image are concatenated in a vector afterwards. In the next step, all vectors deriving from the same input image at the beginning are concatenated together in the same sequence to form the feature $f$ based on the filter scale $K_i$ which are all set as odd numbers.&lt;/p&gt;
-
-&lt;p&gt;\begin{equation}
-f_k = [[Hist(\mathscr{I}_1^1),&amp;hellip;,Hist(\mathscr{I}_B^1)],&amp;hellip;,[Hist(\mathscr{I}&lt;em&gt;1^{l&lt;/em&gt;{n-1}}),&amp;hellip;,Hist(\mathscr{I}&lt;em&gt;B^{l&lt;/em&gt;{n-1}})]]
-\end{equation}&lt;/p&gt;
-
-&lt;p&gt;All features extracted from filters in several proper scales are concatenated to represent the feature of a sample $\mathscr{F} = [f_{K&lt;em&gt;1},f&lt;/em&gt;{K&lt;em&gt;2},&amp;hellip;,f&lt;/em&gt;{K&lt;em&gt;n}$.
-Based on the fact that the likelihood of concatenated features equals to the form represented as cosine distance computed by normalized feature vectors: $\sum&lt;/em&gt;{k=K_1}^{K_n}&amp;lt;\textit{Norm}(f_k^i),\textit{Norm}(f&lt;em&gt;k^j)&amp;gt;$ equals to $&amp;lt;\mathscr{F}^i,\mathscr{F}^j&amp;gt;$ where $&amp;lt;,&amp;gt;$ denotes the matrix inner product, $\mathscr{F} = [\textit{Norm}(f&lt;/em&gt;{K&lt;em&gt;1}),\textit{Norm}(f&lt;/em&gt;{K&lt;em&gt;2}),&amp;hellip;,\textit{Norm}(f&lt;/em&gt;{K_n})]$, we carried out our experiment on such manner instead of concatenating all discriminant sub-feature together for the sake of saving memory in some databases. Such process could also be carried out after feature projection using classifiers as a mean of similarity fusion.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll to Hugo</title>
-      <link>https://wangyida.github.io/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0100</pubDate>
-      
-      <guid>https://wangyida.github.io/post/migrate-from-jekyll/</guid>
-      <description>
-
-&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://wangyida.github.io/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ images/
-        logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;should become&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;fix-content&#34;&gt;Fix content&lt;/h2&gt;
-
-&lt;p&gt;Depending on the amount of customization that was done for each post in Jekyll, this step will require more or less effort. There are no hard and fast rules here except that &lt;code&gt;hugo server --watch&lt;/code&gt; and the Hugo Academic example site are your friends. Test your changes and fix errors as needed.&lt;/p&gt;
-
-&lt;h2 id=&#34;publish&#34;&gt;Publish&lt;/h2&gt;
-
-&lt;p&gt;The default is for Jekyll to publish the website to a &lt;code&gt;_site&lt;/code&gt; directory, whereas Hugo publishes to a &lt;code&gt;public&lt;/code&gt; directory.&lt;/p&gt;
-
-&lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
-
-&lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

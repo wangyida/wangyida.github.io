@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Yida Wang&#39;s personal website</title>
+    <title>Hugo on Yida Wang</title>
     <link>https://wangyida.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on Yida Wang&#39;s personal website</description>
+    <description>Recent content in Hugo on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Yida Wang</copyright>
+    <copyright>&amp;copy; 2017 Yida Wang</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
     <atom:link href="/tags/hugo/" rel="self" type="application/rss+xml" />
     
