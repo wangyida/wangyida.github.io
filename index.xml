@@ -84,9 +84,23 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       
       <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/objectrec.svg&#34; alt=&#34;objectrec&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real-eps-converted-to&#34; /&gt;
-More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Synthetic&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Real&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/recon_model-eps-converted-to.svg&#34; alt=&#34;recon_model&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
@@ -163,7 +177,7 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
 1st prize of &lt;a href=&#34;https://www.scilab.org/content/view/full/980&#34; target=&#34;_blank&#34;&gt;Scilab Scientific Simulation Contest 2013&lt;/a&gt;: AIS System&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;CSDN:
-[CSDN Summer of Codes](): BladeRF Personal Telecommuncation Base&lt;/p&gt;&lt;/li&gt;
+&lt;a href=&#34;http://code.csdn.net/os_camp/6/proposals/6&#34; target=&#34;_blank&#34;&gt;CSDN Summer of Codes&lt;/a&gt;: BladeRF Personal Telecommuncation Base&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>

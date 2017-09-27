@@ -74,9 +74,23 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       
       <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/objectrec.svg&#34; alt=&#34;objectrec&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real-eps-converted-to&#34; /&gt;
-More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+&lt;img src=&#34;https://wangyida.github.io/img/reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Synthetic&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Real&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/recon_model-eps-converted-to.svg&#34; alt=&#34;recon_model&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
