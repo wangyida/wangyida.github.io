@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Yida Wang</copyright>
     <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/deep-learning/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wangyida.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
@@ -16,30 +18,7 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;input&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;target&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;manifold&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/test_xs.png&#34; alt=&#34;test_xs&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/test_ts.png&#34; alt=&#34;test_ts&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/manifold_latest.png&#34; alt=&#34;manifold_latest&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/imganalysis.svg&#34; alt=&#34;imganalysis&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/triplet_samples.svg&#34; alt=&#34;triplet_samples&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/show.gif&#34; alt=&#34;show.gif&#34; /&gt;
-More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>input target manifold           More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
@@ -48,11 +27,7 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/msoc16_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/3.png&#34; alt=&#34;3&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/segmentation.png&#34; alt=&#34;segmentation&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/mask.png&#34; alt=&#34;mask&#34; /&gt;
-More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
@@ -61,10 +36,7 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/accv16_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/paperArch-eps-converted-to.svg&#34; alt=&#34;paperArch-eps-converted-to&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/micro_ours-eps-converted-to.svg&#34; alt=&#34;micro_ours-eps-converted-to&#34; /&gt;
-More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
@@ -73,25 +45,7 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/objectrec.svg&#34; alt=&#34;objectrec&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Synthetic&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Real&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/recon_model-eps-converted-to.svg&#34; alt=&#34;recon_model&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
+      <description>   Synthetic Real          </description>
     </item>
     
     <item>
@@ -100,12 +54,8 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/project/deep-learning/</guid>
-      <description>&lt;p&gt;Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, partially supervised or unsupervised.&lt;/p&gt;
-
-&lt;p&gt;Some representations are loosely based on interpretation of information processing and communication patterns in a biological nervous system, such as neural coding that attempts to define a relationship between various stimuli and associated neuronal responses in the brain. Research attempts to create efficient systems to learn these representations from large-scale, unlabeled data sets.&lt;/p&gt;
-
-&lt;p&gt;Deep learning architectures such as deep neural networks, deep belief networks and recurrent neural networks have been applied to fields including computer vision, speech recognition, natural language processing, audio recognition, social network filtering, machine translation and bioinformatics where they produced results comparable to and in some cases superior[6] to human experts.&lt;/p&gt;
-</description>
+      <description>Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, partially supervised or unsupervised.
+Some representations are loosely based on interpretation of information processing and communication patterns in a biological nervous system, such as neural coding that attempts to define a relationship between various stimuli and associated neuronal responses in the brain.</description>
     </item>
     
   </channel>

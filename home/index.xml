@@ -8,7 +8,93 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Yida Wang</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wangyida.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://wangyida.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/home/about/</guid>
+      <description>Biography I am Ph.D student of Chair for Computer Aided Medical Procedures &amp;amp; Augmented Reality, Fakultät für Informatik in Technische Universität München. Currently co-supervised by Dr. Federico Tombari and Prof. Dr. Nassir Navab. My topic is development of deep learning techniques for representation and processing of 3D data for complex visual tasks.
+Previously I got master degree in Pattern Recognition and Intelligent System Laboratory from Beijing University of Posts and Telecommunications, supervised by Dr.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://wangyida.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://wangyida.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://wangyida.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://wangyida.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://wangyida.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://wangyida.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+I am a tutor for the following courses at Technology University of Munich:
+ Foundations of Computer Vision: Fast Approximate Energy Minimization via Graph Cuts Recent Trends in 3D Computer Vision and Deep Learning: CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction Deep Generative Models: Conditional Generative Adversarial Nets  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://wangyida.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://wangyida.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

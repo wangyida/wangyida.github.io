@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Yida Wang</copyright>
     <lastBuildDate>Fri, 19 Aug 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wangyida.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Self-restraint object recognition by model based CNN learning</title>
@@ -16,25 +18,7 @@
       <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/objectrec.svg&#34; alt=&#34;objectrec&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/reconstruction.svg&#34; alt=&#34;reconstruction&#34; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Synthetic&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Real&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/recon_model-eps-converted-to.svg&#34; alt=&#34;recon_model&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/recon_real-eps-converted-to.svg&#34; alt=&#34;recon_real&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
+      <description>   Synthetic Real          </description>
     </item>
     
   </channel>

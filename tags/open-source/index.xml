@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Yida Wang</copyright>
     <lastBuildDate>Sun, 12 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/open-source/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wangyida.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>CNTK on Mac: 2D Object Restoration and Recognition Based on 3D Model</title>
@@ -16,11 +18,7 @@
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/msoc16_wang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/3.png&#34; alt=&#34;3&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/segmentation.png&#34; alt=&#34;segmentation&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/mask.png&#34; alt=&#34;mask&#34; /&gt;
-More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
@@ -29,24 +27,10 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/project/open-source/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;Google Open Source:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.google-melange.com/archive/gsoc/2015/orgs/opencv/projects/wangyida.html&#34; target=&#34;_blank&#34;&gt;Google summer of Codes 2015&lt;/a&gt;: Deep Learning &amp;amp; GPU Implementation for Metric Learning for OpenCV
-&lt;a href=&#34;https://summerofcode.withgoogle.com/archive/2016/projects/4623962327744512/&#34; target=&#34;_blank&#34;&gt;Google summer of Codes 2016&lt;/a&gt;: tiny-dnn &amp;amp; OpenCV&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Microsoft Research:
-2nd prize of &lt;a href=&#34;https://www.microsoft.com/en-us/research/academic-program/microsoft-open-source-challenge/&#34; target=&#34;_blank&#34;&gt;Microsoft Open Source Challenge 2016&lt;/a&gt;: CNTK on Mac: 2D Object Restoration and Recognition on 3D Model&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Scilab:
-1st prize of &lt;a href=&#34;https://www.scilab.org/content/view/full/980&#34; target=&#34;_blank&#34;&gt;Scilab Scientific Simulation Contest 2013&lt;/a&gt;: AIS System&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CSDN:
-&lt;a href=&#34;http://code.csdn.net/os_camp/6/proposals/6&#34; target=&#34;_blank&#34;&gt;CSDN Summer of Codes&lt;/a&gt;: BladeRF Personal Telecommuncation Base&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>Google Open Source:  Google summer of Codes 2015: Deep Learning &amp;amp; GPU Implementation for Metric Learning for OpenCV Google summer of Codes 2016: tiny-dnn &amp;amp; OpenCV
+ Microsoft Research: 2nd prize of Microsoft Open Source Challenge 2016: CNTK on Mac: 2D Object Restoration and Recognition on 3D Model
+ Scilab: 1st prize of Scilab Scientific Simulation Contest 2013: AIS System
+ CSDN: CSDN Summer of Codes: BladeRF Personal Telecommuncation Base</description>
     </item>
     
     <item>
@@ -55,8 +39,7 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/project/telecommunication/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/bladeRF.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

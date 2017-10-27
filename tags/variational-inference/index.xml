@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Yida Wang</copyright>
     <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/variational-inference/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wangyida.github.io/tags/variational-inference/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
@@ -16,30 +18,7 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;input&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;target&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;manifold&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/test_xs.png&#34; alt=&#34;test_xs&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/test_ts.png&#34; alt=&#34;test_ts&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://wangyida.github.io/img/manifold_latest.png&#34; alt=&#34;manifold_latest&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://wangyida.github.io/img/pipeline_tip.svg&#34; alt=&#34;pipeline_tip&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/imganalysis.svg&#34; alt=&#34;imganalysis&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/triplet_samples.svg&#34; alt=&#34;triplet_samples&#34; /&gt;
-&lt;img src=&#34;https://wangyida.github.io/img/show.gif&#34; alt=&#34;show.gif&#34; /&gt;
-More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>input target manifold           More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
@@ -48,16 +27,7 @@ More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/project/variational-inference/</guid>
-      <description>&lt;p&gt;Variational Bayesian methods are a family of techniques for approximating intractable integrals arising in Bayesian inference and machine learning. They are typically used in complex statistical models consisting of observed variables (usually termed &amp;ldquo;data&amp;rdquo;) as well as unknown parameters and latent variables, with various sorts of relationships among the three types of random variables, as might be described by a graphical model. As is typical in Bayesian inference, the parameters and latent variables are grouped together as &amp;ldquo;unobserved variables&amp;rdquo;. Variational Bayesian methods are primarily used for two purposes:&lt;/p&gt;
-
-&lt;p&gt;To provide an analytical approximation to the posterior probability of the unobserved variables, in order to do statistical inference over these variables.
-To derive a lower bound for the marginal likelihood (sometimes called the &amp;ldquo;evidence&amp;rdquo;) of the observed data (i.e. the marginal probability of the data given the model, with marginalization performed over unobserved variables). This is typically used for performing model selection, the general idea being that a higher marginal likelihood for a given model indicates a better fit of the data by that model and hence a greater probability that the model in question was the one that generated the data. (See also the Bayes factor article.)
-In the former purpose (that of approximating a posterior probability), variational Bayes is an alternative to Monte Carlo sampling methods — particularly, Markov chain Monte Carlo methods such as Gibbs sampling — for taking a fully Bayesian approach to statistical inference over complex distributions that are difficult to directly evaluate or sample from. In particular, whereas Monte Carlo techniques provide a numerical approximation to the exact posterior using a set of samples, Variational Bayes provides a locally-optimal, exact analytical solution to an approximation of the posterior.&lt;/p&gt;
-
-&lt;p&gt;Variational Bayes can be seen as an extension of the EM (expectation-maximization) algorithm from maximum a posteriori estimation (MAP estimation) of the single most probable value of each parameter to fully Bayesian estimation which computes (an approximation to) the entire posterior distribution of the parameters and latent variables. As in EM, it finds a set of optimal parameter values, and it has the same alternating structure as does EM, based on a set of interlocked (mutually dependent) equations that cannot be solved analytically.&lt;/p&gt;
-
-&lt;p&gt;For many applications, variational Bayes produces solutions of comparable accuracy to Gibbs sampling at greater speed. However, deriving the set of equations used to iteratively update the parameters often requires a large amount of work compared with deriving the comparable Gibbs sampling equations. This is the case even for many models that are conceptually quite simple, as is demonstrated below in the case of a basic non-hierarchical model with only two parameters and no latent variables.&lt;/p&gt;
-</description>
+      <description>Variational Bayesian methods are a family of techniques for approximating intractable integrals arising in Bayesian inference and machine learning. They are typically used in complex statistical models consisting of observed variables (usually termed &amp;ldquo;data&amp;rdquo;) as well as unknown parameters and latent variables, with various sorts of relationships among the three types of random variables, as might be described by a graphical model. As is typical in Bayesian inference, the parameters and latent variables are grouped together as &amp;ldquo;unobserved variables&amp;rdquo;.</description>
     </item>
     
   </channel>

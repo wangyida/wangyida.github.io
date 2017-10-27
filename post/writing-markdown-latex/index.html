@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.27.1" />
+  <meta name="generator" content="Hugo 0.30.2" />
   <meta name="author" content="Yida Wang">
   <meta name="description" content="Ph.D Student for Machine Learning and Computer Vision">
 
+  
   
   
   
@@ -27,14 +28,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
-  <link rel="stylesheet" href="/css/hugo-academic.css">
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
   
 
   
 
-  <link rel="alternate" href="https://wangyida.github.io/index.xml" type="application/rss+xml" title="Yida Wang">
-  <link rel="feed" href="https://wangyida.github.io/index.xml" type="application/rss+xml" title="Yida Wang">
+  
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
@@ -53,6 +58,7 @@
 
     
     <div class="navbar-header">
+      
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target=".navbar-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -60,6 +66,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      
       <a class="navbar-brand" href="/">Yida Wang</a>
     </div>
 
@@ -169,10 +176,15 @@
   </span>
 
   
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
 
   
   
-  
+
   
 
   
@@ -180,30 +192,30 @@
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwangyida.github.io%2fpost%2fwriting-markdown-latex%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2fwriting-markdown-latex%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2fwriting-markdown-latex%2f"
-         target="_blank">
-        <i class="fa fa-twitter"></i>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwangyida.github.io%2fpost%2fwriting-markdown-latex%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2fwriting-markdown-latex%2f&amp;title=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes"
-         target="_blank">
+         target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
          href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwangyida.github.io%2fpost%2fwriting-markdown-latex%2f&amp;title=Writing%20content%20with%20Markdown%2c%20LaTeX%2c%20and%20Shortcodes"
-         target="_blank">
+         target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
@@ -245,7 +257,6 @@
 <li><a href="#option-highlight">Option <code>highlight</code></a></li>
 <li><a href="#option-highlight-languages">Option <code>highlight_languages</code></a></li>
 <li><a href="#option-highlight-style">Option <code>highlight_style</code></a></li>
-<li><a href="#option-highlight-version">Option <code>highlight_version</code></a></li>
 </ul></li>
 </ul></li>
 <li><a href="#twitter-tweet">Twitter tweet</a></li>
@@ -253,7 +264,11 @@
 <li><a href="#vimeo">Vimeo</a></li>
 <li><a href="#github-gist">GitHub gist</a></li>
 <li><a href="#speaker-deck">Speaker Deck</a></li>
-<li><a href="#rm-latex-math">$\rm \LaTeX$ math</a></li>
+<li><a href="#rm-latex-math">$\rm \LaTeX$ math</a>
+<ul>
+<li><a href="#multiline-equations">Multiline equations</a></li>
+<li><a href="#publication-abstracts">Publication abstracts</a></li>
+</ul></li>
 <li><a href="#table">Table</a></li>
 <li><a href="#alerts">Alerts</a></li>
 <li><a href="#table-of-contents">Table of Contents</a></li>
@@ -319,8 +334,10 @@ Strikethrough with ~~two tildes~~.
 
 <p>To enable linking to a file, such as a PDF, first place the file in your <code>static/files/</code> folder and then link to it using the following form:</p>
 
-<pre><code>{{% staticref &quot;files/cv.pdf&quot; %}}Download my CV{{% /staticref %}}
+<pre><code>{{% staticref &quot;files/cv.pdf&quot; &quot;newtab&quot; %}}Download my CV{{% /staticref %}}
 </code></pre>
+
+<p>The optional <code>&quot;newtab&quot;</code> argument for <code>staticref</code> will cause the link to be opened in a new tab.</p>
 
 <h2 id="emojis">Emojis</h2>
 
@@ -408,14 +425,6 @@ print(&quot;You entered: {}&quot;.format(input_string_var))
 <td>yes</td>
 <td>no</td>
 </tr>
-
-<tr>
-<td><code>highlight_version</code></td>
-<td>string</td>
-<td>choose the highlight.js version</td>
-<td>yes</td>
-<td>no</td>
-</tr>
 </tbody>
 </table>
 
@@ -493,10 +502,6 @@ print(&quot;You entered: {}&quot;.format(input_string_var))
 
 <p>The <code>highlight_style</code> option is only recognized when set in <code>config.toml</code>. Setting <code>highlight_style</code> in your page&rsquo;s preamble has no effect.</p>
 
-<h4 id="option-highlight-version">Option <code>highlight_version</code></h4>
-
-<p>The <code>highlight_version</code> option, as the name implies, allows you to select the version of highlight.js you want to use. The default value is &ldquo;9.9.0&rdquo;. The <code>highlight_version</code> option is only recognized when set in <code>config.toml</code>. Setting <code>highlight_version</code> in your page&rsquo;s preamble has no effect.</p>
-
 <h2 id="twitter-tweet">Twitter tweet</h2>
 
 <p>To include a single tweet, pass the tweet’s ID from the tweet&rsquo;s URL as parameter to the shortcode:</p>
@@ -537,6 +542,30 @@ print(&quot;You entered: {}&quot;.format(input_string_var))
 </code></pre>
 
 <p>This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$</p>
+
+<p>Note that Markdown special characters need to be escaped with a backslash so they are treated as math rather than Markdown. For example, <code>*</code> and <code>_</code> become <code>\*</code> and <code>\_</code> respectively.</p>
+
+<h3 id="multiline-equations">Multiline equations</h3>
+
+<p>The standard LaTeX line break consisting of 2 backslashes needs to be replaced with 6 backslashes:</p>
+
+<pre><code class="language-TeX">$$f(k;p\_0^\*) = \begin{cases} p\_0^\* &amp; \text{if }k=1, \\\\\\
+1-p\_0^\* &amp; \text {if }k=0.\end{cases}$$
+</code></pre>
+
+<p>$$f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \\<br />
+1-p_0^* &amp; \text {if }k=0.\end{cases}$$</p>
+
+<h3 id="publication-abstracts">Publication abstracts</h3>
+
+<p>As Hugo and Academic attempt to parse TOML, Markdown, and LaTeX content in the abstract, the following guidelines should be followed just for the publication <code>abstract</code> and <code>abstract_short</code> fields:</p>
+
+<ul>
+<li>escape each LaTeX backslash (<code>\</code>) with an extra backslash, yielding <code>\\</code></li>
+<li>escape each LaTeX underscore (<code>_</code>) with two backslashes, yielding <code>\\_</code></li>
+</ul>
+
+<p>Hence, <code>abstract = &quot;${O(d_{\max})}$&quot;</code> becomes <code>abstract = &quot;${O(d\\_{\\max})}$&quot;</code>.</p>
 
 <h2 id="table">Table</h2>
 
@@ -614,6 +643,12 @@ Here's some important information...
 </ol>
 </div>
     </div>
+
+    
+    
+    
+    
+
   </div>
 
 </article>
@@ -621,22 +656,7 @@ Here's some important information...
 
 
 
-<div class="container">
-  <nav>
-  <ul class="pager">
-    
-    <li class="previous"><a href="https://wangyida.github.io/post/migrate-from-jekyll/"><span
-      aria-hidden="true">&larr;</span> Migrate from Jekyll to Hugo</a></li>
-    
 
-    
-    <li class="next"><a href="https://wangyida.github.io/post/managing-content/">Managing content <span
-      aria-hidden="true">&rarr;</span></a></li>
-    
-  </ul>
-</nav>
-
-</div>
 
 <div class="article-container">
   
@@ -649,8 +669,9 @@ Here's some important information...
 
       &copy; 2017 Yida Wang &middot; 
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">
@@ -664,13 +685,47 @@ Here's some important information...
   </div>
 </footer>
 
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyAIdx2m-pZnHskuEoPluHJiWmVt3o10vWo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
     
     <script src="/js/hugo-academic.js"></script>
     
@@ -678,7 +733,9 @@ Here's some important information...
     
     
       
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
 
       
 
