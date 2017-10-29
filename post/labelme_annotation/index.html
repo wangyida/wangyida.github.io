@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="author" content="Yida Wang">
+  <meta name="description" content="Ph.D Student for Machine Learning and Computer Vision">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-108746836-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://wangyida.github.io/post/labelme_annotation/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Yida Wang">
+  <meta property="og:url" content="https://wangyida.github.io/post/labelme_annotation/">
+  <meta property="og:title" content="labelme: Image Annotation Tool with Python | Yida Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2017-10-29T00:00:00&#43;02:00">
+  
+  <meta property="article:modified_time" content="2017-10-29T00:00:00&#43;02:00">
+  
+
+  
+
+  <title>labelme: Image Annotation Tool with Python | Yida Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Yida Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">labelme: Image Annotation Tool with Python</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2017-10-29 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+      Oct 2912, 29107
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=labelme%3a%20Image%20Annotation%20Tool%20with%20Python&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2flabelme_annotation%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwangyida.github.io%2fpost%2flabelme_annotation%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2flabelme_annotation%2f&amp;title=labelme%3a%20Image%20Annotation%20Tool%20with%20Python"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwangyida.github.io%2fpost%2flabelme_annotation%2f&amp;title=labelme%3a%20Image%20Annotation%20Tool%20with%20Python"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=labelme%3a%20Image%20Annotation%20Tool%20with%20Python&amp;body=https%3a%2f%2fwangyida.github.io%2fpost%2flabelme_annotation%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><img src="https://github.com/wkentaro/labelme/blob/master/labelme/icons/icon.png?raw=true" align="right" /></p>
+
+<p>Labelme is a graphical image annotation tool inspired by <a href="http://labelme.csail.mit.edu" target="_blank">http://labelme.csail.mit.edu</a>.<br />
+It is written in Python and uses Qt for its graphical interface.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+<li>Ubuntu / macOS / Windows</li>
+<li>Python2 / Python3</li>
+<li><a href="http://www.riverbankcomputing.co.uk/software/pyqt/intro" target="_blank">PyQt4 / PyQt5</a></li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<p>There are options:</p>
+
+<ul>
+<li>Platform agonistic installation: Anaconda, Docker</li>
+<li>Platform specific installation: Ubuntu, macOS</li>
+</ul>
+
+<p><strong>Anaconda</strong></p>
+
+<p>You need install <a href="https://www.continuum.io/downloads" target="_blank">Anaconda</a>, then run below:</p>
+
+<pre><code class="language-bash">conda create --name=labelme python=2.7
+source activate labelme
+conda install pyqt
+pip install labelme
+</code></pre>
+
+<p><strong>Docker</strong></p>
+
+<p>You need install <a href="https://www.docker.com" target="_blank">docker</a>, then run below:</p>
+
+<pre><code class="language-bash">wget https://raw.githubusercontent.com/wkentaro/labelme/master/scripts/labelme_on_docker
+chmod u+x labelme_on_docker
+
+# Maybe you need http://sourabhbajaj.com/blog/2017/02/07/gui-applications-docker-mac/ on macOS
+./labelme_on_docker static/apc2016_obj3.jpg -O static/apc2016_obj3.json
+</code></pre>
+
+<p><strong>Ubuntu</strong></p>
+
+<pre><code class="language-bash">sudo apt-get install python-qt4 pyqt4-dev-tools
+sudo pip install labelme
+</code></pre>
+
+<p><strong>macOS</strong></p>
+
+<p><em>Install Homebrew</em></p>
+
+<p>Homebrew is a package manager for OS X. A package is a collection of code files that work together. Installing them usually means running a script (a bit of code) that puts certain files in the various directories. A lot of the packages you will want are going to have dependencies. That means they require you to have other packages already installed on your computer. Homebrew will find and install dependencies for you AND it will keep them organized in one location AND it can tell you when updates are available for them.  On top of all of that it gives super helpful instructions when everything doesn&rsquo;t go smoothly. You can read more about it at Homebrew&rsquo;s website. For now, install Homebrew using the following line of code:</p>
+
+<pre><code class="language-bash">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+
+</code></pre>
+
+<p>So what&rsquo;s going on here? The last bit is obviously a URL. If you were to open this URL in your browser, you would just see code. This is a Ruby script that tells your computer what to do to install Homebrew. The <code>curl</code> part is a command line tool that transfers files using URLs. The <code>-fsSL</code> part is a combination of four option flags for <code>curl</code> that specify how to handle the file at the url. If you want to know more about what these flags do, type <code>man curl</code> at your command prompt. (You can use <code>man</code> in front of most commands to open up a manual page for that command.) We also need to actually execute this Ruby script, so we used the command <code>ruby</code> at the beginning. The <code>-e</code> is an option flag for ruby that executes a string as one line of code, in this case, the <code>&quot;$(curl … /go)&quot;</code> part. You may need to follow a few more instructions to finish the install, but Homebrew will help you do so.</p>
+
+<p><em>Install Python</em></p>
+
+<p>Python comes with OS X, so you can probably don&rsquo;t need to do this step. You can check this by typing <code>python --version</code> into Terminal. If you get an error message, you need to install Python. If Terminal prints something like <code>Python 2.7.3</code> where the exact numbers you see may be different, you&rsquo;re all set to move on to step #5.</p>
+
+<p>If for some reason you don&rsquo;t have Python or if you want to get the current version, you can now do this easily with Homebrew! Anytime you use Homebrew, you will start your command with <code>brew</code> followed by the Homebrew command you want to use. To install the latest version of python 2, simply type:</p>
+
+<pre><code class="language-bash">brew install python
+brew install python3
+</code></pre>
+
+<p>If you&rsquo;d rather install the latest version of python 3, replace <code>python</code> with <code>python3</code>.</p>
+
+<p><em>Install pip</em></p>
+
+<p>There are a few package managers that are specific to Python, and pip is the preferred one. The name pip stands for &ldquo;pip installs packages&rdquo;. pip has one dependeny&ndash;distribute, but Homebrew doesn&rsquo;t know how to install either one. Luckily, both distribute and pip can be easily installed with python scripts that are available on the web. We can use <code>curl</code>, just like we did to get Homebrew.</p>
+
+<pre><code class="language-bash">curl -O http://python-distribute.org/distribute_setup.py
+python distribute_setup.py
+curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+python get-pip.py
+</code></pre>
+
+<p>This time we are getting and executing each script in two commands, where we did it all in one command before. Remember that you can look up what <code>-O</code> does with <code>$ man curl</code>, if you&rsquo;re curious.</p>
+
+<p>It&rsquo;s possible that you will run into a permission issue here. Every file on your computer stores information about who can access and modify it. The get-pip.py script is going to try to write files to some of your system directories and it&rsquo;s possible that your user account doesn&rsquo;t have the right permissions. You can get around that though. If you get an error for one of these Python commands about permissions, type <code>sudo</code> before the rest of the command. Sudo stands for &ldquo;superuser do&rdquo;. The superuser does have permission to modify system files and when you say sudo, you are acting as the superuser. You will need the admin password to do this.</p>
+
+<pre><code class="language-bash">brew install qt qt5 || brew install pyqt  # qt4 is deprecated
+pip install labelme
+</code></pre>
+
+<h2 id="usage">Usage</h2>
+
+<p><strong>Annotation</strong></p>
+
+<p>Run <code>labelme --help</code> for detail.</p>
+
+<pre><code class="language-bash">labelme  # Open GUI
+labelme static/apc2016_obj3.jpg  # Specify file
+labelme static/apc2016_obj3.jpg -O static/apc2016_obj3.json  # Close window after the save
+</code></pre>
+
+<p>The annotations are saved as a <a href="http://www.json.org/" target="_blank">JSON</a> file. The
+file includes the image itself.</p>
+
+<p><strong>Visualization</strong></p>
+
+<p>To view the json file quickly, you can use utility script:</p>
+
+<pre><code class="language-bash">labelme_draw_json static/apc2016_obj3.json
+</code></pre>
+
+<p><strong>Convert to Dataset</strong></p>
+
+<p>To convert the json to set of image and label, you can run following:</p>
+
+<pre><code class="language-bash">labelme_json_to_dataset static/apc2016_obj3.json
+</code></pre>
+
+<h2 id="sample">Sample</h2>
+
+<ul>
+<li><a href="https://github.com/wkentaro/labelme/blob/master/static/apc2016_obj3.jpg" target="_blank">Original Image</a></li>
+<li><a href="https://github.com/wkentaro/labelme/blob/master/static/apc2016_obj3_screenshot.jpg" target="_blank">Screenshot</a></li>
+<li><a href="https://github.com/wkentaro/labelme/blob/master/static/apc2016_obj3.json" target="_blank">Generated Json File</a></li>
+<li><a href="https://github.com/wkentaro/labelme/blob/master/static/apc2016_obj3_draw_json.jpg" target="_blank">Visualized Json File</a></li>
+</ul>
+
+<h2 id="screencast">Screencast</h2>
+
+<h2 id="acknowledgement">Acknowledgement</h2>
+
+<p>This repo is the fork of <a href="https://github.com/mpitid/pylabelme" target="_blank">mpitid/pylabelme</a>, whose development is currently stopped.</p>
+
+    </div>
+
+    
+    
+    
+    <div class="article-tags">
+      
+      <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
+      
+      <a class="btn btn-primary btn-outline" href="/tags/python">python</a>
+      
+      <a class="btn btn-primary btn-outline" href="/tags/annotation">annotation</a>
+      
+    </div>
+    
+    
+
+  </div>
+
+</article>
+
+
+
+<div class="article-container article-widget">
+  <div class="hr-light"></div>
+  <h3>Related</h3>
+  <ul>
+    
+    <li><a href="/post/getting-started/">Getting started with the Academic framework for Hugo</a></li>
+    
+    <li><a href="/post/widgets/">Customizing the homepage with widgets</a></li>
+    
+    <li><a href="/post/managing-content/">Managing content</a></li>
+    
+  </ul>
+</div>
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Yida Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyAIdx2m-pZnHskuEoPluHJiWmVt3o10vWo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
