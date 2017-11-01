@@ -189,8 +189,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Managing content</h1>
-    
+    <div class="article-inner">
+      <h1 itemprop="name">Managing content</h1>
+
+      
 
 <div class="article-metadata">
 
@@ -259,8 +261,9 @@
 
 </div>
 
-    <div class="article-style" itemprop="articleBody">
-      <p>This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="https://wangyida.github.io/post/writing-markdown-latex/" target="_blank">writing content with Markdown, LaTeX, and Shortcodes</a>.</p>
+
+      <div class="article-style" itemprop="articleBody">
+        <p>This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="https://wangyida.github.io/post/writing-markdown-latex/" target="_blank">writing content with Markdown, LaTeX, and Shortcodes</a>.</p>
 
 <p>To enable LaTeX math rendering for a page, you should include <code>math = true</code> in the page&rsquo;s <code>+++</code> preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set <code>math = true</code> in <code>config.toml</code>.</p>
 
@@ -482,21 +485,22 @@ widgets = true
 <p>You may then deploy your site by copying the <code>public/</code> directory (by FTP, SFTP, WebDAV, Rsync, git push, etc.) to your production web server.</p>
 
 <p>Note that running <code>hugo</code> does not remove any previously generated files before building. Therefore, it&rsquo;s best practice to delete your <code>public/</code> directory prior to running <code>hugo</code> to ensure no old or interim files are deployed to your server.</p>
-    </div>
+      </div>
 
-    
-    
-    
-    <div class="article-tags">
       
-      <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
-      
-      <a class="btn btn-primary btn-outline" href="/tags/hugo">hugo</a>
-      
-    </div>
-    
-    
 
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/hugo">hugo</a>
+  
+</div>
+
+
+
+    </div>
   </div>
 
 </article>

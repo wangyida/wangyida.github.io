@@ -189,8 +189,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">labelme: Image Annotation Tool with Python</h1>
-    
+    <div class="article-inner">
+      <h1 itemprop="name">labelme: Image Annotation Tool with Python</h1>
+
+      
 
 <div class="article-metadata">
 
@@ -259,8 +261,9 @@
 
 </div>
 
-    <div class="article-style" itemprop="articleBody">
-      
+
+      <div class="article-style" itemprop="articleBody">
+        
 
 <p><img src="https://github.com/wkentaro/labelme/blob/master/static/apc2016_obj3_draw_json.jpg?raw=true" align="right" /></p>
 
@@ -341,7 +344,7 @@ brew install python3
 
 <pre><code class="language-bash">curl -O http://python-distribute.org/distribute_setup.py
 python distribute_setup.py
-curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+curl -O https://bootstrap.pypa.io/get-pip.py 
 python get-pip.py
 </code></pre>
 
@@ -350,6 +353,7 @@ python get-pip.py
 <p>It&rsquo;s possible that you will run into a permission issue here. Every file on your computer stores information about who can access and modify it. The get-pip.py script is going to try to write files to some of your system directories and it&rsquo;s possible that your user account doesn&rsquo;t have the right permissions. You can get around that though. If you get an error for one of these Python commands about permissions, type <code>sudo</code> before the rest of the command. Sudo stands for &ldquo;superuser do&rdquo;. The superuser does have permission to modify system files and when you say sudo, you are acting as the superuser. You will need the admin password to do this.</p>
 
 <pre><code class="language-bash">brew install qt qt5 || brew install pyqt  # qt4 is deprecated
+brew link pyqt
 pip install labelme
 </code></pre>
 
@@ -398,23 +402,24 @@ file includes the image itself.</p>
 
 <p>This repo is the fork of <a href="https://github.com/mpitid/pylabelme" target="_blank">mpitid/pylabelme</a>, whose development is currently stopped.</p>
 
-    </div>
+      </div>
 
-    
-    
-    
-    <div class="article-tags">
       
-      <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
-      
-      <a class="btn btn-primary btn-outline" href="/tags/python">python</a>
-      
-      <a class="btn btn-primary btn-outline" href="/tags/annotation">annotation</a>
-      
-    </div>
-    
-    
 
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/python">python</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/annotation">annotation</a>
+  
+</div>
+
+
+
+    </div>
   </div>
 
 </article>
