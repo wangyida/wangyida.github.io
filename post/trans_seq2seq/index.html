@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en-us">
 <head>
 
   <meta charset="utf-8">
@@ -57,22 +57,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://wangyida.github.io/de/">
+  <link rel="canonical" href="https://wangyida.github.io/post/trans_seq2seq/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yida Wang">
-  <meta property="og:url" content="https://wangyida.github.io/de/">
-  <meta property="og:title" content="Yida Wang">
-  <meta property="og:description" content="Ph.D Student for Machine Learning and Computer Vision">
-  <meta property="og:locale" content="de">
+  <meta property="og:url" content="https://wangyida.github.io/post/trans_seq2seq/">
+  <meta property="og:title" content="Implementation on language translation based on Google TensorFlow | Yida Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2017-11-01T00:00:00&#43;01:00">
   
+  <meta property="article:modified_time" content="2017-11-01T00:00:00&#43;01:00">
   
 
   
 
-  <title>Yida Wang</title>
+  <title>Implementation on language translation based on Google TensorFlow | Yida Wang</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -85,13 +87,13 @@
       
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Zur Navigation</span>
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       
-      <a class="navbar-brand" href="/de/">Yida Wang</a>
+      <a class="navbar-brand" href="/">Yida Wang</a>
     </div>
 
     
@@ -104,7 +106,7 @@
         
 
         <li class="nav-item">
-          <a href="/de/#about" data-target="#about">
+          <a href="/#about">
             
             <span>Home</span>
           </a>
@@ -116,7 +118,7 @@
         
 
         <li class="nav-item">
-          <a href="/de/#publications" data-target="#publications">
+          <a href="/#publications">
             
             <span>Publications</span>
           </a>
@@ -128,7 +130,7 @@
         
 
         <li class="nav-item">
-          <a href="/de/#posts" data-target="#posts">
+          <a href="/#posts">
             
             <span>Posts</span>
           </a>
@@ -140,7 +142,7 @@
         
 
         <li class="nav-item">
-          <a href="/de/#projects" data-target="#projects">
+          <a href="/#projects">
             
             <span>Projects</span>
           </a>
@@ -152,7 +154,7 @@
         
 
         <li class="nav-item">
-          <a href="/de/#teaching" data-target="#teaching">
+          <a href="/#teaching">
             
             <span>Teaching</span>
           </a>
@@ -164,7 +166,7 @@
         
 
         <li class="nav-item">
-          <a href="/de/#contact" data-target="#contact">
+          <a href="/#contact">
             
             <span>Contact</span>
           </a>
@@ -174,28 +176,6 @@
         
 
         
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <span>Deutsch</span>
-          </a>
-          <ul class="dropdown-menu">
-            
-            <li class="nav-item">
-              <a href="/" data-target="/">
-                <span>English</span>
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a href="/zh/" data-target="/zh/">
-                <span>中文 (简体)</span>
-              </a>
-            </li>
-            
-          </ul>
-        </li>
-        
       </ul>
 
     </div>
@@ -203,17 +183,141 @@
 </nav>
 
 
-
-<span id="homepage" style="display: none"></span>
-
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
 
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Implementation on language translation based on Google TensorFlow</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2017-11-01 00:00:00 &#43;0100 CET" itemprop="datePublished">
+      2017-11-01
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Implementation%20on%20language%20translation%20based%20on%20Google%20TensorFlow&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2ftrans_seq2seq%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwangyida.github.io%2fpost%2ftrans_seq2seq%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2ftrans_seq2seq%2f&amp;title=Implementation%20on%20language%20translation%20based%20on%20Google%20TensorFlow"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwangyida.github.io%2fpost%2ftrans_seq2seq%2f&amp;title=Implementation%20on%20language%20translation%20based%20on%20Google%20TensorFlow"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Implementation%20on%20language%20translation%20based%20on%20Google%20TensorFlow&amp;body=https%3a%2f%2fwangyida.github.io%2fpost%2ftrans_seq2seq%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        <p><strong><a href="https://google.github.io/seq2seq" target="_blank">READ THE DOCUMENTATION</a></strong></p>
+
+<p><strong><a href="https://google.github.io/seq2seq/contributing/" target="_blank">CONTRIBUTING</a></strong></p>
+
+<p>A general-purpose encoder-decoder framework for Tensorflow that can be used for Machine Translation, Text Summarization, Conversational Modeling, Image Captioning, and more.</p>
+
+<p><img src="https://3.bp.blogspot.com/-3Pbj_dvt0Vo/V-qe-Nl6P5I/AAAAAAAABQc/z0_6WtVWtvARtMk0i9_AtLeyyGyV6AI4wCLcB/s1600/nmt-model-fast.gif" alt="Translation Model" /></p>
+
+<p>The official code used for the <a href="https://arxiv.org/abs/1703.03906" target="_blank">Massive Exploration of Neural Machine Translation Architectures</a> paper.</p>
+
+<p>If you use this code for academic purposes, please cite it as:</p>
+
+<pre><code>@ARTICLE{Britz:2017,
+  author          = {{Britz}, Denny and {Goldie}, Anna and {Luong}, Thang and {Le}, Quoc},
+  title           = &quot;{Massive Exploration of Neural Machine Translation Architectures}&quot;,
+  journal         = {ArXiv e-prints},
+  archivePrefix   = &quot;arXiv&quot;,
+  eprinttype      = {arxiv},
+  eprint          = {1703.03906},
+  primaryClass    = &quot;cs.CL&quot;,
+  keywords        = {Computer Science - Computation and Language},
+  year            = 2017,
+  month           = mar,
+}
+</code></pre>
+
+      </div>
+
+      
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/translation">translation</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/rnn">rnn</a>
+  
+</div>
+
+
+
+    </div>
+  </div>
+
+</article>
 
 
 
 
+
+
+<div class="article-container">
+  
+
+</div>
 
 <footer class="site-footer">
   <div class="container">
@@ -308,5 +412,4 @@
 
   </body>
 </html>
-
 
