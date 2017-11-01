@@ -194,6 +194,57 @@
   
   
   <h3 class="article-title" itemprop="name">
+    <a href="https://wangyida.github.io/post/shell_tips/" itemprop="url">Shell Tips</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2017-11-01 00:00:00 &#43;0100 CET" itemprop="datePublished">
+      2017-11-01
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    Trim images in batches Suppose that there are images in tmp folder, you can remove all margins without any effective pixel by executing:
+find tmp -name 'scatter*.png' -print0 | xargs -0 -I {} convert {} -trim {}  option print0 for find is mean to print the full file name on the standard output, followed by a null character (instead of the newline character that -print uses).
+This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output.
+    
+  </div>
+  <p class="read-more">
+    <a href="https://wangyida.github.io/post/shell_tips/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
     <a href="https://wangyida.github.io/post/labelme_annotation/" itemprop="url">labelme: Image Annotation Tool with Python</a>
   </h3>
   
@@ -202,8 +253,10 @@
 
   <span class="article-date">
     
+        Last updated on
+    
     <time datetime="2017-10-29 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-      2017-10-29
+      2017-11-01
     </time>
   </span>
 

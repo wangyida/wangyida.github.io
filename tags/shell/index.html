@@ -1,5 +1,7 @@
+
+
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="en-us">
 <head>
 
   <meta charset="utf-8">
@@ -57,22 +59,22 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://wangyida.github.io/zh/">
+  <link rel="canonical" href="https://wangyida.github.io/tags/shell/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yida Wang">
-  <meta property="og:url" content="https://wangyida.github.io/zh/">
-  <meta property="og:title" content="Yida Wang">
+  <meta property="og:url" content="https://wangyida.github.io/tags/shell/">
+  <meta property="og:title" content="Shell | Yida Wang">
   <meta property="og:description" content="Ph.D Student for Machine Learning and Computer Vision">
-  <meta property="og:locale" content="zh-Hans">
+  <meta property="og:locale" content="en-us">
   
-  
-  
-
+  <meta property="og:updated_time" content="2017-11-01T00:00:00&#43;01:00">
   
 
-  <title>Yida Wang</title>
+  
+
+  <title>Shell | Yida Wang</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -85,13 +87,13 @@
       
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">切换导航</span>
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       
-      <a class="navbar-brand" href="/zh/">Yida Wang</a>
+      <a class="navbar-brand" href="/">Yida Wang</a>
     </div>
 
     
@@ -104,7 +106,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#about" data-target="#about">
+          <a href="/#about">
             
             <span>Home</span>
           </a>
@@ -116,7 +118,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#publications" data-target="#publications">
+          <a href="/#publications">
             
             <span>Publications</span>
           </a>
@@ -128,7 +130,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#posts" data-target="#posts">
+          <a href="/#posts">
             
             <span>Posts</span>
           </a>
@@ -140,7 +142,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#projects" data-target="#projects">
+          <a href="/#projects">
             
             <span>Projects</span>
           </a>
@@ -152,7 +154,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#teaching" data-target="#teaching">
+          <a href="/#teaching">
             
             <span>Teaching</span>
           </a>
@@ -164,7 +166,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#contact" data-target="#contact">
+          <a href="/#contact">
             
             <span>Contact</span>
           </a>
@@ -174,28 +176,6 @@
         
 
         
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <span>中文 (简体)</span>
-          </a>
-          <ul class="dropdown-menu">
-            
-            <li class="nav-item">
-              <a href="/de/" data-target="/de/">
-                <span>Deutsch</span>
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a href="/" data-target="/">
-                <span>English</span>
-              </a>
-            </li>
-            
-          </ul>
-        </li>
-        
       </ul>
 
     </div>
@@ -204,17 +184,32 @@
 
 
 
-<span id="homepage" style="display: none"></span>
 
+
+<div class="universal-wrapper">
+
+  <h1>Shell</h1>
+
+  
+
+  
+  
+  <div>
+    <h2><a href="https://wangyida.github.io/post/shell_tips/">Shell Tips</a></h2>
+    <div class="article-style">
+      
+      Trim images in batches Suppose that there are images in tmp folder, you can remove all margins without any effective pixel by executing:
+find tmp -name &lsquo;scatter*.png&rsquo; -print0 | xargs -0 -I {} convert {} -trim {}  option print0 for find is mean to print the full file name on the standard output, followed by a null character (instead of the newline character that -print uses).
+This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output.
+      
+    </div>
+  </div>
+  
 
   
 
 
-
-
-
-
-
+</div>
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -243,17 +238,17 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">引用</h4>
+        <h4 class="modal-title">Cite</h4>
       </div>
       <div>
         <pre><code class="modal-body tex"></code></pre>
       </div>
       <div class="modal-footer">
         <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-          <i class="fa fa-copy"></i> 复制
+          <i class="fa fa-copy"></i> Copy
         </a>
         <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-          <i class="fa fa-download"></i> 下载
+          <i class="fa fa-download"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
@@ -308,5 +303,6 @@
 
   </body>
 </html>
+
 
 

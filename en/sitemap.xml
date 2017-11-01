@@ -5,8 +5,17 @@
     
     <url>
     
+      <loc>https://wangyida.github.io/post/shell_tips/</loc>
+      <lastmod>2017-11-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wangyida.github.io/post/labelme_annotation/</loc>
-      <lastmod>2017-10-29T00:00:00+02:00</lastmod>
+      <lastmod>2017-11-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -252,7 +261,7 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/annotation/</loc>
-      <lastmod>2017-10-29T00:00:00+02:00</lastmod>
+      <lastmod>2017-11-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -379,7 +388,17 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/python/</loc>
-      <lastmod>2017-10-29T00:00:00+02:00</lastmod>
+      <lastmod>2017-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wangyida.github.io/tags/shell/</loc>
+      <lastmod>2017-11-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
