@@ -300,6 +300,14 @@ Suppose that all images you want to trim and remove white backgrounds, the comma
 
 <p>Those command will keep all original images&rsquo; own shapes and barely concatenate them in RGB space</p>
 
+<h2 id="file-transmitting">File Transmitting</h2>
+
+<pre><code class="language-bash">scp -P 10639 /Users/yidawang/Documents/gitfarm/cluster-vae/list_attr_celeba.csv user@557803.iask.in:/home/user/Desktop/
+</code></pre>
+
+<pre><code class="language-bash">rsync -avz --progress -e 'ssh -p 10639' /Users/yidawang/Downloads/img_align_celeba.zip user@557803.iask.in:/home/user/Desktop/
+</code></pre>
+
       </div>
 
       
