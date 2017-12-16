@@ -309,6 +309,8 @@
 
 <h3 id="trim-images-in-batches">Trim images in batches</h3>
 
+<h4 id="images">Images</h4>
+
 <p>Suppose that there are images in <code>tmp</code> folder, you can remove all margins without any effective pixel by executing:</p>
 
 <pre><code class="language-bash">find tmp -name 'scatter*.png' -print0 | xargs -0 -I {} convert {} -trim {}
@@ -323,6 +325,11 @@ This option corresponds to the <code>-0</code> option of <code>xargs</code>.</p>
 Suppose that all images you want to trim and remove white backgrounds, the command should be something like:</p>
 
 <pre><code class="language-bash">find . -name '*.png' -print0 | xargs -0 -I {} convert {} -trim -fuzz 2% -transparent white {}
+</code></pre>
+
+<h4 id="pdf-files">PDF files</h4>
+
+<pre><code class="language-bash">for FILE in ./*.pdf; do pdfcrop --margins '5 5 5 5' &quot;${FILE}&quot;; done
 </code></pre>
 
 <h3 id="append-images">Append images</h3>
