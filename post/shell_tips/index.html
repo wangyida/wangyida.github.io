@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.31.1" />
+  <meta name="generator" content="Hugo 0.34" />
   <meta name="author" content="Yida Wang">
 
   
@@ -17,8 +17,7 @@
       
     
   
-  <meta name="description" content="Image processing Trim images in batches Images Suppose that there are images in tmp folder, you can remove all margins without any effective pixel by executing:
-find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim {}  Option print0 for find is mean to print the full file name on the standard output, followed by a null character (instead of the newline character that -print uses).">
+  <meta name="description" content=" File Transmitting scp -P 10639 /Users/yidawang/Documents/gitfarm/cluster-vae/list_attr_celeba.csv user@557803.iask.in:/home/user/Desktop/  rsync -avz --progress -e &#39;ssh -p 10639&#39; /Users/yidawang/Downloads/img_align_celeba.zip user@557803.iask.in:/home/user/Desktop/  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://wangyida.github.io/post/shell_tips/">
@@ -84,8 +83,7 @@ find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim 
   <meta property="og:site_name" content="Yida Wang">
   <meta property="og:url" content="https://wangyida.github.io/post/shell_tips/">
   <meta property="og:title" content="Shell Tips | Yida Wang">
-  <meta property="og:description" content="Image processing Trim images in batches Images Suppose that there are images in tmp folder, you can remove all margins without any effective pixel by executing:
-find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim {}  Option print0 for find is mean to print the full file name on the standard output, followed by a null character (instead of the newline character that -print uses).">
+  <meta property="og:description" content=" File Transmitting scp -P 10639 /Users/yidawang/Documents/gitfarm/cluster-vae/list_attr_celeba.csv user@557803.iask.in:/home/user/Desktop/  rsync -avz --progress -e &#39;ssh -p 10639&#39; /Users/yidawang/Downloads/img_align_celeba.zip user@557803.iask.in:/home/user/Desktop/  ">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2017-11-01T00:00:00&#43;01:00">
@@ -262,7 +260,7 @@ find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim 
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    1 min read
   </span>
   
 
@@ -321,122 +319,6 @@ find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim 
       <div class="article-style" itemprop="articleBody">
         
 
-<h2 id="image-processing">Image processing</h2>
-
-<h3 id="trim-images-in-batches">Trim images in batches</h3>
-
-<h4 id="images">Images</h4>
-
-<p>Suppose that there are images in <code>tmp</code> folder, you can remove all margins without any effective pixel by executing:</p>
-
-<pre><code class="language-bash">find tmp -name 'scatter*.png' -print0 | xargs -0 -I {} convert {} -trim {}
-</code></pre>
-
-<p>Option <code>print0</code> for <code>find</code> is mean to print the full file name on the standard output,
-followed by a null character (instead of the newline character that <code>-print</code> uses).<br />
-This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output.
-This option corresponds to the <code>-0</code> option of <code>xargs</code>.</p>
-
-<p>If you want to turn white background into a transparency one in form of <code>png</code> images, <code>-fuzz 2% -transparent white</code> should be added.
-Suppose that all images you want to trim and remove white backgrounds, the command should be something like:</p>
-
-<pre><code class="language-bash">find . -name '*.png' -print0 | xargs -0 -I {} convert {} -trim -fuzz 2% -transparent white {}
-</code></pre>
-
-<h4 id="pdf-files">PDF files</h4>
-
-<pre><code class="language-bash">for FILE in ./*.pdf; do pdfcrop --margins '5 5 5 5' &quot;${FILE}&quot;; done
-</code></pre>
-
-<h3 id="append-images">Append images</h3>
-
-<p>Vertically:</p>
-
-<pre><code class="language-bash">convert *.png -append -fuzz 2% -transparent white diff_ours.png
-</code></pre>
-
-<p>Horizontally:</p>
-
-<pre><code class="language-bash">convert *.png +append -fuzz 2% -transparent white diff_ours.png
-</code></pre>
-
-<p>Those command will keep all original images&rsquo; own shapes and barely concatenate them in RGB space</p>
-
-<h3 id="concatenate-images-to-a-video">Concatenate images to a video</h3>
-
-<p>Firstly, we should rename files in the form <code>foo1, foo2, ..., foo1300, ..., fooN</code> to form <code>foo00001, foo00002, ..., foo01300, ..., fooN</code> by:</p>
-
-<pre><code class="language-bash">for (( i=0; i&lt;2000; i++ )); do printf -v n &quot;%04d&quot; $i; mv &quot;$i.png&quot; &quot;$n.png&quot;; done;
-</code></pre>
-
-<p>Then use ffmpeg for video producing:</p>
-
-<pre><code class="language-bash">ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p hand_pose.mp4
-</code></pre>
-
-<p>Sometimes it&rsquo;s necessary to embed small scale videos on websitem, so GIF files should be generated from original videos in format of <code>.mp4</code>, <code>.mov</code> or something else.
-Firstly let&rsquo;s observe the effect of the transparency mechanism introduced in 2013 in the GIF encoder:</p>
-
-<pre><code class="language-bash">ffmpeg -v warning -ss 00:00:00.000 -t 00:00:38.000 -i hand_pose.mp4 -vf scale=300:-1 -gifflags -transdiff -y bbb-notrans.gif
-</code></pre>
-
-<pre><code class="language-bash">ffmpeg -v warning -ss 00:00:00.000 -t 00:00:38.000 -i hand_pose.mp4 -vf scale=300:-1 -gifflags +transdiff -y bbb-trans.gif
-</code></pre>
-
-<table>
-<thead>
-<tr>
-<th align="center">No trans</th>
-<th align="center">With trans</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="/img/bbb-notrans.gif" alt="" /></td>
-<td align="center"><img src="/img/bbb-trans.gif" alt="" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>GIF is limited to a palette of 256 colors. And by default, FFmpeg just uses a generic palette that tries to cover the whole color space in order to support the largest variety of content. <a href="http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html" target="_blank">Here</a> is a good post for generating high quality <code>.gif</code> files with compact structure.</p>
-
-<p>In order to circumvent this problem, dithering is used. In the Big Buck Bunny GIF above, the ordered bayer dithering is applied. It is easily recognizable by its 8x8 crosshatch pattern. While it&rsquo;s not the prettiest, is has many benefits such as being predictible, fast, and actually preventing banding effects and similar visual glitches.</p>
-
-<pre><code class="language-bash">ffmpeg -v warning -ss 00:00:00.000 -t 00:00:38.000 -i hand_pose.mp4 -vf scale=300👎sws_dither=ed -y bbb-error-diffusal.gif
-</code></pre>
-
-<p>The second pass is then handled by the paletteuse filter, which as you guessed from the name will use that palette to generate the final color quantized stream. Its task is to find the most appropriate color in the generated palette to represent the input color. This is also where you will decide which dithering method to use.</p>
-
-<pre><code class="language-bash">ffmpeg -v warning -ss 00:00:00.000 -t 00:00:38.000 -i hand_pose.mp4 -vf scale=300👎lanczos -y bbb-lanczos.gif
-</code></pre>
-
-<table>
-<thead>
-<tr>
-<th align="center">Error diffusal</th>
-<th align="center">Lanczos</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="/img/bbb-error-diffusal.gif" alt="" /></td>
-<td align="center"><img src="/img/bbb-lanczos.gif" alt="" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>The file sizes are:</p>
-
-<ul>
-<li>-rw-r&ndash;r&ndash;@ 1 yidawang  staff    24M Dec 14 17:06 bbb-error-diffusal.gif</li>
-<li>-rw-r&ndash;r&ndash;@ 1 yidawang  staff   5.8M Dec 14 17:09 bbb-lanczos.gif</li>
-<li>-rw-r&ndash;r&ndash;@ 1 yidawang  staff    21M Dec 14 15:33 bbb-notrans.gif</li>
-<li>-rw-r&ndash;r&ndash;@ 1 yidawang  staff   5.8M Dec 14 15:34 bbb-trans.gif</li>
-<li>-rw-r&ndash;r&ndash;@ 1 yidawang  staff   3.4M Dec 14 17:26 bbb.mp4</li>
-</ul>
-
 <h2 id="file-transmitting">File Transmitting</h2>
 
 <pre><code class="language-bash">scp -P 10639 /Users/yidawang/Documents/gitfarm/cluster-vae/list_attr_celeba.csv user@557803.iask.in:/home/user/Desktop/
@@ -464,6 +346,18 @@ Firstly let&rsquo;s observe the effect of the transparency mechanism introduced 
 </article>
 
 
+
+<div class="article-container article-widget">
+  <div class="hr-light"></div>
+  <h3>Related</h3>
+  <ul>
+    
+    <li><a href="/post/image/">Image Processing</a></li>
+    
+    <li><a href="/post/video/">Video Processing</a></li>
+    
+  </ul>
+</div>
 
 
 

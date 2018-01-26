@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.34" />
+  <meta name="author" content="Yida Wang">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Concatenate images to a video Firstly, we should rename files in the form foo1, foo2, ..., foo1300, ..., fooN to form foo00001, foo00002, ..., foo01300, ..., fooN by:
+for (( i=0; i&lt;2000; i&#43;&#43; )); do printf -v n &quot;%04d&quot; $i; mv &quot;$i.png&quot; &quot;$n.png&quot;; done;  Then use ffmpeg for video producing:
+ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p hand_pose.mp4  Video compressing Given a video in format like .">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://wangyida.github.io/post/video/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-108746836-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://wangyida.github.io/post/video/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Yida Wang">
+  <meta property="og:url" content="https://wangyida.github.io/post/video/">
+  <meta property="og:title" content="Video Processing | Yida Wang">
+  <meta property="og:description" content="Concatenate images to a video Firstly, we should rename files in the form foo1, foo2, ..., foo1300, ..., fooN to form foo00001, foo00002, ..., foo01300, ..., fooN by:
+for (( i=0; i&lt;2000; i&#43;&#43; )); do printf -v n &quot;%04d&quot; $i; mv &quot;$i.png&quot; &quot;$n.png&quot;; done;  Then use ffmpeg for video producing:
+ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p hand_pose.mp4  Video compressing Given a video in format like .">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2017-11-01T00:00:00&#43;01:00">
+  
+  <meta property="article:modified_time" content="2017-11-01T00:00:00&#43;01:00">
+  
+
+  
+
+  <title>Video Processing | Yida Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Yida Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Video Processing</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2017-11-01 00:00:00 &#43;0100 CET" itemprop="datePublished dateModified">
+      2017-11-01
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yida Wang">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Video%20Processing&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2fvideo%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwangyida.github.io%2fpost%2fvideo%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwangyida.github.io%2fpost%2fvideo%2f&amp;title=Video%20Processing"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwangyida.github.io%2fpost%2fvideo%2f&amp;title=Video%20Processing"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Video%20Processing&amp;body=https%3a%2f%2fwangyida.github.io%2fpost%2fvideo%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<h2 id="concatenate-images-to-a-video">Concatenate images to a video</h2>
+
+<p>Firstly, we should rename files in the form <code>foo1, foo2, ..., foo1300, ..., fooN</code> to form <code>foo00001, foo00002, ..., foo01300, ..., fooN</code> by:</p>
+
+<pre><code class="language-bash">for (( i=0; i&lt;2000; i++ )); do printf -v n &quot;%04d&quot; $i; mv &quot;$i.png&quot; &quot;$n.png&quot;; done;
+</code></pre>
+
+<p>Then use ffmpeg for video producing:</p>
+
+<pre><code class="language-bash">ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p hand_pose.mp4
+</code></pre>
+
+<h2 id="video-compressing">Video compressing</h2>
+
+<p>Given a video in format like <code>.mp4</code> and <code>.mov</code>, you can compress it using:</p>
+
+<pre><code class="language-sh">ffmpeg -i panda.mp4 -vcodec h264 -acodec aac panda_small.mp4
+</code></pre>
+
+<p>Here the optional codecs (decoders and encoders): <code>-vcodec</code> and <code>-acodec</code>.</p>
+
+<h2 id="from-video-to-gif">From video to GIF</h2>
+
+<p>Sometimes it&rsquo;s necessary to embed small scale videos on websitem, so GIF files should be generated from original videos in format of <code>.mp4</code>, <code>.mov</code> or something else.
+Firstly let&rsquo;s observe the effect of the transparency mechanism introduced in 2013 in the GIF encoder:</p>
+
+<pre><code class="language-bash">ffmpeg -v warning -ss 00:00:00.000 -t 00:00:38.000 -i hand_pose.mp4 -vf scale=300:-1 -gifflags -transdiff -y bbb-notrans.gif
+</code></pre>
+
+<pre><code class="language-bash">ffmpeg -v warning -ss 00:00:00.000 -t 00:00:38.000 -i hand_pose.mp4 -vf scale=300:-1 -gifflags +transdiff -y bbb-trans.gif
+</code></pre>
+
+<p>GIF is limited to a palette of 256 colors. And by default, FFmpeg just uses a generic palette that tries to cover the whole color space in order to support the largest variety of content. <a href="http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html" target="_blank">Here</a> is a good post for generating high quality <code>.gif</code> files with compact structure.</p>
+
+<p>In order to circumvent this problem, dithering is used. In the Big Buck Bunny GIF above, the ordered bayer dithering is applied. It is easily recognizable by its 8x8 crosshatch pattern. While it&rsquo;s not the prettiest, is has many benefits such as being predictible, fast, and actually preventing banding effects and similar visual glitches.</p>
+
+<pre><code class="language-bash">ffmpeg -v warning -ss 00:00:00.000 -t 00:00:38.000 -i hand_pose.mp4 -vf scale=300👎sws_dither=ed -y bbb-error-diffusal.gif
+</code></pre>
+
+<p>The second pass is then handled by the paletteuse filter, which as you guessed from the name will use that palette to generate the final color quantized stream. Its task is to find the most appropriate color in the generated palette to represent the input color. This is also where you will decide which dithering method to use.</p>
+
+<pre><code class="language-bash">ffmpeg -v warning -ss 00:00:00.000 -t 00:00:38.000 -i hand_pose.mp4 -vf scale=300👎lanczos -y bbb-lanczos.gif
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="center">No trans</th>
+<th align="center">With trans</th>
+<th align="center">Error diffusal</th>
+<th align="center">Lanczos</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="/img/bbb-notrans.gif" alt="" /></td>
+<td align="center"><img src="/img/bbb-trans.gif" alt="" /></td>
+<td align="center"><img src="/img/bbb-error-diffusal.gif" alt="" /></td>
+<td align="center"><img src="/img/bbb-lanczos.gif" alt="" /></td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+
+      
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/shell">shell</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/video">video</a>
+  
+</div>
+
+
+
+    </div>
+  </div>
+
+</article>
+
+
+
+<div class="article-container article-widget">
+  <div class="hr-light"></div>
+  <h3>Related</h3>
+  <ul>
+    
+    <li><a href="/post/shell_tips/">Shell Tips</a></li>
+    
+    <li><a href="/post/image/">Image Processing</a></li>
+    
+  </ul>
+</div>
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Yida Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
