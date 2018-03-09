@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://wangyida.github.io/post/3d_completion/</loc>
+      <lastmod>2018-03-09T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wangyida.github.io/post/mask_rcnn/</loc>
       <lastmod>2018-03-05T00:00:00+01:00</lastmod>
     </url>
@@ -303,6 +312,16 @@
     
     <url>
     
+      <loc>https://wangyida.github.io/tags/3d/</loc>
+      <lastmod>2018-03-09T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wangyida.github.io/publication_types/6/</loc>
       <lastmod>2017-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -324,8 +343,8 @@
     <url>
     
       <xhtml:link rel="alternate" href="https://wangyida.github.io/categories/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/categories/" hreflang="de"/>
       <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/categories/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/categories/" hreflang="de"/>
     
       <loc>https://wangyida.github.io/categories/</loc>
       <priority>0</priority>
@@ -437,8 +456,8 @@
     <url>
     
       <xhtml:link rel="alternate" href="https://wangyida.github.io/publication_types/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/publication_types/" hreflang="de"/>
       <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/publication_types/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/publication_types/" hreflang="de"/>
     
       <loc>https://wangyida.github.io/publication_types/</loc>
       <lastmod>2016-08-19T00:00:00+00:00</lastmod>
@@ -481,8 +500,8 @@
     <url>
     
       <xhtml:link rel="alternate" href="https://wangyida.github.io/tags/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/tags/" hreflang="de"/>
       <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/tags/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/tags/" hreflang="de"/>
     
       <loc>https://wangyida.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
@@ -544,9 +563,19 @@
     
     <url>
     
+      <loc>https://wangyida.github.io/tags/voxel/</loc>
+      <lastmod>2018-03-09T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://wangyida.github.io/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/" hreflang="de"/>
       <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/" hreflang="de"/>
     
       <loc>https://wangyida.github.io/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
