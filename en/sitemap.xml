@@ -86,6 +86,15 @@
     
     <url>
     
+      <loc>https://wangyida.github.io/project/canthink/</loc>
+      <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wangyida.github.io/publication/msoc16_wang/</loc>
       <lastmod>2017-03-12T00:00:00+00:00</lastmod>
     </url>
@@ -333,6 +342,16 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/annotation/</loc>
+      <lastmod>2017-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wangyida.github.io/tags/canthink/</loc>
       <lastmod>2018-03-05T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -446,7 +465,7 @@
     <url>
     
       <loc>https://wangyida.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-03-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -470,7 +489,7 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/python/</loc>
-      <lastmod>2018-03-05T00:00:00+01:00</lastmod>
+      <lastmod>2017-11-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
