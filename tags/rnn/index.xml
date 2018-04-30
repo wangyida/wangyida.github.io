@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rnn on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/rnn/</link>
+    <description>Recent content in Rnn on Yida Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://wangyida.github.io/tags/rnn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Implementation on language translation based on Google TensorFlow</title>
+      <link>https://wangyida.github.io/post/trans_seq2seq/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/trans_seq2seq/</guid>
+      <description>READ THE DOCUMENTATION
+CONTRIBUTING
+A general-purpose encoder-decoder framework for Tensorflow that can be used for Machine Translation, Text Summarization, Conversational Modeling, Image Captioning, and more.
+The official code used for the Massive Exploration of Neural Machine Translation Architectures paper.
+If you use this code for academic purposes, please cite it as:
+@ARTICLE{Britz:2017, author = {{Britz}, Denny and {Goldie}, Anna and {Luong}, Thang and {Le}, Quoc}, title = &amp;quot;{Massive Exploration of Neural Machine Translation Architectures}&amp;quot;, journal = {ArXiv e-prints}, archivePrefix = &amp;quot;arXiv&amp;quot;, eprinttype = {arxiv}, eprint = {1703.</description>
+    </item>
+    
+  </channel>
+</rss>

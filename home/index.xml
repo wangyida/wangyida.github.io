@@ -18,8 +18,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/home/about/</guid>
-      <description>Biography I am Ph.D student of Chair for Computer Aided Medical Procedures &amp;amp; Augmented Reality, Fakultät für Informatik in Technische Universität München. Currently co-supervised by Dr. Federico Tombari and Prof. Dr. Nassir Navab. My topic is development of deep learning techniques for representation and processing of 3D data for complex visual tasks.
-Previously I got master degree in Pattern Recognition and Intelligent System Laboratory from Beijing University of Posts and Telecommunications, supervised by Dr.</description>
+      <description>Biography I&amp;rsquo;m Ph.D student in Chair for Computer Aided Medical Procedures &amp;amp; Augmented Reality, Fakultät für Informatik in Technische Universität München for computer vision and machine learning.
+Currently co-supervised by Dr. Federico Tombari and Prof. Dr. Nassir Navab. with a topic of Development of deep learning techniques for representation and processing of 3D data for complex visual tasks.
+I get master degree in Pattern Recognition and Intelligent System Laboratory from Beijing University of Posts and Telecommunications, supervised by Dr.</description>
     </item>
     
     <item>
@@ -32,7 +33,7 @@ Previously I got master degree in Pattern Recognition and Intelligent System Lab
     </item>
     
     <item>
-      <title>Recent Publications</title>
+      <title>Publications</title>
       <link>https://wangyida.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
@@ -73,9 +74,11 @@ Previously I got master degree in Pattern Recognition and Intelligent System Lab
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-I am a tutor for the following courses at Technology University of Munich:
- Foundations of Computer Vision: Fast Approximate Energy Minimization via Graph Cuts Recent Trends in 3D Computer Vision and Deep Learning: CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction Deep Generative Models: Conditional Generative Adversarial Nets  </description>
+      <description>As tutor for the following courses at Technology University of Munich:
+ Foundations of Computer Vision
+topic: Fast Approximate Energy Minimization via Graph Cuts Recent Trends in 3D Computer Vision and Deep Learning
+topic: CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction Deep Generative Models
+topic: Conditional Generative Adversarial Nets  </description>
     </item>
     
     <item>

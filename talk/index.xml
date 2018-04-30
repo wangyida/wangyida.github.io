@@ -13,12 +13,13 @@
     
     
     <item>
-      <title>Example Talk</title>
+      <title>Microsoft Research: CNTK on Mac</title>
       <link>https://wangyida.github.io/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0200</pubDate>
       
       <guid>https://wangyida.github.io/talk/example-talk/</guid>
-      <description>Embed your slides or video here using shortcodes. Further details can easily be added using Markdown and $\rm \LaTeX$ math code.</description>
+      <description>Here is the original blog of Microsoft research for open source challenge.
+The Open Source Challenge did exactly what we’d hoped: the winning students — some of whom hadn’t known about the offerings available through the Open Source for Academics program at Microsoft—found the tools they needed to solve real problems. Their takeaway from the experience—in addition to the prizes and, we hope, the greatly-deserved awe of their colleagues—is that they have a new source for tools to help them with future projects, solving future problems.</description>
     </item>
     
   </channel>

@@ -22,7 +22,34 @@
     </item>
     
     <item>
-      <title>Compact Network</title>
+      <title>3d</title>
+      <link>https://wangyida.github.io/tags/3d/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annotation</title>
+      <link>https://wangyida.github.io/tags/annotation/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/annotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canthink</title>
+      <link>https://wangyida.github.io/tags/canthink/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/canthink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compact-network</title>
       <link>https://wangyida.github.io/tags/compact-network/</link>
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
@@ -31,7 +58,7 @@
     </item>
     
     <item>
-      <title>Computer Vision</title>
+      <title>Computer-vision</title>
       <link>https://wangyida.github.io/tags/computer-vision/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
@@ -40,7 +67,7 @@
     </item>
     
     <item>
-      <title>Deep Alternatives</title>
+      <title>Deep-alternatives</title>
       <link>https://wangyida.github.io/tags/deep-alternatives/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
@@ -49,7 +76,7 @@
     </item>
     
     <item>
-      <title>Deep Learning</title>
+      <title>Deep-learning</title>
       <link>https://wangyida.github.io/tags/deep-learning/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
@@ -67,6 +94,15 @@
     </item>
     
     <item>
+      <title>Image</title>
+      <link>https://wangyida.github.io/tags/image/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jekyll</title>
       <link>https://wangyida.github.io/tags/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0100</pubDate>
@@ -76,7 +112,7 @@
     </item>
     
     <item>
-      <title>Metric Learning</title>
+      <title>Metric-learning</title>
       <link>https://wangyida.github.io/tags/metric-learning/</link>
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
@@ -85,11 +121,38 @@
     </item>
     
     <item>
-      <title>Open Source</title>
+      <title>Open-source</title>
       <link>https://wangyida.github.io/tags/open-source/</link>
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://wangyida.github.io/tags/python/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rnn</title>
+      <link>https://wangyida.github.io/tags/rnn/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/rnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>https://wangyida.github.io/tags/shell/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/shell/</guid>
       <description></description>
     </item>
     
@@ -103,11 +166,47 @@
     </item>
     
     <item>
-      <title>Variational Inference</title>
+      <title>Translation</title>
+      <link>https://wangyida.github.io/tags/translation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trip</title>
+      <link>https://wangyida.github.io/tags/trip/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/trip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variational-inference</title>
       <link>https://wangyida.github.io/tags/variational-inference/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/tags/variational-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://wangyida.github.io/tags/video/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voxel</title>
+      <link>https://wangyida.github.io/tags/voxel/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/voxel/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/image/</link>
+    <description>Recent content in Image on Yida Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://wangyida.github.io/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://wangyida.github.io/post/image/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/image/</guid>
+      <description>Trim images in batches Images Suppose that there are images in tmp folder, you can remove all margins without any effective pixel by executing:
+find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim {}  Option print0 for find is mean to print the full file name on the standard output, followed by a null character (instead of the newline character that -print uses).
+This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Canthink on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/canthink/</link>
+    <description>Recent content in Canthink on Yida Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://wangyida.github.io/tags/canthink/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>基于Mask RCNN的通用物体检测分割平台</title>
+      <link>https://wangyida.github.io/post/mask_rcnn/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/mask_rcnn/</guid>
+      <description>Mask R-CNN 用于对象检测和分割 这是基于Python 3，Keras和TensorFlow上的Mask R-CNN的实现。 该模型为图像中的每个对象实例生成边界框和分割掩码。 它基于特征金字塔网络（FPN）和ResNet101主干网。
+源代码库包括包括： * 在FPN和ResNet101上构建的Mask R-CNN的源代码。 * MS COCO的训练代码 * MS COCO预先训练的权重 * Jupyter-notebook可视化脚本 * 用于多GPU并行训练 * 评估MS COCO指标（AP） * 自定义数据集进行训练的例子
+该代码易于扩展。 如果您在研究和工业生产中使用它，能提高工作效率。
+1. 锚点排序和筛选 可视化第一阶段候选区域网络的每一步，并显示正负锚点以及锚点框架细化。 2. 边界框细化 这是第二阶段最终检测框（虚线）和应用于它们的细化（实线）的示例。 3. 掩模生成 生成掩模的实例。 然后将它们缩放并放置在正确位置的图像上。 4. 层激活 通常检查不同层的激活来追踪不合理激活（全零或随机噪声）是有用的。 5. 权重直方图 6. 将不同的部分组合成最终结果 更多实例 Mask R-CNN 演示实例 快速介绍如何使用预先训练的模型来检测和分割对象。
+import os import sys import random import math import numpy as np import skimage.io import matplotlib import matplotlib.pyplot as plt import coco import utils import model as modellib import visualize %matplotlib inline # 項目的根目錄 ROOT_DIR = os.</description>
+    </item>
+    
+    <item>
+      <title>Collection of Canthink Projects</title>
+      <link>https://wangyida.github.io/project/canthink/</link>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/project/canthink/</guid>
+      <description>中烟 First trial Project Page
+   项目阶段 占比权重（总100%） 单项权重 项目内容 三级项目 四级项目 项目成员 单项贡献占比（100%） 参与度 项目分配金额 (元）     方案设计 80% 20% 标注平台选择和设计 标注  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 90% 1    方案设计 80% 20% 标注平台选择和设计 标注  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 90% 1    方案设计 80% 20% 追踪，识别方案设计 标注  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 90% 1    方案设计 80% 20% 追踪，识别方案设计 识别方案设计  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 90% 1    实施 20% 10% 本地测试 本地测试  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 100% 1    实施 20% 10% 本地测试 本地测试  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 100% 1     Second trial Project Page</description>
+    </item>
+    
+  </channel>
+</rss>

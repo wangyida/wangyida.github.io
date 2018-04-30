@@ -7,10 +7,100 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Yida Wang</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jan 2017 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://wangyida.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Voxel Space Generative Model</title>
+      <link>https://wangyida.github.io/post/3d_completion/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/3d_completion/</guid>
+      <description> Completion from lines to full shapes    Original Completion                                              </description>
+    </item>
+    
+    <item>
+      <title>基于Mask RCNN的通用物体检测分割平台</title>
+      <link>https://wangyida.github.io/post/mask_rcnn/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/mask_rcnn/</guid>
+      <description>Mask R-CNN 用于对象检测和分割 这是基于Python 3，Keras和TensorFlow上的Mask R-CNN的实现。 该模型为图像中的每个对象实例生成边界框和分割掩码。 它基于特征金字塔网络（FPN）和ResNet101主干网。
+源代码库包括包括： * 在FPN和ResNet101上构建的Mask R-CNN的源代码。 * MS COCO的训练代码 * MS COCO预先训练的权重 * Jupyter-notebook可视化脚本 * 用于多GPU并行训练 * 评估MS COCO指标（AP） * 自定义数据集进行训练的例子
+该代码易于扩展。 如果您在研究和工业生产中使用它，能提高工作效率。
+1. 锚点排序和筛选 可视化第一阶段候选区域网络的每一步，并显示正负锚点以及锚点框架细化。 2. 边界框细化 这是第二阶段最终检测框（虚线）和应用于它们的细化（实线）的示例。 3. 掩模生成 生成掩模的实例。 然后将它们缩放并放置在正确位置的图像上。 4. 层激活 通常检查不同层的激活来追踪不合理激活（全零或随机噪声）是有用的。 5. 权重直方图 6. 将不同的部分组合成最终结果 更多实例 Mask R-CNN 演示实例 快速介绍如何使用预先训练的模型来检测和分割对象。
+import os import sys import random import math import numpy as np import skimage.io import matplotlib import matplotlib.pyplot as plt import coco import utils import model as modellib import visualize %matplotlib inline # 項目的根目錄 ROOT_DIR = os.</description>
+    </item>
+    
+    <item>
+      <title>The trip for Iceland</title>
+      <link>https://wangyida.github.io/post/trip-iceland/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/trip-iceland/</guid>
+      <description>Overall routine    round trip road condition          Hotels    12&amp;frasl;20 - 12&amp;frasl;22 Apartment K 12&amp;frasl;22 - 12&amp;frasl;23 Seljakjör 12&amp;frasl;23 - 12&amp;frasl;24 Guesthouse Drangshlid 12&amp;frasl;24 - 12&amp;frasl;25 Kirkjuvegur Vestmannaeyjabær 12&amp;frasl;25 - 12&amp;frasl;27 Höfn HI Hostel 12&amp;frasl;27 - 12&amp;frasl;28 Akurholt Guesthouse 12&amp;frasl;28 - 12&amp;frasl;29 West Park Guesthouse 12&amp;frasl;29 - 12&amp;frasl;30 Arni&amp;rsquo;s Place 12&amp;frasl;30 - 12&amp;frasl;31 Bjorkinn Apartments &amp;amp; Rooms                 Sites Blue Lagoon Iceland</description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://wangyida.github.io/post/image/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/image/</guid>
+      <description>Trim images in batches Images Suppose that there are images in tmp folder, you can remove all margins without any effective pixel by executing:
+find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim {}  Option print0 for find is mean to print the full file name on the standard output, followed by a null character (instead of the newline character that -print uses).
+This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output.</description>
+    </item>
+    
+    <item>
+      <title>Implementation on language translation based on Google TensorFlow</title>
+      <link>https://wangyida.github.io/post/trans_seq2seq/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/trans_seq2seq/</guid>
+      <description>READ THE DOCUMENTATION
+CONTRIBUTING
+A general-purpose encoder-decoder framework for Tensorflow that can be used for Machine Translation, Text Summarization, Conversational Modeling, Image Captioning, and more.
+The official code used for the Massive Exploration of Neural Machine Translation Architectures paper.
+If you use this code for academic purposes, please cite it as:
+@ARTICLE{Britz:2017, author = {{Britz}, Denny and {Goldie}, Anna and {Luong}, Thang and {Le}, Quoc}, title = &amp;quot;{Massive Exploration of Neural Machine Translation Architectures}&amp;quot;, journal = {ArXiv e-prints}, archivePrefix = &amp;quot;arXiv&amp;quot;, eprinttype = {arxiv}, eprint = {1703.</description>
+    </item>
+    
+    <item>
+      <title>Shell Tips</title>
+      <link>https://wangyida.github.io/post/shell_tips/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/shell_tips/</guid>
+      <description> File Transmitting scp -P 10639 /Users/yidawang/Documents/gitfarm/cluster-vae/list_attr_celeba.csv user@557803.iask.in:/home/user/Desktop/  rsync -avz --progress -e &#39;ssh -p 10639&#39; /Users/yidawang/Downloads/img_align_celeba.zip user@557803.iask.in:/home/user/Desktop/  </description>
+    </item>
+    
+    <item>
+      <title>Video Processing</title>
+      <link>https://wangyida.github.io/post/video/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://wangyida.github.io/post/video/</guid>
+      <description>Concatenate images to a video Firstly, we should rename files in the form foo1, foo2, ..., foo1300, ..., fooN to form foo00001, foo00002, ..., foo01300, ..., fooN by:
+for (( i=0; i&amp;lt;2000; i++ )); do printf -v n &amp;quot;%04d&amp;quot; $i; mv &amp;quot;$i.png&amp;quot; &amp;quot;$n.png&amp;quot;; done;  Then use ffmpeg for video producing:
+ffmpeg -framerate 50 -pattern_type glob -i &amp;quot;*.png&amp;quot; -s:v 640x480 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p hand_pose.mp4  Video compressing Given a video in format like .</description>
+    </item>
+    
+    <item>
+      <title>labelme: Image Annotation Tool with Python</title>
+      <link>https://wangyida.github.io/post/labelme_annotation/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/post/labelme_annotation/</guid>
+      <description>Labelme is a graphical image annotation tool inspired by http://labelme.csail.mit.edu.
+It is written in Python and uses Qt for its graphical interface.
+Requirements  Ubuntu / macOS / Windows Python2 / Python3 PyQt4 / PyQt5  Installation There are options:
+ Platform agonistic installation: Anaconda, Docker Platform specific installation: Ubuntu, macOS  Anaconda
+You need install Anaconda, then run below:
+conda create --name=labelme python=2.7 source activate labelme conda install pyqt pip install labelme  Docker</description>
+    </item>
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
@@ -20,7 +110,7 @@
       <guid>https://wangyida.github.io/post/getting-started/</guid>
       <description>The Academic framework enables you to easily create a beautifully simple personal or academic website using the Hugo static site generator.
 Key features:
- Easily manage your homepage, blog posts, publications, talks, and projects Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact Need a different section? Just use the Custom widget! Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Easy to customize  {{% toc %}}</description>
+ Easily manage your homepage, blog posts, publications, talks, and projects Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact Need a different section? Just use the Custom widget! Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  Table of Contents    Installation Getting Started  Core parameters Introduce yourself Customize the homepage Add your content Remove unused widgets and pages Themes Customization &amp;amp; updating  Advanced customization  Navigation menu Website icon Analytics Third party and local scripts (JS) Language and translation Permalinks Advanced style customization (CSS)  Updating Feedback &amp;amp; Contributing License    Installation  Install Hugo and create a new website by typing the following commands in your Terminal or Command Prompt app:</description>
     </item>
     
     <item>
@@ -30,7 +120,7 @@ Key features:
       
       <guid>https://wangyida.github.io/post/widgets/</guid>
       <description>Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
- About/biography Selected publications Recent publications Recent news/blog posts Projects Selected talks Recent talks Contact Tag cloud Custom widget (demonstrated with the teaching example)  The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.</description>
+ About/biography Selected publications Recent publications Recent news/blog posts Projects Selected talks Recent talks Contact Tag cloud Hero (introduction) Custom widget (demonstrated with the teaching example)  The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.</description>
     </item>
     
     <item>
@@ -39,7 +129,7 @@ Key features:
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://wangyida.github.io/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;{{&amp;lt; ref &amp;quot;post/writing-markdown-latex.md&amp;quot; &amp;gt;}}&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://wangyida.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -59,6 +149,16 @@ Key features:
       <guid>https://wangyida.github.io/post/migrate-from-jekyll/</guid>
       <description>Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s getting started guide.
 Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wangyida.github.io/post/inspect_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/post/inspect_data/</guid>
+      <description>Mask R-CNN - 检查训练数据 检查并可视化数据加载和预处理代码。
+import os import sys import itertools import math import logging import json import re import random from collections import OrderedDict import numpy as np import matplotlib import matplotlib.pyplot as plt import matplotlib.patches as patches import matplotlib.lines as lines from matplotlib.patches import Polygon import utils import visualize from visualize import display_images import model as modellib from model import log %matplotlib inline ROOT_DIR = os.getcwd()  Using TensorFlow backend.</description>
     </item>
     
   </channel>

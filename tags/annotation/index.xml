@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Annotation on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/annotation/</link>
+    <description>Recent content in Annotation on Yida Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <lastBuildDate>Sun, 29 Oct 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://wangyida.github.io/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>labelme: Image Annotation Tool with Python</title>
+      <link>https://wangyida.github.io/post/labelme_annotation/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/post/labelme_annotation/</guid>
+      <description>Labelme is a graphical image annotation tool inspired by http://labelme.csail.mit.edu.
+It is written in Python and uses Qt for its graphical interface.
+Requirements  Ubuntu / macOS / Windows Python2 / Python3 PyQt4 / PyQt5  Installation There are options:
+ Platform agonistic installation: Anaconda, Docker Platform specific installation: Ubuntu, macOS  Anaconda
+You need install Anaconda, then run below:
+conda create --name=labelme python=2.7 source activate labelme conda install pyqt pip install labelme  Docker</description>
+    </item>
+    
+  </channel>
+</rss>
