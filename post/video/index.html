@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.39" />
+  <meta name="generator" content="Hugo 0.40.3" />
   <meta name="author" content="Yida Wang">
 
   
@@ -276,7 +276,7 @@ ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v l
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -399,6 +399,45 @@ Firstly let&rsquo;s observe the effect of the transparency mechanism introduced 
 </tbody>
 </table>
 
+<h2 id="from-images-to-gif">From images to GIF</h2>
+
+<pre><code class="language-bash"># Define a main function
+main()
+{
+	folder=$1 
+	for f in ${folder}input_*.png 
+	do 
+		convert $f -size 10x xc:none ${f/input/target} -size 10x xc:none ${f/input/recon} \
+			+append ${f/input/merged} 
+	done 
+	convert -delay 15 -loop 0 ${folder}merged_*.png \
+		${folder}bleenco_scene.gif
+}
+</code></pre>
+
+<pre><code class="language-bash"># Scanning for each folders and make the animation
+main result_bleenco_1/generated/
+main result_bleenco_2/generated/
+main result_bleenco_3/generated/
+main result_bleenco_4/generated/
+</code></pre>
+
+<p>Scene 1 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_1.gif" alt="" /></p>
+
+<p>Scene 2 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_2.gif" alt="" /></p>
+
+<p>Scene 3 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_3.gif" alt="" /></p>
+
+<p>Scene 4 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_4.gif" alt="" /></p>
+
     </div>
 
     
@@ -422,9 +461,9 @@ Firstly let&rsquo;s observe the effect of the transparency mechanism introduced 
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/post/shell_tips/">Shell Tips</a></li>
-        
         <li><a href="/post/image/">Image Processing</a></li>
+        
+        <li><a href="/post/shell_tips/">Shell Tips</a></li>
         
       </ul>
     </div>
