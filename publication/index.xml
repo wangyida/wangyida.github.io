@@ -18,7 +18,7 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
-      <description>input target manifold           More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <description>input target manifold           Method pipeline. Image analysis for average and standard deviation for data released together with our paper. Examples for triplet set used in our metric learning. Examples for real world tasks Depth prediction Example for depth prediction based on RGB images. Scene understanding Examples for videos collected by Bleenco. The first columns are reference videos and the second columns are videos shot by another camera which is set to be the prediction results based on the reference videos.</description>
     </item>
     
     <item>

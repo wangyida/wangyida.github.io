@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Given large amount of real photos for training, Convolutional neural network shows excellent performance on object recognition tasks. However, the process of collecting data is so tedious and the background are also limited which makes it hard to establish a perfect database. In this paper, our generative model trained with synthetic images rendered from 3D models reduces the workload of data collection and limitation of conditions. Our structure is composed of two sub-networks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost function for avoiding over-fitting problem on monotone surface and fully utilizing pose information by establishing sphere-like distribution of descriptors in each category which is helpful for recognition on regular photos according to poses, lighting condition, background and category information of rendered images. Firstly, our conjugate structure called generative model with metric learning utilizing additional foreground object channels generated from Bayesian rendering as the joint of two sub-networks. Multi-triplet cost function based on poses for object recognition are used for metric learning which makes it possible training a category classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noises acting as corruption on input images to help both sub-networks benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two sub-networks. Our structure achieves the state of the art accuracy of over 50 percent on ShapeNet database with data migration obstacle from synthetic images to real photos. This pipeline makes it applicable to do recognition on real images only based on 3D models.">
+  <meta name="description" content="One of the bottlenecks in acquiring a perfect database for deep learning is the tedious process of collecting and labeling data. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more realistic. Our architecture is composed of two sub-networks: a semantic foreground object reconstruction network based on Bayesian inference, and a classification network based on multi-triplet cost training for avoiding over-fitting on the monotone synthetic object surface and utilizing accurate information of synthetic images like object poses and lighting conditions which are helpful for recognizing regular photos. Firstly, our generative model with metric learning utilizes additional foreground object channels generated from semantic foreground object reconstruction sub-network for recognizing the original input images. Multi-triplet cost function based on poses is used for metric learning which makes it possible to train an effective categorical classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noise applied on the inputs of both of the concatenated sub-networks to make them benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two sub-networks. Our architecture achieves the state of the art accuracy of 50.5% on the ShapeNet database with data migration obstacle from synthetic images to real images. This pipeline makes it applicable to do recognition on real images only based on 3D models. Our codes are available at Github">
 
   
   <link rel="alternate" hreflang="en-us" href="https://wangyida.github.io/publication/arxiv17tip_wang/">
@@ -84,7 +84,7 @@
   <meta property="og:site_name" content="Yida Wang">
   <meta property="og:url" content="https://wangyida.github.io/publication/arxiv17tip_wang/">
   <meta property="og:title" content="Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models | Yida Wang">
-  <meta property="og:description" content="Given large amount of real photos for training, Convolutional neural network shows excellent performance on object recognition tasks. However, the process of collecting data is so tedious and the background are also limited which makes it hard to establish a perfect database. In this paper, our generative model trained with synthetic images rendered from 3D models reduces the workload of data collection and limitation of conditions. Our structure is composed of two sub-networks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost function for avoiding over-fitting problem on monotone surface and fully utilizing pose information by establishing sphere-like distribution of descriptors in each category which is helpful for recognition on regular photos according to poses, lighting condition, background and category information of rendered images. Firstly, our conjugate structure called generative model with metric learning utilizing additional foreground object channels generated from Bayesian rendering as the joint of two sub-networks. Multi-triplet cost function based on poses for object recognition are used for metric learning which makes it possible training a category classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noises acting as corruption on input images to help both sub-networks benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two sub-networks. Our structure achieves the state of the art accuracy of over 50 percent on ShapeNet database with data migration obstacle from synthetic images to real photos. This pipeline makes it applicable to do recognition on real images only based on 3D models.">
+  <meta property="og:description" content="One of the bottlenecks in acquiring a perfect database for deep learning is the tedious process of collecting and labeling data. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more realistic. Our architecture is composed of two sub-networks: a semantic foreground object reconstruction network based on Bayesian inference, and a classification network based on multi-triplet cost training for avoiding over-fitting on the monotone synthetic object surface and utilizing accurate information of synthetic images like object poses and lighting conditions which are helpful for recognizing regular photos. Firstly, our generative model with metric learning utilizes additional foreground object channels generated from semantic foreground object reconstruction sub-network for recognizing the original input images. Multi-triplet cost function based on poses is used for metric learning which makes it possible to train an effective categorical classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noise applied on the inputs of both of the concatenated sub-networks to make them benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two sub-networks. Our architecture achieves the state of the art accuracy of 50.5% on the ShapeNet database with data migration obstacle from synthetic images to real images. This pipeline makes it applicable to do recognition on real images only based on 3D models. Our codes are available at Github">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2017-05-01T00:00:00&#43;00:00">
@@ -306,7 +306,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Given large amount of real photos for training, Convolutional neural network shows excellent performance on object recognition tasks. However, the process of collecting data is so tedious and the background are also limited which makes it hard to establish a perfect database. In this paper, our generative model trained with synthetic images rendered from 3D models reduces the workload of data collection and limitation of conditions. Our structure is composed of two sub-networks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost function for avoiding over-fitting problem on monotone surface and fully utilizing pose information by establishing sphere-like distribution of descriptors in each category which is helpful for recognition on regular photos according to poses, lighting condition, background and category information of rendered images. Firstly, our conjugate structure called generative model with metric learning utilizing additional foreground object channels generated from Bayesian rendering as the joint of two sub-networks. Multi-triplet cost function based on poses for object recognition are used for metric learning which makes it possible training a category classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noises acting as corruption on input images to help both sub-networks benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two sub-networks. Our structure achieves the state of the art accuracy of over 50 percent on ShapeNet database with data migration obstacle from synthetic images to real photos. This pipeline makes it applicable to do recognition on real images only based on 3D models.</p>
+    <p class="pub-abstract" itemprop="text">One of the bottlenecks in acquiring a perfect database for deep learning is the tedious process of collecting and labeling data. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more realistic. Our architecture is composed of two sub-networks: a semantic foreground object reconstruction network based on Bayesian inference, and a classification network based on multi-triplet cost training for avoiding over-fitting on the monotone synthetic object surface and utilizing accurate information of synthetic images like object poses and lighting conditions which are helpful for recognizing regular photos. Firstly, our generative model with metric learning utilizes additional foreground object channels generated from semantic foreground object reconstruction sub-network for recognizing the original input images. Multi-triplet cost function based on poses is used for metric learning which makes it possible to train an effective categorical classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noise applied on the inputs of both of the concatenated sub-networks to make them benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two sub-networks. Our architecture achieves the state of the art accuracy of 50.5% on the ShapeNet database with data migration obstacle from synthetic images to real images. This pipeline makes it applicable to do recognition on real images only based on 3D models. Our codes are available at Github</p>
     
 
     
@@ -409,7 +409,9 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><table>
+    <div class="article-style">
+
+<table>
 <thead>
 <tr>
 <th align="center">input</th>
@@ -427,11 +429,63 @@
 </tbody>
 </table>
 
-<p><img src="/img/pipeline_tip.svg" alt="pipeline_tip" />
-<img src="/img/imganalysis.svg" alt="imganalysis" />
-<img src="/img/triplet_samples.svg" alt="triplet_samples" />
-<img src="/img/show.gif" alt="show.gif" />
-More detail can easily be written here using <em>Markdown</em> and $\rm \LaTeX$ math code.</p>
+<p>Method pipeline.
+<img src="/img/pipeline_tip.png" alt="pipeline_tip" /></p>
+
+<p>Image analysis for average and standard deviation for data released together with our paper.
+<img src="/img/imganalysis.svg" alt="imganalysis" /></p>
+
+<p>Examples for triplet set used in our metric learning.
+<img src="/img/triplet_samples.svg" alt="triplet_samples" /></p>
+
+<h2 id="examples-for-real-world-tasks">Examples for real world tasks</h2>
+
+<h3 id="depth-prediction">Depth prediction</h3>
+
+<p>Example for depth prediction based on RGB images.
+<img src="/img/show.gif" alt="show.gif" /></p>
+
+<h3 id="scene-understanding">Scene understanding</h3>
+
+<p>Examples for videos collected by <a href="https://bleenco.com/" target="_blank">Bleenco</a>.
+The first columns are reference videos and the second columns are videos shot by another camera which is set to be the prediction results based on the reference videos.
+The third columns are the prediction results where the scenes are predicted staticlly based on the scene shot by the second camera and people are predicted dynamically based on the understanding for input videos.</p>
+
+<p>The predicted people are mostly blurred because the architecture is robust to changes of clothes.</p>
+
+<p><strong>TRAINING</strong>
+Scene 1 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_1_train.gif" alt="" /></p>
+
+<p>Scene 2 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_2_train.gif" alt="" /></p>
+
+<p>Scene 3 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_3_train.gif" alt="" /></p>
+
+<p>Scene 4 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_4_train.gif" alt="" /></p>
+
+<p><strong>VALIDATING</strong>
+Scene 1 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_1_valid.gif" alt="" /></p>
+
+<p>Scene 2 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_2_valid.gif" alt="" /></p>
+
+<p>Scene 3 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_3_valid.gif" alt="" /></p>
+
+<p>Scene 4 in Bleenco</p>
+
+<p><img src="/img/bleenco_scene_4_valid.gif" alt="" /></p>
 </div>
 
     
