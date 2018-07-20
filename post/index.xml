@@ -22,19 +22,6 @@
     </item>
     
     <item>
-      <title>基于Mask RCNN的通用物体检测分割平台</title>
-      <link>https://wangyida.github.io/post/mask_rcnn/</link>
-      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://wangyida.github.io/post/mask_rcnn/</guid>
-      <description>Mask R-CNN 用于对象检测和分割 这是基于Python 3，Keras和TensorFlow上的Mask R-CNN的实现。 该模型为图像中的每个对象实例生成边界框和分割掩码。 它基于特征金字塔网络（FPN）和ResNet101主干网。
-源代码库包括包括： * 在FPN和ResNet101上构建的Mask R-CNN的源代码。 * MS COCO的训练代码 * MS COCO预先训练的权重 * Jupyter-notebook可视化脚本 * 用于多GPU并行训练 * 评估MS COCO指标（AP） * 自定义数据集进行训练的例子
-该代码易于扩展。 如果您在研究和工业生产中使用它，能提高工作效率。
-1. 锚点排序和筛选 可视化第一阶段候选区域网络的每一步，并显示正负锚点以及锚点框架细化。 2. 边界框细化 这是第二阶段最终检测框（虚线）和应用于它们的细化（实线）的示例。 3. 掩模生成 生成掩模的实例。 然后将它们缩放并放置在正确位置的图像上。 4. 层激活 通常检查不同层的激活来追踪不合理激活（全零或随机噪声）是有用的。 5. 权重直方图 6. 将不同的部分组合成最终结果 更多实例 Mask R-CNN 演示实例 快速介绍如何使用预先训练的模型来检测和分割对象。
-import os import sys import random import math import numpy as np import skimage.io import matplotlib import matplotlib.pyplot as plt import coco import utils import model as modellib import visualize %matplotlib inline # 項目的根目錄 ROOT_DIR = os.</description>
-    </item>
-    
-    <item>
       <title>The trip for Iceland</title>
       <link>https://wangyida.github.io/post/trip-iceland/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
@@ -52,20 +39,6 @@ import os import sys import random import math import numpy as np import skimage
       <description>Trim images in batches Images Suppose that there are images in tmp folder, you can remove all margins without any effective pixel by executing:
 find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim {}  Option print0 for find is mean to print the full file name on the standard output, followed by a null character (instead of the newline character that -print uses).
 This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output.</description>
-    </item>
-    
-    <item>
-      <title>Implementation on language translation based on Google TensorFlow</title>
-      <link>https://wangyida.github.io/post/trans_seq2seq/</link>
-      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
-      
-      <guid>https://wangyida.github.io/post/trans_seq2seq/</guid>
-      <description>READ THE DOCUMENTATION
-CONTRIBUTING
-A general-purpose encoder-decoder framework for Tensorflow that can be used for Machine Translation, Text Summarization, Conversational Modeling, Image Captioning, and more.
-The official code used for the Massive Exploration of Neural Machine Translation Architectures paper.
-If you use this code for academic purposes, please cite it as:
-@ARTICLE{Britz:2017, author = {{Britz}, Denny and {Goldie}, Anna and {Luong}, Thang and {Le}, Quoc}, title = &amp;quot;{Massive Exploration of Neural Machine Translation Architectures}&amp;quot;, journal = {ArXiv e-prints}, archivePrefix = &amp;quot;arXiv&amp;quot;, eprinttype = {arxiv}, eprint = {1703.</description>
     </item>
     
     <item>
