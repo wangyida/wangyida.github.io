@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.44" />
+  <meta name="generator" content="Hugo 0.45" />
   <meta name="author" content="Yida Wang">
 
   
@@ -17,12 +17,8 @@
       
     
   
-  <meta name="description" content="Labelme is a graphical image annotation tool inspired by http://labelme.csail.mit.edu.
-It is written in Python and uses Qt for its graphical interface.
-Requirements  Ubuntu / macOS / Windows Python2 / Python3 PyQt4 / PyQt5  Installation There are options:
- Platform agonistic installation: Anaconda, Docker Platform specific installation: Ubuntu, macOS  Anaconda
-You need install Anaconda, then run below:
-conda create --name=labelme python=2.7 source activate labelme conda install pyqt pip install labelme  Docker">
+  <meta name="description" content="A brief introduction on setting up image cross-platform annotation tool.
+">
 
   
   <link rel="alternate" hreflang="en-us" href="https://wangyida.github.io/post/labelme_annotation/">
@@ -49,7 +45,7 @@ conda create --name=labelme python=2.7 source activate labelme conda install pyq
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
   
@@ -62,9 +58,11 @@ conda create --name=labelme python=2.7 source activate labelme conda install pyq
   
 
   
+  
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-108746836-1', 'auto');
+      
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -74,6 +72,7 @@ conda create --name=labelme python=2.7 source activate labelme conda install pyq
     
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
     
+  
   
 
   
@@ -89,17 +88,15 @@ conda create --name=labelme python=2.7 source activate labelme conda install pyq
   <meta property="og:site_name" content="Yida Wang">
   <meta property="og:url" content="https://wangyida.github.io/post/labelme_annotation/">
   <meta property="og:title" content="labelme: Image Annotation Tool with Python | Yida Wang">
-  <meta property="og:description" content="Labelme is a graphical image annotation tool inspired by http://labelme.csail.mit.edu.
-It is written in Python and uses Qt for its graphical interface.
-Requirements  Ubuntu / macOS / Windows Python2 / Python3 PyQt4 / PyQt5  Installation There are options:
- Platform agonistic installation: Anaconda, Docker Platform specific installation: Ubuntu, macOS  Anaconda
-You need install Anaconda, then run below:
-conda create --name=labelme python=2.7 source activate labelme conda install pyqt pip install labelme  Docker">
+  <meta property="og:description" content="A brief introduction on setting up image cross-platform annotation tool.
+">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2017-10-29T00:00:00&#43;02:00">
   
   <meta property="article:modified_time" content="2017-11-01T00:00:00&#43;01:00">
+  
+
   
 
   
@@ -269,11 +266,14 @@ conda create --name=labelme python=2.7 source activate labelme conda install pyq
 
 <div class="article-metadata">
 
+  
+
   <span class="article-date">
     
         Last updated on
     
-    <time datetime="2017-10-29 00:00:00 &#43;0200 CEST" itemprop="datePublished dateModified">
+    <meta content="2017-10-29 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2017-11-01 00:00:00 &#43;0100 CET" itemprop="dateModified">
       2017-11-01
     </time>
   </span>
@@ -487,11 +487,11 @@ file includes the image itself.</p>
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
+  <a class="label label-default" href="https://wangyida.github.io/tags/academic/">academic</a>
   
-  <a class="btn btn-primary btn-outline" href="/tags/python">python</a>
+  <a class="label label-default" href="https://wangyida.github.io/tags/python/">python</a>
   
-  <a class="btn btn-primary btn-outline" href="/tags/annotation">annotation</a>
+  <a class="label label-default" href="https://wangyida.github.io/tags/annotation/">annotation</a>
   
 </div>
 
@@ -525,6 +525,9 @@ file includes the image itself.</p>
 
 <footer class="site-footer">
   <div class="container">
+
+    
+
     <p class="powered-by">
 
       &copy; 2017 Yida Wang &middot; 
@@ -604,10 +607,15 @@ file includes the image itself.</p>
     
     
     <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
     </script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous"></script>
     
     
 

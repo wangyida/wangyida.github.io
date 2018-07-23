@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.44" />
+  <meta name="generator" content="Hugo 0.45" />
   <meta name="author" content="Yida Wang">
 
   
@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Variational Bayesian methods are a family of techniques for approximating intractable integrals arising in Bayesian inference and machine learning. They are typically used in complex statistical models consisting of observed variables (usually termed &ldquo;data&rdquo;) as well as unknown parameters and latent variables, with various sorts of relationships among the three types of random variables, as might be described by a graphical model. As is typical in Bayesian inference, the parameters and latent variables are grouped together as &ldquo;unobserved variables&rdquo;.">
+  <meta name="description" content="Variational inference embedded in deep structures.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://wangyida.github.io/project/variational-inference/">
@@ -44,7 +44,7 @@
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
   
@@ -57,9 +57,11 @@
   
 
   
+  
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-108746836-1', 'auto');
+      
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -69,6 +71,7 @@
     
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
     
+  
   
 
   
@@ -84,12 +87,14 @@
   <meta property="og:site_name" content="Yida Wang">
   <meta property="og:url" content="https://wangyida.github.io/project/variational-inference/">
   <meta property="og:title" content="Variational Inference | Yida Wang">
-  <meta property="og:description" content="Variational Bayesian methods are a family of techniques for approximating intractable integrals arising in Bayesian inference and machine learning. They are typically used in complex statistical models consisting of observed variables (usually termed &ldquo;data&rdquo;) as well as unknown parameters and latent variables, with various sorts of relationships among the three types of random variables, as might be described by a graphical model. As is typical in Bayesian inference, the parameters and latent variables are grouped together as &ldquo;unobserved variables&rdquo;."><meta property="og:image" content="https://wangyida.github.io/img/headers/bubbles-wide.jpg">
+  <meta property="og:description" content="Variational inference embedded in deep structures."><meta property="og:image" content="https://wangyida.github.io/img/headers/bubbles-wide.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
   
   <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
+  
+
   
 
   
@@ -331,7 +336,7 @@ In the former purpose (that of approximating a posterior probability), variation
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="/tags/variational-inference">variational-inference</a>
+  <a class="label label-default" href="https://wangyida.github.io/tags/variational-inference/">variational-inference</a>
   
 </div>
 
@@ -361,6 +366,9 @@ In the former purpose (that of approximating a posterior probability), variation
 
 <footer class="site-footer">
   <div class="container">
+
+    
+
     <p class="powered-by">
 
       &copy; 2017 Yida Wang &middot; 
@@ -440,10 +448,15 @@ In the former purpose (that of approximating a posterior probability), variation
     
     
     <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
     </script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous"></script>
     
     
 

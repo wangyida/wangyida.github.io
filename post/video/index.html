@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.44" />
+  <meta name="generator" content="Hugo 0.45" />
   <meta name="author" content="Yida Wang">
 
   
@@ -17,9 +17,8 @@
       
     
   
-  <meta name="description" content="Concatenate images to a video Firstly, we should rename files in the form foo1, foo2, ..., foo1300, ..., fooN to form foo00001, foo00002, ..., foo01300, ..., fooN by:
-for (( i=0; i&lt;2000; i&#43;&#43; )); do printf -v n &quot;%04d&quot; $i; mv &quot;$i.png&quot; &quot;$n.png&quot;; done;  Then use ffmpeg for video producing:
-ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p hand_pose.mp4  Video compressing Given a video in format like .">
+  <meta name="description" content="Shell tips for video processing.
+">
 
   
   <link rel="alternate" hreflang="en-us" href="https://wangyida.github.io/post/video/">
@@ -46,7 +45,7 @@ ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v l
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
   
@@ -59,9 +58,11 @@ ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v l
   
 
   
+  
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-108746836-1', 'auto');
+      
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -71,6 +72,7 @@ ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v l
     
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
     
+  
   
 
   
@@ -86,14 +88,15 @@ ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v l
   <meta property="og:site_name" content="Yida Wang">
   <meta property="og:url" content="https://wangyida.github.io/post/video/">
   <meta property="og:title" content="Video Processing | Yida Wang">
-  <meta property="og:description" content="Concatenate images to a video Firstly, we should rename files in the form foo1, foo2, ..., foo1300, ..., fooN to form foo00001, foo00002, ..., foo01300, ..., fooN by:
-for (( i=0; i&lt;2000; i&#43;&#43; )); do printf -v n &quot;%04d&quot; $i; mv &quot;$i.png&quot; &quot;$n.png&quot;; done;  Then use ffmpeg for video producing:
-ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p hand_pose.mp4  Video compressing Given a video in format like .">
+  <meta property="og:description" content="Shell tips for video processing.
+">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2017-11-01T00:00:00&#43;01:00">
   
   <meta property="article:modified_time" content="2017-11-01T00:00:00&#43;01:00">
+  
+
   
 
   
@@ -263,9 +266,12 @@ ffmpeg -framerate 50 -pattern_type glob -i &quot;*.png&quot; -s:v 640x480 -c:v l
 
 <div class="article-metadata">
 
+  
+
   <span class="article-date">
     
-    <time datetime="2017-11-01 00:00:00 &#43;0100 CET" itemprop="datePublished dateModified">
+    <meta content="2017-11-01 00:00:00 &#43;0100 CET" itemprop="datePublished">
+    <time datetime="2017-11-01 00:00:00 &#43;0100 CET" itemprop="dateModified">
       2017-11-01
     </time>
   </span>
@@ -449,9 +455,9 @@ main result_bleenco_4/generated/
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="/tags/shell">shell</a>
+  <a class="label label-default" href="https://wangyida.github.io/tags/shell/">shell</a>
   
-  <a class="btn btn-primary btn-outline" href="/tags/video">video</a>
+  <a class="label label-default" href="https://wangyida.github.io/tags/video/">video</a>
   
 </div>
 
@@ -483,6 +489,9 @@ main result_bleenco_4/generated/
 
 <footer class="site-footer">
   <div class="container">
+
+    
+
     <p class="powered-by">
 
       &copy; 2017 Yida Wang &middot; 
@@ -562,10 +571,15 @@ main result_bleenco_4/generated/
     
     
     <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
     </script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous"></script>
     
     
 
