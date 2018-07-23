@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://wangyida.github.io/publication/3dv18_wang/</loc>
+      <lastmod>2018-07-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wangyida.github.io/publication/tip2018_wang/</loc>
+      <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wangyida.github.io/post/3d_completion/</loc>
       <lastmod>2018-03-09T00:00:00+01:00</lastmod>
     </url>
@@ -52,15 +70,6 @@
     
       <loc>https://wangyida.github.io/post/labelme_annotation/</loc>
       <lastmod>2017-11-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wangyida.github.io/publication/arxiv17tip_wang/</loc>
-      <lastmod>2017-05-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -284,7 +293,7 @@
     <url>
     
       <loc>https://wangyida.github.io/publication_types/1/</loc>
-      <lastmod>2016-08-19T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -293,8 +302,18 @@
     
     <url>
     
-      <loc>https://wangyida.github.io/publication_types/3/</loc>
-      <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+      <loc>https://wangyida.github.io/publication_types/2/</loc>
+      <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wangyida.github.io/tags/3d/</loc>
+      <lastmod>2018-07-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -367,7 +386,7 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/computer-vision/</loc>
-      <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -387,7 +406,17 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/deep-learning/</loc>
-      <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wangyida.github.io/tags/generative-model/</loc>
+      <lastmod>2018-07-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -461,7 +490,7 @@
       <xhtml:link rel="alternate" href="https://wangyida.github.io/de/publication_types/" hreflang="de"/>
     
       <loc>https://wangyida.github.io/publication_types/</loc>
-      <lastmod>2016-08-19T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -525,7 +554,7 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/variational-inference/</loc>
-      <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

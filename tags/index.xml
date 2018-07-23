@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>3D</title>
+      <link>https://wangyida.github.io/tags/3d/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>3d</title>
       <link>https://wangyida.github.io/tags/3d/</link>
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0100</pubDate>
@@ -60,7 +69,7 @@
     <item>
       <title>Computer-vision</title>
       <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/tags/computer-vision/</guid>
       <description></description>
@@ -78,9 +87,18 @@
     <item>
       <title>Deep-learning</title>
       <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative model</title>
+      <link>https://wangyida.github.io/tags/generative-model/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/generative-model/</guid>
       <description></description>
     </item>
     
@@ -168,7 +186,7 @@
     <item>
       <title>Variational-inference</title>
       <link>https://wangyida.github.io/tags/variational-inference/</link>
-      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/tags/variational-inference/</guid>
       <description></description>

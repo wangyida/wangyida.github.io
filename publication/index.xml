@@ -13,11 +13,20 @@
     
     
     <item>
-      <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
-      <link>https://wangyida.github.io/publication/arxiv17tip_wang/</link>
-      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
+      <link>https://wangyida.github.io/publication/3dv18_wang/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/publication/arxiv17tip_wang/</guid>
+      <guid>https://wangyida.github.io/publication/3dv18_wang/</guid>
+      <description>    Our target Animations          Architecture Qualitative results </description>
+    </item>
+    
+    <item>
+      <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/publication/tip2018_wang/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/publication/tip2018_wang/</guid>
       <description>input target manifold           Method pipeline. Image analysis for average and standard deviation for data released together with our paper. Examples for triplet set used in our metric learning. 4 nearest neighboour retrieval results based on simple models. Examples for real world tasks Depth prediction Example for depth prediction based on RGB images. Scene understanding Examples for videos collected by Bleenco.</description>
     </item>
     
