@@ -230,15 +230,6 @@
     
     <url>
     
-      <loc>https://wangyida.github.io/post/getting-started/</loc>
-      <lastmod>2017-09-03T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://wangyida.github.io/post/widgets/</loc>
       <lastmod>2016-04-19T00:00:00+02:00</lastmod>
     </url>
@@ -248,35 +239,8 @@
     
     <url>
     
-      <loc>https://wangyida.github.io/post/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wangyida.github.io/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-17T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://wangyida.github.io/publication/ccbr15_wang/</loc>
       <lastmod>2015-10-24T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wangyida.github.io/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -363,8 +327,8 @@
     <url>
     
       <xhtml:link rel="alternate" href="https://wangyida.github.io/categories/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/categories/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="https://wangyida.github.io/de/categories/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/categories/" hreflang="zh"/>
     
       <loc>https://wangyida.github.io/categories/</loc>
       <priority>0</priority>
@@ -426,7 +390,7 @@
     <url>
     
       <loc>https://wangyida.github.io/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00+02:00</lastmod>
+      <lastmod>2016-04-19T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -437,16 +401,6 @@
     
       <loc>https://wangyida.github.io/tags/image/</loc>
       <lastmod>2017-11-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wangyida.github.io/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -486,8 +440,8 @@
     <url>
     
       <xhtml:link rel="alternate" href="https://wangyida.github.io/publication_types/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/publication_types/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="https://wangyida.github.io/de/publication_types/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/publication_types/" hreflang="zh"/>
     
       <loc>https://wangyida.github.io/publication_types/</loc>
       <lastmod>2018-07-21T00:00:00+00:00</lastmod>
@@ -520,8 +474,8 @@
     <url>
     
       <xhtml:link rel="alternate" href="https://wangyida.github.io/tags/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/tags/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="https://wangyida.github.io/de/tags/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/tags/" hreflang="zh"/>
     
       <loc>https://wangyida.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
@@ -584,8 +538,8 @@
     <url>
     
       <xhtml:link rel="alternate" href="https://wangyida.github.io/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="https://wangyida.github.io/de/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/" hreflang="zh"/>
     
       <loc>https://wangyida.github.io/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
