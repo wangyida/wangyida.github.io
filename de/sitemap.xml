@@ -5,11 +5,11 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/categories/" hreflang="de"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/categories/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/categories/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/de/categories/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/categories/" hreflang="zh"/>
     
-      <loc>https://wangyida.github.io/de/categories/</loc>
+      <loc>/de/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -18,11 +18,11 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/publication_types/" hreflang="de"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/publication_types/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/publication_types/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/de/publication_types/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/publication_types/" hreflang="zh"/>
     
-      <loc>https://wangyida.github.io/de/publication_types/</loc>
+      <loc>/de/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -31,11 +31,11 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/tags/" hreflang="de"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/tags/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/tags/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/de/tags/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/tags/" hreflang="zh"/>
     
-      <loc>https://wangyida.github.io/de/tags/</loc>
+      <loc>/de/tags/</loc>
       <priority>0</priority>
     </url>
     
@@ -44,11 +44,11 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/de/" hreflang="de"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://wangyida.github.io/zh/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/de/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/" hreflang="zh"/>
     
-      <loc>https://wangyida.github.io/de/</loc>
+      <loc>/de/</loc>
       <priority>0</priority>
     </url>
     

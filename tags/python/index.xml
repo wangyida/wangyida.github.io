@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/python/</link>
+    <link>/tags/python/</link>
     <description>Recent content in Python on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Sun, 29 Oct 2017 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://wangyida.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>labelme: Image Annotation Tool with Python</title>
-      <link>https://wangyida.github.io/post/labelme_annotation/</link>
+      <link>/post/labelme_annotation/</link>
       <pubDate>Sun, 29 Oct 2017 00:00:00 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/post/labelme_annotation/</guid>
+      <guid>/post/labelme_annotation/</guid>
       <description>Labelme is a graphical image annotation tool inspired by http://labelme.csail.mit.edu.
 It is written in Python and uses Qt for its graphical interface.
 Requirements  Ubuntu / macOS / Windows Python2 / Python3 PyQt4 / PyQt5  Installation There are options:

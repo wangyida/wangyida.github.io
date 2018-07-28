@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Yida Wang</title>
-    <link>https://wangyida.github.io/home/</link>
+    <link>/home/</link>
     <description>Recent content in Homes on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wangyida.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://wangyida.github.io/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>Biography I&amp;rsquo;m Ph.D student in Chair for Computer Aided Medical Procedures &amp;amp; Augmented Reality, Fakultät für Informatik in Technische Universität München for computer vision and machine learning.
 Currently co-supervised by Dr. Federico Tombari and Prof. Dr. Nassir Navab. with a topic of Development of deep learning techniques for representation and processing of 3D data for complex visual tasks.
 I get master degree in Pattern Recognition and Intelligent System Laboratory from Beijing University of Posts and Telecommunications, supervised by Dr.</description>
@@ -25,55 +25,55 @@ I get master degree in Pattern Recognition and Intelligent System Laboratory fro
     
     <item>
       <title>Selected Publications</title>
-      <link>https://wangyida.github.io/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/home/publications_selected/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://wangyida.github.io/home/publications/</link>
+      <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/home/publications/</guid>
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://wangyida.github.io/home/talks/</link>
+      <link>/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/home/talks/</guid>
+      <guid>/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>https://wangyida.github.io/home/posts/</link>
+      <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/home/posts/</guid>
+      <guid>/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://wangyida.github.io/home/projects/</link>
+      <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/home/projects/</guid>
+      <guid>/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>https://wangyida.github.io/home/teaching/</link>
+      <link>/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/home/teaching/</guid>
+      <guid>/home/teaching/</guid>
       <description>As tutor for the following courses at Technology University of Munich:
 2017
  Foundations of Computer Vision paper: Fast Approximate Energy Minimization via Graph Cuts Recent Trends in 3D Computer Vision and Deep Learning paper: CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction Deep Generative Models paper: Conditional Generative Adversarial Nets  2018
@@ -82,19 +82,19 @@ I get master degree in Pattern Recognition and Intelligent System Laboratory fro
     
     <item>
       <title>Tags</title>
-      <link>https://wangyida.github.io/home/tags/</link>
+      <link>/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/home/tags/</guid>
+      <guid>/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://wangyida.github.io/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     

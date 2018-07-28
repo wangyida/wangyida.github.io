@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/shell/</link>
+    <link>/tags/shell/</link>
     <description>Recent content in Shell on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://wangyida.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Image Processing</title>
-      <link>https://wangyida.github.io/post/image/</link>
+      <link>/post/image/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://wangyida.github.io/post/image/</guid>
+      <guid>/post/image/</guid>
       <description>Trim images in batches Images Suppose that there are images in tmp folder, you can remove all margins without any effective pixel by executing:
 find tmp -name &#39;scatter*.png&#39; -print0 | xargs -0 -I {} convert {} -trim {}  Option print0 for find is mean to print the full file name on the standard output, followed by a null character (instead of the newline character that -print uses).
 This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output.</description>
@@ -25,19 +25,19 @@ This allows file names that contain newlines or other types of white space to be
     
     <item>
       <title>Shell Tips</title>
-      <link>https://wangyida.github.io/post/shell_tips/</link>
+      <link>/post/shell_tips/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://wangyida.github.io/post/shell_tips/</guid>
+      <guid>/post/shell_tips/</guid>
       <description> File Transmitting scp -P 10639 /Users/yidawang/Documents/gitfarm/cluster-vae/list_attr_celeba.csv user@557803.iask.in:/home/user/Desktop/  rsync -avz --progress -e &#39;ssh -p 10639&#39; /Users/yidawang/Downloads/img_align_celeba.zip user@557803.iask.in:/home/user/Desktop/  </description>
     </item>
     
     <item>
       <title>Video Processing</title>
-      <link>https://wangyida.github.io/post/video/</link>
+      <link>/post/video/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://wangyida.github.io/post/video/</guid>
+      <guid>/post/video/</guid>
       <description>Concatenate images to a video Firstly, we should rename files in the form foo1, foo2, ..., foo1300, ..., fooN to form foo00001, foo00002, ..., foo01300, ..., fooN by:
 for (( i=0; i&amp;lt;2000; i++ )); do printf -v n &amp;quot;%04d&amp;quot; $i; mv &amp;quot;$i.png&amp;quot; &amp;quot;$n.png&amp;quot;; done;  Then use ffmpeg for video producing:
 ffmpeg -framerate 50 -pattern_type glob -i &amp;quot;*.png&amp;quot; -s:v 640x480 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p hand_pose.mp4  Video compressing Given a video in format like .</description>

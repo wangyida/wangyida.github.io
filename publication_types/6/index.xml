@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6 on Yida Wang</title>
-    <link>https://wangyida.github.io/publication_types/6/</link>
+    <link>/publication_types/6/</link>
     <description>Recent content in 6 on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Sun, 12 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wangyida.github.io/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CNTK on Mac: 2D Object Restoration and Recognition Based on 3D Model</title>
-      <link>https://wangyida.github.io/publication/msoc16_wang/</link>
+      <link>/publication/msoc16_wang/</link>
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/publication/msoc16_wang/</guid>
+      <guid>/publication/msoc16_wang/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
       <title>ZigzagNet: Efficient Deep Learning for Real Object Recognition Based on 3D Models</title>
-      <link>https://wangyida.github.io/publication/accv16_wang/</link>
+      <link>/publication/accv16_wang/</link>
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/publication/accv16_wang/</guid>
+      <guid>/publication/accv16_wang/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
       <title>Face Recognition Using Local PCA Filters</title>
-      <link>https://wangyida.github.io/publication/ccbr15_wang/</link>
+      <link>/publication/ccbr15_wang/</link>
       <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/publication/ccbr15_wang/</guid>
+      <guid>/publication/ccbr15_wang/</guid>
       <description></description>
     </item>
     

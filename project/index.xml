@@ -2,78 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Yida Wang</title>
-    <link>https://wangyida.github.io/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Yida Wang</copyright>
+    <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Fri, 31 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wangyida.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Collection of Canthink Projects</title>
-      <link>https://wangyida.github.io/project/canthink/</link>
+      <link>/project/canthink/</link>
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/canthink/</guid>
+      <guid>/project/canthink/</guid>
       <description>中烟 First trial Project Page
    项目阶段 占比权重（总100%） 单项权重 项目内容 三级项目 四级项目 项目成员 单项贡献占比（100%） 参与度 项目分配金额 (元）     方案设计 80% 20% 标注平台选择和设计 标注  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 90% 1    方案设计 80% 20% 标注平台选择和设计 标注  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 90% 1    方案设计 80% 20% 追踪，识别方案设计 标注  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 90% 1    方案设计 80% 20% 追踪，识别方案设计 识别方案设计  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 90% 1    实施 20% 10% 本地测试 本地测试  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 100% 1    实施 20% 10% 本地测试 本地测试  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 100% 1     Second trial Project Page</description>
     </item>
     
     <item>
       <title>Compact Network</title>
-      <link>https://wangyida.github.io/project/compact-network/</link>
+      <link>/project/compact-network/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/compact-network/</guid>
+      <guid>/project/compact-network/</guid>
       <description>Zigzagnet Effective utilization on texture-less 3D models for deep learning is significant to recognition on real photos. We eliminate the reliance on massive real training data by modifying convolutional neural network in 3 aspects: synthetic data rendering for training data generation in large quantities, multi-triplet cost function modification for multi-task learning and compact micro architecture design for producing tiny parametric model while overcoming over-fit problem in texture-less models. Network is initiated with multi-triplet cost function establishing sphere-like distribution of descriptors in each category which is helpful for recognition on regular photos according to pose, lighting condition, background and category information of rendered images.</description>
     </item>
     
     <item>
       <title>Computer Vision</title>
-      <link>https://wangyida.github.io/project/computer-vision/</link>
+      <link>/project/computer-vision/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/computer-vision/</guid>
+      <guid>/project/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Alternatives</title>
-      <link>https://wangyida.github.io/project/deep-alternatives/</link>
+      <link>/project/deep-alternatives/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/deep-alternatives/</guid>
+      <guid>/project/deep-alternatives/</guid>
       <description>Deep structure theories and replacement for deep structures.</description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>https://wangyida.github.io/project/deep-learning/</link>
+      <link>/project/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/deep-learning/</guid>
+      <guid>/project/deep-learning/</guid>
       <description>Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, partially supervised or unsupervised.
 Some representations are loosely based on interpretation of information processing and communication patterns in a biological nervous system, such as neural coding that attempts to define a relationship between various stimuli and associated neuronal responses in the brain.</description>
     </item>
     
     <item>
       <title>Metric Learning</title>
-      <link>https://wangyida.github.io/project/metric-learning/</link>
+      <link>/project/metric-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/metric-learning/</guid>
+      <guid>/project/metric-learning/</guid>
       <description>Metric learning is the task of learning a distance function over objects. A metric or distance function has to obey four axioms: non-negativity, Identity of indiscernibles, symmetry and subadditivity / triangle inequality. In practice, metric learning algorithms ignore the condition of identity of indiscernibles and learn a pseudo-metric.</description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>https://wangyida.github.io/project/open-source/</link>
+      <link>/project/open-source/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/open-source/</guid>
+      <guid>/project/open-source/</guid>
       <description> Google Open Source:
  Google summer of Codes 2015: Deep Learning &amp;amp; GPU Implementation for Metric Learning for OpenCV Google summer of Codes 2016: tiny-dnn &amp;amp; OpenCV  Microsoft Research:
  2nd prize of Microsoft Open Source Challenge 2016: CNTK on Mac: 2D Object Restoration and Recognition on 3D Model  Scilab:
@@ -83,19 +83,19 @@ Some representations are loosely based on interpretation of information processi
     
     <item>
       <title>Telecommunication</title>
-      <link>https://wangyida.github.io/project/telecommunication/</link>
+      <link>/project/telecommunication/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/telecommunication/</guid>
+      <guid>/project/telecommunication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Variational Inference</title>
-      <link>https://wangyida.github.io/project/variational-inference/</link>
+      <link>/project/variational-inference/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/project/variational-inference/</guid>
+      <guid>/project/variational-inference/</guid>
       <description>Variational Bayesian methods are a family of techniques for approximating intractable integrals arising in Bayesian inference and machine learning. They are typically used in complex statistical models consisting of observed variables (usually termed &amp;ldquo;data&amp;rdquo;) as well as unknown parameters and latent variables, with various sorts of relationships among the three types of random variables, as might be described by a graphical model. As is typical in Bayesian inference, the parameters and latent variables are grouped together as &amp;ldquo;unobserved variables&amp;rdquo;.</description>
     </item>
     
