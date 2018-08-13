@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open-source on Yida Wang</title>
-    <link>/tags/open-source/</link>
+    <link>https://wangyida.github.io/tags/open-source/</link>
     <description>Recent content in Open-source on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Sun, 12 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wangyida.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CNTK on Mac: 2D Object Restoration and Recognition Based on 3D Model</title>
-      <link>/publication/msoc16_wang/</link>
+      <link>https://wangyida.github.io/publication/msoc16_wang/</link>
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/msoc16_wang/</guid>
+      <guid>https://wangyida.github.io/publication/msoc16_wang/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>/project/open-source/</link>
+      <link>https://wangyida.github.io/project/open-source/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/open-source/</guid>
+      <guid>https://wangyida.github.io/project/open-source/</guid>
       <description> Google Open Source:
  Google summer of Codes 2015: Deep Learning &amp;amp; GPU Implementation for Metric Learning for OpenCV Google summer of Codes 2016: tiny-dnn &amp;amp; OpenCV  Microsoft Research:
  2nd prize of Microsoft Open Source Challenge 2016: CNTK on Mac: 2D Object Restoration and Recognition on 3D Model  Scilab:
@@ -36,10 +36,10 @@
     
     <item>
       <title>Telecommunication</title>
-      <link>/project/telecommunication/</link>
+      <link>https://wangyida.github.io/project/telecommunication/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/telecommunication/</guid>
+      <guid>https://wangyida.github.io/project/telecommunication/</guid>
       <description></description>
     </item>
     

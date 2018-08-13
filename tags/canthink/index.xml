@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Canthink on Yida Wang</title>
-    <link>/tags/canthink/</link>
+    <link>https://wangyida.github.io/tags/canthink/</link>
     <description>Recent content in Canthink on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Fri, 31 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/canthink/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wangyida.github.io/tags/canthink/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Collection of Canthink Projects</title>
-      <link>/project/canthink/</link>
+      <link>https://wangyida.github.io/project/canthink/</link>
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/canthink/</guid>
+      <guid>https://wangyida.github.io/project/canthink/</guid>
       <description>中烟 First trial Project Page
    项目阶段 占比权重（总100%） 单项权重 项目内容 三级项目 四级项目 项目成员 单项贡献占比（100%） 参与度 项目分配金额 (元）     方案设计 80% 20% 标注平台选择和设计 标注  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 90% 1    方案设计 80% 20% 标注平台选择和设计 标注  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 90% 1    方案设计 80% 20% 追踪，识别方案设计 标注  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 90% 1    方案设计 80% 20% 追踪，识别方案设计 识别方案设计  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 90% 1    实施 20% 10% 本地测试 本地测试  lllsslllssslsll-lsslllsssssssss-lssslllllsllllls 100% 1    实施 20% 10% 本地测试 本地测试  lslsslssssllsss-lsslllssllsslls-lssllssslsslslls 100% 1     Second trial Project Page</description>
     </item>

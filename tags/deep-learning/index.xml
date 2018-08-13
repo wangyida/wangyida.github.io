@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep-learning on Yida Wang</title>
-    <link>/tags/deep-learning/</link>
+    <link>https://wangyida.github.io/tags/deep-learning/</link>
     <description>Recent content in Deep-learning on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Sat, 21 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wangyida.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
-      <link>/publication/3dv18_wang/</link>
+      <link>https://wangyida.github.io/publication/3dv18_wang/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/3dv18_wang/</guid>
+      <guid>https://wangyida.github.io/publication/3dv18_wang/</guid>
       <description>    Our target Animations          Architecture Qualitative results </description>
     </item>
     
     <item>
       <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
-      <link>/publication/tip2018_wang/</link>
+      <link>https://wangyida.github.io/publication/tip2018_wang/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/tip2018_wang/</guid>
+      <guid>https://wangyida.github.io/publication/tip2018_wang/</guid>
       <description>input target manifold           Method pipeline. Image analysis for average and standard deviation for data released together with our paper. Examples for triplet set used in our metric learning. 4 nearest neighboour retrieval results based on simple models. Examples for real world tasks Depth prediction Example for depth prediction based on RGB images. Scene understanding Examples for videos collected by Bleenco.</description>
     </item>
     
     <item>
       <title>CNTK on Mac: 2D Object Restoration and Recognition Based on 3D Model</title>
-      <link>/publication/msoc16_wang/</link>
+      <link>https://wangyida.github.io/publication/msoc16_wang/</link>
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/msoc16_wang/</guid>
+      <guid>https://wangyida.github.io/publication/msoc16_wang/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
       <title>ZigzagNet: Efficient Deep Learning for Real Object Recognition Based on 3D Models</title>
-      <link>/publication/accv16_wang/</link>
+      <link>https://wangyida.github.io/publication/accv16_wang/</link>
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/accv16_wang/</guid>
+      <guid>https://wangyida.github.io/publication/accv16_wang/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
       <title>Self-restraint object recognition by model based CNN learning</title>
-      <link>/publication/icip16_wang/</link>
+      <link>https://wangyida.github.io/publication/icip16_wang/</link>
       <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/icip16_wang/</guid>
+      <guid>https://wangyida.github.io/publication/icip16_wang/</guid>
       <description>   Synthetic Real          </description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>/project/deep-learning/</link>
+      <link>https://wangyida.github.io/project/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/deep-learning/</guid>
+      <guid>https://wangyida.github.io/project/deep-learning/</guid>
       <description>Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, partially supervised or unsupervised.
 Some representations are loosely based on interpretation of information processing and communication patterns in a biological nervous system, such as neural coding that attempts to define a relationship between various stimuli and associated neuronal responses in the brain.</description>
     </item>

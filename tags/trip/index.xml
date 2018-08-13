@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trip on Yida Wang</title>
-    <link>/tags/trip/</link>
+    <link>https://wangyida.github.io/tags/trip/</link>
     <description>Recent content in Trip on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="/tags/trip/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wangyida.github.io/tags/trip/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The trip for Iceland</title>
-      <link>/post/trip-iceland/</link>
+      <link>https://wangyida.github.io/post/trip-iceland/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
       
-      <guid>/post/trip-iceland/</guid>
-      <description>Overall routine    round trip road condition          Hotels    12&amp;frasl;20 - 12&amp;frasl;22 Apartment K 12&amp;frasl;22 - 12&amp;frasl;23 Seljakjör 12&amp;frasl;23 - 12&amp;frasl;24 Guesthouse Drangshlid 12&amp;frasl;24 - 12&amp;frasl;25 Kirkjuvegur Vestmannaeyjabær 12&amp;frasl;25 - 12&amp;frasl;27 Höfn HI Hostel 12&amp;frasl;27 - 12&amp;frasl;28 Akurholt Guesthouse 12&amp;frasl;28 - 12&amp;frasl;29 West Park Guesthouse 12&amp;frasl;29 - 12&amp;frasl;30 Arni&amp;rsquo;s Place 12&amp;frasl;30 - 12&amp;frasl;31 Bjorkinn Apartments &amp;amp; Rooms                 Sites Blue Lagoon Iceland</description>
+      <guid>https://wangyida.github.io/post/trip-iceland/</guid>
+      <description>Overall routine    round trip road condition          Hotels    12&amp;frasl;20 - 12&amp;frasl;22 Apartment K 12&amp;frasl;22 - 12&amp;frasl;23 Seljakjör 12&amp;frasl;23 - 12&amp;frasl;24 Guesthouse Drangshlid              12&amp;frasl;24 - 12&amp;frasl;25 Kirkjuvegur Vestmannaeyjabær 12&amp;frasl;25 - 12&amp;frasl;27 Höfn HI Hostel 12&amp;frasl;27 - 12&amp;frasl;28 Akurholt Guesthouse              12&amp;frasl;28 - 12&amp;frasl;29 West Park Guesthouse 12&amp;frasl;29 - 12&amp;frasl;30 Arni&amp;rsquo;s Place 12&amp;frasl;30 - 12&amp;frasl;31 Bjorkinn Apartments &amp;amp; Rooms           Sites Blue Lagoon Iceland</description>
     </item>
     
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep-alternatives on Yida Wang</title>
-    <link>/tags/deep-alternatives/</link>
+    <link>https://wangyida.github.io/tags/deep-alternatives/</link>
     <description>Recent content in Deep-alternatives on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yida Wang</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/deep-alternatives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wangyida.github.io/tags/deep-alternatives/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deep Alternatives</title>
-      <link>/project/deep-alternatives/</link>
+      <link>https://wangyida.github.io/project/deep-alternatives/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/deep-alternatives/</guid>
+      <guid>https://wangyida.github.io/project/deep-alternatives/</guid>
       <description>Deep structure theories and replacement for deep structures.</description>
     </item>
     
     <item>
       <title>Face Recognition Using Local PCA Filters</title>
-      <link>/publication/ccbr15_wang/</link>
+      <link>https://wangyida.github.io/publication/ccbr15_wang/</link>
       <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/ccbr15_wang/</guid>
+      <guid>https://wangyida.github.io/publication/ccbr15_wang/</guid>
       <description></description>
     </item>
     
