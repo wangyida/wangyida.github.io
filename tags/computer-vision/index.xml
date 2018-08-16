@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computer vision on Yida Wang</title>
+    <title>Computer-vision on Yida Wang</title>
     <link>https://wangyida.github.io/tags/computer-vision/</link>
-    <description>Recent content in Computer vision on Yida Wang</description>
+    <description>Recent content in Computer-vision on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yida Wang</copyright>
-    <lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wangyida.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Modification for MASK-RCNN for Latent Space</title>
-      <link>https://wangyida.github.io/post/mrcnn_latent/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
+      <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
+      <link>https://wangyida.github.io/publication/3dv18_wang/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://wangyida.github.io/post/mrcnn_latent/</guid>
-      <description> Examples python3 obj_detect_yida.py \ -num_class 90 \ -input_file /media/wangyida/YEEEEDA/videos/1.mp4 \ -output_file /media/wangyida/YEEEEDA/videos/1_result.mp4 \ -model_name faster_rcnn_nas_coco \ -path_ckpt frozen_inference_graph.pb \ -path_label mscoco_label_map.pbtxt     input output              </description>
+      <guid>https://wangyida.github.io/publication/3dv18_wang/</guid>
+      <description>    Our target Animations          Architecture Qualitative results </description>
     </item>
     
-  </channel>
-</rss>8 00:00:00 +0000</pubDate>
+    <item>
+      <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/publication/tip2018_wang/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/tip2018_wang/</guid>
       <description>input target manifold           Method pipeline. Image analysis for average and standard deviation for data released together with our paper. Examples for triplet set used in our metric learning. 4 nearest neighboour retrieval results based on simple models. Examples for real world tasks Depth prediction Example for depth prediction based on RGB images. Scene understanding Examples for videos collected by Bleenco.</description>
