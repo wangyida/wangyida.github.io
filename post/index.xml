@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Modification for MASK-RCNN for Latent Space</title>
+      <link>https://wangyida.github.io/post/mrcnn_latent/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/post/mrcnn_latent/</guid>
+      <description> Examples python3 obj_detect_yida.py \ -num_class 90 \ -input_file /media/wangyida/YEEEEDA/videos/1.mp4 \ -output_file /media/wangyida/YEEEEDA/videos/1_result.mp4 \ -model_name faster_rcnn_nas_coco \ -path_ckpt frozen_inference_graph.pb \ -path_label mscoco_label_map.pbtxt     input output              </description>
+    </item>
+    
+    <item>
       <title>Voxel Space Generative Model</title>
       <link>https://wangyida.github.io/post/3d_completion/</link>
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0100</pubDate>
