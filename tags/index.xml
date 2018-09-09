@@ -23,10 +23,10 @@
     
     <item>
       <title>#rstats</title>
-      <link>https://wangyida.github.io/tags/#rstats/</link>
+      <link>https://wangyida.github.io/tags/rstats/</link>
       <pubDate>Tue, 22 Aug 2017 23:41:14 -0500</pubDate>
       
-      <guid>https://wangyida.github.io/tags/#rstats/</guid>
+      <guid>https://wangyida.github.io/tags/rstats/</guid>
       <description></description>
     </item>
     
@@ -96,9 +96,18 @@
     <item>
       <title>Computer-vision</title>
       <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep learning</title>
+      <link>https://wangyida.github.io/tags/deep-learning/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -114,7 +123,7 @@
     <item>
       <title>Deep-learning</title>
       <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/tags/deep-learning/</guid>
       <description></description>
