@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  27 AUG 2018 13:26
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  13 SEP 2018 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1673,10 +1673,7 @@ Overfull \hbox (10.78535pt too wide) in alignment at lines 11--28
 [] [] 
  []
 
-) (./cv-sections/presentation.tex) (./cv-sections/extracurricular.tex
-LaTeX Font Info:    Font shape `EU1/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 5.
- [2])
+) (./cv-sections/presentation.tex) (./cv-sections/extracurricular.tex [2])
 (./cv-sections/committees.tex) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
@@ -1689,12 +1686,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 43552 strings out of 493591
- 850093 string characters out of 6143547
- 972672 words of memory out of 5000000
- 46386 multiletter control sequences out of 15000+600000
- 6656 words of font info for 94 fonts, out of 8000000 for 9000
+ 43560 strings out of 493591
+ 850706 string characters out of 6143547
+ 971672 words of memory out of 5000000
+ 46395 multiletter control sequences out of 15000+600000
+ 6648 words of font info for 93 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 72i,12n,89p,10409b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,89p,10409b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume_YidaWang.pdf (3 pages).
