@@ -18,7 +18,8 @@
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://wangyida.github.io/publication/3dv18_wang/</guid>
-      <description>   Poster </description>
+      <description>Overview We introduce a direct reconstruction method to reconstruct from a 2.5D depth image to a 3D voxel data with both shape completion and semantic segmentation that relies on a deep architecture based on 3D VAE with an adversarial training to improve the performance of this task.
+Architecture We utilize the latent representation of 3D auto-encoder to help train a latent representation from a depth image. The 3D auto-encoder is removed after the parametric model is trained.</description>
     </item>
     
   </channel>

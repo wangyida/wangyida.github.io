@@ -420,9 +420,29 @@
     <track label="English" kind="subtitles" srclang="en" src="/img/3dv/presentation.vtt">
 </video>
 
-<h2 id="poster">Poster</h2>
+<h2 id="overview">Overview</h2>
 
-<p><img src="/img/3dv/poster.png" alt="" /></p>
+<p><img src="/img/3dv/overview.png" alt="" />
+We introduce a direct reconstruction method to reconstruct from a 2.5D depth image to a 3D voxel data with both shape completion and semantic segmentation that relies on a deep architecture based on 3D VAE with an adversarial training to improve the performance of this task.</p>
+
+<h2 id="architecture">Architecture</h2>
+
+<p><img src="/img/3dv/architecture.png" alt="" />
+We utilize the latent representation of 3D auto-encoder to help train a latent representation from a depth image. The 3D auto-encoder is removed after the parametric model is trained. This pipeline is optimized for the encoders for the depth image and the 3D volumetric data and the shared generator is also optimised during
+training.</p>
+
+<h2 id="discriminators">Discriminators</h2>
+
+<p><img src="/img/3dv/discriminators.png" alt="" />
+To make the latent representation and the reconstructed 3D scene similar to each others, we apply two discriminators for both targets. In this manner, the latent representation of the depth produces the expected target more precisely compared to the latent representation of the ground truth volumetric data.</p>
+
+<h2 id="our-data-format">Our data format</h2>
+
+<p><img src="/img/3dv/data_format.png" alt="" /></p>
+
+<h2 id="qualitative-results">Qualitative results</h2>
+
+<p><img src="/img/3dv/qualitative_results.png" alt="" /></p>
 </div>
 
     
