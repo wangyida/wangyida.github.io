@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  21 JUL 2019 10:05
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  29 AUG 2019 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,8 +1178,10 @@ lable
 ut line 23.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 23.
+LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/bx/n' will be
+(Font)              scaled to size 9.0pt on input line 36.
 ) (./cv-sections/skills.tex
-Overfull \hbox (54.72536pt too wide) in alignment at lines 11--33
+Overfull \hbox (45.22537pt too wide) in alignment at lines 11--33
 [] [] 
  []
 
@@ -1204,11 +1206,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 40422 strings out of 493591
- 771254 string characters out of 6143547
- 891429 words of memory out of 5000000
- 43294 multiletter control sequences out of 15000+600000
- 6544 words of font info for 80 fonts, out of 8000000 for 9000
+ 40424 strings out of 493591
+ 771362 string characters out of 6143547
+ 894443 words of memory out of 5000000
+ 43295 multiletter control sequences out of 15000+600000
+ 6552 words of font info for 81 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  72i,12n,89p,10391b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 
