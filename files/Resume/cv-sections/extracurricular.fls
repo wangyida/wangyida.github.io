@@ -1,6 +1,0 @@
-PWD /Users/yidawang/Documents/paper_personal/Resume/cv-sections
-INPUT /usr/local/texlive/2015/texmf.cnf
-INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT extracurricular.tex
-OUTPUT extracurricular.log

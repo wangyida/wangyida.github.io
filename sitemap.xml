@@ -1,21 +1,264 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://wangyida.github.io/zh/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://wangyida.github.io/de/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://wangyida.github.io/en/sitemap.xml</loc>
-		
-	   	<lastmod>2018-08-15T00:00:00+02:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+      <url>
+        <loc>https://example.com/categories/</loc>
+        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/elements/</loc>
+        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/</loc>
+        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/posts/</loc>
+        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2019/01/06/numbered-list-with-code/</loc>
+        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/</loc>
+        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/typography/</loc>
+        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/categories/writing/</loc>
+        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2018/10/09/youtube/</loc>
+        <lastmod>2018-10-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2018/09/09/vimeo/</loc>
+        <lastmod>2018-09-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2018/06/09/video/</loc>
+        <lastmod>2018-06-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2018/03/09/typography/</loc>
+        <lastmod>2018-03-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2018/02/09/twitter/</loc>
+        <lastmod>2018-02-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2018/01/09/tables/</loc>
+        <lastmod>2018-01-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2017/07/09/speakerdeck/</loc>
+        <lastmod>2017-07-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2017/04/09/instagram/</loc>
+        <lastmod>2017-04-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2017/03/11/images/</loc>
+        <lastmod>2017-03-11T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/images/</loc>
+        <lastmod>2017-03-11T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/lightbox/</loc>
+        <lastmod>2017-03-11T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2017/02/09/gist/</loc>
+        <lastmod>2017-02-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2017/01/09/code/</loc>
+        <lastmod>2017-01-09T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2016/11/11/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-donec-ultrices-elit-et-rhoncus-maximus/</loc>
+        <lastmod>2016-11-11T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/categories/lorem-ipsum/</loc>
+        <lastmod>2016-11-11T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2014/09/28/creating-a-new-theme/</loc>
+        <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2014/04/02/hugo-template-primer/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/categories/development/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/development/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2014/04/02/getting-started-with-hugo/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/go/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/golang/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/categories/golang/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/hugo/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/templates/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/themes/</loc>
+        <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2014/03/10/migrate-to-hugo-from-jekyll/</loc>
+        <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>https://example.com/photos/</loc>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/projects/</loc>
+      </url>
+    
+  
+</urlset>

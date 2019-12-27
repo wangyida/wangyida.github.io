@@ -1,0 +1,22 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lorem-ipsum on Simplicity - Hugo theme</title>
+    <link>https://example.com/categories/lorem-ipsum/</link>
+    <description>Recent content in lorem-ipsum on Simplicity - Hugo theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2016 10:15:01 +0200</lastBuildDate>
+    
+      <atom:link href="https://example.com/categories/lorem-ipsum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices elit et rhoncus maximus.</title>
+        <link>https://example.com/2016/11/11/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-donec-ultrices-elit-et-rhoncus-maximus/</link>
+        <pubDate>Fri, 11 Nov 2016 10:15:01 +0200</pubDate>
+        <guid>https://example.com/2016/11/11/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-donec-ultrices-elit-et-rhoncus-maximus/</guid>
+        <description>Part 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices elit et rhoncus maximus. Suspendisse potenti. Vivamus ante lacus, congue vitae nisi vitae, pellentesque tempor justo. Aliquam congue tortor a urna ornare scelerisque. Fusce tristique in leo id scelerisque. Cras augue sapien, rhoncus sed nisl non, mattis varius nunc. Etiam accumsan velit placerat diam luctus, vel venenatis urna auctor. Aenean accumsan turpis enim, a facilisis nibh ullamcorper cursus. Cras ac metus ac diam lobortis euismod id ac quam.</description>
+      </item>
+    
+  </channel>
+</rss>
