@@ -205,14 +205,14 @@
   
     
       <url>
-        <loc>https://example.com/categories/golang/</loc>
+        <loc>https://example.com/tags/golang/</loc>
         <lastmod>2014-04-02T00:00:00+00:00</lastmod>
       </url>
     
   
     
       <url>
-        <loc>https://example.com/tags/golang/</loc>
+        <loc>https://example.com/categories/golang/</loc>
         <lastmod>2014-04-02T00:00:00+00:00</lastmod>
       </url>
     
