@@ -15,7 +15,8 @@
         <link>https://example.com/2019/11/01/youtube/</link>
         <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
         <guid>https://example.com/2019/11/01/youtube/</guid>
-        <description>Conference paper accepted in ICCV 2019: 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
+        <description>If you find this work useful in yourr research, please cite:
+@inproceedings{wang2019forknet, title={ForkNet: Multi-branch Volumetric Semantic Completion from a Single Depth Image}, author={Wang, Yida and Tan, David Joseph and Navab, Nassir and Tombari, Federico}, booktitle={Proceedings of the IEEE International Conference on Computer Vision}, pages={8608--8617}, year={2019} } Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
       </item>
     
       <item>
@@ -23,7 +24,8 @@
         <link>https://example.com/2018/10/09/youtube/</link>
         <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
         <guid>https://example.com/2018/10/09/youtube/</guid>
-        <description>Conference paper accepted in 3DV 2018: A method to reconstruct, complete and semantically label a 3D scene from a single input depth image.</description>
+        <description>If you find this work useful in yourr research, please cite:
+@inproceedings{wang2018adversarial, title={Adversarial semantic scene completion from a single depth image}, author={Wang, Yida and Tan, David Joseph and Navab, Nassir and Tombari, Federico}, booktitle={2018 International Conference on 3D Vision (3DV)}, pages={426--434}, year={2018}, organization={IEEE} } Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning.</description>
       </item>
     
   </channel>

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  20 FEB 2020 17:19
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  20 FEB 2020 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1144,19 +1144,6 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.6pt on input line 72.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 7.6pt on input line 72.
-LaTeX Font Info:    Calculating math sizes for size <6.8> on input line 72.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.8001pt on input line 72.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 4.76004pt on input line 72.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 3.40004pt on input line 72.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.7999pt on input line 72.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.7599pt on input line 72.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 3.39993pt on input line 72.
 
 Overfull \hbox (1.45999pt too wide) in paragraph at lines 72--72
 []$[]$ $[]$$[]$ 
@@ -1195,20 +1182,7 @@ lable
 ut line 23.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 23.
-) (./cv-sections/writing.tex
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 19.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 19.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 19.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 19.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 19.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 19.
- [1
+) (./cv-sections/writing.tex [1
 
 ])
 (./cv-sections/honors.tex
@@ -1220,12 +1194,7 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/bx/n' will be
 
 Package hyperref Warning: Suppressing link with empty target on input line 22.
 
-) (./cv-sections/experience.tex
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.00014pt on input line 38.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.99986pt on input line 38.
-) (./cv-sections/skills.tex
+) (./cv-sections/experience.tex) (./cv-sections/skills.tex
 Overfull \hbox (55.09535pt too wide) in alignment at lines 11--33
 [] [] 
  []
@@ -1238,11 +1207,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 40473 strings out of 493591
- 773419 string characters out of 6143547
- 892398 words of memory out of 5000000
- 43324 multiletter control sequences out of 15000+600000
- 10058 words of font info for 109 fonts, out of 8000000 for 9000
+ 40420 strings out of 493591
+ 771369 string characters out of 6143547
+ 892400 words of memory out of 5000000
+ 43296 multiletter control sequences out of 15000+600000
+ 6560 words of font info for 82 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  72i,12n,89p,10391b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 
