@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications with demos on Yida Wang</title>
-    <link>https://example.com/posts/</link>
-    <description>Recent content in Publications with demos on Yida Wang</description>
+    <title>demo on Yida Wang</title>
+    <link>https://example.com/tags/demo/</link>
+    <description>Recent content in demo on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Nov 2019 10:15:01 +0200</lastBuildDate>
     
-      <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://example.com/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
       <item>

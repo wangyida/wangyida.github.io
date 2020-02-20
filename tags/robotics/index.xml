@@ -1,0 +1,22 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robotics on Yida Wang</title>
+    <link>https://example.com/tags/robotics/</link>
+    <description>Recent content in robotics on Yida Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2019 10:15:01 +0200</lastBuildDate>
+    
+      <atom:link href="https://example.com/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
+        <link>https://example.com/2019/06/01/youtube/</link>
+        <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+        <guid>https://example.com/2019/06/01/youtube/</guid>
+        <description>Conference paper accepted in IROS 2019 and RA Letter: estimate the 3D pose of a human hand while grasping objects from a single RGB image.</description>
+      </item>
+    
+  </channel>
+</rss>
