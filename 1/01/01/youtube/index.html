@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models - Yida Wang</title>
+  <meta name="author" content="Yida Wang">
+  <meta name="description" content="A blog about everything.">
+
+  <meta name="generator" content="Hugo 0.64.1" />
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/assets/css/external.min.css" media="screen">
+
+  
+  
+  <link rel="stylesheet" href="/assets/css/styles.css" media="screen">
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+
+  
+  
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/src/images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/src/images/favicon.ico">
+
+  
+  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Yida Wang" />
+  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Yida Wang" />
+
+  <meta property="og:title" content="Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models" />
+<meta property="og:description" content="If you find this work useful in yourr research, please cite:
+@article{wang2018generative, title={Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models}, author={Wang, Yida and Deng, Weihong}, journal={IEEE Transactions on Image Processing}, volume={27}, number={12}, pages={5813--5826}, year={2018}, publisher={IEEE} } Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/1/01/01/youtube/" />
+
+
+  
+  <meta itemprop="name" content="Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models">
+<meta itemprop="description" content="If you find this work useful in yourr research, please cite:
+@article{wang2018generative, title={Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models}, author={Wang, Yida and Deng, Weihong}, journal={IEEE Transactions on Image Processing}, volume={27}, number={12}, pages={5813--5826}, year={2018}, publisher={IEEE} } Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry.">
+
+<meta itemprop="wordCount" content="276">
+
+
+
+<meta itemprop="keywords" content="machine learning,computer vision,variational inference," />
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models"/>
+<meta name="twitter:description" content="If you find this work useful in yourr research, please cite:
+@article{wang2018generative, title={Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models}, author={Wang, Yida and Deng, Weihong}, journal={IEEE Transactions on Image Processing}, volume={27}, number={12}, pages={5813--5826}, year={2018}, publisher={IEEE} } Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry."/>
+
+</head>
+
+  <body>
+    
+      <nav>
+  <a href="/" title="Homepage">
+    Simplicity
+  </a>
+</nav>
+
+    
+    <main class="container">
+      
+  <article>
+    <header>
+      <small>
+        <time datetime="0001-01-01 00:00:00&#43;0000">0001-01-01</time>
+          &bull;
+          
+            
+            <a href="/categories/publication">PUBLICATION</a>
+          </small>
+      <h1>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</h1>
+    </header>
+    <section><p>If you find this work useful in yourr research, please cite:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">@article<span class="o">{</span>wang2018generative,
+  <span class="nv">title</span><span class="o">=</span><span class="o">{</span>Generative Model With Coordinate Metric Learning <span class="k">for</span> Object Recognition Based on 3D Models<span class="o">}</span>,
+  <span class="nv">author</span><span class="o">=</span><span class="o">{</span>Wang, Yida and Deng, Weihong<span class="o">}</span>,
+  <span class="nv">journal</span><span class="o">=</span><span class="o">{</span>IEEE Transactions on Image Processing<span class="o">}</span>,
+  <span class="nv">volume</span><span class="o">=</span><span class="o">{</span>27<span class="o">}</span>,
+  <span class="nv">number</span><span class="o">=</span><span class="o">{</span>12<span class="o">}</span>,
+  <span class="nv">pages</span><span class="o">=</span><span class="o">{</span>5813--5826<span class="o">}</span>,
+  <span class="nv">year</span><span class="o">=</span><span class="o">{</span>2018<span class="o">}</span>,
+  <span class="nv">publisher</span><span class="o">=</span><span class="o">{</span>IEEE<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><h1 id="abstrarct">Abstrarct</h1>
+<p>Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos. Firstly, our generative model with metric learning utilizes additional foreground object channels generated from semantic foreground object reconstruction sub-network for recognizing the original input images.  Multi-triplet cost function based on poses is used for metric learning which makes it possible training an effective categorical classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noises applied on inputs of both of the concatenated sub-networks to make them benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two subnetworks. Our architecture achieves the state of the art accuracy of 50.5% on ShapeNet database with data migration obstacle from synthetic images to real photos. This pipeline makes it applicable to do recognition on real images only based on 3D models.</p>
+</section>
+    <footer>
+      <hr>
+      <div class="meta">
+        <p class="tags">
+          
+            
+              <a href="/tags/machine-learning">
+                <span>#</span>machine learning</a>
+            
+              <a href="/tags/computer-vision">
+                <span>#</span>computer vision</a>
+            
+              <a href="/tags/variational-inference">
+                <span>#</span>variational inference</a>
+            
+          
+        </p>
+      </div>
+      <hr>
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "test" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </footer>
+  </article>
+
+    </main>
+    
+      <footer>
+  <p>
+    &copy; 2020 Yida Wang. <a href="http://creativecommons.org/licenses/by-sa/4.0/">Some Rights Reserved</a>.
+  </p>
+  <p>
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </p>
+</footer>
+
+    
+    
+    
+    
+    
+    
+    
+    <script src="/assets/js/scripts.min.js"></script>
+    
+  </body>
+</html>

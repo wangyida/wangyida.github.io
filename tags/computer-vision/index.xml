@@ -28,5 +28,32 @@
 @inproceedings{wang2018adversarial, title={Adversarial semantic scene completion from a single depth image}, author={Wang, Yida and Tan, David Joseph and Navab, Nassir and Tombari, Federico}, booktitle={2018 International Conference on 3D Vision (3DV)}, pages={426--434}, year={2018}, organization={IEEE} } Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning.</description>
       </item>
     
+      <item>
+        <title>Self-restraint Object Recognition by Model Based CNN Learning</title>
+        <link>https://example.com/2016/04/01/youtube/</link>
+        <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
+        <guid>https://example.com/2016/04/01/youtube/</guid>
+        <description>If you find this work useful in yourr research, please cite:
+@inproceedings{wang2016self, title={Self-restraint object recognition by model based CNN learning}, author={Wang, Yida and Deng, Weihong}, booktitle={2016 IEEE International Conference on Image Processing (ICIP)}, pages={654--658}, year={2016}, organization={IEEE} } Abstrarct CNN has shown excellent performance on object recognition based on huge amount of real images. For training with synthetic data rendered from 3D models alone to reduce the workload of collecting real images, we propose a concatenated self-restraint learning structure lead by a triplet and softmax jointed loss function for object recognition.</description>
+      </item>
+    
+      <item>
+        <title>Zigzagnet- Efficient deep learning for real object recognition based on 3D models</title>
+        <link>https://example.com/2016/04/01/youtube/</link>
+        <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
+        <guid>https://example.com/2016/04/01/youtube/</guid>
+        <description>If you find this work useful in yourr research, please cite:
+@inproceedings{wang2016zigzagnet, title={Zigzagnet: Efficient deep learning for real object recognition based on 3D models}, author={Wang, Yida and Cui, Can and Zhou, Xiuzhuang and Deng, Weihong}, booktitle={Asian Conference on Computer Vision}, pages={456--471}, year={2016}, organization={Springer} }	Abstrarct Effective utilization on texture-less 3D models for deep learning is significant to recognition on real photos. We eliminate the reliance on massive real training data by modifying convolutional neural network in 3 aspects: synthetic data rendering for training data generation in large quantities, multi-triplet cost function modification for multi-task learning and compact micro architecture design for producing tiny parametric model while overcoming over-fit problem in texture-less models.</description>
+      </item>
+    
+      <item>
+        <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
+        <link>https://example.com/1/01/01/youtube/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <guid>https://example.com/1/01/01/youtube/</guid>
+        <description>If you find this work useful in yourr research, please cite:
+@article{wang2018generative, title={Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models}, author={Wang, Yida and Deng, Weihong}, journal={IEEE Transactions on Image Processing}, volume={27}, number={12}, pages={5813--5826}, year={2018}, publisher={IEEE} } Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry.</description>
+      </item>
+    
   </channel>
 </rss>
