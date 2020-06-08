@@ -7,7 +7,7 @@
   <meta name="author" content="Yida Wang">
   <meta name="description" content="A blog about everything.">
 
-  <meta name="generator" content="Hugo 0.64.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   
   
@@ -86,14 +86,14 @@
 
 <p>If you find this work useful in yourr research, please cite:</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">@article<span class="o">{</span>gao2019variational,
-  <span class="nv">title</span><span class="o">=</span><span class="o">{</span>Variational Object-Aware 3-D Hand Pose From a Single RGB Image<span class="o">}</span>,
-  <span class="nv">author</span><span class="o">=</span><span class="o">{</span>Gao, Yafei and Wang, Yida and Falco, Pietro and Navab, Nassir and Tombari, Federico<span class="o">}</span>,
-  <span class="nv">journal</span><span class="o">=</span><span class="o">{</span>IEEE Robotics and Automation Letters<span class="o">}</span>,
-  <span class="nv">volume</span><span class="o">=</span><span class="o">{</span>4<span class="o">}</span>,
-  <span class="nv">number</span><span class="o">=</span><span class="o">{</span>4<span class="o">}</span>,
-  <span class="nv">pages</span><span class="o">=</span><span class="o">{</span>4239--4246<span class="o">}</span>,
-  <span class="nv">year</span><span class="o">=</span><span class="o">{</span>2019<span class="o">}</span>,
-  <span class="nv">publisher</span><span class="o">=</span><span class="o">{</span>IEEE<span class="o">}</span>
+  <span class="nv">title</span><span class="o">={</span>Variational Object-Aware 3-D Hand Pose From a Single RGB Image<span class="o">}</span>,
+  <span class="nv">author</span><span class="o">={</span>Gao, Yafei and Wang, Yida and Falco, Pietro and Navab, Nassir and Tombari, Federico<span class="o">}</span>,
+  <span class="nv">journal</span><span class="o">={</span>IEEE Robotics and Automation Letters<span class="o">}</span>,
+  <span class="nv">volume</span><span class="o">={</span>4<span class="o">}</span>,
+  <span class="nv">number</span><span class="o">={</span>4<span class="o">}</span>,
+  <span class="nv">pages</span><span class="o">={</span>4239--4246<span class="o">}</span>,
+  <span class="nv">year</span><span class="o">={</span>2019<span class="o">}</span>,
+  <span class="nv">publisher</span><span class="o">={</span>IEEE<span class="o">}</span>
 <span class="o">}</span>
 </code></pre></div><h1 id="abstrarct">Abstrarct</h1>
 <p>We propose an approach to estimate the 3D pose of a human hand while grasping objects from a single RGB image.  Our approach is based on a probabilistic model implemented with deep architectures, which is used for regressing, respectively, the 2D hand joints heat maps and the 3D hand joints coordinates.  We train our networks so to make our approach robust to large object- and self-occlusions, as commonly occurring with the task at hand. Using specialized latent variables, the deep architecture internally infers the category of the grasped object so to enhance the 3D reconstruction, based on the underlying assumption that objects of a similar category, i.e. with similar shape and size, are grasped in a similar way. Moreover, given the scarcity of 3D hand-object manipulation benchmarks with joint annotations, we propose a new annotated synthetic dataset with realistic images, hand masks, joint masks and 3D joints coordinates. Our approach is flexible as it does not require depth information, sensor calibration, data gloves, or finger markers.  We quantitatively evaluate it on synthetic datasets achieving stateof-the-art accuracy, as well as qualitatively on real sequences.</p>

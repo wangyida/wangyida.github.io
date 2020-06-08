@@ -7,7 +7,7 @@
   <meta name="author" content="Yida Wang">
   <meta name="description" content="A blog about everything.">
 
-  <meta name="generator" content="Hugo 0.64.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   
   
@@ -86,12 +86,12 @@
 
 <p>If you find this work useful in yourr research, please cite:</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">@inproceedings<span class="o">{</span>wang2018adversarial,
-  <span class="nv">title</span><span class="o">=</span><span class="o">{</span>Adversarial semantic scene completion from a single depth image<span class="o">}</span>,
-  <span class="nv">author</span><span class="o">=</span><span class="o">{</span>Wang, Yida and Tan, David Joseph and Navab, Nassir and Tombari, Federico<span class="o">}</span>,
-  <span class="nv">booktitle</span><span class="o">=</span><span class="o">{</span><span class="m">2018</span> International Conference on 3D Vision <span class="o">(</span>3DV<span class="o">)</span><span class="o">}</span>,
-  <span class="nv">pages</span><span class="o">=</span><span class="o">{</span>426--434<span class="o">}</span>,
-  <span class="nv">year</span><span class="o">=</span><span class="o">{</span>2018<span class="o">}</span>,
-  <span class="nv">organization</span><span class="o">=</span><span class="o">{</span>IEEE<span class="o">}</span>
+  <span class="nv">title</span><span class="o">={</span>Adversarial semantic scene completion from a single depth image<span class="o">}</span>,
+  <span class="nv">author</span><span class="o">={</span>Wang, Yida and Tan, David Joseph and Navab, Nassir and Tombari, Federico<span class="o">}</span>,
+  <span class="nv">booktitle</span><span class="o">={</span><span class="m">2018</span> International Conference on 3D Vision <span class="o">(</span>3DV<span class="o">)}</span>,
+  <span class="nv">pages</span><span class="o">={</span>426--434<span class="o">}</span>,
+  <span class="nv">year</span><span class="o">={</span>2018<span class="o">}</span>,
+  <span class="nv">organization</span><span class="o">={</span>IEEE<span class="o">}</span>
 <span class="o">}</span>
 </code></pre></div><h1 id="abstrarct">Abstrarct</h1>
 <p>We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features. This is done by correlating the latent features of the encoder working on partial 2.5D data with the latent features extracted from a variational 3D autoencoder trained to reconstruct the complete semantic scene.  In addition, differently from other approaches that operate entirely through 3D convolutions, at test time we retain the original 2.5D structure of the input during downsampling to improve the effectiveness of the internal representation of our model. We test our approach on the main benchmark datasets for semantic scene completion to qualitatively and quantitatively assess the effectiveness of our proposal.</p>
