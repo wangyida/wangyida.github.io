@@ -66,14 +66,21 @@
     
       <url>
         <loc>https://example.com/tags/robotics/</loc>
-        <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+        <lastmod>2019-09-01T10:15:01+02:00</lastmod>
       </url>
     
   
     
       <url>
         <loc>https://example.com/tags/tracking/</loc>
-        <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+        <lastmod>2019-09-01T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2019/09/01/youtube/</loc>
+        <lastmod>2019-09-01T10:15:01+02:00</lastmod>
       </url>
     
   
@@ -116,12 +123,6 @@
       <url>
         <loc>https://example.com/2016/04/01/youtube/</loc>
         <lastmod>2016-04-01T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://example.com/1/01/01/</loc>
       </url>
     
   
