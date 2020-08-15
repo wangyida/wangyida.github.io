@@ -64,5 +64,13 @@
 @inproceedings{wang2016zigzagnet, title={Zigzagnet: Efficient deep learning for real object recognition based on 3D models}, author={Wang, Yida and Cui, Can and Zhou, Xiuzhuang and Deng, Weihong}, booktitle={Asian Conference on Computer Vision}, pages={456--471}, year={2016}, organization={Springer} }	Abstrarct Effective utilization on texture-less 3D models for deep learning is significant to recognition on real photos. We eliminate the reliance on massive real training data by modifying convolutional neural network in 3 aspects: synthetic data rendering for training data generation in large quantities, multi-triplet cost function modification for multi-task learning and compact micro architecture design for producing tiny parametric model while overcoming over-fit problem in texture-less models.</description>
       </item>
     
+      <item>
+        <title></title>
+        <link>https://example.com/1/01/01/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <guid>https://example.com/1/01/01/</guid>
+        <description>Harvard DEPARTMENT OF CHEMISTRY AND CHEMICAL BIOLOGY    Name email accept     Theodore Betley betley@chemistry.harvard.edu    Cynthia Friend friend@fas.harvard.edu    Eric Jacobsen jacobsen@chemistry.harvard.edu     Brown University Catalyst Design Lab    Name email accept    Columbia University Cornell University Dartmouth College University of Pennsylvania Princeton University Yale University </description>
+      </item>
+    
   </channel>
 </rss>
