@@ -2,6 +2,69 @@
   
     
       <url>
+        <loc>https://example.com/categories/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/computer-vision/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/demo/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/machine-learning/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/categories/publication/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/posts/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/2020/08/25/youtube/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://example.com/tags/</loc>
+        <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
         <loc>https://example.com/categories/application/</loc>
         <lastmod>2020-08-20T10:15:01+02:00</lastmod>
       </url>
@@ -9,49 +72,7 @@
   
     
       <url>
-        <loc>https://example.com/categories/</loc>
-        <lastmod>2020-08-20T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://example.com/tags/demo/</loc>
-        <lastmod>2020-08-20T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://example.com/</loc>
-        <lastmod>2020-08-20T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://example.com/tags/machine-learning/</loc>
-        <lastmod>2020-08-20T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://example.com/posts/</loc>
-        <lastmod>2020-08-20T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
         <loc>https://example.com/tags/robotics/</loc>
-        <lastmod>2020-08-20T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://example.com/tags/</loc>
         <lastmod>2020-08-20T10:15:01+02:00</lastmod>
       </url>
     
@@ -72,21 +93,7 @@
   
     
       <url>
-        <loc>https://example.com/tags/computer-vision/</loc>
-        <lastmod>2019-11-01T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
         <loc>https://example.com/2019/11/01/youtube/</loc>
-        <lastmod>2019-11-01T10:15:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://example.com/categories/publication/</loc>
         <lastmod>2019-11-01T10:15:01+02:00</lastmod>
       </url>
     

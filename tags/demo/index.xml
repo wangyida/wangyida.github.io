@@ -5,10 +5,19 @@
     <description>Recent content in demo on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2020 10:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate>
     
       <atom:link href="https://example.com/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>SoftPoolNet - Shape Descriptor for Point Cloud Completion and Classification</title>
+        <link>https://example.com/2020/08/25/youtube/</link>
+        <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+        <guid>https://example.com/2020/08/25/youtube/</guid>
+        <description>If you find this work useful in yourr research, please cite:
+@article{DBLP:journals/corr/abs-2008-07358, author = {Yida Wang and David Joseph Tan and Nassir Navab and Federico Tombari}, title = {SoftPoolNet: Shape Descriptor for Point Cloud Completion and Classification}, journal = {CoRR}, volume = {abs/2008.07358}, year = {2020} } Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines.</description>
+      </item>
     
       <item>
         <title>Xiaohan PhD applications</title>
