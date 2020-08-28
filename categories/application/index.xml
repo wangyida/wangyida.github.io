@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>application on Yida Wang</title>
+    <link>https://example.com/categories/application/</link>
+    <description>Recent content in application on Yida Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Aug 2020 10:15:01 +0200</lastBuildDate>
+    
+      <atom:link href="https://example.com/categories/application/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Xiaohan PhD applications</title>
+        <link>https://example.com/2020/08/20/youtube/</link>
+        <pubDate>Thu, 20 Aug 2020 10:15:01 +0200</pubDate>
+        <guid>https://example.com/2020/08/20/youtube/</guid>
+        <description>United States Harvard Department of Chemistry and Chemical Biology    Name email accept     Theodore Betley betley@chemistry.harvard.edu    Cynthia Friend friend@fas.harvard.edu    Eric Jacobsen jacobsen@chemistry.harvard.edu     Brown University Catalyst Design Lab    Name email accept     Andrew A Peterson Andrew_Peterson@brown.edu      Germany
+RWTH Aachen Department of Chemistry and Chemical Biology    Name email accept    TU Berlin Institute of Chemistry    Name email accept     Inez Weidinger form    Peter Strasser pstrasser@tu-berlin.</description>
+      </item>
+    
+  </channel>
+</rss>

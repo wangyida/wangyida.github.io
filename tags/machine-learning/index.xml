@@ -5,10 +5,19 @@
     <description>Recent content in machine learning on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 10:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 10:15:01 +0200</lastBuildDate>
     
       <atom:link href="https://example.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Xiaohan PhD applications</title>
+        <link>https://example.com/2020/08/20/youtube/</link>
+        <pubDate>Thu, 20 Aug 2020 10:15:01 +0200</pubDate>
+        <guid>https://example.com/2020/08/20/youtube/</guid>
+        <description>United States Harvard Department of Chemistry and Chemical Biology    Name email accept     Theodore Betley betley@chemistry.harvard.edu    Cynthia Friend friend@fas.harvard.edu    Eric Jacobsen jacobsen@chemistry.harvard.edu     Brown University Catalyst Design Lab    Name email accept     Andrew A Peterson Andrew_Peterson@brown.edu      Germany
+RWTH Aachen Department of Chemistry and Chemical Biology    Name email accept    TU Berlin Institute of Chemistry    Name email accept     Inez Weidinger form    Peter Strasser pstrasser@tu-berlin.</description>
+      </item>
     
       <item>
         <title>ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
@@ -17,15 +26,6 @@
         <guid>https://example.com/2019/11/01/youtube/</guid>
         <description>If you find this work useful in yourr research, please cite:
 @inproceedings{wang2019forknet, title={ForkNet: Multi-branch Volumetric Semantic Completion from a Single Depth Image}, author={Wang, Yida and Tan, David Joseph and Navab, Nassir and Tombari, Federico}, booktitle={Proceedings of the IEEE International Conference on Computer Vision}, pages={8608--8617}, year={2019} } Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
-      </item>
-    
-      <item>
-        <title>Xiaohan PhD applications</title>
-        <link>https://example.com/2019/09/01/youtube/</link>
-        <pubDate>Sun, 01 Sep 2019 10:15:01 +0200</pubDate>
-        <guid>https://example.com/2019/09/01/youtube/</guid>
-        <description>United States Harvard Department of Chemistry and Chemical Biology    Name email accept     Theodore Betley betley@chemistry.harvard.edu    Cynthia Friend friend@fas.harvard.edu    Eric Jacobsen jacobsen@chemistry.harvard.edu     Brown University Catalyst Design Lab    Name email accept     Andrew A Peterson Andrew_Peterson@brown.edu      Germany
-RWTH Aachen Department of Chemistry and Chemical Biology    Name email accept    TU Berlin Institute of Chemistry    Name email accept     Inez Weidinger form    Peter Strasser pstrasser@tu-berlin.</description>
       </item>
     
       <item>
