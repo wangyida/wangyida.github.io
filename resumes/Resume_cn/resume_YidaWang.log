@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  29 FEB 2020 12:18
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  31 AUG 2020 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1685,6 +1685,9 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/bx/n' will be
 
 Package hyperref Warning: Suppressing link with empty target on input line 22.
 
+
+Package hyperref Warning: Suppressing link with empty target on input line 29.
+
 ) (./cv-sections/experience.tex
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 9.00014pt on input line 38.
@@ -1709,7 +1712,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  43479 strings out of 493591
  843839 string characters out of 6143547
- 968658 words of memory out of 5000000
+ 969658 words of memory out of 5000000
  46297 multiletter control sequences out of 15000+600000
  10130 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191

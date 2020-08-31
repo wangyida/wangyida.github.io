@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  21 FEB 2020 14:43
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.7)  31 AUG 2020 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1220,6 +1220,9 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/bx/n' will be
 
 Package hyperref Warning: Suppressing link with empty target on input line 22.
 
+
+Package hyperref Warning: Suppressing link with empty target on input line 29.
+
 ) (./cv-sections/experience.tex
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 9.00014pt on input line 38.
@@ -1230,7 +1233,10 @@ Overfull \hbox (55.09535pt too wide) in alignment at lines 11--33
 [] [] 
  []
 
-) (./cv-sections/extracurricular.tex) [2]
+) (./cv-sections/extracurricular.tex
+LaTeX Font Info:    Font shape `EU1/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 5.
+ [2]) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
  (./resume_YidaWang.aux)
@@ -1238,12 +1244,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 40473 strings out of 493591
- 773419 string characters out of 6143547
- 892398 words of memory out of 5000000
- 43324 multiletter control sequences out of 15000+600000
- 10058 words of font info for 109 fonts, out of 8000000 for 9000
+ 40475 strings out of 493591
+ 773543 string characters out of 6143547
+ 893398 words of memory out of 5000000
+ 43325 multiletter control sequences out of 15000+600000
+ 10066 words of font info for 110 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  72i,12n,89p,10391b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume_YidaWang.pdf (2 pages).
+Output written on resume_YidaWang.pdf (3 pages).
