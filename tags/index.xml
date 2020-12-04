@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>3D completion</title>
+      <link>https://wangyida.github.io/tags/3d-completion/</link>
+      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/3d-completion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>computer vision</title>
       <link>https://wangyida.github.io/tags/computer-vision/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
@@ -16,47 +25,56 @@
     </item>
     
     <item>
-      <title>demo</title>
-      <link>https://wangyida.github.io/tags/demo/</link>
+      <title>deep learning</title>
+      <link>https://wangyida.github.io/tags/deep-learning/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/demo/</guid>
+      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>machine learning</title>
-      <link>https://wangyida.github.io/tags/machine-learning/</link>
-      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      <title>adversarial training</title>
+      <link>https://wangyida.github.io/tags/adversarial-training/</link>
+      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/machine-learning/</guid>
+      <guid>https://wangyida.github.io/tags/adversarial-training/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>robotics</title>
-      <link>https://wangyida.github.io/tags/robotics/</link>
+      <title>key-points detection</title>
+      <link>https://wangyida.github.io/tags/key-points-detection/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/robotics/</guid>
+      <guid>https://wangyida.github.io/tags/key-points-detection/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tracking</title>
-      <link>https://wangyida.github.io/tags/tracking/</link>
+      <title>object detection</title>
+      <link>https://wangyida.github.io/tags/object-detection/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/tracking/</guid>
+      <guid>https://wangyida.github.io/tags/object-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>variational inference</title>
       <link>https://wangyida.github.io/tags/variational-inference/</link>
-      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/tags/variational-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantization</title>
+      <link>https://wangyida.github.io/tags/quantization/</link>
+      <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/quantization/</guid>
       <description></description>
     </item>
     

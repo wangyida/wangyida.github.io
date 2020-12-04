@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computer vision on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/computer-vision/</link>
-    <description>Recent content in computer vision on Yida Wang</description>
+    <title>deep learning on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/deep-learning/</link>
+    <description>Recent content in deep learning on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SoftPoolNet - Shape Descriptor for Point Cloud Completion and Classification</title>
       <link>https://wangyida.github.io/posts/2020/youtube/</link>

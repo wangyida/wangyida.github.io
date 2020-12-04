@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models | Yida Wang</title>
 
-<meta name="keywords" content="machine learning, computer vision, variational inference" />
+<meta name="keywords" content="deep learning, computer vision, variational inference" />
 <meta name="description" content="Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos.">
 <meta name="author" content="Me">
 <link rel="canonical" href="https://wangyida.github.io/posts/2017/youtube/" />
@@ -45,7 +45,7 @@
   "name": "Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models",
   "description": "Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic …",
   "keywords": [
-    "machine learning", "computer vision", "variational inference"
+    "deep learning", "computer vision", "variational inference"
   ],
   "articleBody": "Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos. Firstly, our generative model with metric learning utilizes additional foreground object channels generated from semantic foreground object reconstruction sub-network for recognizing the original input images. Multi-triplet cost function based on poses is used for metric learning which makes it possible training an effective categorical classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noises applied on inputs of both of the concatenated sub-networks to make them benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two subnetworks. Our architecture achieves the state of the art accuracy of 50.5% on ShapeNet database with data migration obstacle from synthetic images to real photos. This pipeline makes it applicable to do recognition on real images only based on 3D models.\nCite If you find this work useful in yourr research, please cite:\n@article{wang2018generative, title={Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models}, author={Wang, Yida and Deng, Weihong}, journal={IEEE Transactions on Image Processing}, volume={27}, number={12}, pages={5813--5826}, year={2018}, publisher={IEEE} } ",
   "wordCount" : "277",
@@ -189,7 +189,7 @@ November 15, 2017&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://wangyida.github.io/tags/machine-learning">machine learning</a></li>
+      <li><a href="https://wangyida.github.io/tags/deep-learning">deep learning</a></li>
       <li><a href="https://wangyida.github.io/tags/computer-vision">computer vision</a></li>
       <li><a href="https://wangyida.github.io/tags/variational-inference">variational inference</a></li>
     </ul>
@@ -201,7 +201,7 @@ November 15, 2017&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models on twitter"
-        href="https://twitter.com/intent/tweet/?text=Generative%20Model%20with%20Coordinate%20Metric%20Learning%20for%20Object%20Recognition%20Based%20on%203D%20Models&amp;url=https%3a%2f%2fwangyida.github.io%2fposts%2f2017%2fyoutube%2f&amp;hashtags=machinelearning%2ccomputervision%2cvariationalinference">
+        href="https://twitter.com/intent/tweet/?text=Generative%20Model%20with%20Coordinate%20Metric%20Learning%20for%20Object%20Recognition%20Based%20on%203D%20Models&amp;url=https%3a%2f%2fwangyida.github.io%2fposts%2f2017%2fyoutube%2f&amp;hashtags=deeplearning%2ccomputervision%2cvariationalinference">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
