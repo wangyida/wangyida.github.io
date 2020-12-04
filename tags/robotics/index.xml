@@ -1,32 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>robotics on Yida Wang</title>
-    <link>https://example.com/tags/robotics/</link>
+    <link>https://wangyida.github.io/tags/robotics/</link>
     <description>Recent content in robotics on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2020 10:15:01 +0200</lastBuildDate>
-    
-      <atom:link href="https://example.com/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Xiaohan PhD applications</title>
-        <link>https://example.com/2020/08/20/youtube/</link>
-        <pubDate>Thu, 20 Aug 2020 10:15:01 +0200</pubDate>
-        <guid>https://example.com/2020/08/20/youtube/</guid>
-        <description>United States Harvard Department of Chemistry and Chemical Biology    Name email accept     Theodore Betley betley@chemistry.harvard.edu    Cynthia Friend friend@fas.harvard.edu    Eric Jacobsen jacobsen@chemistry.harvard.edu     Brown University Catalyst Design Lab    Name email accept     Andrew A Peterson Andrew_Peterson@brown.edu      Germany
-RWTH Aachen Department of Chemistry and Chemical Biology    Name email accept    TU Berlin Institute of Chemistry    Name email accept     Inez Weidinger form    Peter Strasser pstrasser@tu-berlin.</description>
-      </item>
-    
-      <item>
-        <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
-        <link>https://example.com/2019/06/01/youtube/</link>
-        <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-        <guid>https://example.com/2019/06/01/youtube/</guid>
-        <description>If you find this work useful in yourr research, please cite:
-@article{gao2019variational, title={Variational Object-Aware 3-D Hand Pose From a Single RGB Image}, author={Gao, Yafei and Wang, Yida and Falco, Pietro and Navab, Nassir and Tombari, Federico}, journal={IEEE Robotics and Automation Letters}, volume={4}, number={4}, pages={4239--4246}, year={2019}, publisher={IEEE} } Abstrarct We propose an approach to estimate the 3D pose of a human hand while grasping objects from a single RGB image.</description>
-      </item>
+    <lastBuildDate>Sat, 01 Jun 2019 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
+      <link>https://wangyida.github.io/posts/2019/youtube/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2019/youtube/</guid>
+      <description>Abstrarct We propose an approach to estimate the 3D pose of a human hand while grasping objects from a single RGB image. Our approach is based on a probabilistic model implemented with deep architectures, which is used for regressing, respectively, the 2D hand joints heat maps and the 3D hand joints coordinates. We train our networks so to make our approach robust to large object- and self-occlusions, as commonly occurring with the task at hand.</description>
+    </item>
     
   </channel>
 </rss>

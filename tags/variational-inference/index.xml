@@ -1,23 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>variational inference on Yida Wang</title>
-    <link>https://example.com/tags/variational-inference/</link>
+    <link>https://wangyida.github.io/tags/variational-inference/</link>
     <description>Recent content in variational inference on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 15 Nov 2017 10:15:01 +0200</lastBuildDate>
-    
-      <atom:link href="https://example.com/tags/variational-inference/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
-        <link>https://example.com/2017/11/15/youtube/</link>
-        <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
-        <guid>https://example.com/2017/11/15/youtube/</guid>
-        <description>If you find this work useful in yourr research, please cite:
-@article{wang2018generative, title={Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models}, author={Wang, Yida and Deng, Weihong}, journal={IEEE Transactions on Image Processing}, volume={27}, number={12}, pages={5813--5826}, year={2018}, publisher={IEEE} } Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry.</description>
-      </item>
+    <lastBuildDate>Wed, 15 Nov 2017 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/variational-inference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/posts/2017/youtube/</link>
+      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2017/youtube/</guid>
+      <description>Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos.</description>
+    </item>
     
   </channel>
 </rss>

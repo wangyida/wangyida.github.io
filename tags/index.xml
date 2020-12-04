@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/</link>
+    <description>Recent content in Tags on Yida Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>computer vision</title>
+      <link>https://wangyida.github.io/tags/computer-vision/</link>
+      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>demo</title>
+      <link>https://wangyida.github.io/tags/demo/</link>
+      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://wangyida.github.io/tags/machine-learning/</link>
+      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robotics</title>
+      <link>https://wangyida.github.io/tags/robotics/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tracking</title>
+      <link>https://wangyida.github.io/tags/tracking/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variational inference</title>
+      <link>https://wangyida.github.io/tags/variational-inference/</link>
+      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/variational-inference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
