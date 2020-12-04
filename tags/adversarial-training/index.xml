@@ -8,19 +8,19 @@
     <lastBuildDate>Fri, 01 Nov 2019 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/adversarial-training/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
-      <link>https://wangyida.github.io/posts/youtube/</link>
+      <link>https://wangyida.github.io/posts/2019/youtube/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/2019/youtube/</guid>
       <description>Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers. Motivated by the limited amount of training samples from real scenes, an interesting attribute of our architecture is the capacity to supplement the existing dataset by generating a new training dataset with high quality, realistic scenes that even includes occlusion and real noise.</description>
     </item>
     
     <item>
       <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
-      <link>https://wangyida.github.io/posts/youtube/</link>
+      <link>https://wangyida.github.io/posts/2018/youtube/</link>
       <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
       <description>Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
     </item>
     
