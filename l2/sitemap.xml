@@ -36,25 +36,6 @@
   </url>
   
   <url>
-    <loc>https://wangyida.github.io/l2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wangyida.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="l3"
-                href="https://wangyida.github.io/l3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="l2"
-                href="https://wangyida.github.io/l2/"
-                />
-  </url>
-  
-  <url>
     <loc>https://wangyida.github.io/l2/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -89,6 +70,25 @@
                 rel="alternate"
                 hreflang="l2"
                 href="https://wangyida.github.io/l2/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wangyida.github.io/l2/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wangyida.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="l3"
+                href="https://wangyida.github.io/l3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="l2"
+                href="https://wangyida.github.io/l2/"
                 />
   </url>
   
