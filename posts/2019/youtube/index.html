@@ -8,7 +8,8 @@
 <title>ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image | Yida Wang</title>
 
 <meta name="keywords" content="deep learning, computer vision, 3D completion, adversarial training" />
-<meta name="description" content="Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers. Motivated by the limited amount of training samples from real scenes, an interesting attribute of our architecture is the capacity to supplement the existing dataset by generating a new training dataset with high quality, realistic scenes that even includes occlusion and real noise.">
+<meta name="description" content="| paper | code |
+  Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.">
 <meta name="author" content="Me">
 <link rel="canonical" href="https://wangyida.github.io/posts/2019/youtube/" />
 <link href="https://wangyida.github.io/assets/css/stylesheet.min.62447981861ad5bc7761e73be43801fe136a2aaaa8b7afd18ce582c358716848.css" integrity="sha256-YkR5gYYa1bx3Yec75DgB/hNqKqqot6/RjOWCw1hxaEg=" rel="preload stylesheet"
@@ -25,7 +26,8 @@
 
 
 <meta property="og:title" content="ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image" />
-<meta property="og:description" content="Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers. Motivated by the limited amount of training samples from real scenes, an interesting attribute of our architecture is the capacity to supplement the existing dataset by generating a new training dataset with high quality, realistic scenes that even includes occlusion and real noise." />
+<meta property="og:description" content="| paper | code |
+  Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wangyida.github.io/posts/2019/youtube/" />
 <meta property="og:image" content="https://wangyida.github.io/forknet.png" /><meta property="article:published_time" content="2019-11-01T10:15:01+02:00" />
@@ -33,7 +35,8 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://wangyida.github.io/forknet.png" />
 <meta name="twitter:title" content="ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image"/>
-<meta name="twitter:description" content="Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers. Motivated by the limited amount of training samples from real scenes, an interesting attribute of our architecture is the capacity to supplement the existing dataset by generating a new training dataset with high quality, realistic scenes that even includes occlusion and real noise."/>
+<meta name="twitter:description" content="| paper | code |
+  Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers."/>
 
 <script type="application/ld+json">
 {
@@ -41,12 +44,12 @@
   "@type": "BlogPosting",
   "headline": "ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image",
   "name": "ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image",
-  "description": "Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different …",
+  "description": "| paper | code |\n  Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to …",
   "keywords": [
     "deep learning", "computer vision", "3D completion", "adversarial training"
   ],
-  "articleBody": "   Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers. Motivated by the limited amount of training samples from real scenes, an interesting attribute of our architecture is the capacity to supplement the existing dataset by generating a new training dataset with high quality, realistic scenes that even includes occlusion and real noise. We build the new dataset by sampling the features directly from latent space which generates a pair of partial volumetric surface and completed volumetric semantic surface. Moreover, we utilize multiple discriminators to increase the accuracy and realism of the reconstructions. We demonstrate the benefits of our approach on standard benchmarks for the two most common completion tasks: semantic 3D scene completion and 3D object completion.\nCite If you find this work useful in yourr research, please cite:\n@inproceedings{wang2019forknet, title={ForkNet: Multi-branch Volumetric Semantic Completion from a Single Depth Image}, author={Wang, Yida and Tan, David Joseph and Navab, Nassir and Tombari, Federico}, booktitle={Proceedings of the IEEE International Conference on Computer Vision}, pages={8608--8617}, year={2019} } ",
-  "wordCount" : "222",
+  "articleBody": "| paper | code |\n  Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers. Motivated by the limited amount of training samples from real scenes, an interesting attribute of our architecture is the capacity to supplement the existing dataset by generating a new training dataset with high quality, realistic scenes that even includes occlusion and real noise. We build the new dataset by sampling the features directly from latent space which generates a pair of partial volumetric surface and completed volumetric semantic surface. Moreover, we utilize multiple discriminators to increase the accuracy and realism of the reconstructions. We demonstrate the benefits of our approach on standard benchmarks for the two most common completion tasks: semantic 3D scene completion and 3D object completion.\nCite If you find this work useful in yourr research, please cite:\n@inproceedings{wang2019forknet, title={ForkNet: Multi-branch Volumetric Semantic Completion from a Single Depth Image}, author={Wang, Yida and Tan, David Joseph and Navab, Nassir and Tombari, Federico}, booktitle={Proceedings of the IEEE International Conference on Computer Vision}, pages={8608--8617}, year={2019} } ",
+  "wordCount" : "227",
   "inLanguage": "en",
   "image":"https://wangyida.github.io/forknet.png","datePublished": "2019-11-01T10:15:01+02:00",
   "dateModified": "2019-11-01T10:15:01+02:00",
@@ -172,6 +175,7 @@ November 1, 2019&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me
 </figure>
 
   <div class="post-content">
+<p>| <a href="https://arxiv.org/pdf/1909.01106.pdf">paper</a> | <a href="https://github.com/wangyida/forknet">code</a> |</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube-nocookie.com/embed/1WZ16bGff1o" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
