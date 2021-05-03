@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://wangyida.github.io/l3/categories/</loc>
     <xhtml:link
@@ -19,9 +18,7 @@
                 hreflang="l3"
                 href="https://wangyida.github.io/l3/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/l3/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -38,9 +35,7 @@
                 hreflang="l3"
                 href="https://wangyida.github.io/l3/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/l3/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -57,9 +52,7 @@
                 hreflang="l3"
                 href="https://wangyida.github.io/l3/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/l3/</loc>
     <xhtml:link
                 rel="alternate"
@@ -77,5 +70,4 @@
                 href="https://wangyida.github.io/l3/"
                 />
   </url>
-  
 </urlset>

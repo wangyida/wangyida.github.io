@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://wangyida.github.io/l2/archives/</loc>
     <xhtml:link
@@ -14,9 +13,7 @@
                 hreflang="l2"
                 href="https://wangyida.github.io/l2/archives/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/l2/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -33,9 +30,7 @@
                 hreflang="l2"
                 href="https://wangyida.github.io/l2/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/l2/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -52,9 +47,7 @@
                 hreflang="l2"
                 href="https://wangyida.github.io/l2/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/l2/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -71,9 +64,7 @@
                 hreflang="l2"
                 href="https://wangyida.github.io/l2/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/l2/</loc>
     <xhtml:link
                 rel="alternate"
@@ -91,5 +82,4 @@
                 href="https://wangyida.github.io/l2/"
                 />
   </url>
-  
 </urlset>
