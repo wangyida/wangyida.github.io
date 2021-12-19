@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yida Wang</title>
     <link>https://wangyida.github.io/</link>
     <description>Recent content on Yida Wang</description>
+    <image>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -73,14 +77,7 @@
       <description>Abstrarct CNN has shown excellent performance on object recognition based on huge amount of real images. For training with synthetic data rendered from 3D models alone to reduce the workload of collecting real images, we propose a concatenated self-restraint learning structure lead by a triplet and softmax jointed loss function for object recognition. Locally connected auto encoder trained from rendered images with and without background used for object reconstruction against environment variables produces an additional channel automatically concatenated to RGB channels as input of classification network.</description>
     </item>
     
-    <item>
-      <title>Archive</title>
-      <link>https://wangyida.github.io/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://wangyida.github.io/archives/</guid>
-      <description>archives</description>
-    </item>
+    
     
   </channel>
 </rss>

@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://wangyida.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2020-08-25T10:15:01+02:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://wangyida.github.io/l2/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://wangyida.github.io/l3/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://wangyida.github.io/tags/3d-completion/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/categories/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/computer-vision/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/deep-learning/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/categories/publication/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/2020/youtube/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/adversarial-training/</loc>
+    <lastmod>2019-11-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/2019/youtube/</loc>
+    <lastmod>2019-11-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/key-points-detection/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/object-detection/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/tracking/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/variational-inference/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/2019_1/youtube/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/2018/youtube/</loc>
+    <lastmod>2018-10-09T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/2017/youtube/</loc>
+    <lastmod>2017-11-15T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/quantization/</loc>
+    <lastmod>2016-09-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/2016_1/youtube/</loc>
+    <lastmod>2016-09-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/2016/youtube/</loc>
+    <lastmod>2016-04-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/l2/archives/</loc>
+  </url><url>
+    <loc>https://wangyida.github.io/archives/</loc>
+  </url>
+</urlset>
