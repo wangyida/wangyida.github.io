@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ECCV on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/eccv/</link>
+    <description>Recent content in ECCV on Yida Wang</description>
+    <image>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/eccv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SoftPoolNet - Shape Descriptor for Point Cloud Completion and Classification</title>
+      <link>https://wangyida.github.io/posts/2020/youtube/</link>
+      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2020/youtube/</guid>
+      <description>| paper | code |
+  Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds. We introduce a new way of organizing the extracted features based on their activations, which we name soft pooling.</description>
+    </item>
+    
+  </channel>
+</rss>

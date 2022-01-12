@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IJCV on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/ijcv/</link>
+    <description>Recent content in IJCV on Yida Wang</description>
+    <image>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 29 Dec 2021 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/ijcv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SoftPool&#43;&#43; / An Encoder-Decoder Network for Point Cloud Completion</title>
+      <link>https://wangyida.github.io/posts/2021/youtube/</link>
+      <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2021/youtube/</guid>
+      <description>| paper | code |
+  Abstrarct We propose a novel convolutional operator for the task of point cloud completion. One striking characteristic of our approach is that, conversely to related work it does not require any max-pooling or voxelization operation. Instead, the proposed operator used to learn the point cloud embedding in the encoder extracts permutation-invariant features from the point cloud via a soft-pooling of feature activations, which are able to preserve fine-grained geometric details.</description>
+    </item>
+    
+  </channel>
+</rss>

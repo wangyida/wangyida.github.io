@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TIP on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/tip/</link>
+    <description>Recent content in TIP on Yida Wang</description>
+    <image>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Nov 2017 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/tip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
+      <link>https://wangyida.github.io/posts/2017/youtube/</link>
+      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2017/youtube/</guid>
+      <description>Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos.</description>
+    </item>
+    
+  </channel>
+</rss>

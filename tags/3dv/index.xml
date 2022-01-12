@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>3DV on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/3dv/</link>
+    <description>Recent content in 3DV on Yida Wang</description>
+    <image>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 09 Oct 2018 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/3dv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
+      <link>https://wangyida.github.io/posts/2018/youtube/</link>
+      <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
+      <description>| paper | code |
+  Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
+    </item>
+    
+  </channel>
+</rss>
