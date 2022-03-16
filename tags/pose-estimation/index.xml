@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>pose estimation on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/pose-estimation/</link>
+    <description>Recent content in pose estimation on Yida Wang</description>
+    <image>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/pose-estimation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
+      <link>https://wangyida.github.io/posts/2022/youtube/</link>
+      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2022/youtube/</guid>
+      <description>| paper | code |
+  Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
+    </item>
+    
+  </channel>
+</rss>
