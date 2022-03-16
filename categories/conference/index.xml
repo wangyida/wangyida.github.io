@@ -9,7 +9,17 @@
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Feb 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Local Displacements for Point Cloud Completion</title>
+      <link>https://wangyida.github.io/posts/2022_1/youtube/</link>
+      <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2022_1/youtube/</guid>
+      <description>| paper | code |
+  Abstrarct We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand. The first one carries out feature extraction by matching the point features to a set of pre-trained local descriptors.</description>
+    </item>
+    
     <item>
       <title>SoftPoolNet - Shape Descriptor for Point Cloud Completion and Classification</title>
       <link>https://wangyida.github.io/posts/2020/youtube/</link>

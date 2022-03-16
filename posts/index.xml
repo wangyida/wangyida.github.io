@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Learning Local Displacements for Point Cloud Completion</title>
+      <link>https://wangyida.github.io/posts/2022_1/youtube/</link>
+      <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/2022_1/youtube/</guid>
+      <description>| paper | code |
+  Abstrarct We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand. The first one carries out feature extraction by matching the point features to a set of pre-trained local descriptors.</description>
+    </item>
+    
+    <item>
       <title>SoftPool&#43;&#43; / An Encoder-Decoder Network for Point Cloud Completion</title>
       <link>https://wangyida.github.io/posts/2021/youtube/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
