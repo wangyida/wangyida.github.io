@@ -32,10 +32,10 @@
     
     <item>
       <title>ForkNet, Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
-      <link>https://wangyida.github.io/posts/youtube/</link>
+      <link>https://wangyida.github.io/posts/iccv_19/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/iccv_19/</guid>
       <description>Re-direct to the full PAPER and CODE
    Abstrarct    Scene completion Object completion          We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
     </item>

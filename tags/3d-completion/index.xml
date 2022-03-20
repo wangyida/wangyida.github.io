@@ -42,10 +42,10 @@
     
     <item>
       <title>SoftPoolNet, Shape Descriptor for Point Cloud Completion and Classification</title>
-      <link>https://wangyida.github.io/posts/youtube/</link>
+      <link>https://wangyida.github.io/posts/eccv_20/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/eccv_20/</guid>
       <description>Re-direct to the full PAPER and CODE
    Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds.</description>
     </item>
