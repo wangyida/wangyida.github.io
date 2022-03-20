@@ -11,13 +11,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Nov 2019 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/iccv/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
-      <link>https://wangyida.github.io/posts/2019/youtube/</link>
+      <title>ForkNet, Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
+      <link>https://wangyida.github.io/posts/youtube/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/2019/youtube/</guid>
-      <description>| paper | code |
-  Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
+      <guid>https://wangyida.github.io/posts/youtube/</guid>
+      <description>Re-direct to the full PAPER and CODE
+   Abstrarct    Scene completion Object completion          We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
     </item>
     
   </channel>

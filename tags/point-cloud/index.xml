@@ -20,5 +20,25 @@
   Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
     </item>
     
+    <item>
+      <title>Learning Local Displacements for Point Cloud Completion</title>
+      <link>https://wangyida.github.io/posts/cvpr_22/</link>
+      <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/cvpr_22/</guid>
+      <description>Re-direct to the full PAPER and CODE
+ Abstrarct    Completing a car       From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.    We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
+    </item>
+    
+    <item>
+      <title>SoftPoolNet, Shape Descriptor for Point Cloud Completion and Classification</title>
+      <link>https://wangyida.github.io/posts/youtube/</link>
+      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/youtube/</guid>
+      <description>Re-direct to the full PAPER and CODE
+   Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -22,10 +22,10 @@
     
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
-      <link>https://wangyida.github.io/posts/2022_1/</link>
+      <link>https://wangyida.github.io/posts/cvpr_22/</link>
       <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/2022_1/</guid>
+      <guid>https://wangyida.github.io/posts/cvpr_22/</guid>
       <description>Re-direct to the full PAPER and CODE
  Abstrarct    Completing a car       From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.    We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
     </item>
@@ -46,18 +46,8 @@
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/posts/youtube/</guid>
-      <description>| paper | code |
-  Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds. We introduce a new way of organizing the extracted features based on their activations, which we name soft pooling.</description>
-    </item>
-    
-    <item>
-      <title>ForkNet - Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
-      <link>https://wangyida.github.io/posts/2019/youtube/</link>
-      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/posts/2019/youtube/</guid>
-      <description>| paper | code |
-  Abstrarct We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
+      <description>Re-direct to the full PAPER and CODE
+   Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds.</description>
     </item>
     
     <item>
