@@ -26,7 +26,7 @@
       <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
-      <description>Re-direct to the full paper | code |
+      <description>Re-direct to the full PAPER and CODE |
    Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
     </item>
     

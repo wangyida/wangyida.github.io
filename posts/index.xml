@@ -27,7 +27,7 @@
       
       <guid>https://wangyida.github.io/posts/cvpr_22/</guid>
       <description>Re-direct to the full PAPER and CODE
- Abstrarct    Completing a car       From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.    We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
+   Abstrarct    Completing a car       From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.    We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/posts/2019_1/youtube/</guid>
-      <description>Re-direct to the full paper | code |
+      <description>Re-direct to the full PAPER and CODE |
    Abstrarct We propose an approach to estimate the 3D pose of a human hand while grasping objects from a single RGB image. Our approach is based on a probabilistic model implemented with deep architectures, which is used for regressing, respectively, the 2D hand joints heat maps and the 3D hand joints coordinates. We train our networks so to make our approach robust to large object- and self-occlusions, as commonly occurring with the task at hand.</description>
     </item>
     
@@ -76,7 +76,7 @@
       <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
-      <description>Re-direct to the full paper | code |
+      <description>Re-direct to the full PAPER and CODE |
    Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
     </item>
     
