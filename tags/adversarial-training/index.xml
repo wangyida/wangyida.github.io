@@ -17,7 +17,7 @@
       
       <guid>https://wangyida.github.io/posts/iccv_19/</guid>
       <description>Re-direct to the full PAPER and CODE
-   Abstrarct    Scene completion Object completion          We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
+Abstrarct Scene completion Object completion We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       
       <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
       <description>Re-direct to the full PAPER and CODE |
-   Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
+Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
     </item>
     
   </channel>

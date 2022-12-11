@@ -9,17 +9,7 @@
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Aug 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BMW 2er Coupe for SALE!</title>
-      <link>https://wangyida.github.io/posts/bmw/</link>
-      <pubDate>Thu, 11 Aug 2022 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/posts/bmw/</guid>
-      <description>His first day       Brandnew 2er delivered from BMW WELT München on 26th July, 2019. Details could be found in the configurations document. A brief summary is listed below as a reference.    Current status No damage, always covered by insurance. The motor oil and brake oil are regularly changed for maintenance.
-Side views Interiors and engine Chassis Stats          I am the first owner   Delivered in July, 2019   Bought with 39,700 €   Sales 25,500 €   Mileage 19,000 KM   Winter tires included    Quote If you are interested to be his second owner, please contact:</description>
-    </item>
-    
+    <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
       <link>https://wangyida.github.io/posts/pami_22/</link>
@@ -27,7 +17,7 @@ Side views Interiors and engine Chassis Stats          I am the first owner   De
       
       <guid>https://wangyida.github.io/posts/pami_22/</guid>
       <description>Re-direct to the full PAPER and CODE
- Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
+Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
     </item>
     
     <item>
@@ -37,7 +27,7 @@ Side views Interiors and engine Chassis Stats          I am the first owner   De
       
       <guid>https://wangyida.github.io/posts/cvpr_22/</guid>
       <description>Re-direct to the full PAPER and CODE
-   Abstrarct    Completing a car       From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.    We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
+Abstrarct Completing a car From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction. We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
     </item>
     
     <item>
@@ -47,7 +37,17 @@ Side views Interiors and engine Chassis Stats          I am the first owner   De
       
       <guid>https://wangyida.github.io/posts/youtube/</guid>
       <description>Re-direct to the full PAPER and CODE
- Abstrarct We propose a novel convolutional operator for the task of point cloud completion. One striking characteristic of our approach is that, conversely to related work it does not require any max-pooling or voxelization operation. Instead, the proposed operator used to learn the point cloud embedding in the encoder extracts permutation-invariant features from the point cloud via a soft-pooling of feature activations, which are able to preserve fine-grained geometric details.</description>
+Abstrarct We propose a novel convolutional operator for the task of point cloud completion. One striking characteristic of our approach is that, conversely to related work it does not require any max-pooling or voxelization operation. Instead, the proposed operator used to learn the point cloud embedding in the encoder extracts permutation-invariant features from the point cloud via a soft-pooling of feature activations, which are able to preserve fine-grained geometric details.</description>
+    </item>
+    
+    <item>
+      <title>BMW 2er Coupe for SALE!</title>
+      <link>https://wangyida.github.io/posts/bmw/</link>
+      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/bmw/</guid>
+      <description>His first day Brandnew 2er delivered from BMW WELT München on 26th July, 2019. Details could be found in the configurations document. A brief summary is listed below as a reference. Current status No damage, always covered by insurance. The motor oil and brake oil are regularly changed for maintenance.
+Side views Interiors and engine Chassis Stats I am the first owner Delivered in July, 2019 Bought with 39,700 € Sales 25,500 € Mileage 19,000 KM Winter tires included Quote If you are interested to be his second owner, please contact:</description>
     </item>
     
     <item>
@@ -57,7 +57,7 @@ Side views Interiors and engine Chassis Stats          I am the first owner   De
       
       <guid>https://wangyida.github.io/posts/eccv_20/</guid>
       <description>Re-direct to the full PAPER and CODE
-   Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds.</description>
+Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds. We introduce a new way of organizing the extracted features based on their activations, which we name soft pooling.</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@ Side views Interiors and engine Chassis Stats          I am the first owner   De
       
       <guid>https://wangyida.github.io/posts/iccv_19/</guid>
       <description>Re-direct to the full PAPER and CODE
-   Abstrarct    Scene completion Object completion          We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
+Abstrarct Scene completion Object completion We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
     </item>
     
     <item>
@@ -77,7 +77,7 @@ Side views Interiors and engine Chassis Stats          I am the first owner   De
       
       <guid>https://wangyida.github.io/posts/2019_1/youtube/</guid>
       <description>Re-direct to the full PAPER and CODE |
-   Abstrarct We propose an approach to estimate the 3D pose of a human hand while grasping objects from a single RGB image. Our approach is based on a probabilistic model implemented with deep architectures, which is used for regressing, respectively, the 2D hand joints heat maps and the 3D hand joints coordinates. We train our networks so to make our approach robust to large object- and self-occlusions, as commonly occurring with the task at hand.</description>
+Abstrarct We propose an approach to estimate the 3D pose of a human hand while grasping objects from a single RGB image. Our approach is based on a probabilistic model implemented with deep architectures, which is used for regressing, respectively, the 2D hand joints heat maps and the 3D hand joints coordinates. We train our networks so to make our approach robust to large object- and self-occlusions, as commonly occurring with the task at hand.</description>
     </item>
     
     <item>
@@ -87,7 +87,7 @@ Side views Interiors and engine Chassis Stats          I am the first owner   De
       
       <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
       <description>Re-direct to the full PAPER and CODE |
-   Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
+Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
     </item>
     
     <item>

@@ -17,7 +17,7 @@
       
       <guid>https://wangyida.github.io/posts/cvpr_22/</guid>
       <description>Re-direct to the full PAPER and CODE
-   Abstrarct    Completing a car       From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.    We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
+Abstrarct Completing a car From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction. We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
     </item>
     
   </channel>

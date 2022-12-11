@@ -9,34 +9,7 @@
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Aug 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>car</title>
-      <link>https://wangyida.github.io/tags/car/</link>
-      <pubDate>Thu, 11 Aug 2022 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/car/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coupe</title>
-      <link>https://wangyida.github.io/tags/coupe/</link>
-      <pubDate>Thu, 11 Aug 2022 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/coupe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sale</title>
-      <link>https://wangyida.github.io/tags/sale/</link>
-      <pubDate>Thu, 11 Aug 2022 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/sale/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D completion</title>
       <link>https://wangyida.github.io/tags/3d-completion/</link>
@@ -160,6 +133,33 @@
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/tags/ijcv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>car</title>
+      <link>https://wangyida.github.io/tags/car/</link>
+      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/car/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coupe</title>
+      <link>https://wangyida.github.io/tags/coupe/</link>
+      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/coupe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sale</title>
+      <link>https://wangyida.github.io/tags/sale/</link>
+      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/sale/</guid>
       <description></description>
     </item>
     
