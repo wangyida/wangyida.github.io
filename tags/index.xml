@@ -10,13 +10,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Sep 2023 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D completion</title>
       <link>https://wangyida.github.io/tags/3d-completion/</link>
-      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
+      <pubDate>Thu, 21 Sep 2023 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/tags/3d-completion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer vision</title>
+      <link>https://wangyida.github.io/tags/computer-vision/</link>
+      <pubDate>Thu, 21 Sep 2023 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://wangyida.github.io/tags/deep-learning/</link>
+      <pubDate>Thu, 21 Sep 2023 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dissertation</title>
+      <link>https://wangyida.github.io/tags/dissertation/</link>
+      <pubDate>Thu, 21 Sep 2023 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/dissertation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>single view</title>
+      <link>https://wangyida.github.io/tags/single-view/</link>
+      <pubDate>Thu, 21 Sep 2023 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/single-view/</guid>
       <description></description>
     </item>
     
@@ -26,24 +62,6 @@
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/tags/clustering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computer vision</title>
-      <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
