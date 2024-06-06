@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Feb 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RaNeuS - Ray-adaptive Neural Surface Reconstruction</title>
+      <link>https://wangyida.github.io/posts/3dv_24/youtube/</link>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/3dv_24/youtube/</guid>
+      <description> Re-direct to the full PAPER and CODE |
+Cite If you find this work useful in your research, please cite:
+@inproceedings{wang2023raneus, title={RaNeuS: Ray-adaptive Neural Surface Reconstruction}, author={Wang, Yida and Tan, David and Tombari, Federico and Navab, Nassir}, booktitle={Proceedings of the IEEE/CVF International Conference on 3D Vision}, year={2023} } </description>
+    </item>
+    
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
       <link>https://wangyida.github.io/posts/cvpr_22/</link>

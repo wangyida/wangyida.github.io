@@ -10,20 +10,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 May 2023 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3D Completion</title>
-      <link>https://wangyida.github.io/tags/3d-completion/</link>
-      <pubDate>Mon, 22 May 2023 10:15:01 +0200</pubDate>
+      <title>3DV</title>
+      <link>https://wangyida.github.io/tags/3dv/</link>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/3d-completion/</guid>
+      <guid>https://wangyida.github.io/tags/3dv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer Vision</title>
       <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Mon, 22 May 2023 10:15:01 +0200</pubDate>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/tags/computer-vision/</guid>
       <description></description>
@@ -32,9 +32,45 @@
     <item>
       <title>Deep Learning</title>
       <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Mon, 22 May 2023 10:15:01 +0200</pubDate>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MVS</title>
+      <link>https://wangyida.github.io/tags/mvs/</link>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/mvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeRF</title>
+      <link>https://wangyida.github.io/tags/nerf/</link>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/nerf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeuS</title>
+      <link>https://wangyida.github.io/tags/neus/</link>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/neus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Completion</title>
+      <link>https://wangyida.github.io/tags/3d-completion/</link>
+      <pubDate>Mon, 22 May 2023 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/3d-completion/</guid>
       <description></description>
     </item>
     
@@ -260,15 +296,6 @@
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/tags/tracking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>3DV</title>
-      <link>https://wangyida.github.io/tags/3dv/</link>
-      <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/3dv/</guid>
       <description></description>
     </item>
     
