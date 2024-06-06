@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>3D completion on Yida Wang</title>
+    <title>3D Completion on Yida Wang</title>
     <link>https://wangyida.github.io/tags/3d-completion/</link>
-    <description>Recent content in 3D completion on Yida Wang</description>
+    <description>Recent content in 3D Completion on Yida Wang</description>
     <image>
       <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Sep 2023 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/3d-completion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 May 2023 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/3d-completion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning-based Single View Completion</title>
       <link>https://wangyida.github.io/posts/dissertation/</link>
-      <pubDate>Thu, 21 Sep 2023 10:15:01 +0200</pubDate>
+      <pubDate>Mon, 22 May 2023 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/posts/dissertation/</guid>
-      <description>Re-direct to the full Dissertation
+      <description>Re-direct to my dissertation site and manuscript
 Abstrarct Fed with a partial scan, single-view 3D completion models are expected to generate the completed geometry as an inference result. Applications such as AR/VR and autonomous driving could benefit from targets being presented in their complete structures, while occluded geometries are missing due to limited camera view. Learning-based 3D completion approach can reveal the occluded regions conditioned on a single view sample with the help of large-scale training data.</description>
     </item>
     
