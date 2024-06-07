@@ -1,109 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Computer Vision on Yida Wang</title>
     <link>https://wangyida.github.io/tags/computer-vision/</link>
     <description>Recent content in Computer Vision on Yida Wang</description>
+    <image>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate>
-    
-	<atom:link href="https://wangyida.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RaNeuS - Ray-adaptive Neural Surface Reconstruction</title>
+      <link>https://wangyida.github.io/posts/3dv24/</link>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/posts/3dv24/</guid>
+      <description> Re-direct to the full PAPER and CODE |
+Cite If you find this work useful in your research, please cite:
+@inproceedings{wang2023raneus, title={RaNeuS: Ray-adaptive Neural Surface Reconstruction}, author={Wang, Yida and Tan, David and Tombari, Federico and Navab, Nassir}, booktitle={Proceedings of the IEEE/CVF International Conference on 3D Vision}, year={2023} } </description>
+    </item>
     
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
-      <link>https://wangyida.github.io/posts/pami_22/</link>
+      <link>https://wangyida.github.io/posts/pami22/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/pami_22/</guid>
+      <guid>https://wangyida.github.io/posts/pami22/</guid>
       <description>Re-direct to the full PAPER and CODE
- Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
+Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
     </item>
     
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
-      <link>https://wangyida.github.io/posts/cvpr_22/</link>
+      <link>https://wangyida.github.io/posts/cvpr22/</link>
       <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/cvpr_22/</guid>
+      <guid>https://wangyida.github.io/posts/cvpr22/</guid>
       <description>Re-direct to the full PAPER and CODE
-   Abstrarct    Completing a car       From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.    We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
+Abstrarct Completing a car From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction. We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
     </item>
     
     <item>
       <title>SoftPool&#43;&#43; / An Encoder-Decoder Network for Point Cloud Completion</title>
-      <link>https://wangyida.github.io/posts/ijcv_21/youtube/</link>
+      <link>https://wangyida.github.io/posts/ijcv22/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/ijcv_21/youtube/</guid>
-      <description>Re-direct to the full PAPER and [CODE]()
- Abstrarct We propose a novel convolutional operator for the task of point cloud completion. One striking characteristic of our approach is that, conversely to related work it does not require any max-pooling or voxelization operation. Instead, the proposed operator used to learn the point cloud embedding in the encoder extracts permutation-invariant features from the point cloud via a soft-pooling of feature activations, which are able to preserve fine-grained geometric details.</description>
+      <guid>https://wangyida.github.io/posts/ijcv22/</guid>
+      <description>Re-direct to the full PAPER and CODE
+Abstrarct We propose a novel convolutional operator for the task of point cloud completion. One striking characteristic of our approach is that, conversely to related work it does not require any max-pooling or voxelization operation. Instead, the proposed operator used to learn the point cloud embedding in the encoder extracts permutation-invariant features from the point cloud via a soft-pooling of feature activations, which are able to preserve fine-grained geometric details.</description>
     </item>
     
     <item>
       <title>SoftPoolNet, Shape Descriptor for Point Cloud Completion and Classification</title>
-      <link>https://wangyida.github.io/posts/eccv_20/</link>
+      <link>https://wangyida.github.io/posts/eccv20/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/eccv_20/</guid>
+      <guid>https://wangyida.github.io/posts/eccv20/</guid>
       <description>Re-direct to the full PAPER and CODE
-   Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds.</description>
+Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds. We introduce a new way of organizing the extracted features based on their activations, which we name soft pooling.</description>
     </item>
     
     <item>
       <title>ForkNet, Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
-      <link>https://wangyida.github.io/posts/iccv_19/</link>
+      <link>https://wangyida.github.io/posts/iccv19/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/iccv_19/</guid>
+      <guid>https://wangyida.github.io/posts/iccv19/</guid>
       <description>Re-direct to the full PAPER and CODE
-   Abstrarct    Scene completion Object completion          We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
+Abstrarct Scene completion Object completion We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
     </item>
     
     <item>
       <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
-      <link>https://wangyida.github.io/posts/2019_1/youtube/</link>
+      <link>https://wangyida.github.io/posts/iros_19/iros19/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/2019_1/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/iros_19/iros19/</guid>
       <description>Re-direct to the full PAPER and CODE |
-   Abstrarct We propose an approach to estimate the 3D pose of a human hand while grasping objects from a single RGB image. Our approach is based on a probabilistic model implemented with deep architectures, which is used for regressing, respectively, the 2D hand joints heat maps and the 3D hand joints coordinates. We train our networks so to make our approach robust to large object- and self-occlusions, as commonly occurring with the task at hand.</description>
+Abstrarct We propose an approach to estimate the 3D pose of a human hand while grasping objects from a single RGB image. Our approach is based on a probabilistic model implemented with deep architectures, which is used for regressing, respectively, the 2D hand joints heat maps and the 3D hand joints coordinates. We train our networks so to make our approach robust to large object- and self-occlusions, as commonly occurring with the task at hand.</description>
     </item>
     
     <item>
       <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
-      <link>https://wangyida.github.io/posts/2018/youtube/</link>
+      <link>https://wangyida.github.io/posts/3dv_18/3dv18/</link>
       <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/3dv_18/3dv18/</guid>
       <description>Re-direct to the full PAPER and CODE |
-   Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
+Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
     </item>
     
     <item>
       <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
-      <link>https://wangyida.github.io/posts/2017/youtube/</link>
+      <link>https://wangyida.github.io/posts/tip17/tip17/</link>
       <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/2017/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/tip17/tip17/</guid>
       <description>Abstrarct Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos.</description>
     </item>
     
     <item>
       <title>Zigzagnet- Efficient deep learning for real object recognition based on 3D models</title>
-      <link>https://wangyida.github.io/posts/2016_1/youtube/</link>
+      <link>https://wangyida.github.io/posts/accv16/</link>
       <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/2016_1/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/accv16/</guid>
       <description>Abstrarct Effective utilization on texture-less 3D models for deep learning is significant to recognition on real photos. We eliminate the reliance on massive real training data by modifying convolutional neural network in 3 aspects: synthetic data rendering for training data generation in large quantities, multi-triplet cost function modification for multi-task learning and compact micro architecture design for producing tiny parametric model while overcoming over-fit problem in texture-less models. Network is initiated with multi-triplet cost function establishing sphere-like distribution of descriptors in each category which is helpful for recognition on regular photos according to pose, lighting condition, background and category information of rendered images.</description>
     </item>
     
     <item>
       <title>Self-restraint Object Recognition by Model Based CNN Learning</title>
-      <link>https://wangyida.github.io/posts/2016/youtube/</link>
+      <link>https://wangyida.github.io/posts/icip16/</link>
       <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/posts/2016/youtube/</guid>
+      <guid>https://wangyida.github.io/posts/icip16/</guid>
       <description>Abstrarct CNN has shown excellent performance on object recognition based on huge amount of real images. For training with synthetic data rendered from 3D models alone to reduce the workload of collecting real images, we propose a concatenated self-restraint learning structure lead by a triplet and softmax jointed loss function for object recognition. Locally connected auto encoder trained from rendered images with and without background used for object reconstruction against environment variables produces an additional channel automatically concatenated to RGB channels as input of classification network.</description>
     </item>
     

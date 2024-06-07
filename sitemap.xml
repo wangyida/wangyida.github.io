@@ -1,296 +1,168 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/pami_22/</loc>
-    <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/cvpr_22/</loc>
-    <lastmod>2022-02-19T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/ijcv_21/youtube/</loc>
-    <lastmod>2021-12-29T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/bmw/</loc>
-    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/eccv_20/</loc>
-    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/iccv_19/</loc>
-    <lastmod>2019-11-01T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/2019_1/youtube/</loc>
-    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/2018/youtube/</loc>
-    <lastmod>2018-10-09T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/2017/youtube/</loc>
-    <lastmod>2017-11-15T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/2016_1/youtube/</loc>
-    <lastmod>2016-09-01T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/2016/youtube/</loc>
-    <lastmod>2016-04-01T10:15:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/3d-completion/</loc>
-    <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
   <url>
     <loc>https://wangyida.github.io/tags/3dv/</loc>
-    <lastmod>2018-10-09T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/accv/</loc>
-    <lastmod>2016-09-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/adversarial-training/</loc>
-    <lastmod>2019-11-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/l2/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/car/</loc>
-    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/categories/car/</loc>
-    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
     <loc>https://wangyida.github.io/categories/</loc>
-    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/computer-vision/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/categories/conference/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/deep-learning/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/mvs/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/nerf/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/neus/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/3dv24/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/</loc>
+    <lastmod>2024-04-07T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/3d-completion/</loc>
+    <lastmod>2022-03-01T10:15:01+02:00</lastmod>
+  </url><url>
     <loc>https://wangyida.github.io/tags/clustering/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/computer-vision/</loc>
-    <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/categories/conference/</loc>
-    <lastmod>2022-02-19T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/coupe/</loc>
-    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/cvpr/</loc>
-    <lastmod>2022-02-19T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/deep-learning/</loc>
-    <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/eccv/</loc>
-    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/iccv/</loc>
-    <lastmod>2019-11-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/icip/</loc>
-    <lastmod>2016-04-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/ijcv/</loc>
-    <lastmod>2021-12-29T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/iros/</loc>
-    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/categories/journal/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/key-points-detection/</loc>
-    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/tags/machine-translation/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/object-detection/</loc>
-    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/tags/pami/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/tags/planar-reconstruction/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/tags/point-cloud/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/tags/pose-estimation/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/posts/</loc>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/pami22/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/quantization/</loc>
-    <lastmod>2016-09-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/ral/</loc>
-    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/sale/</loc>
-    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/tags/semantic-completion/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/tags/semantic-segmentation/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/</loc>
-    <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/tip/</loc>
-    <lastmod>2017-11-15T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/tags/tracking/</loc>
-    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangyida.github.io/tags/variational-inference/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/cvpr/</loc>
+    <lastmod>2022-02-19T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/cvpr22/</loc>
+    <lastmod>2022-02-19T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/ijcv/</loc>
+    <lastmod>2021-12-29T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/ijcv22/</loc>
+    <lastmod>2021-12-29T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/bmw/</loc>
+    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/car/</loc>
+    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/categories/car/</loc>
+    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/coupe/</loc>
+    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/sale/</loc>
+    <lastmod>2021-08-11T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/eccv/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/eccv20/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/adversarial-training/</loc>
+    <lastmod>2019-11-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/iccv19/</loc>
+    <lastmod>2019-11-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/iccv/</loc>
+    <lastmod>2019-11-01T10:15:01+02:00</lastmod>
+  </url><url>
     <loc>https://wangyida.github.io/tags/volumetric-data/</loc>
     <lastmod>2019-11-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/iros/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/key-points-detection/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/object-detection/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/ral/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/tracking/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/iros_19/iros19/</loc>
+    <lastmod>2019-06-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/3dv_18/3dv18/</loc>
+    <lastmod>2018-10-09T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/tip17/tip17/</loc>
+    <lastmod>2017-11-15T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/tip/</loc>
+    <lastmod>2017-11-15T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/accv/</loc>
+    <lastmod>2016-09-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/quantization/</loc>
+    <lastmod>2016-09-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/accv16/</loc>
+    <lastmod>2016-09-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/icip/</loc>
+    <lastmod>2016-04-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/posts/icip16/</loc>
+    <lastmod>2016-04-01T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/l2/archives/</loc>
+  </url><url>
+    <loc>https://wangyida.github.io/archives/</loc>
   </url>
-  
-  <url>
-    <loc>https://wangyida.github.io/</loc>
-    <lastmod>2022-03-01T10:15:01+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
 </urlset>
