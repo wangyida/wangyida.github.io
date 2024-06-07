@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ACCV on Yida Wang</title>
+    <title>Accv on Yida Wang</title>
     <link>https://wangyida.github.io/tags/accv/</link>
-    <description>Recent content in ACCV on Yida Wang</description>
-    <image>
-      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
-      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
-    </image>
+    <description>Recent content in Accv on Yida Wang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 01 Sep 2016 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/accv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2016 10:15:01 +0200</lastBuildDate>
+    
+	<atom:link href="https://wangyida.github.io/tags/accv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Zigzagnet- Efficient deep learning for real object recognition based on 3D models</title>
       <link>https://wangyida.github.io/posts/2016_1/youtube/</link>

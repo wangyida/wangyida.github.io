@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conference on Yida Wang</title>
     <link>https://wangyida.github.io/categories/conference/</link>
     <description>Recent content in Conference on Yida Wang</description>
-    <image>
-      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
-      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>RaNeuS - Ray-adaptive Neural Surface Reconstruction</title>
-      <link>https://wangyida.github.io/posts/3dv_24/youtube/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/posts/3dv_24/youtube/</guid>
-      <description> Re-direct to the full PAPER and CODE |
-Cite If you find this work useful in your research, please cite:
-@inproceedings{wang2023raneus, title={RaNeuS: Ray-adaptive Neural Surface Reconstruction}, author={Wang, Yida and Tan, David and Tombari, Federico and Navab, Nassir}, booktitle={Proceedings of the IEEE/CVF International Conference on 3D Vision}, year={2023} } </description>
-    </item>
+    <lastBuildDate>Sat, 19 Feb 2022 10:15:01 +0200</lastBuildDate>
+    
+	<atom:link href="https://wangyida.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
@@ -29,7 +17,7 @@ Cite If you find this work useful in your research, please cite:
       
       <guid>https://wangyida.github.io/posts/cvpr_22/</guid>
       <description>Re-direct to the full PAPER and CODE
-Abstrarct Completing a car From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction. We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
+   Abstrarct    Completing a car       From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.    We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
     </item>
     
     <item>
@@ -39,7 +27,7 @@ Abstrarct Completing a car From the input partial scan to our object completion,
       
       <guid>https://wangyida.github.io/posts/eccv_20/</guid>
       <description>Re-direct to the full PAPER and CODE
-Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds. We introduce a new way of organizing the extracted features based on their activations, which we name soft pooling.</description>
+   Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds.</description>
     </item>
     
     <item>
@@ -49,7 +37,7 @@ Abstrarct Point clouds are often the default choice for many applications as the
       
       <guid>https://wangyida.github.io/posts/iccv_19/</guid>
       <description>Re-direct to the full PAPER and CODE
-Abstrarct Scene completion Object completion We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
+   Abstrarct    Scene completion Object completion          We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
     </item>
     
     <item>
@@ -59,7 +47,7 @@ Abstrarct Scene completion Object completion We propose a novel model for 3D sem
       
       <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
       <description>Re-direct to the full PAPER and CODE |
-Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
+   Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
     </item>
     
     <item>

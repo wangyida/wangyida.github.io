@@ -1,94 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yida Wang</title>
     <link>https://wangyida.github.io/tags/</link>
     <description>Recent content in Tags on Yida Wang</description>
-    <image>
-      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
-      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>3DV</title>
-      <link>https://wangyida.github.io/tags/3dv/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/3dv/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate>
+    
+	<atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Computer Vision</title>
-      <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MVS</title>
-      <link>https://wangyida.github.io/tags/mvs/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/mvs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NeRF</title>
-      <link>https://wangyida.github.io/tags/nerf/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/nerf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NeuS</title>
-      <link>https://wangyida.github.io/tags/neus/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/neus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>3D Completion</title>
+      <title>3d Completion</title>
       <link>https://wangyida.github.io/tags/3d-completion/</link>
-      <pubDate>Mon, 22 May 2023 10:15:01 +0200</pubDate>
+      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
       
       <guid>https://wangyida.github.io/tags/3d-completion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Dissertation</title>
-      <link>https://wangyida.github.io/tags/dissertation/</link>
-      <pubDate>Mon, 22 May 2023 10:15:01 +0200</pubDate>
+      <title>3dv</title>
+      <link>https://wangyida.github.io/tags/3dv/</link>
+      <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/dissertation/</guid>
+      <guid>https://wangyida.github.io/tags/3dv/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Single View</title>
-      <link>https://wangyida.github.io/tags/single-view/</link>
-      <pubDate>Mon, 22 May 2023 10:15:01 +0200</pubDate>
+      <title>Accv</title>
+      <link>https://wangyida.github.io/tags/accv/</link>
+      <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/single-view/</guid>
+      <guid>https://wangyida.github.io/tags/accv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Training</title>
+      <link>https://wangyida.github.io/tags/adversarial-training/</link>
+      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/adversarial-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Car</title>
+      <link>https://wangyida.github.io/tags/car/</link>
+      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/car/</guid>
       <description></description>
     </item>
     
@@ -102,6 +65,96 @@
     </item>
     
     <item>
+      <title>Computer Vision</title>
+      <link>https://wangyida.github.io/tags/computer-vision/</link>
+      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coupe</title>
+      <link>https://wangyida.github.io/tags/coupe/</link>
+      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/coupe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cvpr</title>
+      <link>https://wangyida.github.io/tags/cvpr/</link>
+      <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://wangyida.github.io/tags/deep-learning/</link>
+      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eccv</title>
+      <link>https://wangyida.github.io/tags/eccv/</link>
+      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/eccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iccv</title>
+      <link>https://wangyida.github.io/tags/iccv/</link>
+      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/iccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Icip</title>
+      <link>https://wangyida.github.io/tags/icip/</link>
+      <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/icip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ijcv</title>
+      <link>https://wangyida.github.io/tags/ijcv/</link>
+      <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/ijcv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iros</title>
+      <link>https://wangyida.github.io/tags/iros/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/iros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Key Points Detection</title>
+      <link>https://wangyida.github.io/tags/key-points-detection/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/key-points-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine Translation</title>
       <link>https://wangyida.github.io/tags/machine-translation/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
@@ -111,7 +164,16 @@
     </item>
     
     <item>
-      <title>PAMI</title>
+      <title>Object Detection</title>
+      <link>https://wangyida.github.io/tags/object-detection/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/object-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pami</title>
       <link>https://wangyida.github.io/tags/pami/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
       
@@ -147,6 +209,33 @@
     </item>
     
     <item>
+      <title>Quantization</title>
+      <link>https://wangyida.github.io/tags/quantization/</link>
+      <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/quantization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ral</title>
+      <link>https://wangyida.github.io/tags/ral/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/ral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sale</title>
+      <link>https://wangyida.github.io/tags/sale/</link>
+      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
+      
+      <guid>https://wangyida.github.io/tags/sale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Semantic Completion</title>
       <link>https://wangyida.github.io/tags/semantic-completion/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
@@ -165,128 +254,11 @@
     </item>
     
     <item>
-      <title>Variational Inference</title>
-      <link>https://wangyida.github.io/tags/variational-inference/</link>
-      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
+      <title>Tip</title>
+      <link>https://wangyida.github.io/tags/tip/</link>
+      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/variational-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CVPR</title>
-      <link>https://wangyida.github.io/tags/cvpr/</link>
-      <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/cvpr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IJCV</title>
-      <link>https://wangyida.github.io/tags/ijcv/</link>
-      <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/ijcv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Car</title>
-      <link>https://wangyida.github.io/tags/car/</link>
-      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/car/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coupe</title>
-      <link>https://wangyida.github.io/tags/coupe/</link>
-      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/coupe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sale</title>
-      <link>https://wangyida.github.io/tags/sale/</link>
-      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/sale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ECCV</title>
-      <link>https://wangyida.github.io/tags/eccv/</link>
-      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/eccv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adversarial Training</title>
-      <link>https://wangyida.github.io/tags/adversarial-training/</link>
-      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/adversarial-training/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ICCV</title>
-      <link>https://wangyida.github.io/tags/iccv/</link>
-      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/iccv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Volumetric Data</title>
-      <link>https://wangyida.github.io/tags/volumetric-data/</link>
-      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/volumetric-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IROS</title>
-      <link>https://wangyida.github.io/tags/iros/</link>
-      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/iros/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Key-Points Detection</title>
-      <link>https://wangyida.github.io/tags/key-points-detection/</link>
-      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/key-points-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Object Detection</title>
-      <link>https://wangyida.github.io/tags/object-detection/</link>
-      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/object-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RAL</title>
-      <link>https://wangyida.github.io/tags/ral/</link>
-      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/ral/</guid>
+      <guid>https://wangyida.github.io/tags/tip/</guid>
       <description></description>
     </item>
     
@@ -300,38 +272,20 @@
     </item>
     
     <item>
-      <title>TIP</title>
-      <link>https://wangyida.github.io/tags/tip/</link>
-      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
+      <title>Variational Inference</title>
+      <link>https://wangyida.github.io/tags/variational-inference/</link>
+      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/tip/</guid>
+      <guid>https://wangyida.github.io/tags/variational-inference/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ACCV</title>
-      <link>https://wangyida.github.io/tags/accv/</link>
-      <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
+      <title>Volumetric Data</title>
+      <link>https://wangyida.github.io/tags/volumetric-data/</link>
+      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
       
-      <guid>https://wangyida.github.io/tags/accv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantization</title>
-      <link>https://wangyida.github.io/tags/quantization/</link>
-      <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/quantization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ICIP</title>
-      <link>https://wangyida.github.io/tags/icip/</link>
-      <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
-      
-      <guid>https://wangyida.github.io/tags/icip/</guid>
+      <guid>https://wangyida.github.io/tags/volumetric-data/</guid>
       <description></description>
     </item>
     

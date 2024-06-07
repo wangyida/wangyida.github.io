@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adversarial Training on Yida Wang</title>
     <link>https://wangyida.github.io/tags/adversarial-training/</link>
     <description>Recent content in Adversarial Training on Yida Wang</description>
-    <image>
-      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
-      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 01 Nov 2019 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/adversarial-training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2019 10:15:01 +0200</lastBuildDate>
+    
+	<atom:link href="https://wangyida.github.io/tags/adversarial-training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>ForkNet, Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
       <link>https://wangyida.github.io/posts/iccv_19/</link>
@@ -18,7 +17,7 @@
       
       <guid>https://wangyida.github.io/posts/iccv_19/</guid>
       <description>Re-direct to the full PAPER and CODE
-Abstrarct Scene completion Object completion We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
+   Abstrarct    Scene completion Object completion          We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space.</description>
     </item>
     
     <item>
@@ -28,7 +27,7 @@ Abstrarct Scene completion Object completion We propose a novel model for 3D sem
       
       <guid>https://wangyida.github.io/posts/2018/youtube/</guid>
       <description>Re-direct to the full PAPER and CODE |
-Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
+   Abstrarct We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features.</description>
     </item>
     
   </channel>
