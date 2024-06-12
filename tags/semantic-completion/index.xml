@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Semantic Completion on Yida Wang</title>
     <link>https://wangyida.github.io/tags/semantic-completion/</link>
     <description>Recent content in Semantic Completion on Yida Wang</description>
-    <image>
-      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
-      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/semantic-completion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate>
+    <atom:link href="https://wangyida.github.io/tags/semantic-completion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
       <link>https://wangyida.github.io/posts/pami22/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      
       <guid>https://wangyida.github.io/posts/pami22/</guid>
-      <description>Re-direct to the full PAPER and CODE
-Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
+      <description>Re-direct to the full PAPER and CODE&#xA;Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
     </item>
-    
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
       <link>https://wangyida.github.io/posts/cvpr22/</link>
       <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
-      
       <guid>https://wangyida.github.io/posts/cvpr22/</guid>
-      <description>Re-direct to the full PAPER and CODE
-Abstrarct Completing a car From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction. We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
+      <description>Re-direct to the full PAPER and CODE&#xA;Abstrarct Completing a car From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction. We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
     </item>
-    
     <item>
       <title>ForkNet, Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
       <link>https://wangyida.github.io/posts/iccv19/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      
       <guid>https://wangyida.github.io/posts/iccv19/</guid>
-      <description>Re-direct to the full PAPER and CODE
-Abstrarct Scene completion Object completion We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
+      <description>Re-direct to the full PAPER and CODE&#xA;Abstrarct Scene completion Object completion We propose a novel model for 3D semantic completion from a single depth image, based on a single encoder and three separate generators used to reconstruct different geometric and semantic representations of the original and completed scene, all sharing the same latent space. To transfer information between the geometric and semantic branches of the network, we introduce paths between them concatenating features at corresponding network layers.</description>
     </item>
-    
   </channel>
 </rss>

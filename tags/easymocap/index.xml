@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EasyMocap on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/easymocap/</link>
+    <description>Recent content in EasyMocap on Yida Wang</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Nov 2022 10:15:01 +0200</lastBuildDate>
+    <atom:link href="https://wangyida.github.io/tags/easymocap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rendering, Animating and Meshing Actors with NeRF</title>
+      <link>https://wangyida.github.io/posts/synthesia/</link>
+      <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/synthesia/</guid>
+      <description> Re-direct to the CODE |&#xA;A library for rendering neural actors, and benchmarking dynamic NeRF&#xA;Cite If you find this work useful in your research, please cite:&#xA;@misc{rama2023wang, Author = {Yida Wang}, Year = {2023}, Note = {https://github.com/wangyida/neural-actor}, Title = {Rendering, Animating and Meshing Actors with NeRF} } </description>
+    </item>
+  </channel>
+</rss>

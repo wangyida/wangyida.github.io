@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sale on Yida Wang</title>
     <link>https://wangyida.github.io/tags/sale/</link>
     <description>Recent content in Sale on Yida Wang</description>
-    <image>
-      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
-      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Aug 2021 10:15:01 +0200</lastBuildDate><atom:link href="https://wangyida.github.io/tags/sale/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Aug 2021 10:15:01 +0200</lastBuildDate>
+    <atom:link href="https://wangyida.github.io/tags/sale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BMW 2er Coupe for SALE!</title>
       <link>https://wangyida.github.io/posts/bmw/</link>
       <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
-      
       <guid>https://wangyida.github.io/posts/bmw/</guid>
-      <description>His first day Brandnew 2er delivered from BMW WELT München on 26th July, 2019. A brief summary is listed below as a reference. Current status No damage, always covered by insurance. The motor oil and brake oil are regularly changed for maintenance.
-Side views Interiors and engine Chassis Stats I am the first owner Delivered in July, 2019 Bought with 39,700 € Sales 25,500 € Mileage 19,000 KM Winter tires included Quote If you are interested to be his second owner, please contact:</description>
+      <description>His first day Brandnew 2er delivered from BMW WELT München on 26th July, 2019. A brief summary is listed below as a reference. Current status No damage, always covered by insurance. The motor oil and brake oil are regularly changed for maintenance.&#xA;Side views Interiors and engine Chassis Stats I am the first owner Delivered in July, 2019 Bought with 39,700 € Sales 25,500 € Mileage 19,000 KM Winter tires included Quote If you are interested to be his second owner, please contact:</description>
     </item>
-    
   </channel>
 </rss>
