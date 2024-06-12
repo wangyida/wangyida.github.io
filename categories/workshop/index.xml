@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Workshop on Yida Wang</title>
     <link>https://wangyida.github.io/categories/workshop/</link>
     <description>Recent content in Workshop on Yida Wang</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>Yida Wang</title>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 30 Nov 2022 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +18,10 @@
       <link>https://wangyida.github.io/posts/synthesia/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/posts/synthesia/</guid>
-      <description> Re-direct to the CODE |&#xA;A library for rendering neural actors, and benchmarking dynamic NeRF&#xA;Cite If you find this work useful in your research, please cite:&#xA;@misc{rama2023wang, Author = {Yida Wang}, Year = {2023}, Note = {https://github.com/wangyida/neural-actor}, Title = {Rendering, Animating and Meshing Actors with NeRF} } </description>
+      <description> Re-direct to the CODE |
+A library for rendering neural actors, and benchmarking dynamic NeRF
+Cite If you find this work useful in your research, please cite:
+@misc{rama2023wang, Author = {Yida Wang}, Year = {2023}, Note = {https://github.com/wangyida/neural-actor}, Title = {Rendering, Animating and Meshing Actors with NeRF} } </description>
     </item>
   </channel>
 </rss>
