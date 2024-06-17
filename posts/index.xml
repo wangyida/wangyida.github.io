@@ -56,14 +56,6 @@ Abstrarct Completing a car From the input partial scan to our object completion,
 Abstrarct We propose a novel convolutional operator for the task of point cloud completion. One striking characteristic of our approach is that, conversely to related work it does not require any max-pooling or voxelization operation. Instead, the proposed operator used to learn the point cloud embedding in the encoder extracts permutation-invariant features from the point cloud via a soft-pooling of feature activations, which are able to preserve fine-grained geometric details.</description>
     </item>
     <item>
-      <title>BMW 2er Coupe for SALE!</title>
-      <link>https://wangyida.github.io/posts/bmw/</link>
-      <pubDate>Wed, 11 Aug 2021 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/bmw/</guid>
-      <description>His first day Brandnew 2er delivered from BMW WELT München on 26th July, 2019. A brief summary is listed below as a reference. Current status No damage, always covered by insurance. The motor oil and brake oil are regularly changed for maintenance.
-Side views Interiors and engine Chassis Stats I am the first owner Delivered in July, 2019 Bought with 39,700 € Sales 25,500 € Mileage 19,000 KM Winter tires included Quote If you are interested to be his second owner, please contact:</description>
-    </item>
-    <item>
       <title>SoftPoolNet, Shape Descriptor for Point Cloud Completion and Classification</title>
       <link>https://wangyida.github.io/posts/eccv20/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
