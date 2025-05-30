@@ -9,7 +9,7 @@
       <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
     <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/nerf/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,10 @@
       <link>https://wangyida.github.io/posts/3dv24/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/posts/3dv24/</guid>
-      <description>Re-direct to the full PAPER and CODE |
-Our objective is to leverage a differentiable radiance field e.g. NeRF to reconstruct detailed 3D surfaces in addition to producing the standard novel view renderings. RaNeuS adaptively adjusts the regularization on the signed distance field so that unsatisfying rendering rays won&amp;rsquo;t enforce strong Eikonal regularization which is ineffective, and allow the gradients from regions with well-learned radiance to effectively back-propagated to the SDF.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2406.09801&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/ra-neus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Our objective is to leverage a differentiable radiance field &lt;em&gt;e.g.&lt;/em&gt; NeRF to reconstruct detailed 3D surfaces in addition to producing the standard novel view renderings.
+RaNeuS adaptively adjusts the regularization on the signed distance field so that unsatisfying rendering rays won&amp;rsquo;t enforce strong Eikonal regularization which is ineffective, and allow the gradients from regions with well-learned radiance to effectively back-propagated to the SDF.  Consequently, balancing the two objectives in order to generate accurate and detailed surfaces.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

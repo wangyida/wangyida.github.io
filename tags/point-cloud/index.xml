@@ -9,7 +9,7 @@
       <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/point-cloud/index.xml" rel="self" type="application/rss+xml" />
@@ -18,24 +18,57 @@
       <link>https://wangyida.github.io/posts/pami22/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/posts/pami22/</guid>
-      <description>Re-direct to the full PAPER and CODE
-Abstrarct Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called nebula anchors, that guide the latent variables to form clusters during training.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/9740011/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/nebula-anchors&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called &lt;em&gt;nebula anchors&lt;/em&gt;, that guide the latent variables to form clusters during training. To prevent the anchors from clustering among themselves, we employ the variational constraint that enforces the latent features within an anchor to form a Gaussian distribution, resulting in a generative model we refer as Nebula Variational Coding (NVC). Since each latent feature can be labeled with the closest anchor, we also propose to apply metric learning in a self-supervised way to make the separation between clusters more explicit. As a consequence, the latent variables of our variational coder form clusters which adapt to the generated semantic of the training data, &lt;em&gt;e.g&lt;/em&gt;. the categorical labels of each sample. We demonstrate experimentally that it can be used within different architectures designed to solve different problems including text sequence, images, 3D point clouds and volumetric data, validating the advantage of our proposed method.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
       <link>https://wangyida.github.io/posts/cvpr22/</link>
       <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/posts/cvpr22/</guid>
-      <description>Re-direct to the full PAPER and CODE
-Abstrarct Completing a car From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction. We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud. Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2203.16600v1.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/disp3d&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-rSLpHYO78M?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Completing a car&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;teaser&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/cvpr22/images/CVPR_teaser.png#center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We propose a novel approach aimed at object and semantic scene completion from a partial scan represented as a 3D point cloud.
+Our architecture relies on three novel layers that are used successively within an encoder-decoder structure and specifically developed for the task at hand.
+The first one carries out feature extraction by matching the point features to a set of pre-trained local descriptors.
+Then, to avoid losing individual descriptors as part of standard operations such as max-pooling, we propose an alternative neighbor-pooling operation that relies on adopting the feature vectors with the highest activations. Finally, up-sampling in the decoder modifies our feature extraction in order to increase the output dimension.
+While this model is already able to achieve competitive results with the state of the art, we further propose a way to increase the versatility of our approach to process point clouds. To this aim, we introduce a second model that assembles our layers within a transformer architecture.
+We evaluate both architectures on object and indoor scene completion tasks, achieving state-of-the-art performance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SoftPoolNet, Shape Descriptor for Point Cloud Completion and Classification</title>
       <link>https://wangyida.github.io/posts/eccv20/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/posts/eccv20/</guid>
-      <description>Re-direct to the full PAPER and CODE
-Abstrarct Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds. We introduce a new way of organizing the extracted features based on their activations, which we name soft pooling.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480069.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/softpool&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/zw4NlyxWlBg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;Point clouds are often the default choice for many applications as they exhibit more flexibility and efficiency than volumetric data. Nevertheless, their unorganized nature &amp;ndash; points are stored in an unordered way &amp;ndash; makes them less suited to be processed by deep learning pipelines. In this paper, we propose a method for 3D object completion and classification based on point clouds. We introduce a new way of organizing the extracted features based on their activations, which we name soft pooling. For the decoder stage, we propose regional convolutions, a novel operator aimed at maximizing the global activation entropy. Furthermore, inspired by the local refining procedure in Point Completion Network (PCN), we also propose a patch-deforming operation to simulate deconvolutional operations for point clouds. This paper proves that our regional activation can be incorporated in many point cloud architectures like AtlasNet and PCN, leading to better performance for geometric completion. We evaluate our approach on different 3D tasks such as object completion and classification, achieving state-of-the-art accuracy.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
