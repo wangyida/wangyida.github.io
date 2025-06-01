@@ -57,10 +57,10 @@ While this model is already able to achieve competitive results with the state o
 We evaluate both architectures on object and indoor scene completion tasks, achieving state-of-the-art performance.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>SoftPool&#43;&#43; / An Encoder-Decoder Network for Point Cloud Completion</title>
-      <link>https://wangyida.github.io/posts/ijcv22/</link>
+      <title>An Encoder-Decoder Network for Point Cloud Completion</title>
+      <link>https://wangyida.github.io/posts/softpoolplus/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/ijcv22/</guid>
+      <guid>https://wangyida.github.io/posts/softpoolplus/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://link.springer.com/article/10.1007/s11263-022-01588-7&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
