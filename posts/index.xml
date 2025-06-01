@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Yida Wang</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://wangyida.github.io/posts/</link>
     <description>Recent content in Posts on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Jun 2025 01:15:01 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wangyida.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multi-style Street Simulator with Spatial and Temporal Consistency</title>
-      <link>http://localhost:1313/posts/styledstreets/</link>
+      <link>https://wangyida.github.io/posts/styledstreets/</link>
       <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/styledstreets/</guid>
+      <guid>https://wangyida.github.io/posts/styledstreets/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2503.21104&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Street View Synthesis with Controllable Video Diffusion Models</title>
-      <link>http://localhost:1313/posts/streetcrafter/</link>
+      <link>https://wangyida.github.io/posts/streetcrafter/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/streetcrafter/</guid>
+      <guid>https://wangyida.github.io/posts/streetcrafter/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2412.13188&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/zju3dv/street_crafter&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>Crafting World Models for Driving Scene Reconstruction via Online Restoration</title>
-      <link>http://localhost:1313/posts/recondreamer/</link>
+      <link>https://wangyida.github.io/posts/recondreamer/</link>
       <pubDate>Sun, 11 May 2025 10:00:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/recondreamer/</guid>
+      <guid>https://wangyida.github.io/posts/recondreamer/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2411.19548&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://recondreamer.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/ReconDreamer&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>World Models Are Effective Data Machines for 4D Driving Scene Representation</title>
-      <link>http://localhost:1313/posts/drivedreamer4d/</link>
+      <link>https://wangyida.github.io/posts/drivedreamer4d/</link>
       <pubDate>Sun, 11 May 2025 10:00:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/drivedreamer4d/</guid>
+      <guid>https://wangyida.github.io/posts/drivedreamer4d/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2410.13571&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://drivedreamer4d.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/DriveDreamer4D&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -55,9 +55,9 @@
     </item>
     <item>
       <title>Ray-adaptive Neural Surface Reconstruction</title>
-      <link>http://localhost:1313/posts/raneus/</link>
+      <link>https://wangyida.github.io/posts/raneus/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/raneus/</guid>
+      <guid>https://wangyida.github.io/posts/raneus/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2406.09801&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/ra-neus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Our objective is to leverage a differentiable radiance field &lt;em&gt;e.g.&lt;/em&gt; NeRF to reconstruct detailed 3D surfaces in addition to producing the standard novel view renderings.
@@ -65,16 +65,16 @@ RaNeuS adaptively adjusts the regularization on the signed distance field so tha
     </item>
     <item>
       <title>Rendering, Animating and Meshing Actors with NeRF</title>
-      <link>http://localhost:1313/posts/synthesia/</link>
+      <link>https://wangyida.github.io/posts/synthesia/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/synthesia/</guid>
+      <guid>https://wangyida.github.io/posts/synthesia/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the &lt;a href=&#34;https://github.com/wangyida/neural-actor&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;A library for rendering neural actors, and benchmarking dynamic NeRF&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/synthesia/images/na1.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/synthesia/images/na2.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/synthesia/images/na3.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/synthesia/images/na4.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na1.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na2.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na3.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na4.gif&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;cite&#34;&gt;Cite&lt;/h1&gt;
 &lt;p&gt;If you find this work useful in your research, please cite:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@misc&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;rama2023wang,
@@ -87,9 +87,9 @@ RaNeuS adaptively adjusts the regularization on the signed distance field so tha
     </item>
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
-      <link>http://localhost:1313/posts/pami22/</link>
+      <link>https://wangyida.github.io/posts/pami22/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/pami22/</guid>
+      <guid>https://wangyida.github.io/posts/pami22/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/9740011/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/nebula-anchors&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -97,9 +97,9 @@ RaNeuS adaptively adjusts the regularization on the signed distance field so tha
     </item>
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
-      <link>http://localhost:1313/posts/lld/</link>
+      <link>https://wangyida.github.io/posts/lld/</link>
       <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/lld/</guid>
+      <guid>https://wangyida.github.io/posts/lld/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2203.16600v1.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/disp3d&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -116,7 +116,7 @@ RaNeuS adaptively adjusts the regularization on the signed distance field so tha
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;teaser&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lld/images/CVPR_teaser.png#center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;teaser&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/lld/images/CVPR_teaser.png#center&#34;&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -130,9 +130,9 @@ We evaluate both architectures on object and indoor scene completion tasks, achi
     </item>
     <item>
       <title>SoftPool&#43;&#43; / An Encoder-Decoder Network for Point Cloud Completion</title>
-      <link>http://localhost:1313/posts/ijcv22/</link>
+      <link>https://wangyida.github.io/posts/ijcv22/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ijcv22/</guid>
+      <guid>https://wangyida.github.io/posts/ijcv22/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://link.springer.com/article/10.1007/s11263-022-01588-7&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -140,9 +140,9 @@ We evaluate both architectures on object and indoor scene completion tasks, achi
     </item>
     <item>
       <title>Shape Descriptor for Point Cloud Completion and Classification</title>
-      <link>http://localhost:1313/posts/softpoolnet/</link>
+      <link>https://wangyida.github.io/posts/softpoolnet/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/softpoolnet/</guid>
+      <guid>https://wangyida.github.io/posts/softpoolnet/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480069.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/softpool&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -154,9 +154,9 @@ We evaluate both architectures on object and indoor scene completion tasks, achi
     </item>
     <item>
       <title>Multi-Branch Volumetric Semantic Completion From a Single Depth Image</title>
-      <link>http://localhost:1313/posts/forknet/</link>
+      <link>https://wangyida.github.io/posts/forknet/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/forknet/</guid>
+      <guid>https://wangyida.github.io/posts/forknet/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_ForkNet_Multi-Branch_Volumetric_Semantic_Completion_From_a_Single_Depth_Image_ICCV_2019_paper.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/forknet&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -173,8 +173,8 @@ We evaluate both architectures on object and indoor scene completion tasks, achi
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;direct&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/forknet/images/ForkNet_nyu.gif#center&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;transformer&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/forknet/images/ForkNet_shapenet.gif#center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;direct&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/forknet/images/ForkNet_nyu.gif#center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;transformer&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/forknet/images/ForkNet_shapenet.gif#center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -182,9 +182,9 @@ We evaluate both architectures on object and indoor scene completion tasks, achi
     </item>
     <item>
       <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
-      <link>http://localhost:1313/posts/iros_19/iros19/</link>
+      <link>https://wangyida.github.io/posts/iros_19/iros19/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/iros_19/iros19/</guid>
+      <guid>https://wangyida.github.io/posts/iros_19/iros19/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/8770083&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/VO-handpose&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -196,9 +196,9 @@ We evaluate both architectures on object and indoor scene completion tasks, achi
     </item>
     <item>
       <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
-      <link>http://localhost:1313/posts/3dv_18/adversarialssc/</link>
+      <link>https://wangyida.github.io/posts/3dv_18/adversarialssc/</link>
       <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/3dv_18/adversarialssc/</guid>
+      <guid>https://wangyida.github.io/posts/3dv_18/adversarialssc/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/1810.10901.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/gan-depth-semantic3d&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -210,25 +210,25 @@ We evaluate both architectures on object and indoor scene completion tasks, achi
     </item>
     <item>
       <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
-      <link>http://localhost:1313/posts/tip17/tip17/</link>
+      <link>https://wangyida.github.io/posts/tip17/tip17/</link>
       <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/tip17/tip17/</guid>
+      <guid>https://wangyida.github.io/posts/tip17/tip17/</guid>
       <description>&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos. Firstly, our generative model with metric learning utilizes additional foreground object channels generated from semantic foreground object reconstruction sub-network for recognizing the original input images.  Multi-triplet cost function based on poses is used for metric learning which makes it possible training an effective categorical classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noises applied on inputs of both of the concatenated sub-networks to make them benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two subnetworks. Our architecture achieves the state of the art accuracy of 50.5% on ShapeNet database with data migration obstacle from synthetic images to real photos. This pipeline makes it applicable to do recognition on real images only based on 3D models.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zigzagnet- Efficient deep learning for real object recognition based on 3D models</title>
-      <link>http://localhost:1313/posts/accv16/</link>
+      <link>https://wangyida.github.io/posts/accv16/</link>
       <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/accv16/</guid>
+      <guid>https://wangyida.github.io/posts/accv16/</guid>
       <description>&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;Effective utilization on texture-less 3D models for deep learning is significant to recognition on real photos. We eliminate the reliance on massive real training data by modifying convolutional neural network in 3 aspects: synthetic data rendering for training data generation in large quantities, multi-triplet cost function modification for multi-task learning and compact micro architecture design for producing tiny parametric model while overcoming over-fit problem in texture-less models. Network is initiated with multi-triplet cost function establishing sphere-like distribution of descriptors in each category which is helpful for recognition on regular photos according to pose, lighting condition, background and category information of rendered images. Fine-tuning with additional data further meets the aim of classification on special real photos based on initial model. We propose a 6.2 MB compact parametric model called ZigzagNet based on SqueezeNet to improve the performance for recognition by applying moving normalization inside micro architecture and adding channel wise convolutional bypass through macro architecture.  Moving batch normalization is used to get a good performance on both convergence speed and recognition accuracy. Accuracy of our compact parametric model in experiment on ImageNet and PASCAL samples provided by PASCAL3D+ based on simple Nearest Neighbor classifier is close to the result of 240 MB AlexNet trained with real images. Model trained on texture-less models which consumes less time for rendering and collecting outperforms the result of training with more textured models from ShapeNet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-restraint Object Recognition by Model Based CNN Learning</title>
-      <link>http://localhost:1313/posts/icip16/</link>
+      <link>https://wangyida.github.io/posts/icip16/</link>
       <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/icip16/</guid>
+      <guid>https://wangyida.github.io/posts/icip16/</guid>
       <description>&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;CNN has shown excellent performance on object recognition based on huge amount of real images. For training with synthetic data rendered from 3D models alone to reduce the workload of collecting real images, we propose a concatenated self-restraint learning structure lead by a triplet and softmax jointed loss function for object recognition. Locally connected auto encoder trained from rendered images with and without background used for object reconstruction against environment variables produces an additional channel automatically concatenated to RGB channels as input of classification network. This structure makes it possible training a softmax classifier directly from CNN based on synthetic data with our rendering strategy. Our structure halves the gap between training based on real photos and 3D model in both PASCAL and ImageNet database compared to GoogleNet.&lt;/p&gt;</description>
     </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gaussian Splatting on Yida Wang</title>
-    <link>http://localhost:1313/tags/gaussian-splatting/</link>
+    <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
     <description>Recent content in Gaussian Splatting on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Jun 2025 01:15:01 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gaussian-splatting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wangyida.github.io/tags/gaussian-splatting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multi-style Street Simulator with Spatial and Temporal Consistency</title>
-      <link>http://localhost:1313/posts/styledstreets/</link>
+      <link>https://wangyida.github.io/posts/styledstreets/</link>
       <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/styledstreets/</guid>
+      <guid>https://wangyida.github.io/posts/styledstreets/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2503.21104&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Street View Synthesis with Controllable Video Diffusion Models</title>
-      <link>http://localhost:1313/posts/streetcrafter/</link>
+      <link>https://wangyida.github.io/posts/streetcrafter/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/streetcrafter/</guid>
+      <guid>https://wangyida.github.io/posts/streetcrafter/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2412.13188&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/zju3dv/street_crafter&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>Crafting World Models for Driving Scene Reconstruction via Online Restoration</title>
-      <link>http://localhost:1313/posts/recondreamer/</link>
+      <link>https://wangyida.github.io/posts/recondreamer/</link>
       <pubDate>Sun, 11 May 2025 10:00:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/recondreamer/</guid>
+      <guid>https://wangyida.github.io/posts/recondreamer/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2411.19548&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://recondreamer.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/ReconDreamer&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>World Models Are Effective Data Machines for 4D Driving Scene Representation</title>
-      <link>http://localhost:1313/posts/drivedreamer4d/</link>
+      <link>https://wangyida.github.io/posts/drivedreamer4d/</link>
       <pubDate>Sun, 11 May 2025 10:00:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/drivedreamer4d/</guid>
+      <guid>https://wangyida.github.io/posts/drivedreamer4d/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2410.13571&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://drivedreamer4d.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/DriveDreamer4D&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;

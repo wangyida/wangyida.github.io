@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ECCV on Yida Wang</title>
-    <link>http://localhost:1313/tags/eccv/</link>
+    <link>https://wangyida.github.io/tags/eccv/</link>
     <description>Recent content in ECCV on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
     <lastBuildDate>Tue, 25 Aug 2020 10:15:01 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/eccv/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wangyida.github.io/tags/eccv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shape Descriptor for Point Cloud Completion and Classification</title>
-      <link>http://localhost:1313/posts/softpoolnet/</link>
+      <link>https://wangyida.github.io/posts/softpoolnet/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/softpoolnet/</guid>
+      <guid>https://wangyida.github.io/posts/softpoolnet/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480069.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/softpool&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;

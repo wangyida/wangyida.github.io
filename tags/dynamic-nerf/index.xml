@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dynamic NeRF on Yida Wang</title>
-    <link>http://localhost:1313/tags/dynamic-nerf/</link>
+    <link>https://wangyida.github.io/tags/dynamic-nerf/</link>
     <description>Recent content in Dynamic NeRF on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
@@ -12,19 +12,19 @@
     <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
     <lastBuildDate>Wed, 30 Nov 2022 10:15:01 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dynamic-nerf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wangyida.github.io/tags/dynamic-nerf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rendering, Animating and Meshing Actors with NeRF</title>
-      <link>http://localhost:1313/posts/synthesia/</link>
+      <link>https://wangyida.github.io/posts/synthesia/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/synthesia/</guid>
+      <guid>https://wangyida.github.io/posts/synthesia/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the &lt;a href=&#34;https://github.com/wangyida/neural-actor&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;A library for rendering neural actors, and benchmarking dynamic NeRF&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/synthesia/images/na1.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/synthesia/images/na2.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/synthesia/images/na3.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/synthesia/images/na4.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na1.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na2.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na3.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na4.gif&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;cite&#34;&gt;Cite&lt;/h1&gt;
 &lt;p&gt;If you find this work useful in your research, please cite:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@misc&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;rama2023wang,
