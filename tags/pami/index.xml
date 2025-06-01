@@ -15,9 +15,9 @@
     <atom:link href="https://wangyida.github.io/tags/pami/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
-      <link>https://wangyida.github.io/posts/pami22/</link>
+      <link>https://wangyida.github.io/posts/nebula/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/pami22/</guid>
+      <guid>https://wangyida.github.io/posts/nebula/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/9740011/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/nebula-anchors&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;

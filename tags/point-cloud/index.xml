@@ -15,9 +15,9 @@
     <atom:link href="https://wangyida.github.io/tags/point-cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
-      <link>https://wangyida.github.io/posts/pami22/</link>
+      <link>https://wangyida.github.io/posts/nebula/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/pami22/</guid>
+      <guid>https://wangyida.github.io/posts/nebula/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/9740011/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/nebula-anchors&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -55,6 +55,16 @@ The first one carries out feature extraction by matching the point features to a
 Then, to avoid losing individual descriptors as part of standard operations such as max-pooling, we propose an alternative neighbor-pooling operation that relies on adopting the feature vectors with the highest activations. Finally, up-sampling in the decoder modifies our feature extraction in order to increase the output dimension.
 While this model is already able to achieve competitive results with the state of the art, we further propose a way to increase the versatility of our approach to process point clouds. To this aim, we introduce a second model that assembles our layers within a transformer architecture.
 We evaluate both architectures on object and indoor scene completion tasks, achieving state-of-the-art performance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An Encoder-Decoder Network for Point Cloud Completion</title>
+      <link>https://wangyida.github.io/posts/softpoolplus/</link>
+      <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/softpoolplus/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://link.springer.com/article/10.1007/s11263-022-01588-7&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;We propose a novel convolutional operator for the task of point cloud completion. One striking characteristic of our approach is that, conversely to related work it does not require any max-pooling or voxelization operation. Instead, the proposed operator used to learn the point cloud embedding in the encoder extracts permutation-invariant features from the point cloud via a &lt;strong&gt;soft-pooling&lt;/strong&gt; of feature activations, which are able to preserve fine-grained geometric details. These features are then passed on to a decoder architecture. Due to the compression in the encoder, a typical limitation of this type of architectures is that they tend to lose parts of the input shape structure. We propose to overcome this limitation by using skip connections specifically devised for point clouds, where links between corresponding layers in the encoder and the decoder are established. As part of these connections, we introduce a transformation matrix that projects the features from the encoder to the decoder and vice-versa. The quantitative and qualitative results on the task of object completion from partial scans on the ShapeNet dataset show that our approach achieves state-of-the-art performance in shape completion both at low and high resolutions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Shape Descriptor for Point Cloud Completion and Classification</title>

@@ -25,16 +25,16 @@ RaNeuS adaptively adjusts the regularization on the signed distance field so tha
     </item>
     <item>
       <title>Rendering, Animating and Meshing Actors with NeRF</title>
-      <link>https://wangyida.github.io/posts/synthesia/</link>
+      <link>https://wangyida.github.io/posts/neuralactor/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/synthesia/</guid>
+      <guid>https://wangyida.github.io/posts/neuralactor/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the &lt;a href=&#34;https://github.com/wangyida/neural-actor&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;A library for rendering neural actors, and benchmarking dynamic NeRF&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na1.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na2.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na3.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/synthesia/images/na4.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/neuralactor/images/na1.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/neuralactor/images/na2.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/neuralactor/images/na3.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/neuralactor/images/na4.gif&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;cite&#34;&gt;Cite&lt;/h1&gt;
 &lt;p&gt;If you find this work useful in your research, please cite:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@misc&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;rama2023wang,

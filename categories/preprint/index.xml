@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Preprint on Yida Wang</title>
+    <link>https://wangyida.github.io/categories/preprint/</link>
+    <description>Recent content in Preprint on Yida Wang</description>
+    <image>
+      <title>Yida Wang</title>
+      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
+      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+    </image>
+    <generator>Hugo -- 0.147.6</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jun 2025 01:15:01 +0200</lastBuildDate>
+    <atom:link href="https://wangyida.github.io/categories/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-style Street Simulator with Spatial and Temporal Consistency</title>
+      <link>https://wangyida.github.io/posts/styledstreets/</link>
+      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/styledstreets/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2503.21104&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;Urban scene reconstruction demands modeling static infrastructure and dynamic elements while maintaining consistency across diverse environmental conditions. We present &lt;strong&gt;StyledStreets&lt;/strong&gt;, a multi-style street synthesis framework that achieves instruction-driven scene editing with ensured spatial-temporal coherence. Building on 3D Gaussian Splatting, we enhance street scene modeling through novel pose-aware optimization and multi-view training, enabling photorealistic environmental style transfer across seasonal variations, weather conditions, and multi-camera configurations. Our approach introduces three key innovations: (1) a hybrid geometry-appearance embedding architecture that disentangles persistent scene structure from transient stylistic attributes; (2) an uncertainty-aware rendering pipeline mitigating supervision noise from diffusion-based priors; and (3) a unified parametric model enforcing geometric consistency through regularized gradient updates.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

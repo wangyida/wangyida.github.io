@@ -11,18 +11,8 @@
     </image>
     <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jun 2025 01:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Multi-style Street Simulator with Spatial and Temporal Consistency</title>
-      <link>https://wangyida.github.io/posts/styledstreets/</link>
-      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/styledstreets/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2503.21104&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
-&lt;p&gt;Urban scene reconstruction demands modeling static infrastructure and dynamic elements while maintaining consistency across diverse environmental conditions. We present &lt;strong&gt;StyledStreets&lt;/strong&gt;, a multi-style street synthesis framework that achieves instruction-driven scene editing with ensured spatial-temporal coherence. Building on 3D Gaussian Splatting, we enhance street scene modeling through novel pose-aware optimization and multi-view training, enabling photorealistic environmental style transfer across seasonal variations, weather conditions, and multi-camera configurations. Our approach introduces three key innovations: (1) a hybrid geometry-appearance embedding architecture that disentangles persistent scene structure from transient stylistic attributes; (2) an uncertainty-aware rendering pipeline mitigating supervision noise from diffusion-based priors; and (3) a unified parametric model enforcing geometric consistency through regularized gradient updates.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Street View Synthesis with Controllable Video Diffusion Models</title>
       <link>https://wangyida.github.io/posts/streetcrafter/</link>
@@ -153,18 +143,18 @@ We evaluate both architectures on object and indoor scene completion tasks, achi
 &lt;p&gt;We propose a method to reconstruct, complete and semantically label a 3D scene from a single input depth image. We improve the accuracy of the regressed semantic 3D maps by a novel architecture based on adversarial learning. In particular, we suggest using multiple adversarial loss terms that not only enforce realistic outputs with respect to the ground truth, but also an effective embedding of the internal features. This is done by correlating the latent features of the encoder working on partial 2.5D data with the latent features extracted from a variational 3D autoencoder trained to reconstruct the complete semantic scene.  In addition, differently from other approaches that operate entirely through 3D convolutions, at test time we retain the original 2.5D structure of the input during downsampling to improve the effectiveness of the internal representation of our model. We test our approach on the main benchmark datasets for semantic scene completion to qualitatively and quantitatively assess the effectiveness of our proposal.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Zigzagnet- Efficient deep learning for real object recognition based on 3D models</title>
-      <link>https://wangyida.github.io/posts/accv16/</link>
+      <title>Efficient deep learning for real object recognition based on 3D models</title>
+      <link>https://wangyida.github.io/posts/zigzagnet/</link>
       <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/accv16/</guid>
+      <guid>https://wangyida.github.io/posts/zigzagnet/</guid>
       <description>&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;Effective utilization on texture-less 3D models for deep learning is significant to recognition on real photos. We eliminate the reliance on massive real training data by modifying convolutional neural network in 3 aspects: synthetic data rendering for training data generation in large quantities, multi-triplet cost function modification for multi-task learning and compact micro architecture design for producing tiny parametric model while overcoming over-fit problem in texture-less models. Network is initiated with multi-triplet cost function establishing sphere-like distribution of descriptors in each category which is helpful for recognition on regular photos according to pose, lighting condition, background and category information of rendered images. Fine-tuning with additional data further meets the aim of classification on special real photos based on initial model. We propose a 6.2 MB compact parametric model called ZigzagNet based on SqueezeNet to improve the performance for recognition by applying moving normalization inside micro architecture and adding channel wise convolutional bypass through macro architecture.  Moving batch normalization is used to get a good performance on both convergence speed and recognition accuracy. Accuracy of our compact parametric model in experiment on ImageNet and PASCAL samples provided by PASCAL3D+ based on simple Nearest Neighbor classifier is close to the result of 240 MB AlexNet trained with real images. Model trained on texture-less models which consumes less time for rendering and collecting outperforms the result of training with more textured models from ShapeNet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-restraint Object Recognition by Model Based CNN Learning</title>
-      <link>https://wangyida.github.io/posts/icip16/</link>
+      <link>https://wangyida.github.io/posts/selfobject/</link>
       <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/icip16/</guid>
+      <guid>https://wangyida.github.io/posts/selfobject/</guid>
       <description>&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;CNN has shown excellent performance on object recognition based on huge amount of real images. For training with synthetic data rendered from 3D models alone to reduce the workload of collecting real images, we propose a concatenated self-restraint learning structure lead by a triplet and softmax jointed loss function for object recognition. Locally connected auto encoder trained from rendered images with and without background used for object reconstruction against environment variables produces an additional channel automatically concatenated to RGB channels as input of classification network. This structure makes it possible training a softmax classifier directly from CNN based on synthetic data with our rendering strategy. Our structure halves the gap between training based on real photos and 3D model in both PASCAL and ImageNet database compared to GoogleNet.&lt;/p&gt;</description>
     </item>

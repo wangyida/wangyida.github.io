@@ -8,13 +8,10 @@
     <loc>https://wangyida.github.io/tags/computer-vision/</loc>
     <lastmod>2025-06-01T01:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/categories/conference/</loc>
-    <lastmod>2025-06-01T01:15:01+02:00</lastmod>
-  </url><url>
-    <loc>https://wangyida.github.io/tags/cvpr/</loc>
-    <lastmod>2025-06-01T01:15:01+02:00</lastmod>
-  </url><url>
     <loc>https://wangyida.github.io/tags/deep-learning/</loc>
+    <lastmod>2025-06-01T01:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/diffusion/</loc>
     <lastmod>2025-06-01T01:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/tags/gaussian-splatting/</loc>
@@ -26,11 +23,20 @@
     <loc>https://wangyida.github.io/posts/</loc>
     <lastmod>2025-06-01T01:15:01+02:00</lastmod>
   </url><url>
+    <loc>https://wangyida.github.io/categories/preprint/</loc>
+    <lastmod>2025-06-01T01:15:01+02:00</lastmod>
+  </url><url>
     <loc>https://wangyida.github.io/tags/</loc>
     <lastmod>2025-06-01T01:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/</loc>
     <lastmod>2025-06-01T01:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/categories/conference/</loc>
+    <lastmod>2025-05-11T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/cvpr/</loc>
+    <lastmod>2025-05-11T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/posts/streetcrafter/</loc>
     <lastmod>2025-05-11T10:15:01+02:00</lastmod>
@@ -59,22 +65,22 @@
     <loc>https://wangyida.github.io/tags/blender/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/tags/dynamic-nerf/</loc>
+    <loc>https://wangyida.github.io/tags/easymocap/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/tags/easymocap/</loc>
+    <loc>https://wangyida.github.io/tags/mesh/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/tags/neural-actor/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/posts/synthesia/</loc>
+    <loc>https://wangyida.github.io/posts/neuralactor/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/tags/smpl/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/categories/workshop/</loc>
+    <loc>https://wangyida.github.io/categories/toolbox/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/tags/3d-completion/</loc>
@@ -101,7 +107,7 @@
     <loc>https://wangyida.github.io/tags/pose-estimation/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/posts/pami22/</loc>
+    <loc>https://wangyida.github.io/posts/nebula/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/tags/semantic-completion/</loc>
@@ -116,6 +122,9 @@
     <loc>https://wangyida.github.io/posts/lld/</loc>
     <lastmod>2022-02-19T10:15:01+02:00</lastmod>
   </url><url>
+    <loc>https://wangyida.github.io/tags/transformers/</loc>
+    <lastmod>2022-02-19T10:15:01+02:00</lastmod>
+  </url><url>
     <loc>https://wangyida.github.io/posts/softpoolplus/</loc>
     <lastmod>2021-12-29T10:15:01+02:00</lastmod>
   </url><url>
@@ -126,6 +135,9 @@
     <lastmod>2020-08-25T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/posts/softpoolnet/</loc>
+    <lastmod>2020-08-25T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/sorting/</loc>
     <lastmod>2020-08-25T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/tags/adversarial-training/</loc>
@@ -155,13 +167,16 @@
     <loc>https://wangyida.github.io/tags/tracking/</loc>
     <lastmod>2019-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/posts/iros_19/iros19/</loc>
+    <loc>https://wangyida.github.io/posts/iros_19/handjoints/</loc>
     <lastmod>2019-06-01T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/posts/3dv_18/adversarialssc/</loc>
     <lastmod>2018-10-09T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/posts/tip17/tip17/</loc>
+    <loc>https://wangyida.github.io/posts/tip17/metriclearning3d/</loc>
+    <lastmod>2017-11-15T10:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://wangyida.github.io/tags/metric-learning/</loc>
     <lastmod>2017-11-15T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/tags/tip/</loc>
@@ -170,16 +185,16 @@
     <loc>https://wangyida.github.io/tags/accv/</loc>
     <lastmod>2016-09-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/tags/quantization/</loc>
+    <loc>https://wangyida.github.io/posts/zigzagnet/</loc>
     <lastmod>2016-09-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/posts/accv16/</loc>
+    <loc>https://wangyida.github.io/tags/quantization/</loc>
     <lastmod>2016-09-01T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/tags/icip/</loc>
     <lastmod>2016-04-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>https://wangyida.github.io/posts/icip16/</loc>
+    <loc>https://wangyida.github.io/posts/selfobject/</loc>
     <lastmod>2016-04-01T10:15:01+02:00</lastmod>
   </url><url>
     <loc>https://wangyida.github.io/l2/archives/</loc>

@@ -21,13 +21,6 @@
       <description></description>
     </item>
     <item>
-      <title>CVPR</title>
-      <link>https://wangyida.github.io/tags/cvpr/</link>
-      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/cvpr/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Deep Learning</title>
       <link>https://wangyida.github.io/tags/deep-learning/</link>
       <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
@@ -35,10 +28,24 @@
       <description></description>
     </item>
     <item>
+      <title>Diffusion</title>
+      <link>https://wangyida.github.io/tags/diffusion/</link>
+      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/diffusion/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Gaussian Splatting</title>
       <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
       <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/gaussian-splatting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CVPR</title>
+      <link>https://wangyida.github.io/tags/cvpr/</link>
+      <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/cvpr/</guid>
       <description></description>
     </item>
     <item>
@@ -77,17 +84,17 @@
       <description></description>
     </item>
     <item>
-      <title>Dynamic NeRF</title>
-      <link>https://wangyida.github.io/tags/dynamic-nerf/</link>
-      <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/dynamic-nerf/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>EasyMocap</title>
       <link>https://wangyida.github.io/tags/easymocap/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/easymocap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mesh</title>
+      <link>https://wangyida.github.io/tags/mesh/</link>
+      <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/mesh/</guid>
       <description></description>
     </item>
     <item>
@@ -175,6 +182,13 @@
       <description></description>
     </item>
     <item>
+      <title>Transformers</title>
+      <link>https://wangyida.github.io/tags/transformers/</link>
+      <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/transformers/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>IJCV</title>
       <link>https://wangyida.github.io/tags/ijcv/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
@@ -186,6 +200,13 @@
       <link>https://wangyida.github.io/tags/eccv/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/eccv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>https://wangyida.github.io/tags/sorting/</link>
+      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/sorting/</guid>
       <description></description>
     </item>
     <item>
@@ -242,6 +263,13 @@
       <link>https://wangyida.github.io/tags/tracking/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/tracking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metric Learning</title>
+      <link>https://wangyida.github.io/tags/metric-learning/</link>
+      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/metric-learning/</guid>
       <description></description>
     </item>
     <item>

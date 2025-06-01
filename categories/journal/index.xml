@@ -15,9 +15,9 @@
     <atom:link href="https://wangyida.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
-      <link>https://wangyida.github.io/posts/pami22/</link>
+      <link>https://wangyida.github.io/posts/nebula/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/pami22/</guid>
+      <guid>https://wangyida.github.io/posts/nebula/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/9740011/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/nebula-anchors&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
-      <link>https://wangyida.github.io/posts/iros_19/iros19/</link>
+      <link>https://wangyida.github.io/posts/iros_19/handjoints/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/iros_19/iros19/</guid>
+      <guid>https://wangyida.github.io/posts/iros_19/handjoints/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/8770083&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/VO-handpose&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
-      <link>https://wangyida.github.io/posts/tip17/tip17/</link>
+      <link>https://wangyida.github.io/posts/tip17/metriclearning3d/</link>
       <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/tip17/tip17/</guid>
+      <guid>https://wangyida.github.io/posts/tip17/metriclearning3d/</guid>
       <description>&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos. Firstly, our generative model with metric learning utilizes additional foreground object channels generated from semantic foreground object reconstruction sub-network for recognizing the original input images.  Multi-triplet cost function based on poses is used for metric learning which makes it possible training an effective categorical classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noises applied on inputs of both of the concatenated sub-networks to make them benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two subnetworks. Our architecture achieves the state of the art accuracy of 50.5% on ShapeNet database with data migration obstacle from synthetic images to real photos. This pipeline makes it applicable to do recognition on real images only based on 3D models.&lt;/p&gt;</description>
     </item>
