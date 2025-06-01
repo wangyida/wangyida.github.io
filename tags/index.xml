@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
@@ -11,265 +11,265 @@
     </image>
     <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 May 2025 10:15:01 +0200</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jun 2025 01:15:01 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computer Vision</title>
-      <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/computer-vision/</guid>
+      <link>http://localhost:1313/tags/computer-vision/</link>
+      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <guid>http://localhost:1313/tags/computer-vision/</guid>
       <description></description>
     </item>
     <item>
       <title>CVPR</title>
-      <link>https://wangyida.github.io/tags/cvpr/</link>
-      <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/cvpr/</guid>
+      <link>http://localhost:1313/tags/cvpr/</link>
+      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <guid>http://localhost:1313/tags/cvpr/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep Learning</title>
-      <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
+      <link>http://localhost:1313/tags/deep-learning/</link>
+      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Gaussian Splatting</title>
-      <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
-      <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/gaussian-splatting/</guid>
+      <link>http://localhost:1313/tags/gaussian-splatting/</link>
+      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <guid>http://localhost:1313/tags/gaussian-splatting/</guid>
       <description></description>
     </item>
     <item>
       <title>3DV</title>
-      <link>https://wangyida.github.io/tags/3dv/</link>
+      <link>http://localhost:1313/tags/3dv/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/3dv/</guid>
+      <guid>http://localhost:1313/tags/3dv/</guid>
       <description></description>
     </item>
     <item>
       <title>MVS</title>
-      <link>https://wangyida.github.io/tags/mvs/</link>
+      <link>http://localhost:1313/tags/mvs/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/mvs/</guid>
+      <guid>http://localhost:1313/tags/mvs/</guid>
       <description></description>
     </item>
     <item>
       <title>NeRF</title>
-      <link>https://wangyida.github.io/tags/nerf/</link>
+      <link>http://localhost:1313/tags/nerf/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/nerf/</guid>
+      <guid>http://localhost:1313/tags/nerf/</guid>
       <description></description>
     </item>
     <item>
       <title>NeuS</title>
-      <link>https://wangyida.github.io/tags/neus/</link>
+      <link>http://localhost:1313/tags/neus/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/neus/</guid>
+      <guid>http://localhost:1313/tags/neus/</guid>
       <description></description>
     </item>
     <item>
       <title>Blender</title>
-      <link>https://wangyida.github.io/tags/blender/</link>
+      <link>http://localhost:1313/tags/blender/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/blender/</guid>
+      <guid>http://localhost:1313/tags/blender/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic NeRF</title>
-      <link>https://wangyida.github.io/tags/dynamic-nerf/</link>
+      <link>http://localhost:1313/tags/dynamic-nerf/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/dynamic-nerf/</guid>
+      <guid>http://localhost:1313/tags/dynamic-nerf/</guid>
       <description></description>
     </item>
     <item>
       <title>EasyMocap</title>
-      <link>https://wangyida.github.io/tags/easymocap/</link>
+      <link>http://localhost:1313/tags/easymocap/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/easymocap/</guid>
+      <guid>http://localhost:1313/tags/easymocap/</guid>
       <description></description>
     </item>
     <item>
       <title>Neural Actor</title>
-      <link>https://wangyida.github.io/tags/neural-actor/</link>
+      <link>http://localhost:1313/tags/neural-actor/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/neural-actor/</guid>
+      <guid>http://localhost:1313/tags/neural-actor/</guid>
       <description></description>
     </item>
     <item>
       <title>SMPL</title>
-      <link>https://wangyida.github.io/tags/smpl/</link>
+      <link>http://localhost:1313/tags/smpl/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/smpl/</guid>
+      <guid>http://localhost:1313/tags/smpl/</guid>
       <description></description>
     </item>
     <item>
       <title>3D Completion</title>
-      <link>https://wangyida.github.io/tags/3d-completion/</link>
+      <link>http://localhost:1313/tags/3d-completion/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/3d-completion/</guid>
+      <guid>http://localhost:1313/tags/3d-completion/</guid>
       <description></description>
     </item>
     <item>
       <title>Clustering</title>
-      <link>https://wangyida.github.io/tags/clustering/</link>
+      <link>http://localhost:1313/tags/clustering/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/clustering/</guid>
+      <guid>http://localhost:1313/tags/clustering/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Translation</title>
-      <link>https://wangyida.github.io/tags/machine-translation/</link>
+      <link>http://localhost:1313/tags/machine-translation/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/machine-translation/</guid>
+      <guid>http://localhost:1313/tags/machine-translation/</guid>
       <description></description>
     </item>
     <item>
       <title>PAMI</title>
-      <link>https://wangyida.github.io/tags/pami/</link>
+      <link>http://localhost:1313/tags/pami/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/pami/</guid>
+      <guid>http://localhost:1313/tags/pami/</guid>
       <description></description>
     </item>
     <item>
       <title>Planar Reconstruction</title>
-      <link>https://wangyida.github.io/tags/planar-reconstruction/</link>
+      <link>http://localhost:1313/tags/planar-reconstruction/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/planar-reconstruction/</guid>
+      <guid>http://localhost:1313/tags/planar-reconstruction/</guid>
       <description></description>
     </item>
     <item>
       <title>Point Cloud</title>
-      <link>https://wangyida.github.io/tags/point-cloud/</link>
+      <link>http://localhost:1313/tags/point-cloud/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/point-cloud/</guid>
+      <guid>http://localhost:1313/tags/point-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Pose Estimation</title>
-      <link>https://wangyida.github.io/tags/pose-estimation/</link>
+      <link>http://localhost:1313/tags/pose-estimation/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/pose-estimation/</guid>
+      <guid>http://localhost:1313/tags/pose-estimation/</guid>
       <description></description>
     </item>
     <item>
       <title>Semantic Completion</title>
-      <link>https://wangyida.github.io/tags/semantic-completion/</link>
+      <link>http://localhost:1313/tags/semantic-completion/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/semantic-completion/</guid>
+      <guid>http://localhost:1313/tags/semantic-completion/</guid>
       <description></description>
     </item>
     <item>
       <title>Semantic Segmentation</title>
-      <link>https://wangyida.github.io/tags/semantic-segmentation/</link>
+      <link>http://localhost:1313/tags/semantic-segmentation/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/semantic-segmentation/</guid>
+      <guid>http://localhost:1313/tags/semantic-segmentation/</guid>
       <description></description>
     </item>
     <item>
       <title>Variational Inference</title>
-      <link>https://wangyida.github.io/tags/variational-inference/</link>
+      <link>http://localhost:1313/tags/variational-inference/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/variational-inference/</guid>
+      <guid>http://localhost:1313/tags/variational-inference/</guid>
       <description></description>
     </item>
     <item>
       <title>IJCV</title>
-      <link>https://wangyida.github.io/tags/ijcv/</link>
+      <link>http://localhost:1313/tags/ijcv/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/ijcv/</guid>
+      <guid>http://localhost:1313/tags/ijcv/</guid>
       <description></description>
     </item>
     <item>
       <title>ECCV</title>
-      <link>https://wangyida.github.io/tags/eccv/</link>
+      <link>http://localhost:1313/tags/eccv/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/eccv/</guid>
+      <guid>http://localhost:1313/tags/eccv/</guid>
       <description></description>
     </item>
     <item>
       <title>Adversarial Training</title>
-      <link>https://wangyida.github.io/tags/adversarial-training/</link>
+      <link>http://localhost:1313/tags/adversarial-training/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/adversarial-training/</guid>
+      <guid>http://localhost:1313/tags/adversarial-training/</guid>
       <description></description>
     </item>
     <item>
       <title>ICCV</title>
-      <link>https://wangyida.github.io/tags/iccv/</link>
+      <link>http://localhost:1313/tags/iccv/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/iccv/</guid>
+      <guid>http://localhost:1313/tags/iccv/</guid>
       <description></description>
     </item>
     <item>
       <title>Volumetric Data</title>
-      <link>https://wangyida.github.io/tags/volumetric-data/</link>
+      <link>http://localhost:1313/tags/volumetric-data/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/volumetric-data/</guid>
+      <guid>http://localhost:1313/tags/volumetric-data/</guid>
       <description></description>
     </item>
     <item>
       <title>IROS</title>
-      <link>https://wangyida.github.io/tags/iros/</link>
+      <link>http://localhost:1313/tags/iros/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/iros/</guid>
+      <guid>http://localhost:1313/tags/iros/</guid>
       <description></description>
     </item>
     <item>
       <title>Key-Points Detection</title>
-      <link>https://wangyida.github.io/tags/key-points-detection/</link>
+      <link>http://localhost:1313/tags/key-points-detection/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/key-points-detection/</guid>
+      <guid>http://localhost:1313/tags/key-points-detection/</guid>
       <description></description>
     </item>
     <item>
       <title>Object Detection</title>
-      <link>https://wangyida.github.io/tags/object-detection/</link>
+      <link>http://localhost:1313/tags/object-detection/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/object-detection/</guid>
+      <guid>http://localhost:1313/tags/object-detection/</guid>
       <description></description>
     </item>
     <item>
       <title>RAL</title>
-      <link>https://wangyida.github.io/tags/ral/</link>
+      <link>http://localhost:1313/tags/ral/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/ral/</guid>
+      <guid>http://localhost:1313/tags/ral/</guid>
       <description></description>
     </item>
     <item>
       <title>Tracking</title>
-      <link>https://wangyida.github.io/tags/tracking/</link>
+      <link>http://localhost:1313/tags/tracking/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/tracking/</guid>
+      <guid>http://localhost:1313/tags/tracking/</guid>
       <description></description>
     </item>
     <item>
       <title>TIP</title>
-      <link>https://wangyida.github.io/tags/tip/</link>
+      <link>http://localhost:1313/tags/tip/</link>
       <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/tip/</guid>
+      <guid>http://localhost:1313/tags/tip/</guid>
       <description></description>
     </item>
     <item>
       <title>ACCV</title>
-      <link>https://wangyida.github.io/tags/accv/</link>
+      <link>http://localhost:1313/tags/accv/</link>
       <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/accv/</guid>
+      <guid>http://localhost:1313/tags/accv/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantization</title>
-      <link>https://wangyida.github.io/tags/quantization/</link>
+      <link>http://localhost:1313/tags/quantization/</link>
       <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/quantization/</guid>
+      <guid>http://localhost:1313/tags/quantization/</guid>
       <description></description>
     </item>
     <item>
       <title>ICIP</title>
-      <link>https://wangyida.github.io/tags/icip/</link>
+      <link>http://localhost:1313/tags/icip/</link>
       <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/icip/</guid>
+      <guid>http://localhost:1313/tags/icip/</guid>
       <description></description>
     </item>
   </channel>

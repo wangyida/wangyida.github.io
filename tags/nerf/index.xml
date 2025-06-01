@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>NeRF on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/nerf/</link>
+    <link>http://localhost:1313/tags/nerf/</link>
     <description>Recent content in NeRF on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
     <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/tags/nerf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/nerf/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>RaNeuS - Ray-adaptive Neural Surface Reconstruction</title>
-      <link>https://wangyida.github.io/posts/3dv24/</link>
+      <title>Ray-adaptive Neural Surface Reconstruction</title>
+      <link>http://localhost:1313/posts/raneus/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/3dv24/</guid>
+      <guid>http://localhost:1313/posts/raneus/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2406.09801&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/ra-neus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Our objective is to leverage a differentiable radiance field &lt;em&gt;e.g.&lt;/em&gt; NeRF to reconstruct detailed 3D surfaces in addition to producing the standard novel view renderings.

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CVPR on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/cvpr/</link>
+    <link>http://localhost:1313/tags/cvpr/</link>
     <description>Recent content in CVPR on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
@@ -11,23 +11,53 @@
     </image>
     <generator>Hugo -- 0.147.6</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 May 2025 10:15:01 +0200</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/tags/cvpr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jun 2025 01:15:01 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cvpr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>StreetCrafter - Street View Synthesis with Controllable Video Diffusion Models</title>
-      <link>https://wangyida.github.io/posts/cvpr25/</link>
+      <title>Multi-style Street Simulator with Spatial and Temporal Consistency</title>
+      <link>http://localhost:1313/posts/styledstreets/</link>
+      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <guid>http://localhost:1313/posts/styledstreets/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2503.21104&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;Urban scene reconstruction demands modeling static infrastructure and dynamic elements while maintaining consistency across diverse environmental conditions. We present &lt;strong&gt;StyledStreets&lt;/strong&gt;, a multi-style street synthesis framework that achieves instruction-driven scene editing with ensured spatial-temporal coherence. Building on 3D Gaussian Splatting, we enhance street scene modeling through novel pose-aware optimization and multi-view training, enabling photorealistic environmental style transfer across seasonal variations, weather conditions, and multi-camera configurations. Our approach introduces three key innovations: (1) a hybrid geometry-appearance embedding architecture that disentangles persistent scene structure from transient stylistic attributes; (2) an uncertainty-aware rendering pipeline mitigating supervision noise from diffusion-based priors; and (3) a unified parametric model enforcing geometric consistency through regularized gradient updates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Street View Synthesis with Controllable Video Diffusion Models</title>
+      <link>http://localhost:1313/posts/streetcrafter/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/cvpr25/</guid>
+      <guid>http://localhost:1313/posts/streetcrafter/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2412.13188&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/zju3dv/street_crafter&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;This paper aims to tackle the problem of photorealistic view synthesis from vehicle sensors data. Recent advancements in neural scene representation have achieved notable success in rendering high-quality autonomous driving scenes, but the performance significantly degrades as the viewpoint deviates from the training trajectory. To mitigate this problem, we introduce &lt;strong&gt;StreetCrafter&lt;/strong&gt;, a novel controllable video diffusion model that utilizes LiDAR point cloud renderings as pixel-level conditions, which fully exploits the generative prior for novel view synthesis, while preserving precise camera control. Moreover, the utilization of pixel-level LiDAR condition allows us to make accurate pixel-level edits to target scenes. In addition, the generative prior of StreetCrafter can be effectively incorporated into dynamic scene representations to achieve real-time rendering. Experiments on Waymo Open and PandaSet datasets demonstrate that our model enables flexible control over viewpoint changes, enlarging the view synthesis regions for satisfying rendering, which outperforms existing methods.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Crafting World Models for Driving Scene Reconstruction via Online Restoration</title>
+      <link>http://localhost:1313/posts/recondreamer/</link>
+      <pubDate>Sun, 11 May 2025 10:00:01 +0200</pubDate>
+      <guid>http://localhost:1313/posts/recondreamer/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2411.19548&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://recondreamer.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/ReconDreamer&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;Closed-loop simulation is crucial for end-to-end autonomous driving. Existing sensor simulation methods (&lt;em&gt;e.g.&lt;/em&gt;, NeRF and 3DGS) reconstruct driving scenes based on conditions that closely mirror training data distributions. However, these methods struggle with rendering novel trajectories, such as lane changes. Recent works have demonstrated that integrating world model knowledge alleviates these issues. Despite their efficiency, these approaches still encounter difficulties in the accurate representation of more complex maneuvers, with multi-lane shifts being a notable example. Therefore, we introduce &lt;strong&gt;ReconDreamer&lt;/strong&gt;, which enhances driving scene reconstruction through incremental integration of world model knowledge. Specifically, DriveRestorer is proposed to mitigate artifacts via online restoration. This is complemented by a progressive data update strategy designed to ensure high-quality rendering for more complex maneuvers. To the best of our knowledge, ReconDreamer is the first method to effectively render in large maneuvers. Experimental results demonstrate that ReconDreamer outperforms Street Gaussians in the NTA-IoU, NTL-IoU, and FID, with relative improvements by 24.87%, 6.72%, and 29.97%. Furthermore,ReconDreamer surpasses DriveDreamer4D with PVG during large maneuver rendering, as verified by a relative improvement of 195.87% in the NTA-IoU metric and a comprehensive user study.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Models Are Effective Data Machines for 4D Driving Scene Representation</title>
+      <link>http://localhost:1313/posts/drivedreamer4d/</link>
+      <pubDate>Sun, 11 May 2025 10:00:01 +0200</pubDate>
+      <guid>http://localhost:1313/posts/drivedreamer4d/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2410.13571&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://drivedreamer4d.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/DriveDreamer4D&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;Closed-loop simulation is essential for advancing end-to-end autonomous driving systems. Contemporary sensor simulation methods, such as NeRF and 3DGS, rely predominantly on conditions closely aligned with training data distributions, which are largely confined to forward-driving scenarios. Consequently, these methods face limitations when rendering complex maneuvers (e.g., lane change, acceleration, deceleration). Recent advancements in autonomous-driving world models have demonstrated the potential to generate diverse driving videos. However, these approaches remain constrained to 2D video generation, inherently lacking the spatiotemporal coherence required to capture intricacies of dynamic driving environments. In this paper, we introduce DriveDreamer4D, which enhances 4D driving scene representation leveraging world model priors. Specifically, we utilize the world model as a data machine to synthesize novel trajectory videos, where structured conditions are explicitly leveraged to control the spatial-temporal consistency of traffic elements. Besides, the cousin data training strategy is proposed to facilitate merging real and synthetic data for optimizing 4DGS. To our knowledge, DriveDreamer4D is the first to utilize video generation models for improving 4D reconstruction in driving scenarios. Experimental results reveal that DriveDreamer4D significantly enhances generation quality under novel trajectory views, achieving a relative improvement in FID by 32.1%, 46.4%, and 16.3% compared to PVG, S3Gaussian, and Deformable-GS. Moreover, DriveDreamer4D markedly enhances the spatiotemporal coherence of driving agents, which is verified by a comprehensive user study and the relative increases of 22.6%, 43.5%, and 15.6% in the NTA-IoU metric.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
-      <link>https://wangyida.github.io/posts/cvpr22/</link>
+      <link>http://localhost:1313/posts/lld/</link>
       <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/cvpr22/</guid>
+      <guid>http://localhost:1313/posts/lld/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2203.16600v1.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/disp3d&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -44,7 +74,7 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;teaser&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/cvpr22/images/CVPR_teaser.png#center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img alt=&#34;teaser&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lld/images/CVPR_teaser.png#center&#34;&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;From the input partial scan to our object completion, we visualize the amount of detail in our reconstruction.&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
