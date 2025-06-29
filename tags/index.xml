@@ -9,22 +9,43 @@
       <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
-    <generator>Hugo -- 0.147.6</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jun 2025 01:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computer Vision</title>
       <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/computer-vision/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep Learning</title>
       <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Sun, 01 Jun 2025 01:15:01 +0200</pubDate>
+      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICCV</title>
+      <link>https://wangyida.github.io/tags/iccv/</link>
+      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/iccv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NeuS</title>
+      <link>https://wangyida.github.io/tags/neus/</link>
+      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/neus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Volume Rendering</title>
+      <link>https://wangyida.github.io/tags/volume-rendering/</link>
+      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/volume-rendering/</guid>
       <description></description>
     </item>
     <item>
@@ -67,13 +88,6 @@
       <link>https://wangyida.github.io/tags/nerf/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/nerf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>NeuS</title>
-      <link>https://wangyida.github.io/tags/neus/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/neus/</guid>
       <description></description>
     </item>
     <item>
@@ -214,13 +228,6 @@
       <link>https://wangyida.github.io/tags/adversarial-training/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/adversarial-training/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ICCV</title>
-      <link>https://wangyida.github.io/tags/iccv/</link>
-      <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/iccv/</guid>
       <description></description>
     </item>
     <item>
