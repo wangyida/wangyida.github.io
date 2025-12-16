@@ -2,44 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Journal on Yida Wang</title>
-    <link>https://wangyida.github.io/categories/journal/</link>
+    <link>http://localhost:1313/categories/journal/</link>
     <description>Recent content in Journal on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
       <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
-      <link>https://wangyida.github.io/posts/nebula/</link>
+      <link>http://localhost:1313/posts/nebula/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/nebula/</guid>
+      <guid>http://localhost:1313/posts/nebula/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/9740011/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/nebula-anchors&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/9740011/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/nebula-anchors&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;Deep learning approaches process data in a layer-by-layer way with intermediate (or latent) features. We aim at designing a general solution to optimize the latent manifolds to improve the performance on classification, segmentation, completion and/or reconstruction through probabilistic models. This paper proposes a variational inference model which leads to a clustered embedding. We introduce additional variables in the latent space, called &lt;em&gt;nebula anchors&lt;/em&gt;, that guide the latent variables to form clusters during training. To prevent the anchors from clustering among themselves, we employ the variational constraint that enforces the latent features within an anchor to form a Gaussian distribution, resulting in a generative model we refer as Nebula Variational Coding (NVC). Since each latent feature can be labeled with the closest anchor, we also propose to apply metric learning in a self-supervised way to make the separation between clusters more explicit. As a consequence, the latent variables of our variational coder form clusters which adapt to the generated semantic of the training data, &lt;em&gt;e.g&lt;/em&gt;. the categorical labels of each sample. We demonstrate experimentally that it can be used within different architectures designed to solve different problems including text sequence, images, 3D point clouds and volumetric data, validating the advantage of our proposed method.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>An Encoder-Decoder Network for Point Cloud Completion</title>
-      <link>https://wangyida.github.io/posts/softpoolplus/</link>
+      <title>An Encoder-Decoder Network for Point Cloud Completion (SoftPool&#43;&#43;)</title>
+      <link>http://localhost:1313/posts/softpoolpp/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/softpoolplus/</guid>
+      <guid>http://localhost:1313/posts/softpoolpp/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://link.springer.com/article/10.1007/s11263-022-01588-7&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://link.springer.com/article/10.1007/s11263-022-01588-7&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;We propose a novel convolutional operator for the task of point cloud completion. One striking characteristic of our approach is that, conversely to related work it does not require any max-pooling or voxelization operation. Instead, the proposed operator used to learn the point cloud embedding in the encoder extracts permutation-invariant features from the point cloud via a &lt;strong&gt;soft-pooling&lt;/strong&gt; of feature activations, which are able to preserve fine-grained geometric details. These features are then passed on to a decoder architecture. Due to the compression in the encoder, a typical limitation of this type of architectures is that they tend to lose parts of the input shape structure. We propose to overcome this limitation by using skip connections specifically devised for point clouds, where links between corresponding layers in the encoder and the decoder are established. As part of these connections, we introduce a transformation matrix that projects the features from the encoder to the decoder and vice-versa. The quantitative and qualitative results on the task of object completion from partial scans on the ShapeNet dataset show that our approach achieves state-of-the-art performance in shape completion both at low and high resolutions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
-      <link>https://wangyida.github.io/posts/iros_19/handjoints/</link>
+      <link>http://localhost:1313/posts/handpose/vhandpose/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/iros_19/handjoints/</guid>
+      <guid>http://localhost:1313/posts/handpose/vhandpose/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/8770083&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/VO-handpose&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/8770083&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/VO-handpose&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/tSTQ2NTqB4A?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -49,9 +52,9 @@
     </item>
     <item>
       <title>Generative Model with Coordinate Metric Learning for Object Recognition Based on 3D Models</title>
-      <link>https://wangyida.github.io/posts/tip17/metriclearning3d/</link>
+      <link>http://localhost:1313/posts/triplet/</link>
       <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/tip17/metriclearning3d/</guid>
+      <guid>http://localhost:1313/posts/triplet/</guid>
       <description>&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
 &lt;p&gt;Collecting data for deep learning is so tedious which makes it hard to establish a perfect database. In this paper, we propose a generative model trained with synthetic images rendered from 3D models which can reduce the burden on collecting real training data and make the background conditions more sundry. Our architecture is composed of two subnetworks: semantic foreground object reconstruction network based on Bayesian inference and classification network based on multi-triplet cost training for avoiding over-fitting on monotone synthetic object surface and utilizing accurate informations of synthetic images like object poses and lightning conditions which are helpful for recognizing regular photos. Firstly, our generative model with metric learning utilizes additional foreground object channels generated from semantic foreground object reconstruction sub-network for recognizing the original input images.  Multi-triplet cost function based on poses is used for metric learning which makes it possible training an effective categorical classifier purely based on synthetic data. Secondly, we design a coordinate training strategy with the help of adaptive noises applied on inputs of both of the concatenated sub-networks to make them benefit from each other and avoid inharmonious parameter tuning due to different convergence speed of two subnetworks. Our architecture achieves the state of the art accuracy of 50.5% on ShapeNet database with data migration obstacle from synthetic images to real photos. This pipeline makes it applicable to do recognition on real images only based on 3D models.&lt;/p&gt;</description>
     </item>
