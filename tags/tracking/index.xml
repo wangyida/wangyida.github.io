@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tracking on Yida Wang</title>
-    <link>http://localhost:1313/tags/tracking/</link>
+    <link>https://wangyida.github.io/tags/tracking/</link>
     <description>Recent content in Tracking on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 01 Jun 2019 10:15:01 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tracking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wangyida.github.io/tags/tracking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
-      <link>http://localhost:1313/posts/handpose/vhandpose/</link>
+      <link>https://wangyida.github.io/posts/handpose/vhandpose/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/handpose/vhandpose/</guid>
+      <guid>https://wangyida.github.io/posts/handpose/vhandpose/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/8770083&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/VO-handpose&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
