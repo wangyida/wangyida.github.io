@@ -14,6 +14,16 @@
     <lastBuildDate>Fri, 27 Jun 2025 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/categories/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>An In-the-wild RGB-D Car Dataset with 360-degree Views (3DRealCar)</title>
+      <link>https://wangyida.github.io/posts/realcar/</link>
+      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/realcar/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://openaccess.thecvf.com/content/ICCV2025/html/Du_3DRealCar_An_In-the-wild_RGB-D_Car_Dataset_with_360-degree_Views_ICCV_2025_paper.html&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/xiaobiaodu/3DRealCar_Toolkit&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;3D cars are widely used in self-driving systems, virtual and augmented reality, and gaming applications. However, existing 3D car datasets are either synthetic or low-quality, limiting their practical utility and leaving a significant gap with the high-quality real-world 3D car dataset. In this paper, we present the first large-scale 3D real car dataset, termed 3DRealCar, which offers three key features: (1) High-Volume: 2,500 cars meticulously scanned using smartphones to capture RGB images and point clouds with real-world dimensions; (2) High-Quality: Each car is represented by an average of 200 dense, high-resolution 360-degree RGB-D views, enabling high-fidelity 3D reconstruction; (3) High-Diversity: The dataset encompasses a diverse collection of cars from over 100 brands, captured under three distinct lighting conditions (reflective, standard, and dark). We further provide detailed car parsing maps for each instance to facilitate research in automotive segmentation tasks. To focus on vehicles, background point clouds are removed, and all cars are aligned to a unified coordinate system, enabling controlled reconstruction and rendering. We benchmark state-of-the-art 3D reconstruction methods across different lighting conditions using 3DRealCar. Extensive experiments demonstrate that the standard lighting subset can be used to reconstruct high-quality 3D car models that significantly enhance performance on various car-related 2D and 3D tasks. Notably, our dataset reveals critical challenges faced by current 3D reconstruction methods under reflective and dark lighting conditions, providing valuable insights for future research.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hierarchy Unified Gaussian Primitive for Large-Scale Dynamic Scene Reconstruction (Hierarchy UGP)</title>
       <link>https://wangyida.github.io/posts/ugp/</link>
       <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
