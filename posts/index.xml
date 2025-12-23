@@ -9,10 +9,20 @@
       <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.153.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Jun 2025 10:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jun 2025 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High-fidelity Neural Surface Mitigating Low-texture and Reflective Ambiguity (HiNeuS)</title>
+      <link>https://wangyida.github.io/posts/hineus/</link>
+      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/hineus/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2506.23854&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/hineus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Neural surface reconstruction faces persistent challenges in reconciling geometric fidelity with photometric consistency under complex scene conditions. We present HiNeuS, a unified framework that holistically addresses three core limitations in existing approaches: multi-view radiance inconsistency, missing keypoints in textureless regions, and structural degradation from over-enforced Eikonal constraints during joint optimization. To resolve these issues through a unified pipeline, we introduce: 1) Differential visibility verification through SDF-guided ray tracing, resolving reflection ambiguities via continuous occlusion modeling; 2) Planar-conformal regularization via ray-aligned geometry patches that enforce local surface coherence while preserving sharp edges through adaptive appearance weighting; and 3) Physically-grounded Eikonal relaxation that dynamically modulates geometric constraints based on local radiance gradients, enabling detail preservation without sacrificing global regularity. Unlike prior methods that handle these aspects through sequential optimizations or isolated modules, our approach achieves cohesive integration where appearance-geometry constraints evolve synergistically throughout training. Comprehensive evaluations across synthetic and real-world datasets demonstrate state-of-the-art performance, including a 21.4% reduction in Chamfer distance over reflection-aware baselines and 2.32 dB PSNR improvement against neural rendering counterparts. Qualitative analyses reveal superior capability in recovering specular instruments, urban layouts with centimeter-scale infrastructure, and low-textured surfaces without local patch collapse. The method’s generalizability is further validated through successful application to inverse rendering tasks, including material decomposition and view-consistent relighting.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>An In-the-wild RGB-D Car Dataset with 360-degree Views (3DRealCar)</title>
       <link>https://wangyida.github.io/posts/realcar/</link>
@@ -32,16 +42,6 @@
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_Hierarchy_UGP_Hierarchy_Unified_Gaussian_Primitive_for_Large-Scale_Dynamic_Scene_ICCV_2025_paper.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sunhongyang10.github.io/Project_Page_HierarchyUGP/&#34;&gt;PROJECT PAGE&lt;/a&gt; and &lt;a href=&#34;https://github.com/LiAutoAD/HierarchyUGP&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Recent advances in differentiable rendering have significantly improved dynamic street scene reconstruction. However, the complexity of large-scale scenarios and dynamic elements, such as vehicles and pedestrians, remains a substantial challenge. Existing methods often struggle to scale to large scenes or accurately model arbitrary dynamics. To address these limitations, we propose Hierarchy UGP, which constructs a hierarchical structure consisting of a root level, sub-scenes level, and primitive level, using Unified Gaussian Primitive (UGP) defined in 4D space as the representation. The root level serves as the entry point to the hierarchy. At the sub-scenes level, the scene is spatially divided into multiple sub-scenes, with various elements extracted. At the primitive level, each element is modeled with UGPs, and its global pose is controlled by a motion prior related to time. This hierarchical design greatly enhances the model&amp;rsquo;s capacity, enabling it to model large-scale scenes. Additionally, our UGP allows for the reconstruction of both rigid and non-rigid dynamics. We conducted experiments on Dynamic City, our proprietary large-scale dynamic street scene dataset, as well as the public Waymo dataset. Experimental results demonstrate that our method achieves state-of-the-art performance. We plan to release the accompanying code and the Dynamic City dataset as open resources to further research within the community.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>High-fidelity Neural Surface Mitigating Low-texture and Reflective Ambiguity (HiNeuS)</title>
-      <link>https://wangyida.github.io/posts/hineus/</link>
-      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/hineus/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2506.23854&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/LiAutoAD&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Neural surface reconstruction faces persistent challenges in reconciling geometric fidelity with photometric consistency under complex scene conditions. We present HiNeuS, a unified framework that holistically addresses three core limitations in existing approaches: multi-view radiance inconsistency, missing keypoints in textureless regions, and structural degradation from over-enforced Eikonal constraints during joint optimization. To resolve these issues through a unified pipeline, we introduce: 1) Differential visibility verification through SDF-guided ray tracing, resolving reflection ambiguities via continuous occlusion modeling; 2) Planar-conformal regularization via ray-aligned geometry patches that enforce local surface coherence while preserving sharp edges through adaptive appearance weighting; and 3) Physically-grounded Eikonal relaxation that dynamically modulates geometric constraints based on local radiance gradients, enabling detail preservation without sacrificing global regularity. Unlike prior methods that handle these aspects through sequential optimizations or isolated modules, our approach achieves cohesive integration where appearance-geometry constraints evolve synergistically throughout training. Comprehensive evaluations across synthetic and real-world datasets demonstrate state-of-the-art performance, including a 21.4% reduction in Chamfer distance over reflection-aware baselines and 2.32 dB PSNR improvement against neural rendering counterparts. Qualitative analyses reveal superior capability in recovering specular instruments, urban layouts with centimeter-scale infrastructure, and low-textured surfaces without local patch collapse. The method’s generalizability is further validated through successful application to inverse rendering tasks, including material decomposition and view-consistent relighting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multi-style Street Simulator with Spatial and Temporal Consistency (StyledStreets)</title>

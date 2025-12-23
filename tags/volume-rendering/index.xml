@@ -9,10 +9,20 @@
       <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
       <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.153.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Jun 2025 10:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jun 2025 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/volume-rendering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High-fidelity Neural Surface Mitigating Low-texture and Reflective Ambiguity (HiNeuS)</title>
+      <link>https://wangyida.github.io/posts/hineus/</link>
+      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/hineus/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2506.23854&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/hineus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Neural surface reconstruction faces persistent challenges in reconciling geometric fidelity with photometric consistency under complex scene conditions. We present HiNeuS, a unified framework that holistically addresses three core limitations in existing approaches: multi-view radiance inconsistency, missing keypoints in textureless regions, and structural degradation from over-enforced Eikonal constraints during joint optimization. To resolve these issues through a unified pipeline, we introduce: 1) Differential visibility verification through SDF-guided ray tracing, resolving reflection ambiguities via continuous occlusion modeling; 2) Planar-conformal regularization via ray-aligned geometry patches that enforce local surface coherence while preserving sharp edges through adaptive appearance weighting; and 3) Physically-grounded Eikonal relaxation that dynamically modulates geometric constraints based on local radiance gradients, enabling detail preservation without sacrificing global regularity. Unlike prior methods that handle these aspects through sequential optimizations or isolated modules, our approach achieves cohesive integration where appearance-geometry constraints evolve synergistically throughout training. Comprehensive evaluations across synthetic and real-world datasets demonstrate state-of-the-art performance, including a 21.4% reduction in Chamfer distance over reflection-aware baselines and 2.32 dB PSNR improvement against neural rendering counterparts. Qualitative analyses reveal superior capability in recovering specular instruments, urban layouts with centimeter-scale infrastructure, and low-textured surfaces without local patch collapse. The method’s generalizability is further validated through successful application to inverse rendering tasks, including material decomposition and view-consistent relighting.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>An In-the-wild RGB-D Car Dataset with 360-degree Views (3DRealCar)</title>
       <link>https://wangyida.github.io/posts/realcar/</link>
@@ -22,16 +32,6 @@
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://openaccess.thecvf.com/content/ICCV2025/html/Du_3DRealCar_An_In-the-wild_RGB-D_Car_Dataset_with_360-degree_Views_ICCV_2025_paper.html&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/xiaobiaodu/3DRealCar_Toolkit&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;3D cars are widely used in self-driving systems, virtual and augmented reality, and gaming applications. However, existing 3D car datasets are either synthetic or low-quality, limiting their practical utility and leaving a significant gap with the high-quality real-world 3D car dataset. In this paper, we present the first large-scale 3D real car dataset, termed 3DRealCar, which offers three key features: (1) High-Volume: 2,500 cars meticulously scanned using smartphones to capture RGB images and point clouds with real-world dimensions; (2) High-Quality: Each car is represented by an average of 200 dense, high-resolution 360-degree RGB-D views, enabling high-fidelity 3D reconstruction; (3) High-Diversity: The dataset encompasses a diverse collection of cars from over 100 brands, captured under three distinct lighting conditions (reflective, standard, and dark). We further provide detailed car parsing maps for each instance to facilitate research in automotive segmentation tasks. To focus on vehicles, background point clouds are removed, and all cars are aligned to a unified coordinate system, enabling controlled reconstruction and rendering. We benchmark state-of-the-art 3D reconstruction methods across different lighting conditions using 3DRealCar. Extensive experiments demonstrate that the standard lighting subset can be used to reconstruct high-quality 3D car models that significantly enhance performance on various car-related 2D and 3D tasks. Notably, our dataset reveals critical challenges faced by current 3D reconstruction methods under reflective and dark lighting conditions, providing valuable insights for future research.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>High-fidelity Neural Surface Mitigating Low-texture and Reflective Ambiguity (HiNeuS)</title>
-      <link>https://wangyida.github.io/posts/hineus/</link>
-      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/hineus/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2506.23854&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/LiAutoAD&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Neural surface reconstruction faces persistent challenges in reconciling geometric fidelity with photometric consistency under complex scene conditions. We present HiNeuS, a unified framework that holistically addresses three core limitations in existing approaches: multi-view radiance inconsistency, missing keypoints in textureless regions, and structural degradation from over-enforced Eikonal constraints during joint optimization. To resolve these issues through a unified pipeline, we introduce: 1) Differential visibility verification through SDF-guided ray tracing, resolving reflection ambiguities via continuous occlusion modeling; 2) Planar-conformal regularization via ray-aligned geometry patches that enforce local surface coherence while preserving sharp edges through adaptive appearance weighting; and 3) Physically-grounded Eikonal relaxation that dynamically modulates geometric constraints based on local radiance gradients, enabling detail preservation without sacrificing global regularity. Unlike prior methods that handle these aspects through sequential optimizations or isolated modules, our approach achieves cohesive integration where appearance-geometry constraints evolve synergistically throughout training. Comprehensive evaluations across synthetic and real-world datasets demonstrate state-of-the-art performance, including a 21.4% reduction in Chamfer distance over reflection-aware baselines and 2.32 dB PSNR improvement against neural rendering counterparts. Qualitative analyses reveal superior capability in recovering specular instruments, urban layouts with centimeter-scale infrastructure, and low-textured surfaces without local patch collapse. The method’s generalizability is further validated through successful application to inverse rendering tasks, including material decomposition and view-consistent relighting.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
