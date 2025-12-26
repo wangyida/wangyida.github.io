@@ -6,10 +6,10 @@
     <description>Recent content in Dynamic NeRF on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</url>
-      <link>http://campar.in.tum.de/twiki/pub/Main/YidaWang/YidaWang_CAMP.png</link>
+      <url>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</url>
+      <link>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</link>
     </image>
-    <generator>Hugo -- 0.153.1</generator>
+    <generator>Hugo -- 0.153.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 30 Nov 2022 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/dynamic-nerf/index.xml" rel="self" type="application/rss+xml" />
@@ -19,9 +19,9 @@
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/posts/neuralactor/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Re-direct to the &lt;a href=&#34;https://github.com/wangyida/neural-actor&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;
-&lt;img src=&#34;images/na3.gif&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Re-direct to the &lt;a href=&#34;https://github.com/wangyida/neural-actor&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;img src=&#34;images/na3.gif&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
 &lt;p&gt;A library for rendering neural actors, and benchmarking dynamic NeRF&lt;/p&gt;
 &lt;table style=&#34;width: 100%; border: none; border-collapse: collapse;&#34;&gt;
   &lt;tr style=&#34;border: none;&#34;&gt;
