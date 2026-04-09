@@ -9,7 +9,7 @@
       <url>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</url>
       <link>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</link>
     </image>
-    <generator>Hugo -- 0.153.2</generator>
+    <generator>Hugo -- 0.159.1</generator>
     <language>en</language>
     <lastBuildDate>Sat, 28 Jun 2025 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/iccv/index.xml" rel="self" type="application/rss+xml" />
@@ -41,6 +41,11 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_Hierarchy_UGP_Hierarchy_Unified_Gaussian_Primitive_for_Large-Scale_Dynamic_Scene_ICCV_2025_paper.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, first author&amp;rsquo;s &lt;a href=&#34;https://sunhongyang10.github.io/Project_Page_HierarchyUGP/&#34;&gt;PROJECT PAGE&lt;/a&gt; and &lt;a href=&#34;https://github.com/LiAutoAD/HierarchyUGP&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/MFCHx4Fsv6s?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 &lt;p&gt;Recent advances in differentiable rendering have significantly improved dynamic street scene reconstruction. However, the complexity of large-scale scenarios and dynamic elements, such as vehicles and pedestrians, remains a substantial challenge. Existing methods often struggle to scale to large scenes or accurately model arbitrary dynamics. To address these limitations, we propose Hierarchy UGP, which constructs a hierarchical structure consisting of a root level, sub-scenes level, and primitive level, using Unified Gaussian Primitive (UGP) defined in 4D space as the representation. The root level serves as the entry point to the hierarchy. At the sub-scenes level, the scene is spatially divided into multiple sub-scenes, with various elements extracted. At the primitive level, each element is modeled with UGPs, and its global pose is controlled by a motion prior related to time. This hierarchical design greatly enhances the model&amp;rsquo;s capacity, enabling it to model large-scale scenes. Additionally, our UGP allows for the reconstruction of both rigid and non-rigid dynamics. We conducted experiments on Dynamic City, our proprietary large-scale dynamic street scene dataset, as well as the public Waymo dataset. Experimental results demonstrate that our method achieves state-of-the-art performance. We plan to release the accompanying code and the Dynamic City dataset as open resources to further research within the community.&lt;/p&gt;</description>
     </item>
     <item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Neural Implicit Fields on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/neural-implicit-fields/</link>
+    <description>Recent content in Neural Implicit Fields on Yida Wang</description>
+    <image>
+      <title>Yida Wang</title>
+      <url>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</url>
+      <link>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</link>
+    </image>
+    <generator>Hugo -- 0.159.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Apr 2026 10:15:01 +0200</lastBuildDate>
+    <atom:link href="https://wangyida.github.io/tags/neural-implicit-fields/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields (InfiniDepth)</title>
+      <link>https://wangyida.github.io/posts/infinidepth/</link>
+      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/infinidepth/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://zju3dv.github.io/InfiniDepth/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/RitianYu/InfiniDepth&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;video controls loop muted playsinline style=&#34;width: 100%; height: auto; border-radius: 4px;&#34;&gt;
+    &lt;source src=&#34;images/demo.mov&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;Existing depth estimation methods are fundamentally limited to predicting depth on discrete image grids. Such representations restrict their scalability to arbitrary output resolutions and hinder the geometric detail recovery. This paper introduces &lt;strong&gt;InfiniDepth&lt;/strong&gt;, which represents depth as neural implicit fields. Through a simple yet effective local implicit decoder, we can query depth at continuous 2D coordinates, enabling arbitrary-resolution and fine-grained depth estimation. To better assess our method&amp;rsquo;s capabilities, we curate a high-quality 4K synthetic benchmark from five different games, spanning diverse scenes with rich geometric and appearance details. Experiments demonstrate that InfiniDepth achieves SOTA performance on both synthetic and real-world benchmarks across relative and metric depth estimation tasks, particularly excelling in fine-detail regions. It also benefits the task of novel view synthesis under large viewpoint shifts, producing high-quality results with fewer holes and artifacts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

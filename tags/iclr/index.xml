@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ICLR on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/iclr/</link>
+    <description>Recent content in ICLR on Yida Wang</description>
+    <image>
+      <title>Yida Wang</title>
+      <url>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</url>
+      <link>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</link>
+    </image>
+    <generator>Hugo -- 0.159.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 13 Mar 2026 10:15:01 +0200</lastBuildDate>
+    <atom:link href="https://wangyida.github.io/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-time Gaussian Splatting for Mobile Devices (Mobile-GS)</title>
+      <link>https://wangyida.github.io/posts/mobilegs/</link>
+      <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/mobilegs/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2603.11531&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/xiaobiaodu/mobile-gs&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;video autoplay controls loop muted playsinline style=&#34;width: 100%; height: auto; border-radius: 4px;&#34;&gt;
+    &lt;source src=&#34;images/teaser.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;p&gt;3D Gaussian Splatting (3DGS) has emerged as a powerful representation for high-quality rendering across a wide range of applications. However, its high computational demands and large storage costs pose significant challenges for deployment on mobile devices. In this work, we propose a mobile-tailored real-time Gaussian Splatting method, dubbed Mobile-GS, enabling efficient inference of Gaussian Splatting on edge devices. Specifically, we first identify alpha blending as the primary computational bottleneck, since it relies on the time-consuming Gaussian depth sorting process. To solve this issue, we propose a depth-aware order-independent rendering scheme that eliminates the need for sorting, thereby substantially accelerating rendering. Although this order-independent rendering improves rendering speed, it may introduce transparency artifacts in regions with overlapping geometry due to the scarcity of rendering order. To address this problem, we propose a neural view-dependent enhancement strategy, enabling more accurate modeling of view-dependent effects conditioned on viewing direction, 3D Gaussian geometry, and appearance attributes. In this way, Mobile-GS can achieve both high-quality and real-time rendering. Furthermore, to facilitate deployment on memory-constrained mobile platforms, we introduce first-degree spherical harmonics distillation, a neural vector quantization technique, and a contribution-based pruning strategy to reduce the number of Gaussian primitives and compress the 3D Gaussian representation with the assistance of neural networks. Extensive experiments demonstrate that our proposed Mobile-GS achieves real-time rendering and compact model size while preserving high visual quality, making it well-suited for mobile applications.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

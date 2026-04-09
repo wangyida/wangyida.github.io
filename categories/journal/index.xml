@@ -9,7 +9,7 @@
       <url>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</url>
       <link>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</link>
     </image>
-    <generator>Hugo -- 0.153.2</generator>
+    <generator>Hugo -- 0.159.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml" />
@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>Variational Object-aware 3D Hand Pose from a Single RGB Image</title>
-      <link>https://wangyida.github.io/posts/handpose/vhandpose/</link>
+      <link>https://wangyida.github.io/posts/vhandpose/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/handpose/vhandpose/</guid>
+      <guid>https://wangyida.github.io/posts/vhandpose/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/8770083&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/VO-handpose&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

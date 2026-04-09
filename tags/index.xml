@@ -9,22 +9,71 @@
       <url>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</url>
       <link>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</link>
     </image>
-    <generator>Hugo -- 0.153.2</generator>
+    <generator>Hugo -- 0.159.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Jun 2025 10:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 10:15:01 +0200</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computer Vision</title>
       <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
+      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CVPR</title>
+      <link>https://wangyida.github.io/tags/cvpr/</link>
+      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/cvpr/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep Learning</title>
       <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
+      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Depth Estimation</title>
+      <link>https://wangyida.github.io/tags/depth-estimation/</link>
+      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/depth-estimation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Implicit Fields</title>
+      <link>https://wangyida.github.io/tags/neural-implicit-fields/</link>
+      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/neural-implicit-fields/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaussian Splatting</title>
+      <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
+      <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/gaussian-splatting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICLR</title>
+      <link>https://wangyida.github.io/tags/iclr/</link>
+      <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/iclr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile</title>
+      <link>https://wangyida.github.io/tags/mobile/</link>
+      <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/mobile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real-Time Rendering</title>
+      <link>https://wangyida.github.io/tags/real-time-rendering/</link>
+      <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/tags/real-time-rendering/</guid>
       <description></description>
     </item>
     <item>
@@ -49,13 +98,6 @@
       <description></description>
     </item>
     <item>
-      <title>Gaussian Splatting</title>
-      <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
-      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/gaussian-splatting/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Segmentation</title>
       <link>https://wangyida.github.io/tags/segmentation/</link>
       <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
@@ -67,13 +109,6 @@
       <link>https://wangyida.github.io/tags/diffusion/</link>
       <pubDate>Sun, 01 Jun 2025 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/diffusion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CVPR</title>
-      <link>https://wangyida.github.io/tags/cvpr/</link>
-      <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/cvpr/</guid>
       <description></description>
     </item>
     <item>
