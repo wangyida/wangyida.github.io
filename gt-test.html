@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>GT Test</title></head>
+<body>
+<h1>Hello World</h1>
+<p>Senior Research Engineer at Li Auto Inc.</p>
+<div id="google_translate_element"></div>
+<script>
+function googleTranslateElementInit() {
+  console.log('GT init called, TranslateElement:', typeof google.translate.TranslateElement);
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'zh-CN,de',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+}
+</script>
+<script src="https://translate.googleapis.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

@@ -6,8 +6,8 @@
     <description>Recent content in Real-Time Rendering on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</url>
-      <link>https://commons.wikimedia.org/wiki/File:Li_Auto_logo.png</link>
+      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
+      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo -- 0.159.1</generator>
     <language>en</language>
@@ -24,7 +24,7 @@
 &lt;video autoplay controls loop muted playsinline style=&#34;width: 100%; height: auto; border-radius: 4px;&#34;&gt;
     &lt;source src=&#34;images/teaser.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
-&lt;h1 id=&#34;abstrarct&#34;&gt;Abstrarct&lt;/h1&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;p&gt;3D Gaussian Splatting (3DGS) has emerged as a powerful representation for high-quality rendering across a wide range of applications. However, its high computational demands and large storage costs pose significant challenges for deployment on mobile devices. In this work, we propose a mobile-tailored real-time Gaussian Splatting method, dubbed Mobile-GS, enabling efficient inference of Gaussian Splatting on edge devices. Specifically, we first identify alpha blending as the primary computational bottleneck, since it relies on the time-consuming Gaussian depth sorting process. To solve this issue, we propose a depth-aware order-independent rendering scheme that eliminates the need for sorting, thereby substantially accelerating rendering. Although this order-independent rendering improves rendering speed, it may introduce transparency artifacts in regions with overlapping geometry due to the scarcity of rendering order. To address this problem, we propose a neural view-dependent enhancement strategy, enabling more accurate modeling of view-dependent effects conditioned on viewing direction, 3D Gaussian geometry, and appearance attributes. In this way, Mobile-GS can achieve both high-quality and real-time rendering. Furthermore, to facilitate deployment on memory-constrained mobile platforms, we introduce first-degree spherical harmonics distillation, a neural vector quantization technique, and a contribution-based pruning strategy to reduce the number of Gaussian primitives and compress the 3D Gaussian representation with the assistance of neural networks. Extensive experiments demonstrate that our proposed Mobile-GS achieves real-time rendering and compact model size while preserving high visual quality, making it well-suited for mobile applications.&lt;/p&gt;</description>
     </item>
   </channel>
