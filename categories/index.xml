@@ -9,10 +9,17 @@
       <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
       <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
     </image>
-    <generator>Hugo -- 0.159.1</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 10:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 11:31:20 +0000</lastBuildDate>
     <atom:link href="https://wangyida.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preprint</title>
+      <link>https://wangyida.github.io/categories/preprint/</link>
+      <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
+      <guid>https://wangyida.github.io/categories/preprint/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Conference</title>
       <link>https://wangyida.github.io/categories/conference/</link>

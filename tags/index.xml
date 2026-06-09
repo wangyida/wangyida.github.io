@@ -9,15 +9,64 @@
       <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
       <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
     </image>
-    <generator>Hugo -- 0.159.1</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 10:15:01 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 11:31:20 +0000</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autonomous Driving</title>
+      <link>https://wangyida.github.io/tags/autonomous-driving/</link>
+      <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/autonomous-driving/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Closed-Loop Simulation</title>
+      <link>https://wangyida.github.io/tags/closed-loop-simulation/</link>
+      <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/closed-loop-simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>https://wangyida.github.io/tags/deep-learning/</link>
+      <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Policy Fine-Tuning</title>
+      <link>https://wangyida.github.io/tags/policy-fine-tuning/</link>
+      <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/policy-fine-tuning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://wangyida.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>4D Scene Reconstruction</title>
+      <link>https://wangyida.github.io/tags/4d-scene-reconstruction/</link>
+      <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/4d-scene-reconstruction/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Computer Vision</title>
       <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
+      <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
       <guid>https://wangyida.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaussian Splatting</title>
+      <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
+      <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/gaussian-splatting/</guid>
       <description></description>
     </item>
     <item>
@@ -25,13 +74,6 @@
       <link>https://wangyida.github.io/tags/cvpr/</link>
       <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/cvpr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Deep Learning</title>
-      <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
@@ -46,13 +88,6 @@
       <link>https://wangyida.github.io/tags/neural-implicit-fields/</link>
       <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/neural-implicit-fields/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gaussian Splatting</title>
-      <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
-      <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/gaussian-splatting/</guid>
       <description></description>
     </item>
     <item>
