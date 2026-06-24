@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>4D Scene Reconstruction on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/4d-scene-reconstruction/</link>
+    <link>http://localhost:1313/tags/4d-scene-reconstruction/</link>
     <description>Recent content in 4D Scene Reconstruction on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
-      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
+      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
+      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Apr 2026 10:07:05 +0000</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/tags/4d-scene-reconstruction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/4d-scene-reconstruction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>StreetForward: Perceiving Dynamic Street with Feedforward Causal Attention</title>
-      <link>https://wangyida.github.io/posts/streetforward/</link>
+      <link>http://localhost:1313/posts/streetforward/</link>
       <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
-      <guid>https://wangyida.github.io/posts/streetforward/</guid>
+      <guid>http://localhost:1313/posts/streetforward/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2603.19552&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://streetforward.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

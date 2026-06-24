@@ -24,14 +24,14 @@
 &lt;p&gt;CRAFT is a reinforcement fine-tuning framework for autonomous driving policies that combines dense counterfactual supervision with grounded closed-loop residual feedback. It treats counterfactual trajectory scoring as a broad proxy signal, then uses executed on-policy rollouts to correct interaction-dependent failures, while an EMA teacher preserves reliable pre-trained behavior during adaptation. Across multiple driving-policy families, this design improves driving score and success rate in closed-loop Bench2Drive evaluation.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>StreetForward: Perceiving Dynamic Street with Feedforward Causal Attention</title>
-      <link>https://wangyida.github.io/posts/streetforward/</link>
-      <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
-      <guid>https://wangyida.github.io/posts/streetforward/</guid>
+      <title>Multi-style Street Simulator with Spatial and Temporal Consistency (StyledStreets)</title>
+      <link>https://wangyida.github.io/posts/styledstreets/</link>
+      <pubDate>Sun, 01 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/styledstreets/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2603.19552&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://streetforward.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2503.21104&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;We present StreetForward, a pose-free and tracker-free feedforward framework for dynamic street reconstruction. Building upon alternating attention, it introduces a temporal mask attention module that captures dynamic motion from image sequences and produces motion-aware latent representations. Static content and dynamic instances are represented uniformly with 3D Gaussian Splatting and optimized jointly through cross-frame rendering with spatio-temporal consistency, enabling high-fidelity novel-view synthesis at new poses and times while also estimating per-pixel velocities.&lt;/p&gt;</description>
+&lt;p&gt;Urban scene reconstruction demands modeling static infrastructure and dynamic elements while maintaining consistency across diverse environmental conditions. We present StyledStreets, a multi-style street synthesis framework that achieves instruction-driven scene editing with ensured spatial-temporal coherence. Building on 3D Gaussian Splatting, we enhance street scene modeling through novel pose-aware optimization and multi-view training, enabling photorealistic environmental style transfer across seasonal variations, weather conditions, and multi-camera configurations. Our approach introduces three key innovations: (1) a hybrid geometry-appearance embedding architecture that disentangles persistent scene structure from transient stylistic attributes; (2) an uncertainty-aware rendering pipeline mitigating supervision noise from diffusion-based priors; and (3) a unified parametric model enforcing geometric consistency through regularized gradient updates.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

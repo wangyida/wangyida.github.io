@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MVS on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/mvs/</link>
+    <link>http://localhost:1313/tags/mvs/</link>
     <description>Recent content in MVS on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
-      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
+      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
+      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/tags/mvs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mvs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ray-adaptive Neural Surface Reconstruction (RaNeuS)</title>
-      <link>https://wangyida.github.io/posts/raneus/</link>
+      <link>http://localhost:1313/posts/raneus/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/raneus/</guid>
+      <guid>http://localhost:1313/posts/raneus/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2406.09801?&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/ra-neus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -26,9 +26,9 @@ RaNeuS adaptively adjusts the regularization on the signed distance field so tha
     </item>
     <item>
       <title>Rendering, Animating and Meshing Actors with NeRF</title>
-      <link>https://wangyida.github.io/posts/neuralactor/</link>
+      <link>http://localhost:1313/posts/neuralactor/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/neuralactor/</guid>
+      <guid>http://localhost:1313/posts/neuralactor/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the &lt;a href=&#34;https://github.com/wangyida/neural-actor&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 11:31:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wangyida.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaussian Splatting</title>
+      <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/gaussian-splatting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-View Stereo</title>
+      <link>https://wangyida.github.io/tags/multi-view-stereo/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/multi-view-stereo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Rendering</title>
+      <link>https://wangyida.github.io/tags/neural-rendering/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://wangyida.github.io/tags/neural-rendering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Autonomous Driving</title>
       <link>https://wangyida.github.io/tags/autonomous-driving/</link>
@@ -28,20 +49,6 @@
       <description></description>
     </item>
     <item>
-      <title>Deep Learning</title>
-      <link>https://wangyida.github.io/tags/deep-learning/</link>
-      <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
-      <guid>https://wangyida.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Policy Fine-Tuning</title>
-      <link>https://wangyida.github.io/tags/policy-fine-tuning/</link>
-      <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
-      <guid>https://wangyida.github.io/tags/policy-fine-tuning/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Reinforcement Learning</title>
       <link>https://wangyida.github.io/tags/reinforcement-learning/</link>
       <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
@@ -49,31 +56,10 @@
       <description></description>
     </item>
     <item>
-      <title>4D Scene Reconstruction</title>
-      <link>https://wangyida.github.io/tags/4d-scene-reconstruction/</link>
+      <title>Dynamic 3D</title>
+      <link>https://wangyida.github.io/tags/dynamic-3d/</link>
       <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
-      <guid>https://wangyida.github.io/tags/4d-scene-reconstruction/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Computer Vision</title>
-      <link>https://wangyida.github.io/tags/computer-vision/</link>
-      <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
-      <guid>https://wangyida.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gaussian Splatting</title>
-      <link>https://wangyida.github.io/tags/gaussian-splatting/</link>
-      <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
-      <guid>https://wangyida.github.io/tags/gaussian-splatting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CVPR</title>
-      <link>https://wangyida.github.io/tags/cvpr/</link>
-      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/cvpr/</guid>
+      <guid>https://wangyida.github.io/tags/dynamic-3d/</guid>
       <description></description>
     </item>
     <item>
@@ -84,20 +70,6 @@
       <description></description>
     </item>
     <item>
-      <title>Neural Implicit Fields</title>
-      <link>https://wangyida.github.io/tags/neural-implicit-fields/</link>
-      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/neural-implicit-fields/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ICLR</title>
-      <link>https://wangyida.github.io/tags/iclr/</link>
-      <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/iclr/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Mobile</title>
       <link>https://wangyida.github.io/tags/mobile/</link>
       <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
@@ -105,31 +77,10 @@
       <description></description>
     </item>
     <item>
-      <title>Real-Time Rendering</title>
-      <link>https://wangyida.github.io/tags/real-time-rendering/</link>
+      <title>Rendering Acceleration</title>
+      <link>https://wangyida.github.io/tags/rendering-acceleration/</link>
       <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/real-time-rendering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ICCV</title>
-      <link>https://wangyida.github.io/tags/iccv/</link>
-      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/iccv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>NeuS</title>
-      <link>https://wangyida.github.io/tags/neus/</link>
-      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/neus/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Volume Rendering</title>
-      <link>https://wangyida.github.io/tags/volume-rendering/</link>
-      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/volume-rendering/</guid>
+      <guid>https://wangyida.github.io/tags/rendering-acceleration/</guid>
       <description></description>
     </item>
     <item>
@@ -140,66 +91,17 @@
       <description></description>
     </item>
     <item>
-      <title>Diffusion</title>
-      <link>https://wangyida.github.io/tags/diffusion/</link>
+      <title>Diffusion Model</title>
+      <link>https://wangyida.github.io/tags/diffusion-model/</link>
       <pubDate>Sun, 01 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/diffusion/</guid>
+      <guid>https://wangyida.github.io/tags/diffusion-model/</guid>
       <description></description>
     </item>
     <item>
-      <title>3DV</title>
-      <link>https://wangyida.github.io/tags/3dv/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/3dv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MVS</title>
-      <link>https://wangyida.github.io/tags/mvs/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/mvs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>NeRF</title>
-      <link>https://wangyida.github.io/tags/nerf/</link>
-      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/nerf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blender</title>
-      <link>https://wangyida.github.io/tags/blender/</link>
+      <title>Motion Capture</title>
+      <link>https://wangyida.github.io/tags/motion-capture/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/blender/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dynamic NeRF</title>
-      <link>https://wangyida.github.io/tags/dynamic-nerf/</link>
-      <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/dynamic-nerf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>EasyMocap</title>
-      <link>https://wangyida.github.io/tags/easymocap/</link>
-      <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/easymocap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Neural Actor</title>
-      <link>https://wangyida.github.io/tags/neural-actor/</link>
-      <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/neural-actor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SMPL</title>
-      <link>https://wangyida.github.io/tags/smpl/</link>
-      <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/smpl/</guid>
+      <guid>https://wangyida.github.io/tags/motion-capture/</guid>
       <description></description>
     </item>
     <item>
@@ -221,13 +123,6 @@
       <link>https://wangyida.github.io/tags/machine-translation/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/machine-translation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PAMI</title>
-      <link>https://wangyida.github.io/tags/pami/</link>
-      <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/pami/</guid>
       <description></description>
     </item>
     <item>
@@ -273,20 +168,6 @@
       <description></description>
     </item>
     <item>
-      <title>IJCV</title>
-      <link>https://wangyida.github.io/tags/ijcv/</link>
-      <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/ijcv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ECCV</title>
-      <link>https://wangyida.github.io/tags/eccv/</link>
-      <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/eccv/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Adversarial Training</title>
       <link>https://wangyida.github.io/tags/adversarial-training/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
@@ -298,13 +179,6 @@
       <link>https://wangyida.github.io/tags/volumetric-data/</link>
       <pubDate>Fri, 01 Nov 2019 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/volumetric-data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IROS</title>
-      <link>https://wangyida.github.io/tags/iros/</link>
-      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/iros/</guid>
       <description></description>
     </item>
     <item>
@@ -322,13 +196,6 @@
       <description></description>
     </item>
     <item>
-      <title>RAL</title>
-      <link>https://wangyida.github.io/tags/ral/</link>
-      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/ral/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Tracking</title>
       <link>https://wangyida.github.io/tags/tracking/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
@@ -336,31 +203,10 @@
       <description></description>
     </item>
     <item>
-      <title>TIP</title>
-      <link>https://wangyida.github.io/tags/tip/</link>
-      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/tip/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ACCV</title>
-      <link>https://wangyida.github.io/tags/accv/</link>
-      <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/accv/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Quantization</title>
       <link>https://wangyida.github.io/tags/quantization/</link>
       <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
       <guid>https://wangyida.github.io/tags/quantization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ICIP</title>
-      <link>https://wangyida.github.io/tags/icip/</link>
-      <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/tags/icip/</guid>
       <description></description>
     </item>
   </channel>

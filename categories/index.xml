@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 11:31:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wangyida.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ECCV</title>
+      <link>https://wangyida.github.io/categories/eccv/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://wangyida.github.io/categories/eccv/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Preprint</title>
       <link>https://wangyida.github.io/categories/preprint/</link>
@@ -21,24 +28,87 @@
       <description></description>
     </item>
     <item>
-      <title>Conference</title>
-      <link>https://wangyida.github.io/categories/conference/</link>
+      <title>CVPR</title>
+      <link>https://wangyida.github.io/categories/cvpr/</link>
       <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/conference/</guid>
+      <guid>https://wangyida.github.io/categories/cvpr/</guid>
       <description></description>
     </item>
     <item>
-      <title>Workshop</title>
-      <link>https://wangyida.github.io/categories/workshop/</link>
+      <title>ICLR</title>
+      <link>https://wangyida.github.io/categories/iclr/</link>
+      <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/iclr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICCV</title>
+      <link>https://wangyida.github.io/categories/iccv/</link>
+      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/iccv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3DV</title>
+      <link>https://wangyida.github.io/categories/3dv/</link>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/3dv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Toolbox</title>
+      <link>https://wangyida.github.io/categories/toolbox/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/workshop/</guid>
+      <guid>https://wangyida.github.io/categories/toolbox/</guid>
       <description></description>
     </item>
     <item>
-      <title>Journal</title>
-      <link>https://wangyida.github.io/categories/journal/</link>
+      <title>PAMI</title>
+      <link>https://wangyida.github.io/categories/pami/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/journal/</guid>
+      <guid>https://wangyida.github.io/categories/pami/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IJCV</title>
+      <link>https://wangyida.github.io/categories/ijcv/</link>
+      <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/ijcv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IROS</title>
+      <link>https://wangyida.github.io/categories/iros/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/iros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAL</title>
+      <link>https://wangyida.github.io/categories/ral/</link>
+      <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/ral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TIP</title>
+      <link>https://wangyida.github.io/categories/tip/</link>
+      <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/tip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ACCV</title>
+      <link>https://wangyida.github.io/categories/accv/</link>
+      <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/accv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICIP</title>
+      <link>https://wangyida.github.io/categories/icip/</link>
+      <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/categories/icip/</guid>
       <description></description>
     </item>
   </channel>

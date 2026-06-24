@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 11:31:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wangyida.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MVGS: Multi-View Regulated Gaussian Splatting for Novel View Synthesis</title>
+      <link>https://wangyida.github.io/posts/mvgs/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://wangyida.github.io/posts/mvgs/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2410.02103&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://xiaobiaodu.github.io/mvgs/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt;, and &lt;a href=&#34;https://github.com/xiaobiaodu/mvgs&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;teaser&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/mvgs/images/gaussian_correlation_analysis.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;cover teaser&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/mvgs/images/teaser-mvgs.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Recent works in novel view synthesis, \textit{e.g.}, Neural Radiance Field (NeRF) and 3D Gaussian Splatting (3DGS), have significantly advanced rendering quality and efficiency. However, existing Gaussian-based novel view synthesis methods typically follow a single-view optimization paradigm. We observed that this optimization paradigm suffers from unstable gradients, leading to suboptimal rendering quality. To tackle this issue, we present a novel multi-view regulated Gaussian Splatting (MVGS) that fully leverages a multi-view coherent (MVC) constraint throughout the optimization process. Specifically, our proposed MVC enhances 3D Gaussian multi-view consistency and thus ensures smoother gradient updates. Furthermore, since single-scale training usually leads to suboptimal solutions, we propose a cross-intrinsic guidance scheme in a coarse-to-fine manner to further improve the convergence of multi-view optimization in 3DGS. In particular, by incorporating more multi-view images at the low resolution, we can optimize 3D Gaussians with a more comprehensive perspective. Then, finer-scale Gaussians are initialized by coarsely estimated ones instead of optimizing full-scale 3D Gaussians from scratch. Moreover, we found that 3D Gaussians usually struggle to fit 2D training views with minimal overlap. Thus, we propose a novel multi-view cross-ray densification strategy, where 3D Gaussians are dynamically split to accommodate drastic viewpoint variations in the multi-view optimization process. In this way, the multi-view consistency can be further improved. Notably, our proposed MVGS method is a plug-and-play optimizer. Extensive experiments across various tasks demonstrate that our proposed MVGS improves existing Gaussian-based methods and achieves state-of-the-art performance.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies</title>
       <link>https://wangyida.github.io/posts/craft/</link>
