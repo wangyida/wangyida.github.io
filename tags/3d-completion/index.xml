@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>3D Completion on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/3d-completion/</link>
+    <link>http://localhost:1313/tags/3d-completion/</link>
     <description>Recent content in 3D Completion on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
-      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
+      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
+      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Mar 2022 10:15:01 +0200</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/tags/3d-completion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/3d-completion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-supervised Latent Space Optimization with Nebula Variational Coding</title>
-      <link>https://wangyida.github.io/posts/nebula/</link>
+      <link>http://localhost:1313/posts/nebula/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/nebula/</guid>
+      <guid>http://localhost:1313/posts/nebula/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://ieeexplore.ieee.org/document/9740011/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/nebula-anchors&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -26,9 +26,9 @@
     </item>
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
-      <link>https://wangyida.github.io/posts/disp3d/</link>
+      <link>http://localhost:1313/posts/disp3d/</link>
       <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/disp3d/</guid>
+      <guid>http://localhost:1313/posts/disp3d/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2203.16600v1.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/disp3d&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -47,9 +47,9 @@
     </item>
     <item>
       <title>An Encoder-Decoder Network for Point Cloud Completion (SoftPool&#43;&#43;)</title>
-      <link>https://wangyida.github.io/posts/softpoolpp/</link>
+      <link>http://localhost:1313/posts/softpoolpp/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/softpoolpp/</guid>
+      <guid>http://localhost:1313/posts/softpoolpp/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://link.springer.com/article/10.1007/s11263-022-01588-7&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/softpool&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -58,9 +58,9 @@
     </item>
     <item>
       <title>Shape Descriptor for Point Cloud Completion and Classification (SoftPoolNet)</title>
-      <link>https://wangyida.github.io/posts/softpoolnet/</link>
+      <link>http://localhost:1313/posts/softpoolnet/</link>
       <pubDate>Tue, 25 Aug 2020 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/softpoolnet/</guid>
+      <guid>http://localhost:1313/posts/softpoolnet/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480069.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/softpool&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -73,9 +73,9 @@
     </item>
     <item>
       <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
-      <link>https://wangyida.github.io/posts/sscgan/</link>
+      <link>http://localhost:1313/posts/sscgan/</link>
       <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/sscgan/</guid>
+      <guid>http://localhost:1313/posts/sscgan/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/1810.10901.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/gan-depth-semantic3d&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;
 &lt;/blockquote&gt;

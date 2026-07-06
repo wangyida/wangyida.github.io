@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CVPR on Yida Wang</title>
-    <link>https://wangyida.github.io/categories/cvpr/</link>
+    <link>http://localhost:1313/categories/cvpr/</link>
     <description>Recent content in CVPR on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
-      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
+      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
+      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 09 Apr 2026 10:15:01 +0200</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/categories/cvpr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/cvpr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields (InfiniDepth)</title>
-      <link>https://wangyida.github.io/posts/infinidepth/</link>
+      <link>http://localhost:1313/posts/infinidepth/</link>
       <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/infinidepth/</guid>
+      <guid>http://localhost:1313/posts/infinidepth/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://zju3dv.github.io/InfiniDepth/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/RitianYu/InfiniDepth&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>Crafting World Models for Driving Scene Reconstruction via Online Restoration (ReconDreamer)</title>
-      <link>https://wangyida.github.io/posts/recondreamer/</link>
+      <link>http://localhost:1313/posts/recondreamer/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/recondreamer/</guid>
+      <guid>http://localhost:1313/posts/recondreamer/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2411.19548&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://recondreamer.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/ReconDreamer&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -39,9 +39,9 @@
     </item>
     <item>
       <title>Street View Synthesis with Controllable Video Diffusion Models (StreetCrafter)</title>
-      <link>https://wangyida.github.io/posts/streetcrafter/</link>
+      <link>http://localhost:1313/posts/streetcrafter/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/streetcrafter/</guid>
+      <guid>http://localhost:1313/posts/streetcrafter/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2412.13188&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/zju3dv/street_crafter&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>World Models Are Effective Data Machines for 4D Driving Scene Representation (DriveDreamer4D)</title>
-      <link>https://wangyida.github.io/posts/drivedreamer4d/</link>
+      <link>http://localhost:1313/posts/drivedreamer4d/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/drivedreamer4d/</guid>
+      <guid>http://localhost:1313/posts/drivedreamer4d/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2410.13571&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://drivedreamer4d.github.io/&#34;&gt;PROJECT PAGE&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/DriveDreamer4D&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -59,9 +59,9 @@
     </item>
     <item>
       <title>Learning Local Displacements for Point Cloud Completion</title>
-      <link>https://wangyida.github.io/posts/disp3d/</link>
+      <link>http://localhost:1313/posts/disp3d/</link>
       <pubDate>Sat, 19 Feb 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/disp3d/</guid>
+      <guid>http://localhost:1313/posts/disp3d/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2203.16600v1.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/disp3d&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

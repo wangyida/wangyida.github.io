@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Reinforcement Learning on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/reinforcement-learning/</link>
+    <link>http://localhost:1313/tags/reinforcement-learning/</link>
     <description>Recent content in Reinforcement Learning on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
-      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
+      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
+      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 05 Jun 2026 11:31:20 +0000</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies</title>
-      <link>https://wangyida.github.io/posts/craft/</link>
+      <link>http://localhost:1313/posts/craft/</link>
       <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
-      <guid>https://wangyida.github.io/posts/craft/</guid>
+      <guid>http://localhost:1313/posts/craft/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2605.04470&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://currychen77.github.io/CRAFT/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

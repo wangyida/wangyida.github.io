@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dynamic 3D on Yida Wang</title>
-    <link>https://wangyida.github.io/tags/dynamic-3d/</link>
+    <link>http://localhost:1313/tags/dynamic-3d/</link>
     <description>Recent content in Dynamic 3D on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
-      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
+      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
+      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Apr 2026 10:07:05 +0000</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/tags/dynamic-3d/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dynamic-3d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>StreetForward: Perceiving Dynamic Street with Feedforward Causal Attention</title>
-      <link>https://wangyida.github.io/posts/streetforward/</link>
+      <link>http://localhost:1313/posts/streetforward/</link>
       <pubDate>Wed, 22 Apr 2026 10:07:05 +0000</pubDate>
-      <guid>https://wangyida.github.io/posts/streetforward/</guid>
+      <guid>http://localhost:1313/posts/streetforward/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2603.19552&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://streetforward.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Hierarchy Unified Gaussian Primitive for Large-Scale Dynamic Scene Reconstruction (Hierarchy UGP)</title>
-      <link>https://wangyida.github.io/posts/ugp/</link>
+      <link>http://localhost:1313/posts/ugp/</link>
       <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/ugp/</guid>
+      <guid>http://localhost:1313/posts/ugp/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_Hierarchy_UGP_Hierarchy_Unified_Gaussian_Primitive_for_Large-Scale_Dynamic_Scene_ICCV_2025_paper.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, first author&amp;rsquo;s &lt;a href=&#34;https://sunhongyang10.github.io/Project_Page_HierarchyUGP/&#34;&gt;PROJECT PAGE&lt;/a&gt; and &lt;a href=&#34;https://github.com/LiAutoAD/HierarchyUGP&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -40,9 +40,9 @@
     </item>
     <item>
       <title>Multi-style Street Simulator with Spatial and Temporal Consistency (StyledStreets)</title>
-      <link>https://wangyida.github.io/posts/styledstreets/</link>
+      <link>http://localhost:1313/posts/styledstreets/</link>
       <pubDate>Sun, 01 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/styledstreets/</guid>
+      <guid>http://localhost:1313/posts/styledstreets/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2503.21104&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -50,9 +50,9 @@
     </item>
     <item>
       <title>Crafting World Models for Driving Scene Reconstruction via Online Restoration (ReconDreamer)</title>
-      <link>https://wangyida.github.io/posts/recondreamer/</link>
+      <link>http://localhost:1313/posts/recondreamer/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/recondreamer/</guid>
+      <guid>http://localhost:1313/posts/recondreamer/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2411.19548&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://recondreamer.github.io/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/ReconDreamer&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -60,9 +60,9 @@
     </item>
     <item>
       <title>Street View Synthesis with Controllable Video Diffusion Models (StreetCrafter)</title>
-      <link>https://wangyida.github.io/posts/streetcrafter/</link>
+      <link>http://localhost:1313/posts/streetcrafter/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/streetcrafter/</guid>
+      <guid>http://localhost:1313/posts/streetcrafter/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2412.13188&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/zju3dv/street_crafter&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -70,9 +70,9 @@
     </item>
     <item>
       <title>World Models Are Effective Data Machines for 4D Driving Scene Representation (DriveDreamer4D)</title>
-      <link>https://wangyida.github.io/posts/drivedreamer4d/</link>
+      <link>http://localhost:1313/posts/drivedreamer4d/</link>
       <pubDate>Sun, 11 May 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/drivedreamer4d/</guid>
+      <guid>http://localhost:1313/posts/drivedreamer4d/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2410.13571&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://drivedreamer4d.github.io/&#34;&gt;PROJECT PAGE&lt;/a&gt; and &lt;a href=&#34;https://github.com/GigaAI-research/DriveDreamer4D&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -80,9 +80,9 @@
     </item>
     <item>
       <title>Rendering, Animating and Meshing Actors with NeRF</title>
-      <link>https://wangyida.github.io/posts/neuralactor/</link>
+      <link>http://localhost:1313/posts/neuralactor/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/posts/neuralactor/</guid>
+      <guid>http://localhost:1313/posts/neuralactor/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the &lt;a href=&#34;https://github.com/wangyida/neural-actor&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

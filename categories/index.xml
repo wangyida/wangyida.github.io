@@ -2,113 +2,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Yida Wang</title>
-    <link>https://wangyida.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
-      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
+      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
+      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://wangyida.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ECCV</title>
-      <link>https://wangyida.github.io/categories/eccv/</link>
+      <link>http://localhost:1313/categories/eccv/</link>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://wangyida.github.io/categories/eccv/</guid>
+      <guid>http://localhost:1313/categories/eccv/</guid>
       <description></description>
     </item>
     <item>
       <title>Preprint</title>
-      <link>https://wangyida.github.io/categories/preprint/</link>
+      <link>http://localhost:1313/categories/preprint/</link>
       <pubDate>Fri, 05 Jun 2026 11:31:20 +0000</pubDate>
-      <guid>https://wangyida.github.io/categories/preprint/</guid>
+      <guid>http://localhost:1313/categories/preprint/</guid>
       <description></description>
     </item>
     <item>
       <title>CVPR</title>
-      <link>https://wangyida.github.io/categories/cvpr/</link>
+      <link>http://localhost:1313/categories/cvpr/</link>
       <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/cvpr/</guid>
+      <guid>http://localhost:1313/categories/cvpr/</guid>
       <description></description>
     </item>
     <item>
       <title>ICLR</title>
-      <link>https://wangyida.github.io/categories/iclr/</link>
+      <link>http://localhost:1313/categories/iclr/</link>
       <pubDate>Fri, 13 Mar 2026 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/iclr/</guid>
+      <guid>http://localhost:1313/categories/iclr/</guid>
       <description></description>
     </item>
     <item>
       <title>ICCV</title>
-      <link>https://wangyida.github.io/categories/iccv/</link>
+      <link>http://localhost:1313/categories/iccv/</link>
       <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/iccv/</guid>
+      <guid>http://localhost:1313/categories/iccv/</guid>
       <description></description>
     </item>
     <item>
       <title>3DV</title>
-      <link>https://wangyida.github.io/categories/3dv/</link>
+      <link>http://localhost:1313/categories/3dv/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/3dv/</guid>
+      <guid>http://localhost:1313/categories/3dv/</guid>
       <description></description>
     </item>
     <item>
       <title>Toolbox</title>
-      <link>https://wangyida.github.io/categories/toolbox/</link>
+      <link>http://localhost:1313/categories/toolbox/</link>
       <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/toolbox/</guid>
+      <guid>http://localhost:1313/categories/toolbox/</guid>
       <description></description>
     </item>
     <item>
       <title>PAMI</title>
-      <link>https://wangyida.github.io/categories/pami/</link>
+      <link>http://localhost:1313/categories/pami/</link>
       <pubDate>Tue, 01 Mar 2022 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/pami/</guid>
+      <guid>http://localhost:1313/categories/pami/</guid>
       <description></description>
     </item>
     <item>
       <title>IJCV</title>
-      <link>https://wangyida.github.io/categories/ijcv/</link>
+      <link>http://localhost:1313/categories/ijcv/</link>
       <pubDate>Wed, 29 Dec 2021 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/ijcv/</guid>
+      <guid>http://localhost:1313/categories/ijcv/</guid>
       <description></description>
     </item>
     <item>
       <title>IROS</title>
-      <link>https://wangyida.github.io/categories/iros/</link>
+      <link>http://localhost:1313/categories/iros/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/iros/</guid>
+      <guid>http://localhost:1313/categories/iros/</guid>
       <description></description>
     </item>
     <item>
       <title>RAL</title>
-      <link>https://wangyida.github.io/categories/ral/</link>
+      <link>http://localhost:1313/categories/ral/</link>
       <pubDate>Sat, 01 Jun 2019 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/ral/</guid>
+      <guid>http://localhost:1313/categories/ral/</guid>
       <description></description>
     </item>
     <item>
       <title>TIP</title>
-      <link>https://wangyida.github.io/categories/tip/</link>
+      <link>http://localhost:1313/categories/tip/</link>
       <pubDate>Wed, 15 Nov 2017 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/tip/</guid>
+      <guid>http://localhost:1313/categories/tip/</guid>
       <description></description>
     </item>
     <item>
       <title>ACCV</title>
-      <link>https://wangyida.github.io/categories/accv/</link>
+      <link>http://localhost:1313/categories/accv/</link>
       <pubDate>Thu, 01 Sep 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/accv/</guid>
+      <guid>http://localhost:1313/categories/accv/</guid>
       <description></description>
     </item>
     <item>
       <title>ICIP</title>
-      <link>https://wangyida.github.io/categories/icip/</link>
+      <link>http://localhost:1313/categories/icip/</link>
       <pubDate>Fri, 01 Apr 2016 10:15:01 +0200</pubDate>
-      <guid>https://wangyida.github.io/categories/icip/</guid>
+      <guid>http://localhost:1313/categories/icip/</guid>
       <description></description>
     </item>
   </channel>
