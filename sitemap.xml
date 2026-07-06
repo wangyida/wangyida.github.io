@@ -2,218 +2,218 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wangyida.github.io/categories/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/eccv/</loc>
+    <loc>https://wangyida.github.io/categories/eccv/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gaussian-splatting/</loc>
+    <loc>https://wangyida.github.io/tags/gaussian-splatting/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/multi-view-stereo/</loc>
+    <loc>https://wangyida.github.io/tags/multi-view-stereo/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mvgs/</loc>
+    <loc>https://wangyida.github.io/posts/mvgs/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neural-rendering/</loc>
+    <loc>https://wangyida.github.io/tags/neural-rendering/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://wangyida.github.io/posts/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://wangyida.github.io/tags/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://wangyida.github.io/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/autonomous-driving/</loc>
+    <loc>https://wangyida.github.io/tags/autonomous-driving/</loc>
     <lastmod>2026-06-05T11:31:20+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/closed-loop-simulation/</loc>
+    <loc>https://wangyida.github.io/tags/closed-loop-simulation/</loc>
     <lastmod>2026-06-05T11:31:20+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/craft/</loc>
+    <loc>https://wangyida.github.io/posts/craft/</loc>
     <lastmod>2026-06-05T11:31:20+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/preprint/</loc>
+    <loc>https://wangyida.github.io/categories/preprint/</loc>
     <lastmod>2026-06-05T11:31:20+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/reinforcement-learning/</loc>
+    <loc>https://wangyida.github.io/tags/reinforcement-learning/</loc>
     <lastmod>2026-06-05T11:31:20+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dynamic-3d/</loc>
+    <loc>https://wangyida.github.io/tags/dynamic-3d/</loc>
     <lastmod>2026-04-22T10:07:05+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/streetforward/</loc>
+    <loc>https://wangyida.github.io/posts/streetforward/</loc>
     <lastmod>2026-04-22T10:07:05+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/infinidepth/</loc>
+    <loc>https://wangyida.github.io/posts/infinidepth/</loc>
     <lastmod>2026-04-09T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/cvpr/</loc>
+    <loc>https://wangyida.github.io/categories/cvpr/</loc>
     <lastmod>2026-04-09T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/depth-estimation/</loc>
+    <loc>https://wangyida.github.io/tags/depth-estimation/</loc>
     <lastmod>2026-04-09T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/iclr/</loc>
+    <loc>https://wangyida.github.io/categories/iclr/</loc>
     <lastmod>2026-03-13T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mobile/</loc>
+    <loc>https://wangyida.github.io/tags/mobile/</loc>
     <lastmod>2026-03-13T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mobilegs/</loc>
+    <loc>https://wangyida.github.io/posts/mobilegs/</loc>
     <lastmod>2026-03-13T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rendering-acceleration/</loc>
+    <loc>https://wangyida.github.io/tags/rendering-acceleration/</loc>
     <lastmod>2026-03-13T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hineus/</loc>
+    <loc>https://wangyida.github.io/posts/hineus/</loc>
     <lastmod>2025-06-28T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/iccv/</loc>
+    <loc>https://wangyida.github.io/categories/iccv/</loc>
     <lastmod>2025-06-28T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/realcar/</loc>
+    <loc>https://wangyida.github.io/posts/realcar/</loc>
     <lastmod>2025-06-27T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ugp/</loc>
+    <loc>https://wangyida.github.io/posts/ugp/</loc>
     <lastmod>2025-06-27T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/segmentation/</loc>
+    <loc>https://wangyida.github.io/tags/segmentation/</loc>
     <lastmod>2025-06-27T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/diffusion-model/</loc>
+    <loc>https://wangyida.github.io/tags/diffusion-model/</loc>
     <lastmod>2025-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/styledstreets/</loc>
+    <loc>https://wangyida.github.io/posts/styledstreets/</loc>
     <lastmod>2025-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/recondreamer/</loc>
+    <loc>https://wangyida.github.io/posts/recondreamer/</loc>
     <lastmod>2025-05-11T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/streetcrafter/</loc>
+    <loc>https://wangyida.github.io/posts/streetcrafter/</loc>
     <lastmod>2025-05-11T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/drivedreamer4d/</loc>
+    <loc>https://wangyida.github.io/posts/drivedreamer4d/</loc>
     <lastmod>2025-05-11T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/3dv/</loc>
+    <loc>https://wangyida.github.io/categories/3dv/</loc>
     <lastmod>2024-04-07T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/raneus/</loc>
+    <loc>https://wangyida.github.io/posts/raneus/</loc>
     <lastmod>2024-04-07T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/motion-capture/</loc>
+    <loc>https://wangyida.github.io/tags/motion-capture/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/neuralactor/</loc>
+    <loc>https://wangyida.github.io/posts/neuralactor/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/toolbox/</loc>
+    <loc>https://wangyida.github.io/categories/toolbox/</loc>
     <lastmod>2022-11-30T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/3d-completion/</loc>
+    <loc>https://wangyida.github.io/tags/3d-completion/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/clustering/</loc>
+    <loc>https://wangyida.github.io/tags/clustering/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/machine-translation/</loc>
+    <loc>https://wangyida.github.io/tags/machine-translation/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/pami/</loc>
+    <loc>https://wangyida.github.io/categories/pami/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/planar-reconstruction/</loc>
+    <loc>https://wangyida.github.io/tags/planar-reconstruction/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/point-cloud/</loc>
+    <loc>https://wangyida.github.io/tags/point-cloud/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pose-estimation/</loc>
+    <loc>https://wangyida.github.io/tags/pose-estimation/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/nebula/</loc>
+    <loc>https://wangyida.github.io/posts/nebula/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/semantic-completion/</loc>
+    <loc>https://wangyida.github.io/tags/semantic-completion/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/semantic-segmentation/</loc>
+    <loc>https://wangyida.github.io/tags/semantic-segmentation/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/variational-inference/</loc>
+    <loc>https://wangyida.github.io/tags/variational-inference/</loc>
     <lastmod>2022-03-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/disp3d/</loc>
+    <loc>https://wangyida.github.io/posts/disp3d/</loc>
     <lastmod>2022-02-19T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/softpoolpp/</loc>
+    <loc>https://wangyida.github.io/posts/softpoolpp/</loc>
     <lastmod>2021-12-29T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ijcv/</loc>
+    <loc>https://wangyida.github.io/categories/ijcv/</loc>
     <lastmod>2021-12-29T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/softpoolnet/</loc>
+    <loc>https://wangyida.github.io/posts/softpoolnet/</loc>
     <lastmod>2020-08-25T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/adversarial-training/</loc>
+    <loc>https://wangyida.github.io/tags/adversarial-training/</loc>
     <lastmod>2019-11-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/forknet/</loc>
+    <loc>https://wangyida.github.io/posts/forknet/</loc>
     <lastmod>2019-11-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/volumetric-data/</loc>
+    <loc>https://wangyida.github.io/tags/volumetric-data/</loc>
     <lastmod>2019-11-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/iros/</loc>
+    <loc>https://wangyida.github.io/categories/iros/</loc>
     <lastmod>2019-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/key-points-detection/</loc>
+    <loc>https://wangyida.github.io/tags/key-points-detection/</loc>
     <lastmod>2019-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/object-detection/</loc>
+    <loc>https://wangyida.github.io/tags/object-detection/</loc>
     <lastmod>2019-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ral/</loc>
+    <loc>https://wangyida.github.io/categories/ral/</loc>
     <lastmod>2019-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tracking/</loc>
+    <loc>https://wangyida.github.io/tags/tracking/</loc>
     <lastmod>2019-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vhandpose/</loc>
+    <loc>https://wangyida.github.io/posts/vhandpose/</loc>
     <lastmod>2019-06-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sscgan/</loc>
+    <loc>https://wangyida.github.io/posts/sscgan/</loc>
     <lastmod>2018-10-09T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/triplet/</loc>
+    <loc>https://wangyida.github.io/posts/triplet/</loc>
     <lastmod>2017-11-15T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tip/</loc>
+    <loc>https://wangyida.github.io/categories/tip/</loc>
     <lastmod>2017-11-15T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/accv/</loc>
+    <loc>https://wangyida.github.io/categories/accv/</loc>
     <lastmod>2016-09-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/zigzagnet/</loc>
+    <loc>https://wangyida.github.io/posts/zigzagnet/</loc>
     <lastmod>2016-09-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/quantization/</loc>
+    <loc>https://wangyida.github.io/tags/quantization/</loc>
     <lastmod>2016-09-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/icip/</loc>
+    <loc>https://wangyida.github.io/categories/icip/</loc>
     <lastmod>2016-04-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/icip16/</loc>
+    <loc>https://wangyida.github.io/posts/icip16/</loc>
     <lastmod>2016-04-01T10:15:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/l2/archives/</loc>
+    <loc>https://wangyida.github.io/l2/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://wangyida.github.io/archives/</loc>
   </url>
 </urlset>

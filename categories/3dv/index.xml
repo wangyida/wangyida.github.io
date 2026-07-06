@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>3DV on Yida Wang</title>
-    <link>http://localhost:1313/categories/3dv/</link>
+    <link>https://wangyida.github.io/categories/3dv/</link>
     <description>Recent content in 3DV on Yida Wang</description>
     <image>
       <title>Yida Wang</title>
-      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
-      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
+      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
+      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 07 Apr 2024 10:15:01 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/3dv/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wangyida.github.io/categories/3dv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ray-adaptive Neural Surface Reconstruction (RaNeuS)</title>
-      <link>http://localhost:1313/posts/raneus/</link>
+      <link>https://wangyida.github.io/posts/raneus/</link>
       <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/raneus/</guid>
+      <guid>https://wangyida.github.io/posts/raneus/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2406.09801?&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/ra-neus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -26,9 +26,9 @@ RaNeuS adaptively adjusts the regularization on the signed distance field so tha
     </item>
     <item>
       <title>Adversarial Semantic Scene Completion from a Single Depth Image</title>
-      <link>http://localhost:1313/posts/sscgan/</link>
+      <link>https://wangyida.github.io/posts/sscgan/</link>
       <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
-      <guid>http://localhost:1313/posts/sscgan/</guid>
+      <guid>https://wangyida.github.io/posts/sscgan/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/1810.10901.pdf&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/gan-depth-semantic3d&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt; |&lt;/p&gt;
 &lt;/blockquote&gt;
