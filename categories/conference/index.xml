@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Conference on Yida Wang</title>
+    <link>http://localhost:1313/categories/conference/</link>
+    <description>Recent content in Conference on Yida Wang</description>
+    <image>
+      <title>Yida Wang</title>
+      <url>http://localhost:1313/logos/android-chrome-512x512.png</url>
+      <link>http://localhost:1313/logos/android-chrome-512x512.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jun 2025 10:15:01 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-style Street Simulator with Spatial and Temporal Consistency (StyledStreets)</title>
+      <link>http://localhost:1313/posts/styledstreets/</link>
+      <pubDate>Sun, 01 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>http://localhost:1313/posts/styledstreets/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/abs/2503.21104&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Urban scene reconstruction demands modeling static infrastructure and dynamic elements while maintaining consistency across diverse environmental conditions. We present StyledStreets, a multi-style street synthesis framework that achieves instruction-driven scene editing with ensured spatial-temporal coherence. Building on 3D Gaussian Splatting, we enhance street scene modeling through novel pose-aware optimization and multi-view training, enabling photorealistic environmental style transfer across seasonal variations, weather conditions, and multi-camera configurations. Our approach introduces three key innovations: (1) a hybrid geometry-appearance embedding architecture that disentangles persistent scene structure from transient stylistic attributes; (2) an uncertainty-aware rendering pipeline mitigating supervision noise from diffusion-based priors; and (3) a unified parametric model enforcing geometric consistency through regularized gradient updates.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Neural Rendering on Yida Wang</title>
+    <link>https://wangyida.github.io/tags/neural-rendering/</link>
+    <description>Recent content in Neural Rendering on Yida Wang</description>
+    <image>
+      <title>Yida Wang</title>
+      <url>https://wangyida.github.io/logos/android-chrome-512x512.png</url>
+      <link>https://wangyida.github.io/logos/android-chrome-512x512.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://wangyida.github.io/tags/neural-rendering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MVGS: Multi-View Regulated Gaussian Splatting for Novel View Synthesis</title>
+      <link>https://wangyida.github.io/posts/mvgs/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://wangyida.github.io/posts/mvgs/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2410.02103&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://xiaobiaodu.github.io/mvgs/&#34;&gt;&lt;strong&gt;PROJECT PAGE&lt;/strong&gt;&lt;/a&gt;, and &lt;a href=&#34;https://github.com/xiaobiaodu/mvgs&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;teaser&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/mvgs/images/gaussian_correlation_analysis.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;cover teaser&#34; loading=&#34;lazy&#34; src=&#34;https://wangyida.github.io/posts/mvgs/images/teaser-mvgs.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Recent works in novel view synthesis, \textit{e.g.}, Neural Radiance Field (NeRF) and 3D Gaussian Splatting (3DGS), have significantly advanced rendering quality and efficiency. However, existing Gaussian-based novel view synthesis methods typically follow a single-view optimization paradigm. We observed that this optimization paradigm suffers from unstable gradients, leading to suboptimal rendering quality. To tackle this issue, we present a novel multi-view regulated Gaussian Splatting (MVGS) that fully leverages a multi-view coherent (MVC) constraint throughout the optimization process. Specifically, our proposed MVC enhances 3D Gaussian multi-view consistency and thus ensures smoother gradient updates. Furthermore, since single-scale training usually leads to suboptimal solutions, we propose a cross-intrinsic guidance scheme in a coarse-to-fine manner to further improve the convergence of multi-view optimization in 3DGS. In particular, by incorporating more multi-view images at the low resolution, we can optimize 3D Gaussians with a more comprehensive perspective. Then, finer-scale Gaussians are initialized by coarsely estimated ones instead of optimizing full-scale 3D Gaussians from scratch. Moreover, we found that 3D Gaussians usually struggle to fit 2D training views with minimal overlap. Thus, we propose a novel multi-view cross-ray densification strategy, where 3D Gaussians are dynamically split to accommodate drastic viewpoint variations in the multi-view optimization process. In this way, the multi-view consistency can be further improved. Notably, our proposed MVGS method is a plug-and-play optimizer. Extensive experiments across various tasks demonstrate that our proposed MVGS improves existing Gaussian-based methods and achieves state-of-the-art performance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields (InfiniDepth)</title>
+      <link>https://wangyida.github.io/posts/infinidepth/</link>
+      <pubDate>Thu, 09 Apr 2026 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/infinidepth/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://zju3dv.github.io/InfiniDepth/&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/RitianYu/InfiniDepth&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;video controls loop muted playsinline style=&#34;width: 100%; height: auto; border-radius: 4px;&#34;&gt;
+    &lt;source src=&#34;images/demo.mov&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Existing depth estimation methods are fundamentally limited to predicting depth on discrete image grids. Such representations restrict their scalability to arbitrary output resolutions and hinder the geometric detail recovery. This paper introduces &lt;strong&gt;InfiniDepth&lt;/strong&gt;, which represents depth as neural implicit fields. Through a simple yet effective local implicit decoder, we can query depth at continuous 2D coordinates, enabling arbitrary-resolution and fine-grained depth estimation. To better assess our method&amp;rsquo;s capabilities, we curate a high-quality 4K synthetic benchmark from five different games, spanning diverse scenes with rich geometric and appearance details. Experiments demonstrate that InfiniDepth achieves SOTA performance on both synthetic and real-world benchmarks across relative and metric depth estimation tasks, particularly excelling in fine-detail regions. It also benefits the task of novel view synthesis under large viewpoint shifts, producing high-quality results with fewer holes and artifacts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>High-fidelity Neural Surface Mitigating Low-texture and Reflective Ambiguity (HiNeuS)</title>
+      <link>https://wangyida.github.io/posts/hineus/</link>
+      <pubDate>Sat, 28 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/hineus/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2506.23854&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/hineus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Neural surface reconstruction faces persistent challenges in reconciling geometric fidelity with photometric consistency under complex scene conditions. We present HiNeuS, a unified framework that holistically addresses three core limitations in existing approaches: multi-view radiance inconsistency, missing keypoints in textureless regions, and structural degradation from over-enforced Eikonal constraints during joint optimization. To resolve these issues through a unified pipeline, we introduce: 1) Differential visibility verification through SDF-guided ray tracing, resolving reflection ambiguities via continuous occlusion modeling; 2) Planar-conformal regularization via ray-aligned geometry patches that enforce local surface coherence while preserving sharp edges through adaptive appearance weighting; and 3) Physically-grounded Eikonal relaxation that dynamically modulates geometric constraints based on local radiance gradients, enabling detail preservation without sacrificing global regularity. Unlike prior methods that handle these aspects through sequential optimizations or isolated modules, our approach achieves cohesive integration where appearance-geometry constraints evolve synergistically throughout training. Comprehensive evaluations across synthetic and real-world datasets demonstrate state-of-the-art performance, including a 21.4% reduction in Chamfer distance over reflection-aware baselines and 2.32 dB PSNR improvement against neural rendering counterparts. Qualitative analyses reveal superior capability in recovering specular instruments, urban layouts with centimeter-scale infrastructure, and low-textured surfaces without local patch collapse. The method’s generalizability is further validated through successful application to inverse rendering tasks, including material decomposition and view-consistent relighting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An In-the-wild RGB-D Car Dataset with 360-degree Views (3DRealCar)</title>
+      <link>https://wangyida.github.io/posts/realcar/</link>
+      <pubDate>Fri, 27 Jun 2025 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/realcar/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://openaccess.thecvf.com/content/ICCV2025/html/Du_3DRealCar_An_In-the-wild_RGB-D_Car_Dataset_with_360-degree_Views_ICCV_2025_paper.html&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/xiaobiaodu/3DRealCar_Toolkit&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;3D cars are widely used in self-driving systems, virtual and augmented reality, and gaming applications. However, existing 3D car datasets are either synthetic or low-quality, limiting their practical utility and leaving a significant gap with the high-quality real-world 3D car dataset. In this paper, we present the first large-scale 3D real car dataset, termed 3DRealCar, which offers three key features: (1) High-Volume: 2,500 cars meticulously scanned using smartphones to capture RGB images and point clouds with real-world dimensions; (2) High-Quality: Each car is represented by an average of 200 dense, high-resolution 360-degree RGB-D views, enabling high-fidelity 3D reconstruction; (3) High-Diversity: The dataset encompasses a diverse collection of cars from over 100 brands, captured under three distinct lighting conditions (reflective, standard, and dark). We further provide detailed car parsing maps for each instance to facilitate research in automotive segmentation tasks. To focus on vehicles, background point clouds are removed, and all cars are aligned to a unified coordinate system, enabling controlled reconstruction and rendering. We benchmark state-of-the-art 3D reconstruction methods across different lighting conditions using 3DRealCar. Extensive experiments demonstrate that the standard lighting subset can be used to reconstruct high-quality 3D car models that significantly enhance performance on various car-related 2D and 3D tasks. Notably, our dataset reveals critical challenges faced by current 3D reconstruction methods under reflective and dark lighting conditions, providing valuable insights for future research.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ray-adaptive Neural Surface Reconstruction (RaNeuS)</title>
+      <link>https://wangyida.github.io/posts/raneus/</link>
+      <pubDate>Sun, 07 Apr 2024 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/raneus/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the full &lt;a href=&#34;https://arxiv.org/pdf/2406.09801?&#34;&gt;&lt;strong&gt;PAPER&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/wangyida/ra-neus&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Our objective is to leverage a differentiable radiance field &lt;em&gt;e.g.&lt;/em&gt; NeRF to reconstruct detailed 3D surfaces in addition to producing the standard novel view renderings.
+RaNeuS adaptively adjusts the regularization on the signed distance field so that unsatisfying rendering rays won&amp;rsquo;t enforce strong Eikonal regularization which is ineffective, and allow the gradients from regions with well-learned radiance to effectively back-propagated to the SDF.  Consequently, balancing the two objectives in order to generate accurate and detailed surfaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rendering, Animating and Meshing Actors with NeRF</title>
+      <link>https://wangyida.github.io/posts/neuralactor/</link>
+      <pubDate>Wed, 30 Nov 2022 10:15:01 +0200</pubDate>
+      <guid>https://wangyida.github.io/posts/neuralactor/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Re-direct to the &lt;a href=&#34;https://github.com/wangyida/neural-actor&#34;&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img src=&#34;images/na3.gif&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+&lt;p&gt;A library for rendering neural actors, and benchmarking dynamic NeRF&lt;/p&gt;
+&lt;table style=&#34;width: 100%; border: none; border-collapse: collapse;&#34;&gt;
+  &lt;tr style=&#34;border: none;&#34;&gt;
+    &lt;td style=&#34;width: 50%; padding: 5px; border: none;&#34;&gt;
+      &lt;img src=&#34;images/na2.gif&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+    &lt;/td&gt;
+    &lt;td style=&#34;width: 50%; padding: 5px; border: none;&#34;&gt;
+      &lt;img src=&#34;images/na4.gif&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;cite&#34;&gt;Cite&lt;/h1&gt;
+&lt;p&gt;If you find this work useful in your research, please cite:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@misc&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;rama2023wang,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Author &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;Yida Wang&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Year &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;2023&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Note &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;https://github.com/wangyida/neural-actor&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;Rendering, Animating and Meshing Actors with NeRF&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
